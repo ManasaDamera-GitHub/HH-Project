@@ -1,0 +1,67 @@
+.fifth-part-container {
+    padding: 2rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.wall-image:hover,.know-more-btn:hover {
+    transform: scale(1.02);
+    
+}
+
+.content-wrapper {
+    background-color: #eeeaea;
+    display: flex;
+    align-items: flex-start;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+  
+  .wall-image {
+    transition: transform 0.3s ease;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    padding: 1rem;
+    border-radius: 30px;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    padding-top: 1rem;
+  }
+  
+  .text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+  .know-more-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #0d0c0c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition: transform 0.3s ease;
+
+  }
+  
+  .know-more-btn:hover {
+    background-color: #333;
+  }

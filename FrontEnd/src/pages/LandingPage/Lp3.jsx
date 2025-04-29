@@ -37,7 +37,7 @@ export default function ThirdPart() {
               key={index}
               className="md:basis-1/2 lg:basis-1/4 flex justify-center"
             >
-              <Card className="w-[20em] h-[16em] overflow-hidden border-none shadow-none transition-transform duration-500 hover:scale-[1.02] cursor-pointer">
+              <Card className="w-[20em] h-[20em] overflow-hidden border-none shadow-none transition-transform duration-500 hover:scale-[1.02] cursor-pointer">
                 <CardContent className="p-0 h-full w-full">
                   <img
                     src={obj.img}

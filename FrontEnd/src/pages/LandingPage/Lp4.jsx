@@ -1,5 +1,7 @@
 import * as React from "react";
 import { Card, CardContent } from "../../components/ui/card";
+// import "../../styles/New.css";
+
 import {
   Carousel,
   CarouselContent,
@@ -9,19 +11,25 @@ import {
 } from "@/components/ui/carousel";
 
 const content = [
-  { img: "/New/wall.jpg" },
-  { img: "/New/clean.jpeg" },
-  { img: "/New/filter.jpeg" },
-  { img: "/New/wash.jpeg" },
-  //   { img: "/New/img9.png" },
-  { img: "/New/lock.jpeg" },
+  { img: "/New/wall.jpg", text: "Wall Panel" },
+  { img: "/New/clean.jpeg", text: "Insta Help" },
+  { img: "/New/filter.jpeg", text: "Native Water Purifier" },
+  { img: "/New/wash.jpeg", text: "Bathroom & Kitchen cleaning" },
+  { img: "/New/lock.png", text: "Native smart locks" },
+  { img: "/New/AC.png", text: "AC" },
+  { img: "/New/doctor.png", text: "Check Out Salon" },
 ];
 
 export default function FourthPart() {
   return (
-    <div className="space-y-8">
-      {" "}
-      {/* Added container with vertical spacing */}
+    <div
+      className="space-y-8"
+      style={{
+        margin: "2.5em",
+        fontFamily: "Segoe UI, Roboto, Helvetica, Arial, sans-serif;",
+        backgroundColor:"#fff"
+      }}
+    >
       <h1
         className="text-center text-3xl md:text-4xl font-bold tracking-tight pb-2 
           bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent
@@ -29,7 +37,7 @@ export default function FourthPart() {
       >
         New and Noteworthy
       </h1>
-      <div className="flex justify-center py-6">
+      <div className="flex justify-center py-6" style={{ margin: "2em", backgroundColor:"rgb(255, 255, 255)"}}>
         <Carousel
           opts={{
             align: "center",
@@ -42,21 +50,27 @@ export default function FourthPart() {
             {content.map((obj, index) => (
               <CarouselItem
                 key={index}
-                className="md:basis-1/2 lg:basis-1/4 flex justify-center"
+                className="sm:basis-full md:basis-1/2 lg:basis-1/4 flex justify-center"
               >
-                <Card className="w-[20em] h-[16em] overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer group">
-                  <CardContent className="p-0 h-full w-full relative">
-                    <img
-                      src={obj.img}
-                      alt={`Slide ${index + 1}`}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    {/* Optional "New" badge for the first 3 items */}
-                    {index < 3 && (
-                      <div className="absolute top-3 right-3 bg-white text-blue-600 text-xs font-bold px-2 py-1 rounded-full shadow-sm">
-                        NEW
-                      </div>
-                    )}
+                <Card className="w-[20em] h-auto overflow-hidden border-none shadow-lg hover:shadow-xl  cursor-pointer group">
+                  <CardContent className="p-0">
+                    <div className="relative w-full h-[16em]">
+                      <img
+                        src={obj.img}
+                        alt={obj.text}
+                        className="w-full h-full object-cover "
+                      />
+                      {index < 3 && (
+                        <div className="absolute top-3 right-3 bg-white text-blue-600 text-xs font-bold px-2 py-1 rounded-full shadow-sm">
+                          NEW
+                        </div>
+                      )}
+                    </div>
+                    <div className="px-4 py-2">
+                      <p className="text-center font-semibold text-gray-800">
+                        {obj.text}
+                      </p>
+                    </div>
                   </CardContent>
                 </Card>
               </CarouselItem>
