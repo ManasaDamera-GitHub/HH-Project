@@ -1,15 +1,15 @@
 import "../../styles/Lp2.css";
 function DoorStep() {
   const Services = [
-    { img: "./womenLp2.jpeg", text: "women's Salon" },
-    { img: "./mensLp2.jpeg", text: "men's Salon" },
-    { img: "./ac.jpeg", text: "AC" },
-    { img: "./locks.jpeg", text: "Smart locks" },
-    { img: "./filter.jpeg", text: "Water Purifier" },
-    { img: "./elect.png", text: "Electrician" },
-    { img: "./clean.jpeg", text: "Cleaning" },
-    { img: "./wall.jpeg", text: "Wall Panels" },
-    { img: "./paint.jpeg", text: "painting" },
+    { img: "Lp2/womenLp2.jpeg", text: "women's Salon" },
+    { img: "Lp2/mensLp2.jpeg", text: "men's Salon" },
+    { img: "Lp2/ac.jpeg", text: "AC" },
+    { img: "Lp2/locks.jpeg", text: "Smart locks" },
+    { img: "Lp2/filter.jpeg", text: "Water Purifier" },
+    { img: "Lp2/elect.png", text: "Electrician" },
+    { img: "Lp2/clean.jpeg", text: "Cleaning" },
+    { img: "Lp2/wall.jpeg", text: "Wall Panels" },
+    { img: "Lp2/paint.jpeg", text: "painting" },
   ];
   return (
     <>

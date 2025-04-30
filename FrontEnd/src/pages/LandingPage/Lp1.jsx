@@ -8,7 +8,7 @@ function MyCarousel() {
       <Carousel.Item style={{ height: "400px", width: "100%" }}>
         <img
           className="d-block w-100 h-100"
-          src="/first.jpg"
+          src="/Lp1/first.jpg"
           alt="First slide"
           style={{ objectFit: "contain" }}
         />
@@ -16,7 +16,7 @@ function MyCarousel() {
       <Carousel.Item style={{ height: "400px" }}>
         <img
           className="d-block w-100 h-100"
-          src="second.png"
+          src="Lp1/second.png"
           alt="Second slide"
           style={{ objectFit: "contain" }}
         />
@@ -24,7 +24,7 @@ function MyCarousel() {
       <Carousel.Item style={{ height: "400px" }}>
         <img
           className="d-block w-100 h-100"
-          src="/third.png"
+          src="/Lp1/third.png"
           alt="Third slide"
           style={{ objectFit: "contain" }}
         />
@@ -32,7 +32,7 @@ function MyCarousel() {
       <Carousel.Item style={{ height: "400px" }}>
         <img
           className="d-block w-100 h-100"
-          src="/women.png"
+          src="/Lp1/women.png"
           alt="Fourth slide"
           style={{ objectFit: "contain" }}
         />
@@ -40,7 +40,7 @@ function MyCarousel() {
       <Carousel.Item style={{ height: "400px" }}>
         <img
           className="d-block w-100 h-100"
-          src="/mens.jpeg"
+          src="/Lp1/mens.jpeg"
           alt="Fifth slide"
           style={{ objectFit: "contain" }}
         />
@@ -48,7 +48,7 @@ function MyCarousel() {
       <Carousel.Item style={{ height: "400px" }}>
         <img
           className="d-block w-100 h-100"
-          src="/fourth.jpeg"
+          src="/Lp1/fourth.jpeg"
           alt="Fifth slide"
           style={{ objectFit: "contain" }}
         />

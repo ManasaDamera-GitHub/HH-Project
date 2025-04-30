@@ -1,0 +1,118 @@
+/* WomenSalon.css */
+
+.women-salon-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .women-salon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .women-salon-title {
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .women-salon-button {
+    background-color: #ff2e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .women-salon-button:hover {
+    background-color: #e61e53;
+  }
+  
+  .women-salon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  
+  .women-salon-card {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    aspect-ratio: 1/1;
+  }
+  
+  .women-salon-card:hover {
+    /* transform: translateY(-5px); */
+    border: 1px solid rgb(45, 45, 45);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .women-salon-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .women-salon-service-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 5px 10px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    border-radius: 4px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .women-salon-grid {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+    }
+    
+    .women-salon-title {
+      font-size: 24px;
+    }
+    
+    .women-salon-service-name {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .women-salon-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .women-salon-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+    
+    .women-salon-title {
+      font-size: 22px;
+    }
+    
+    .women-salon-service-name {
+      font-size: 14px;
+      top: 10px;
+      left: 10px;
+    }
+  }
