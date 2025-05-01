@@ -3,7 +3,7 @@ import "../../styles/FifthPart.css"; // Import the CSS file
 
 export const SmartLock = () => {
   return (
-    <div className="fifth-part-container">
+    <div className="lock-part-container">
       <div className="content-wrapper lock-wrapper">
         <img src="./New/locks.png" alt="lock image" className="lock-image" />
         <div className="text-content">

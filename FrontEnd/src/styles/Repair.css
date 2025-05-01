@@ -1,0 +1,137 @@
+.repairContainer {
+    padding: 2rem 1rem;
+    background-color: #f9fafb;
+    max-width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .repairContainer {
+      padding: 2rem 2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .repairContainer {
+      padding: 2rem 3rem;
+    }
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 1.875rem;
+    }
+  }
+  
+  .seeAllButton {
+    color: #2563eb;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: color 0.2s ease;
+  }
+  
+  .seeAllButton:hover {
+    color: #1e40af;
+  }
+  
+  @media (min-width: 768px) {
+    .seeAllButton {
+      font-size: 1rem;
+    }
+  }
+  
+  .carouselWrapper {
+    position: relative;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #3b82f6 #e5e7eb;
+    padding-bottom: 8px;
+  }
+  
+  .carouselWrapper::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  .carouselWrapper::-webkit-scrollbar-track {
+    background: #e5e7eb;
+    border-radius: 10px;
+  }
+  
+  .carouselWrapper::-webkit-scrollbar-thumb {
+    background-color: #3b82f6;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .carouselWrapper {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    
+    .carouselWrapper::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  
+  .card {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-color: #bfdbfe;
+  }
+  
+  .cardContent {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 1rem;
+  }
+  
+  .scrollbarContainer {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 0.5rem;
+  }
+  
+  .scrollbarTrack {
+    height: 0.25rem;
+    background-color: #e5e7eb;
+    border-radius: 0.5rem;
+  }
+  
+  .scrollbarThumb {
+    height: 100%;
+    width: 25%;
+    background-color: #3b82f6;
+    border-radius: 0.5rem;
+  }

@@ -1,42 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .fifth-part-container {
     padding: 2rem;
-    margin: 2rem;
+    margin: auto;
     cursor: pointer;
-}
-
-.smartLock-container {
-  padding: 2rem;
-  margin: 2rem;
-  cursor: pointer;
-  /* background:linear-gradient(135deg, 
-  #0f2027 0%, 
-  #203a43 50%, 
-  #2c5364 100%);; */
+    margin-top:2rem ;
+    max-width: 1200px;
+    background-color: #eeeaea;
+  }
   
-}
-
-.wall-image:hover,.know-more-btn:hover,.lock-image:hover {
+  .lock-part-container {
+    max-width: 1200px;
+    padding: 2rem;
+    margin: auto;
+    cursor: pointer;
+    background-color: #583c21;
+    margin-top:2rem ;
+  }
+  .content-wrapper:hover,.know-more-btn:hover,.lock-wrapper:hover {
     transform: scale(1.02);
     
-}
-
-.content-wrapper {
+  }
+  .content-wrapper {
+  transition: transform 0.3s ease;
     background-color: #eeeaea;
     display: flex;
     align-items: flex-start;
-    max-width: 1300px;
     margin: 0 auto;
     gap: 2rem;
   }
-
+  
   .lock-wrapper{
+    transition: transform 0.3s ease;
     background-color:  #583c21;
   }
   
   .wall-image {
-    transition: transform 0.3s ease;
     width: 50%;
-    height: auto;
+    height: 500px;
     object-fit: cover;
     border-radius: 8px;
     padding: 1rem;
@@ -48,6 +52,15 @@
     width: 50%;
     height: auto;
     object-fit: top;
+    border-radius: 8px;
+    padding: 1rem;
+    border-radius: 30px;
+  }
+  .waterPurifier-image{
+    transition: transform 0.3s ease;
+    width: 50%;
+    height: auto;
+    object-fit: contain;
     border-radius: 8px;
     padding: 1rem;
     border-radius: 30px;
