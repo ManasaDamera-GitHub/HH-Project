@@ -18,7 +18,7 @@ const appliances = [
 
 export default function Repair() {
   return (
-    <div className="max-w-[1200px] mx-auto">
+    <div className="max-w-[1200px] mx-auto relative">
       <div className="flex justify-between items-center p-4">
         <h2 className="text-xl font-semibold">Appliances repair & service</h2>
         <button className="border-2 border-black rounded-lg px-4 py-2 font-medium">
@@ -26,7 +26,10 @@ export default function Repair() {
         </button>
       </div>
 
-      <Carousel opts={{ align: "center", loop: false }} className="w-full py-6">
+      <Carousel
+        opts={{ align: "center", loop: false }}
+        className="w-full py-6 relative"
+      >
         <CarouselContent className="gap-4 px-4">
           {appliances.map(({ img, alt }, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
@@ -39,11 +42,20 @@ export default function Repair() {
                   />
                 </CardContent>
               </Card>
+              <p
+                style={{
+                  textAlign: "center",
+                  fontSize: "16px",
+                  fontWeight: "500",
+                }}
+              >
+                {alt}
+              </p>
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 bg-white rounded-full w-10 h-10 shadow-md hover:bg-gray-100" />
+        <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 bg-white rounded-full w-10 h-10 shadow-md hover:bg-gray-100" />
       </Carousel>
     </div>
   );

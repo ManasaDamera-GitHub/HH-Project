@@ -23,11 +23,11 @@ const content = [
 export default function FourthPart() {
   return (
     <div
-      className="space-y-8"
+      className="space-y-8 relative"
       style={{
         margin: "2.5em",
         fontFamily: "Segoe UI, Roboto, Helvetica, Arial, sans-serif;",
-        backgroundColor:"#fff"
+        backgroundColor: "#fff",
       }}
     >
       <h1
@@ -37,14 +37,17 @@ export default function FourthPart() {
       >
         New and Noteworthy
       </h1>
-      <div className="flex justify-center py-6" style={{ margin: "2em", backgroundColor:"rgb(255, 255, 255)"}}>
+      <div
+        className="flex justify-center py-6"
+        style={{ margin: "2em", backgroundColor: "rgb(255, 255, 255)" }}
+      >
         <Carousel
           opts={{
             align: "center",
             loop: false,
             containScroll: "trimSnaps",
           }}
-          className="w-full max-w-7xl"
+          className="w-full max-w-7xl relative"
         >
           <CarouselContent className="gap-4 px-4">
             {content.map((obj, index) => (
@@ -52,13 +55,13 @@ export default function FourthPart() {
                 key={index}
                 className="sm:basis-full md:basis-1/2 lg:basis-1/4 flex justify-center"
               >
-                <Card className="w-[20em] h-auto overflow-hidden border-none shadow-lg hover:shadow-xl  cursor-pointer group">
+                <Card className="w-[20em] h-auto overflow-hidden border-none shadow-lg hover:shadow-xl cursor-pointer group">
                   <CardContent className="p-0">
                     <div className="relative w-full h-[16em]">
                       <img
                         src={obj.img}
                         alt={obj.text}
-                        className="w-full h-full object-cover "
+                        className="w-full h-full object-cover"
                       />
                       {index < 3 && (
                         <div className="absolute top-3 right-3 bg-white text-blue-600 text-xs font-bold px-2 py-1 rounded-full shadow-sm">
@@ -76,8 +79,8 @@ export default function FourthPart() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="hidden md:flex" />
-          <CarouselNext className="hidden md:flex" />
+          <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 bg-white rounded-full w-10 h-10 shadow-md hover:bg-gray-100"/>
+          <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 bg-white rounded-full w-10 h-10 shadow-md hover:bg-gray-100" />
         </Carousel>
       </div>
     </div>
