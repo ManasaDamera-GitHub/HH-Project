@@ -4,7 +4,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function MyCarousel() {
   return (
-    <Carousel style={{ height: "400px" }} className="p-5">
+    <Carousel
+      style={{
+        height: "50%",
+        width: "100%",
+        maxWidth: "1220px",
+        margin: "auto",
+      }}
+      className="p-5"
+    >
       <Carousel.Item style={{ height: "400px", width: "100%" }}>
         <img
           className="d-block w-100 h-100"
