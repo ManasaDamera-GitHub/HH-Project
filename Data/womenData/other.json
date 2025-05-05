@@ -1,0 +1,68 @@
+{
+    "other_salon_services": [
+      {
+        "title": "Bridal Makeup",
+        "rating": 4.9,
+        "views_count": 13500,
+        "starts_at_price": "₹5000",
+        "view_details": "Complete bridal makeup with hair styling",
+        "description": "A luxurious and customized makeup session for brides, including pre-bridal skincare and hair styling.",
+        "image": "https://example.com/images/bridal-makeup.jpg"
+      },
+      {
+        "title": "Party Makeup",
+        "rating": 4.8,
+        "views_count": 10920,
+        "starts_at_price": "₹1500",
+        "view_details": "Makeup for parties and special occasions",
+        "description": "Elegant and trendy makeup for any event, from parties to gatherings, ensuring a flawless look.",
+        "image": "https://example.com/images/party-makeup.jpg"
+      },
+      {
+        "title": "Waxing (Full Body)",
+        "rating": 4.6,
+        "views_count": 7850,
+        "starts_at_price": "₹999",
+        "view_details": "Full body waxing for smooth skin",
+        "description": "A thorough waxing service to remove unwanted body hair, leaving your skin soft and smooth.",
+        "image": "https://example.com/images/full-body-waxing.jpg"
+      },
+      {
+        "title": "Nail Extension",
+        "rating": 4.7,
+        "views_count": 6000,
+        "starts_at_price": "₹1200",
+        "view_details": "Acrylic or gel nail extensions",
+        "description": "Get long, elegant nails with either acrylic or gel extensions, customized to your style.",
+        "image": "https://example.com/images/nail-extension.jpg"
+      },
+      {
+        "title": "Henna Art",
+        "rating": 4.5,
+        "views_count": 4550,
+        "starts_at_price": "₹499",
+        "view_details": "Traditional henna designs for hands and feet",
+        "description": "Beautiful and intricate henna designs, perfect for festivals, weddings, or any special occasion.",
+        "image": "https://example.com/images/henna-art.jpg"
+      },
+      {
+        "title": "Lash Extensions",
+        "rating": 4.8,
+        "views_count": 7100,
+        "starts_at_price": "₹1500",
+        "view_details": "Long, voluminous eyelash extensions",
+        "description": "Achieve fuller, longer lashes with semi-permanent extensions that enhance your natural beauty.",
+        "image": "https://example.com/images/lash-extensions.jpg"
+      },
+      {
+        "title": "Tattooing (Semi-Permanent)",
+        "rating": 4.6,
+        "views_count": 6200,
+        "starts_at_price": "₹2500",
+        "view_details": "Semi-permanent eyebrow tattooing and more",
+        "description": "Enhance your look with semi-permanent tattoos, including eyebrow tattoos for a fuller, defined appearance.",
+        "image": "https://example.com/images/semi-permanent-tattoo.jpg"
+      }
+    ]
+  }
+  

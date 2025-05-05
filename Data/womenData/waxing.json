@@ -1,0 +1,68 @@
+{
+    "waxing_services": [
+      {
+        "title": "Full Body Waxing (Rica)",
+        "rating": 4.8,
+        "views_count": 15230,
+        "starts_at_price": "₹899",
+        "view_details": "Includes arms, legs, underarms, stomach, back",
+        "description": "Get smooth and soft skin with Rica wax for the full body. Ideal for all skin types, especially sensitive skin.",
+        "image": "https://example.com/images/full-body-waxing-rica.jpg"
+      },
+      {
+        "title": "Half Legs Waxing (Honey)",
+        "rating": 4.6,
+        "views_count": 8740,
+        "starts_at_price": "₹249",
+        "view_details": "Covers from knee to ankle",
+        "description": "Affordable and quick leg waxing using natural honey wax for a clean finish.",
+        "image": "https://example.com/images/half-legs-waxing-honey.jpg"
+      },
+      {
+        "title": "Underarms Waxing (Rica)",
+        "rating": 4.9,
+        "views_count": 11320,
+        "starts_at_price": "₹149",
+        "view_details": "Gentle wax application for underarms",
+        "description": "Removes hair effectively with minimal pain and prevents ingrown hair.",
+        "image": "https://example.com/images/underarms-waxing-rica.jpg"
+      },
+      {
+        "title": "Full Arms Waxing (Honey)",
+        "rating": 4.7,
+        "views_count": 9600,
+        "starts_at_price": "₹299",
+        "view_details": "Shoulder to fingertips",
+        "description": "Classic honey wax for soft and hair-free arms. Great for normal skin types.",
+        "image": "https://example.com/images/full-arms-waxing-honey.jpg"
+      },
+      {
+        "title": "Bikini Line Waxing (Rica)",
+        "rating": 4.5,
+        "views_count": 6350,
+        "starts_at_price": "₹499",
+        "view_details": "Covers bikini line only, not Brazilian",
+        "description": "Delicate area waxing using Rica wax to ensure gentle care and hygiene.",
+        "image": "https://example.com/images/bikini-line-waxing-rica.jpg"
+      },
+      {
+        "title": "Face Waxing (Rica)",
+        "rating": 4.6,
+        "views_count": 5210,
+        "starts_at_price": "₹349",
+        "view_details": "Forehead, upper lips, cheeks, chin",
+        "description": "Suitable for facial skin, removes fine hair and gives a smooth texture using Rica wax.",
+        "image": "https://example.com/images/face-waxing-rica.jpg"
+      },
+      {
+        "title": "Full Legs + Arms Combo (Rica)",
+        "rating": 4.8,
+        "views_count": 12800,
+        "starts_at_price": "₹699",
+        "view_details": "Full arms and full legs waxing combo",
+        "description": "Time-saving combo with Rica wax to get smooth, hair-free limbs at once.",
+        "image": "https://example.com/images/full-legs-arms-waxing-combo.jpg"
+      }
+    ]
+  }
+  

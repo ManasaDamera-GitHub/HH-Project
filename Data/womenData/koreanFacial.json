@@ -1,0 +1,50 @@
+{
+    "korean_facial_services": [
+      {
+        "title": "Korean Glass Skin Facial",
+        "rating": 4.9,
+        "views_count": 10250,
+        "starts_at_price": "₹1499",
+        "view_details": "Hydrating and glow-boosting treatment for radiant skin",
+        "description": "A luxurious 9-step Korean facial that deeply hydrates, evens skin tone, and gives a luminous glass-skin finish.",
+        "image": "https://example.com/images/korean-glass-skin-facial.jpg"
+      },
+      {
+        "title": "Korean Anti-Aging Facial",
+        "rating": 4.8,
+        "views_count": 8760,
+        "starts_at_price": "₹1599",
+        "view_details": "Firming treatment with collagen boost and massage",
+        "description": "An advanced facial using Korean products that targets fine lines, boosts collagen, and tightens the skin naturally.",
+        "image": "https://example.com/images/korean-anti-aging-facial.jpg"
+      },
+      {
+        "title": "Korean Acne Clearing Facial",
+        "rating": 4.7,
+        "views_count": 9450,
+        "starts_at_price": "₹1399",
+        "view_details": "Deep pore cleansing and oil-control facial",
+        "description": "A targeted Korean treatment to reduce acne, calm inflammation, and cleanse clogged pores with gentle exfoliation.",
+        "image": "https://example.com/images/korean-acne-facial.jpg"
+      },
+      {
+        "title": "Korean Brightening Facial",
+        "rating": 4.6,
+        "views_count": 7980,
+        "starts_at_price": "₹1299",
+        "view_details": "Vitamin C and niacinamide-based facial",
+        "description": "Brightens dull skin and improves skin clarity using high-end Korean serums and massage techniques.",
+        "image": "https://example.com/images/korean-brightening-facial.jpg"
+      },
+      {
+        "title": "Korean Hydration Boost Facial",
+        "rating": 4.8,
+        "views_count": 8675,
+        "starts_at_price": "₹1399",
+        "view_details": "Hyaluronic acid-rich facial for dry skin",
+        "description": "Deep moisturizing Korean facial ideal for dry and flaky skin—leaves skin plump, dewy, and refreshed.",
+        "image": "https://example.com/images/korean-hydration-facial.jpg"
+      }
+    ]
+  }
+  

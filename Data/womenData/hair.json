@@ -1,0 +1,68 @@
+{
+    "hair_services": [
+      {
+        "title": "Haircut & Styling",
+        "rating": 4.7,
+        "views_count": 12530,
+        "starts_at_price": "₹499",
+        "view_details": "Includes cut, style, and blow dry",
+        "description": "Get a stylish and trendy haircut along with a blow dry to add volume and shine to your hair.",
+        "image": "https://example.com/images/haircut-styling.jpg"
+      },
+      {
+        "title": "Hair Spa",
+        "rating": 4.8,
+        "views_count": 10450,
+        "starts_at_price": "₹799",
+        "view_details": "Deep conditioning and hair nourishment",
+        "description": "Revitalize your hair with a luxurious hair spa treatment that hydrates and strengthens dry, damaged hair.",
+        "image": "https://example.com/images/hair-spa.jpg"
+      },
+      {
+        "title": "Keratin Treatment",
+        "rating": 4.9,
+        "views_count": 9340,
+        "starts_at_price": "₹1999",
+        "view_details": "Frizz control and smoothening",
+        "description": "A hair treatment that makes your hair smooth, shiny, and frizz-free for long-lasting results.",
+        "image": "https://example.com/images/keratin-treatment.jpg"
+      },
+      {
+        "title": "Root Touch Up",
+        "rating": 4.6,
+        "views_count": 7650,
+        "starts_at_price": "₹799",
+        "view_details": "Cover grey hair with hair color",
+        "description": "A quick and efficient service to cover greys and restore your natural hair color.",
+        "image": "https://example.com/images/root-touch-up.jpg"
+      },
+      {
+        "title": "Hair Color",
+        "rating": 4.7,
+        "views_count": 10500,
+        "starts_at_price": "₹1299",
+        "view_details": "Full color treatment for hair",
+        "description": "Transform your hair with a vibrant and long-lasting hair color that suits your personality.",
+        "image": "https://example.com/images/hair-color.jpg"
+      },
+      {
+        "title": "Blow Dry",
+        "rating": 4.5,
+        "views_count": 8320,
+        "starts_at_price": "₹399",
+        "view_details": "Quick blow dry for styling",
+        "description": "Perfect for a special event or daily styling, this service gives your hair the volume and shine it needs.",
+        "image": "https://example.com/images/blow-dry.jpg"
+      },
+      {
+        "title": "Hair Straightening",
+        "rating": 4.8,
+        "views_count": 9400,
+        "starts_at_price": "₹1499",
+        "view_details": "Permanent hair straightening treatment",
+        "description": "Say goodbye to frizzy hair with a long-lasting hair straightening treatment.",
+        "image": "https://example.com/images/hair-straightening.jpg"
+      }
+    ]
+  }
+  

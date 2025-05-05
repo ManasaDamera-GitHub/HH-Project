@@ -1,0 +1,50 @@
+{
+    "ayurvedic_facial_services": [
+      {
+        "title": "Ayurvedic Glow Facial",
+        "rating": 4.8,
+        "views_count": 7430,
+        "starts_at_price": "₹999",
+        "view_details": "Uses herbal oils and Ubtan for a radiant glow",
+        "description": "A rejuvenating facial that revives dull skin using natural Ayurvedic herbs like turmeric and sandalwood.",
+        "image": "https://example.com/images/ayurvedic-glow-facial.jpg"
+      },
+      {
+        "title": "Neem & Tulsi Purifying Facial",
+        "rating": 4.7,
+        "views_count": 6820,
+        "starts_at_price": "₹899",
+        "view_details": "Ideal for acne-prone and oily skin",
+        "description": "Detoxifies skin and prevents breakouts with the anti-bacterial power of neem and tulsi extracts.",
+        "image": "https://example.com/images/neem-tulsi-facial.jpg"
+      },
+      {
+        "title": "Kumkumadi Radiance Facial",
+        "rating": 4.9,
+        "views_count": 9110,
+        "starts_at_price": "₹1299",
+        "view_details": "Includes kumkumadi tailam for brightening",
+        "description": "Premium Ayurvedic facial with saffron-infused oil that enhances glow, reduces pigmentation, and rejuvenates tired skin.",
+        "image": "https://example.com/images/kumkumadi-facial.jpg"
+      },
+      {
+        "title": "Sandalwood Cooling Facial",
+        "rating": 4.6,
+        "views_count": 5620,
+        "starts_at_price": "₹849",
+        "view_details": "Soothing treatment for sensitive and irritated skin",
+        "description": "Calms inflammation and redness using pure sandalwood paste and herbal tonics.",
+        "image": "https://example.com/images/sandalwood-facial.jpg"
+      },
+      {
+        "title": "Multani Mitti Detox Facial",
+        "rating": 4.5,
+        "views_count": 5100,
+        "starts_at_price": "₹799",
+        "view_details": "Deep cleansing with Fuller’s Earth and rosewater",
+        "description": "Removes impurities, tightens pores, and leaves skin soft and matte. Best for oily and combination skin.",
+        "image": "https://example.com/images/multani-mitti-facial.jpg"
+      }
+    ]
+  }
+  

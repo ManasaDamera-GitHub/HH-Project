@@ -1,0 +1,68 @@
+{
+    "facial_services": [
+      {
+        "title": "Classic Cleanup",
+        "rating": 4.6,
+        "views_count": 7380,
+        "starts_at_price": "₹499",
+        "view_details": "Basic cleanup with scrubbing, steaming, and pack",
+        "description": "Removes dirt and blackheads for a fresh look. Ideal for quick maintenance between facials.",
+        "image": "https://example.com/images/classic-cleanup.jpg"
+      },
+      {
+        "title": "De-Tan Facial",
+        "rating": 4.7,
+        "views_count": 8920,
+        "starts_at_price": "₹799",
+        "view_details": "Tan removal treatment with brightening ingredients",
+        "description": "Lightens sun tan, evens out skin tone and restores natural glow with fruit-based products.",
+        "image": "https://example.com/images/de-tan-facial.jpg"
+      },
+      {
+        "title": "Gold Facial",
+        "rating": 4.8,
+        "views_count": 10550,
+        "starts_at_price": "₹999",
+        "view_details": "Gold-infused facial for glow and rejuvenation",
+        "description": "Enriched with 24K gold extracts, this facial enhances skin radiance and reduces fine lines.",
+        "image": "https://example.com/images/gold-facial.jpg"
+      },
+      {
+        "title": "Pearl Facial",
+        "rating": 4.6,
+        "views_count": 8210,
+        "starts_at_price": "₹949",
+        "view_details": "Brightening treatment with pearl extracts",
+        "description": "Improves complexion and reduces pigmentation for a luminous and even-toned skin.",
+        "image": "https://example.com/images/pearl-facial.jpg"
+      },
+      {
+        "title": "Fruit Facial",
+        "rating": 4.5,
+        "views_count": 6780,
+        "starts_at_price": "₹699",
+        "view_details": "Natural fruit-based facial for sensitive skin",
+        "description": "Gentle and nourishing facial that revitalizes skin with the power of natural fruit extracts.",
+        "image": "https://example.com/images/fruit-facial.jpg"
+      },
+      {
+        "title": "Anti-Aging Facial",
+        "rating": 4.7,
+        "views_count": 7640,
+        "starts_at_price": "₹1199",
+        "view_details": "Advanced facial targeting wrinkles and sagging skin",
+        "description": "Stimulates collagen production and firms skin for a youthful and lifted appearance.",
+        "image": "https://example.com/images/anti-aging-facial.jpg"
+      },
+      {
+        "title": "Skin Whitening Facial",
+        "rating": 4.6,
+        "views_count": 8540,
+        "starts_at_price": "₹1099",
+        "view_details": "Brightening and depigmentation treatment",
+        "description": "Reduces blemishes and pigmentation while improving skin clarity and radiance.",
+        "image": "https://example.com/images/skin-whitening-facial.jpg"
+      }
+    ]
+  }
+  

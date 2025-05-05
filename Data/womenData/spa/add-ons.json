@@ -1,0 +1,59 @@
+{
+    "massage_add_ons": [
+      {
+        "title": "Aroma Oil Upgrade",
+        "rating": 4.8,
+        "views_count": 5320,
+        "starts_at_price": "₹299",
+        "view_details": "Upgrade to premium essential oils for enhanced relaxation",
+        "description": "Enhance your massage experience with high-quality essential oils such as lavender, eucalyptus, or lemongrass for deeper relaxation and skin nourishment.",
+        "image": "https://example.com/images/aroma-oil-upgrade.jpg"
+      },
+      {
+        "title": "Foot Reflexology Add-on",
+        "rating": 4.7,
+        "views_count": 4860,
+        "starts_at_price": "₹399",
+        "view_details": "Additional 15 mins of foot pressure therapy",
+        "description": "Targeted foot reflexology session added to your massage to relieve stress, enhance circulation, and restore energy flow.",
+        "image": "https://example.com/images/foot-reflexology-addon.jpg"
+      },
+      {
+        "title": "Scalp Massage Add-on",
+        "rating": 4.9,
+        "views_count": 6150,
+        "starts_at_price": "₹299",
+        "view_details": "10-minute calming scalp massage",
+        "description": "A stress-relieving scalp massage using herbal oil to calm the mind, relieve headaches, and improve sleep quality.",
+        "image": "https://example.com/images/scalp-massage-addon.jpg"
+      },
+      {
+        "title": "Hot Towel Treatment",
+        "rating": 4.6,
+        "views_count": 4720,
+        "starts_at_price": "₹199",
+        "view_details": "Soothing hot towel application for relaxation",
+        "description": "Enhance your massage with hot towel wraps that help open pores, relax muscles, and provide deep comfort.",
+        "image": "https://example.com/images/hot-towel-treatment.jpg"
+      },
+      {
+        "title": "Head & Neck Relaxation Combo",
+        "rating": 4.8,
+        "views_count": 5890,
+        "starts_at_price": "₹499",
+        "view_details": "Extra head and neck focus with relaxing strokes",
+        "description": "A 15-minute focused massage for the head and neck to relieve tension from long hours of work or screen time.",
+        "image": "https://example.com/images/head-neck-combo.jpg"
+      },
+      {
+        "title": "Herbal Compress Therapy",
+        "rating": 4.7,
+        "views_count": 5210,
+        "starts_at_price": "₹599",
+        "view_details": "Warm herbal pouches for pain and stress relief",
+        "description": "Traditional herbal compress using warm pouches filled with healing herbs to reduce pain, inflammation, and stress.",
+        "image": "https://example.com/images/herbal-compress.jpg"
+      }
+    ]
+  }
+  

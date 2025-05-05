@@ -1,0 +1,50 @@
+{
+    "cleanup_services": [
+      {
+        "title": "Basic Cleanup",
+        "rating": 4.6,
+        "views_count": 6840,
+        "starts_at_price": "₹399",
+        "view_details": "Includes cleansing, scrubbing, steaming, and pack",
+        "description": "Removes surface impurities and dead skin, giving your face a clean and fresh look.",
+        "image": "https://example.com/images/basic-cleanup.jpg"
+      },
+      {
+        "title": "De-Tan Cleanup",
+        "rating": 4.7,
+        "views_count": 7520,
+        "starts_at_price": "₹499",
+        "view_details": "With de-tanning scrub and face pack",
+        "description": "Helps lighten sun tan and improves skin tone using fruit-based de-tanning products.",
+        "image": "https://example.com/images/de-tan-cleanup.jpg"
+      },
+      {
+        "title": "Fruit Cleanup",
+        "rating": 4.5,
+        "views_count": 6120,
+        "starts_at_price": "₹449",
+        "view_details": "Mild fruit-based treatment for glow",
+        "description": "Gentle treatment suitable for sensitive skin, nourishes with natural fruit enzymes for a radiant finish.",
+        "image": "https://example.com/images/fruit-cleanup.jpg"
+      },
+      {
+        "title": "Herbal Cleanup",
+        "rating": 4.6,
+        "views_count": 5780,
+        "starts_at_price": "₹479",
+        "view_details": "Uses herbal products and steam therapy",
+        "description": "A soothing cleanup using herbal formulations that calm the skin and improve clarity.",
+        "image": "https://example.com/images/herbal-cleanup.jpg"
+      },
+      {
+        "title": "Anti-Pollution Cleanup",
+        "rating": 4.8,
+        "views_count": 7030,
+        "starts_at_price": "₹549",
+        "view_details": "Charcoal-based deep cleansing",
+        "description": "Removes blackheads, pollutants, and toxins from the skin, leaving it fresh and detoxed.",
+        "image": "https://example.com/images/anti-pollution-cleanup.jpg"
+      }
+    ]
+  }
+  

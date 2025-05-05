@@ -1,0 +1,68 @@
+{
+    "stress_relief_services": [
+      {
+        "title": "Aromatherapy Massage",
+        "rating": 4.8,
+        "views_count": 11230,
+        "starts_at_price": "₹1499",
+        "view_details": "Relaxing massage with essential oils to relieve stress",
+        "description": "A calming massage using essential oils to promote relaxation and reduce stress, helping to restore mental and physical balance.",
+        "image": "https://example.com/images/aromatherapy-massage.jpg"
+      },
+      {
+        "title": "Hot Stone Massage",
+        "rating": 4.7,
+        "views_count": 9850,
+        "starts_at_price": "₹1799",
+        "view_details": "Hot stone therapy to release muscle tension",
+        "description": "A therapeutic massage using heated stones to relieve muscle tension, soothe nerves, and reduce stress.",
+        "image": "https://example.com/images/hot-stone-massage.jpg"
+      },
+      {
+        "title": "Mindfulness Meditation",
+        "rating": 4.9,
+        "views_count": 8700,
+        "starts_at_price": "₹799",
+        "view_details": "Guided meditation sessions for stress relief",
+        "description": "Guided meditation to enhance mindfulness, reduce anxiety, and promote mental clarity and relaxation.",
+        "image": "https://example.com/images/mindfulness-meditation.jpg"
+      },
+      {
+        "title": "Reflexology",
+        "rating": 4.6,
+        "views_count": 6400,
+        "starts_at_price": "₹999",
+        "view_details": "Foot reflexology to release stress and tension",
+        "description": "A therapeutic technique that applies pressure to specific points on the feet, aimed at relieving stress and improving overall well-being.",
+        "image": "https://example.com/images/reflexology.jpg"
+      },
+      {
+        "title": "Scalp Massage",
+        "rating": 4.7,
+        "views_count": 7200,
+        "starts_at_price": "₹699",
+        "view_details": "Massage targeting the scalp to reduce stress",
+        "description": "A relaxing scalp massage designed to reduce tension, improve circulation, and calm the mind.",
+        "image": "https://example.com/images/scalp-massage.jpg"
+      },
+      {
+        "title": "Yoga for Stress Relief",
+        "rating": 4.8,
+        "views_count": 10560,
+        "starts_at_price": "₹899",
+        "view_details": "Gentle yoga poses to relieve stress and tension",
+        "description": "A soothing yoga session designed to alleviate stress, improve flexibility, and promote relaxation.",
+        "image": "https://example.com/images/yoga-for-stress-relief.jpg"
+      },
+      {
+        "title": "Sound Healing Therapy",
+        "rating": 4.9,
+        "views_count": 5630,
+        "starts_at_price": "₹1599",
+        "view_details": "Therapeutic sound waves for relaxation and stress relief",
+        "description": "A unique therapy using sound frequencies to restore balance in the body, release stress, and promote deep relaxation.",
+        "image": "https://example.com/images/sound-healing-therapy.jpg"
+      }
+    ]
+  }
+  

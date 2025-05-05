@@ -1,0 +1,68 @@
+{
+    "manicure_pedicure_services": [
+      {
+        "title": "Classic Manicure",
+        "rating": 4.7,
+        "views_count": 9800,
+        "starts_at_price": "₹299",
+        "view_details": "Cut, file, soak, cuticle care, massage, polish",
+        "description": "A refreshing hand care session to maintain nail health and soften your hands.",
+        "image": "https://example.com/images/classic-manicure.jpg"
+      },
+      {
+        "title": "Classic Pedicure",
+        "rating": 4.8,
+        "views_count": 11200,
+        "starts_at_price": "₹399",
+        "view_details": "Soaking, scrubbing, nail shaping, cuticle care, polish",
+        "description": "Relaxing foot care to rejuvenate tired feet with cleansing and nail grooming.",
+        "image": "https://example.com/images/classic-pedicure.jpg"
+      },
+      {
+        "title": "Deluxe Manicure",
+        "rating": 4.6,
+        "views_count": 7200,
+        "starts_at_price": "₹499",
+        "view_details": "Includes scrub, mask, extended massage",
+        "description": "A pampering treatment that improves skin texture and strengthens nails.",
+        "image": "https://example.com/images/deluxe-manicure.jpg"
+      },
+      {
+        "title": "Deluxe Pedicure",
+        "rating": 4.7,
+        "views_count": 8500,
+        "starts_at_price": "₹599",
+        "view_details": "Includes callus removal, mask, massage",
+        "description": "A luxurious foot treatment that nourishes and soothes tired feet deeply.",
+        "image": "https://example.com/images/deluxe-pedicure.jpg"
+      },
+      {
+        "title": "Gel Manicure",
+        "rating": 4.5,
+        "views_count": 6100,
+        "starts_at_price": "₹699",
+        "view_details": "Includes gel polish, shaping, cuticle care",
+        "description": "Long-lasting manicure with chip-resistant gel polish and glossy finish.",
+        "image": "https://example.com/images/gel-manicure.jpg"
+      },
+      {
+        "title": "Spa Pedicure",
+        "rating": 4.8,
+        "views_count": 9400,
+        "starts_at_price": "₹649",
+        "view_details": "Foot soak, scrub, massage, pack, polish",
+        "description": "Rejuvenating spa-style foot care that detoxifies and hydrates deeply.",
+        "image": "https://example.com/images/spa-pedicure.jpg"
+      },
+      {
+        "title": "Manicure + Pedicure Combo",
+        "rating": 4.9,
+        "views_count": 13450,
+        "starts_at_price": "₹799",
+        "view_details": "Classic manicure and pedicure together",
+        "description": "Full hand and foot care combo package for complete grooming and relaxation.",
+        "image": "https://example.com/images/manicure-pedicure-combo.jpg"
+      }
+    ]
+  }
+  

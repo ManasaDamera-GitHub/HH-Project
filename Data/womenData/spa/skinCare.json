@@ -1,0 +1,59 @@
+{
+    "skin_care_scrubs": [
+      {
+        "title": "Detan Body Scrub",
+        "rating": 4.7,
+        "views_count": 8450,
+        "starts_at_price": "₹899",
+        "view_details": "Full-body exfoliation to remove tan and dead skin",
+        "description": "A refreshing body scrub designed to remove tan, dead skin cells, and impurities while restoring your skin's natural glow.",
+        "image": "https://example.com/images/detan-body-scrub.jpg"
+      },
+      {
+        "title": "Coffee Body Scrub",
+        "rating": 4.8,
+        "views_count": 9100,
+        "starts_at_price": "₹999",
+        "view_details": "Invigorating scrub for smoother, glowing skin",
+        "description": "Infused with pure coffee grounds, this body scrub exfoliates deeply, improves circulation, and leaves skin silky smooth.",
+        "image": "https://example.com/images/coffee-body-scrub.jpg"
+      },
+      {
+        "title": "Sea Salt Glow Scrub",
+        "rating": 4.6,
+        "views_count": 7320,
+        "starts_at_price": "₹1099",
+        "view_details": "Mineral-rich exfoliation for refreshed skin",
+        "description": "A sea salt-based exfoliating treatment to detoxify and polish the skin, making it visibly smoother and radiant.",
+        "image": "https://example.com/images/sea-salt-glow.jpg"
+      },
+      {
+        "title": "Chocolate Body Scrub",
+        "rating": 4.9,
+        "views_count": 9950,
+        "starts_at_price": "₹1199",
+        "view_details": "Luxurious scrub for nourishing and glowing skin",
+        "description": "Enriched with cocoa extracts, this scrub softens and hydrates your skin while offering a delightful spa-like experience.",
+        "image": "https://example.com/images/chocolate-body-scrub.jpg"
+      },
+      {
+        "title": "Neem & Tulsi Herbal Scrub",
+        "rating": 4.7,
+        "views_count": 6830,
+        "starts_at_price": "₹799",
+        "view_details": "Ayurvedic exfoliation for acne-prone skin",
+        "description": "A gentle herbal scrub made with neem and tulsi to cleanse, exfoliate, and fight bacteria on acne-prone or sensitive skin.",
+        "image": "https://example.com/images/neem-tulsi-scrub.jpg"
+      },
+      {
+        "title": "Gold Radiance Scrub",
+        "rating": 4.8,
+        "views_count": 7640,
+        "starts_at_price": "₹1299",
+        "view_details": "Brightening scrub with gold particles",
+        "description": "A premium scrub that uses real gold dust to exfoliate and impart a radiant glow, perfect for special occasions.",
+        "image": "https://example.com/images/gold-radiance-scrub.jpg"
+      }
+    ]
+  }
+  

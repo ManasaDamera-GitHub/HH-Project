@@ -1,0 +1,68 @@
+{
+    "pain_relief_services": [
+      {
+        "title": "Deep Tissue Massage",
+        "rating": 4.8,
+        "views_count": 10320,
+        "starts_at_price": "₹1799",
+        "view_details": "Therapeutic massage targeting deeper muscle layers",
+        "description": "A deep tissue massage designed to release chronic muscle tension and relieve pain in targeted areas, improving circulation and flexibility.",
+        "image": "https://example.com/images/deep-tissue-massage.jpg"
+      },
+      {
+        "title": "Cupping Therapy",
+        "rating": 4.7,
+        "views_count": 9200,
+        "starts_at_price": "₹1499",
+        "view_details": "Traditional cupping therapy for pain relief",
+        "description": "Cupping therapy uses suction cups to stimulate blood flow and ease muscle pain, stiffness, and inflammation.",
+        "image": "https://example.com/images/cupping-therapy.jpg"
+      },
+      {
+        "title": "Thermal Therapy (Heat Therapy)",
+        "rating": 4.6,
+        "views_count": 7200,
+        "starts_at_price": "₹899",
+        "view_details": "Heat packs for muscle relaxation and pain relief",
+        "description": "Thermal therapy involves the use of heat packs to soothe and relax tense muscles, alleviate pain, and reduce stiffness.",
+        "image": "https://example.com/images/thermal-therapy.jpg"
+      },
+      {
+        "title": "TENS Therapy (Transcutaneous Electrical Nerve Stimulation)",
+        "rating": 4.8,
+        "views_count": 8000,
+        "starts_at_price": "₹1200",
+        "view_details": "Electrical stimulation for pain relief",
+        "description": "TENS therapy uses low-voltage electrical currents to relieve pain and improve muscle function, providing relief from chronic pain.",
+        "image": "https://example.com/images/tens-therapy.jpg"
+      },
+      {
+        "title": "Acupressure Therapy",
+        "rating": 4.7,
+        "views_count": 6500,
+        "starts_at_price": "₹1099",
+        "view_details": "Pressure points to relieve pain and tension",
+        "description": "Acupressure therapy targets specific pressure points on the body to alleviate pain, reduce stress, and promote healing.",
+        "image": "https://example.com/images/acupressure-therapy.jpg"
+      },
+      {
+        "title": "Joint Pain Relief Treatment",
+        "rating": 4.6,
+        "views_count": 5300,
+        "starts_at_price": "₹1499",
+        "view_details": "Therapy for joint pain relief and mobility improvement",
+        "description": "A targeted treatment to relieve joint pain, reduce inflammation, and restore mobility using therapeutic techniques and muscle manipulation.",
+        "image": "https://example.com/images/joint-pain-relief.jpg"
+      },
+      {
+        "title": "Cold Compression Therapy",
+        "rating": 4.5,
+        "views_count": 4900,
+        "starts_at_price": "₹799",
+        "view_details": "Cold compress for reducing pain and swelling",
+        "description": "Cold compression therapy helps reduce inflammation, swelling, and pain, especially effective after physical exertion or injury.",
+        "image": "https://example.com/images/cold-compression-therapy.jpg"
+      }
+    ]
+  }
+  

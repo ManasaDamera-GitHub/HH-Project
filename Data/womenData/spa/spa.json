@@ -1,0 +1,68 @@
+{
+    "post_natal_services": [
+      {
+        "title": "Post-Natal Massage",
+        "rating": 4.8,
+        "views_count": 10230,
+        "starts_at_price": "₹1499",
+        "view_details": "A relaxing massage to relieve muscle tension and improve circulation",
+        "description": "A soothing post-natal massage to help reduce stress, ease muscle pain, and promote overall relaxation.",
+        "image": "https://example.com/images/post-natal-massage.jpg"
+      },
+      {
+        "title": "Tummy Tightening Treatment",
+        "rating": 4.7,
+        "views_count": 8750,
+        "starts_at_price": "₹1799",
+        "view_details": "Targeted treatment to tighten the tummy area post-delivery",
+        "description": "A specialized treatment to tone and tighten the abdominal area, restoring muscle elasticity after childbirth.",
+        "image": "https://example.com/images/tummy-tightening-treatment.jpg"
+      },
+      {
+        "title": "Breastfeeding Support & Consultation",
+        "rating": 4.9,
+        "views_count": 7640,
+        "starts_at_price": "₹999",
+        "view_details": "Guidance and assistance for new mothers",
+        "description": "Personalized breastfeeding support and consultation to help mothers with lactation issues and positioning.",
+        "image": "https://example.com/images/breastfeeding-support.jpg"
+      },
+      {
+        "title": "Post-Natal Yoga",
+        "rating": 4.6,
+        "views_count": 6230,
+        "starts_at_price": "₹899",
+        "view_details": "Gentle yoga classes designed for post-natal recovery",
+        "description": "Yoga tailored for new mothers to help regain flexibility, strengthen the body, and relieve stress.",
+        "image": "https://example.com/images/post-natal-yoga.jpg"
+      },
+      {
+        "title": "Post-Natal Skin Rejuvenation Facial",
+        "rating": 4.8,
+        "views_count": 9550,
+        "starts_at_price": "₹1599",
+        "view_details": "A facial to restore skin radiance after childbirth",
+        "description": "A gentle facial designed to combat post-pregnancy skin changes, helping to restore a youthful glow.",
+        "image": "https://example.com/images/post-natal-facial.jpg"
+      },
+      {
+        "title": "Pelvic Floor Strengthening",
+        "rating": 4.7,
+        "views_count": 8200,
+        "starts_at_price": "₹1299",
+        "view_details": "Pelvic floor rehabilitation for new mothers",
+        "description": "A specialized treatment to strengthen the pelvic floor muscles, promoting overall health and recovery after childbirth.",
+        "image": "https://example.com/images/pelvic-floor-strengthening.jpg"
+      },
+      {
+        "title": "Post-Natal Body Scrub",
+        "rating": 4.5,
+        "views_count": 4900,
+        "starts_at_price": "₹899",
+        "view_details": "Exfoliating scrub for rejuvenating skin post-pregnancy",
+        "description": "A nourishing body scrub that exfoliates and softens the skin, leaving it refreshed and revitalized.",
+        "image": "https://example.com/images/post-natal-body-scrub.jpg"
+      }
+    ]
+  }
+  
