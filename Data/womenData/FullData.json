@@ -1,0 +1,502 @@
+[
+    {
+      "title": "Full Body Waxing (Rica)",
+      "rating": 4.8,
+      "views_count": 15230,
+      "starts_at_price": "₹899",
+      "view_details": "Includes arms, legs, underarms, stomach, back",
+      "description": "Get smooth and soft skin with Rica wax for the full body. Ideal for all skin types, especially sensitive skin.",
+      "image": "https://example.com/images/full-body-waxing-rica.jpg",
+      "category": "waxing_services"
+    },
+    {
+      "title": "Half Legs Waxing (Honey)",
+      "rating": 4.6,
+      "views_count": 8740,
+      "starts_at_price": "₹249",
+      "view_details": "Covers from knee to ankle",
+      "description": "Affordable and quick leg waxing using natural honey wax for a clean finish.",
+      "image": "https://example.com/images/half-legs-waxing-honey.jpg",
+      "category": "waxing_services"
+    },
+    {
+      "title": "Underarms Waxing (Rica)",
+      "rating": 4.9,
+      "views_count": 11320,
+      "starts_at_price": "₹149",
+      "view_details": "Gentle wax application for underarms",
+      "description": "Removes hair effectively with minimal pain and prevents ingrown hair.",
+      "image": "https://example.com/images/underarms-waxing-rica.jpg",
+      "category": "waxing_services"
+    },
+    {
+      "title": "Full Arms Waxing (Honey)",
+      "rating": 4.7,
+      "views_count": 9600,
+      "starts_at_price": "₹299",
+      "view_details": "Shoulder to fingertips",
+      "description": "Classic honey wax for soft and hair-free arms. Great for normal skin types.",
+      "image": "https://example.com/images/full-arms-waxing-honey.jpg",
+      "category": "waxing_services"
+    },
+    {
+      "title": "Bikini Line Waxing (Rica)",
+      "rating": 4.5,
+      "views_count": 6350,
+      "starts_at_price": "₹499",
+      "view_details": "Covers bikini line only, not Brazilian",
+      "description": "Delicate area waxing using Rica wax to ensure gentle care and hygiene.",
+      "image": "https://example.com/images/bikini-line-waxing-rica.jpg",
+      "category": "waxing_services"
+    },
+    {
+      "title": "Face Waxing (Rica)",
+      "rating": 4.6,
+      "views_count": 5210,
+      "starts_at_price": "₹349",
+      "view_details": "Forehead, upper lips, cheeks, chin",
+      "description": "Suitable for facial skin, removes fine hair and gives a smooth texture using Rica wax.",
+      "image": "https://example.com/images/face-waxing-rica.jpg",
+      "category": "waxing_services"
+    },
+    {
+      "title": "Full Legs + Arms Combo (Rica)",
+      "rating": 4.8,
+      "views_count": 12800,
+      "starts_at_price": "₹699",
+      "view_details": "Full arms and full legs waxing combo",
+      "description": "Time-saving combo with Rica wax to get smooth, hair-free limbs at once.",
+      "image": "https://example.com/images/full-legs-arms-waxing-combo.jpg",
+      "category": "waxing_services"
+    },
+    {
+      "title": "Classic Cleanup",
+      "rating": 4.6,
+      "views_count": 7380,
+      "starts_at_price": "₹499",
+      "view_details": "Basic cleanup with scrubbing, steaming, and pack",
+      "description": "Removes dirt and blackheads for a fresh look. Ideal for quick maintenance between facials.",
+      "image": "https://example.com/images/classic-cleanup.jpg",
+      "category": "facial_services"
+    },
+    {
+      "title": "De-Tan Facial",
+      "rating": 4.7,
+      "views_count": 8920,
+      "starts_at_price": "₹799",
+      "view_details": "Tan removal treatment with brightening ingredients",
+      "description": "Lightens sun tan, evens out skin tone and restores natural glow with fruit-based products.",
+      "image": "https://example.com/images/de-tan-facial.jpg",
+      "category": "facial_services"
+    },
+    {
+      "title": "Gold Facial",
+      "rating": 4.8,
+      "views_count": 10550,
+      "starts_at_price": "₹999",
+      "view_details": "Gold-infused facial for glow and rejuvenation",
+      "description": "Enriched with 24K gold extracts, this facial enhances skin radiance and reduces fine lines.",
+      "image": "https://example.com/images/gold-facial.jpg",
+      "category": "facial_services"
+    },
+    {
+      "title": "Pearl Facial",
+      "rating": 4.6,
+      "views_count": 8210,
+      "starts_at_price": "₹949",
+      "view_details": "Brightening treatment with pearl extracts",
+      "description": "Improves complexion and reduces pigmentation for a luminous and even-toned skin.",
+      "image": "https://example.com/images/pearl-facial.jpg",
+      "category": "facial_services"
+    },
+    {
+      "title": "Fruit Facial",
+      "rating": 4.5,
+      "views_count": 6780,
+      "starts_at_price": "₹699",
+      "view_details": "Natural fruit-based facial for sensitive skin",
+      "description": "Gentle and nourishing facial that revitalizes skin with the power of natural fruit extracts.",
+      "image": "https://example.com/images/fruit-facial.jpg",
+      "category": "facial_services"
+    },
+    {
+      "title": "Anti-Aging Facial",
+      "rating": 4.7,
+      "views_count": 7640,
+      "starts_at_price": "₹1199",
+      "view_details": "Advanced facial targeting wrinkles and sagging skin",
+      "description": "Stimulates collagen production and firms skin for a youthful and lifted appearance.",
+      "image": "https://example.com/images/anti-aging-facial.jpg",
+      "category": "facial_services"
+    },
+    {
+      "title": "Skin Whitening Facial",
+      "rating": 4.6,
+      "views_count": 8540,
+      "starts_at_price": "₹1099",
+      "view_details": "Brightening and depigmentation treatment",
+      "description": "Reduces blemishes and pigmentation while improving skin clarity and radiance.",
+      "image": "https://example.com/images/skin-whitening-facial.jpg",
+      "category": "facial_services"
+    },
+    {
+      "title": "Ayurvedic Glow Facial",
+      "rating": 4.8,
+      "views_count": 7430,
+      "starts_at_price": "₹999",
+      "view_details": "Uses herbal oils and Ubtan for a radiant glow",
+      "description": "A rejuvenating facial that revives dull skin using natural Ayurvedic herbs like turmeric and sandalwood.",
+      "image": "https://example.com/images/ayurvedic-glow-facial.jpg",
+      "category": "ayurvedic_facial_services"
+    },
+    {
+      "title": "Neem & Tulsi Purifying Facial",
+      "rating": 4.7,
+      "views_count": 6820,
+      "starts_at_price": "₹899",
+      "view_details": "Ideal for acne-prone and oily skin",
+      "description": "Detoxifies skin and prevents breakouts with the anti-bacterial power of neem and tulsi extracts.",
+      "image": "https://example.com/images/neem-tulsi-facial.jpg",
+      "category": "ayurvedic_facial_services"
+    },
+    {
+      "title": "Kumkumadi Radiance Facial",
+      "rating": 4.9,
+      "views_count": 9110,
+      "starts_at_price": "₹1299",
+      "view_details": "Includes kumkumadi tailam for brightening",
+      "description": "Premium Ayurvedic facial with saffron-infused oil that enhances glow, reduces pigmentation, and rejuvenates tired skin.",
+      "image": "https://example.com/images/kumkumadi-facial.jpg",
+      "category": "ayurvedic_facial_services"
+    },
+    {
+      "title": "Sandalwood Cooling Facial",
+      "rating": 4.6,
+      "views_count": 5620,
+      "starts_at_price": "₹849",
+      "view_details": "Soothing treatment for sensitive and irritated skin",
+      "description": "Calms inflammation and redness using pure sandalwood paste and herbal tonics.",
+      "image": "https://example.com/images/sandalwood-facial.jpg",
+      "category": "ayurvedic_facial_services"
+    },
+    {
+      "title": "Multani Mitti Detox Facial",
+      "rating": 4.5,
+      "views_count": 5100,
+      "starts_at_price": "₹799",
+      "view_details": "Deep cleansing with Fuller’s Earth and rosewater",
+      "description": "Removes impurities, tightens pores, and leaves skin soft and matte. Best for oily and combination skin.",
+      "image": "https://example.com/images/multani-mitti-facial.jpg",
+      "category": "ayurvedic_facial_services"
+    },
+    {
+      "title": "Basic Cleanup",
+      "rating": 4.6,
+      "views_count": 6840,
+      "starts_at_price": "₹399",
+      "view_details": "Includes cleansing, scrubbing, steaming, and pack",
+      "description": "Removes surface impurities and dead skin, giving your face a clean and fresh look.",
+      "image": "https://example.com/images/basic-cleanup.jpg",
+      "category": "cleanup_services"
+    },
+    {
+      "title": "De-Tan Cleanup",
+      "rating": 4.7,
+      "views_count": 7520,
+      "starts_at_price": "₹499",
+      "view_details": "With de-tanning scrub and face pack",
+      "description": "Helps lighten sun tan and improves skin tone using fruit-based de-tanning products.",
+      "image": "https://example.com/images/de-tan-cleanup.jpg",
+      "category": "cleanup_services"
+    },
+    {
+      "title": "Fruit Cleanup",
+      "rating": 4.5,
+      "views_count": 6120,
+      "starts_at_price": "₹449",
+      "view_details": "Mild fruit-based treatment for glow",
+      "description": "Gentle treatment suitable for sensitive skin, nourishes with natural fruit enzymes for a radiant finish.",
+      "image": "https://example.com/images/fruit-cleanup.jpg",
+      "category": "cleanup_services"
+    },
+    {
+      "title": "Herbal Cleanup",
+      "rating": 4.6,
+      "views_count": 5780,
+      "starts_at_price": "₹479",
+      "view_details": "Uses herbal products and steam therapy",
+      "description": "A soothing cleanup using herbal formulations that calm the skin and improve clarity.",
+      "image": "https://example.com/images/herbal-cleanup.jpg",
+      "category": "cleanup_services"
+    },
+    {
+      "title": "Anti-Pollution Cleanup",
+      "rating": 4.8,
+      "views_count": 7030,
+      "starts_at_price": "₹549",
+      "view_details": "Charcoal-based deep cleansing",
+      "description": "Removes blackheads, pollutants, and toxins from the skin, leaving it fresh and detoxed.",
+      "image": "https://example.com/images/anti-pollution-cleanup.jpg",
+      "category": "cleanup_services"
+    },
+    {
+      "title": "Haircut & Styling",
+      "rating": 4.7,
+      "views_count": 12530,
+      "starts_at_price": "₹499",
+      "view_details": "Includes cut, style, and blow dry",
+      "description": "Get a stylish and trendy haircut along with a blow dry to add volume and shine to your hair.",
+      "image": "https://example.com/images/haircut-styling.jpg",
+      "category": "hair_services"
+    },
+    {
+      "title": "Hair Spa",
+      "rating": 4.8,
+      "views_count": 10450,
+      "starts_at_price": "₹799",
+      "view_details": "Deep conditioning and hair nourishment",
+      "description": "Revitalize your hair with a luxurious hair spa treatment that hydrates and strengthens dry, damaged hair.",
+      "image": "https://example.com/images/hair-spa.jpg",
+      "category": "hair_services"
+    },
+    {
+      "title": "Keratin Treatment",
+      "rating": 4.9,
+      "views_count": 9340,
+      "starts_at_price": "₹1999",
+      "view_details": "Frizz control and smoothening",
+      "description": "A hair treatment that makes your hair smooth, shiny, and frizz-free for long-lasting results.",
+      "image": "https://example.com/images/keratin-treatment.jpg",
+      "category": "hair_services"
+    },
+    {
+      "title": "Root Touch Up",
+      "rating": 4.6,
+      "views_count": 7650,
+      "starts_at_price": "₹799",
+      "view_details": "Cover grey hair with hair color",
+      "description": "A quick and efficient service to cover greys and restore your natural hair color.",
+      "image": "https://example.com/images/root-touch-up.jpg",
+      "category": "hair_services"
+    },
+    {
+      "title": "Hair Color",
+      "rating": 4.7,
+      "views_count": 10500,
+      "starts_at_price": "₹1299",
+      "view_details": "Full color treatment for hair",
+      "description": "Transform your hair with a vibrant and long-lasting hair color that suits your personality.",
+      "image": "https://example.com/images/hair-color.jpg",
+      "category": "hair_services"
+    },
+    {
+      "title": "Blow Dry",
+      "rating": 4.5,
+      "views_count": 8320,
+      "starts_at_price": "₹399",
+      "view_details": "Quick blow dry for styling",
+      "description": "Perfect for a special event or daily styling, this service gives your hair the volume and shine it needs.",
+      "image": "https://example.com/images/blow-dry.jpg",
+      "category": "hair_services"
+    },
+    {
+      "title": "Hair Straightening",
+      "rating": 4.8,
+      "views_count": 9400,
+      "starts_at_price": "₹1499",
+      "view_details": "Permanent hair straightening treatment",
+      "description": "Say goodbye to frizzy hair with a long-lasting hair straightening treatment.",
+      "image": "https://example.com/images/hair-straightening.jpg",
+      "category": "hair_services"
+    },
+    {
+      "title": "Korean Glass Skin Facial",
+      "rating": 4.9,
+      "views_count": 10250,
+      "starts_at_price": "₹1499",
+      "view_details": "Hydrating and glow-boosting treatment for radiant skin",
+      "description": "A luxurious 9-step Korean facial that deeply hydrates, evens skin tone, and gives a luminous glass-skin finish.",
+      "image": "https://example.com/images/korean-glass-skin-facial.jpg",
+      "category": "korean_facial_services"
+    },
+    {
+      "title": "Korean Anti-Aging Facial",
+      "rating": 4.8,
+      "views_count": 8760,
+      "starts_at_price": "₹1599",
+      "view_details": "Firming treatment with collagen boost and massage",
+      "description": "An advanced facial using Korean products that targets fine lines, boosts collagen, and tightens the skin naturally.",
+      "image": "https://example.com/images/korean-anti-aging-facial.jpg",
+      "category": "korean_facial_services"
+    },
+    {
+      "title": "Korean Acne Clearing Facial",
+      "rating": 4.7,
+      "views_count": 9450,
+      "starts_at_price": "₹1399",
+      "view_details": "Deep pore cleansing and oil-control facial",
+      "description": "A targeted Korean treatment to reduce acne, calm inflammation, and cleanse clogged pores with gentle exfoliation.",
+      "image": "https://example.com/images/korean-acne-facial.jpg",
+      "category": "korean_facial_services"
+    },
+    {
+      "title": "Korean Brightening Facial",
+      "rating": 4.6,
+      "views_count": 7980,
+      "starts_at_price": "₹1299",
+      "view_details": "Vitamin C and niacinamide-based facial",
+      "description": "Brightens dull skin and improves skin clarity using high-end Korean serums and massage techniques.",
+      "image": "https://example.com/images/korean-brightening-facial.jpg",
+      "category": "korean_facial_services"
+    },
+    {
+      "title": "Korean Hydration Boost Facial",
+      "rating": 4.8,
+      "views_count": 8675,
+      "starts_at_price": "₹1399",
+      "view_details": "Hyaluronic acid-rich facial for dry skin",
+      "description": "Deep moisturizing Korean facial ideal for dry and flaky skin—leaves skin plump, dewy, and refreshed.",
+      "image": "https://example.com/images/korean-hydration-facial.jpg",
+      "category": "korean_facial_services"
+    },
+    {
+      "title": "Classic Manicure",
+      "rating": 4.7,
+      "views_count": 9800,
+      "starts_at_price": "₹299",
+      "view_details": "Cut, file, soak, cuticle care, massage, polish",
+      "description": "A refreshing hand care session to maintain nail health and soften your hands.",
+      "image": "https://example.com/images/classic-manicure.jpg",
+      "category": "manicure_pedicure_services"
+    },
+    {
+      "title": "Classic Pedicure",
+      "rating": 4.8,
+      "views_count": 11200,
+      "starts_at_price": "₹399",
+      "view_details": "Soaking, scrubbing, nail shaping, cuticle care, polish",
+      "description": "Relaxing foot care to rejuvenate tired feet with cleansing and nail grooming.",
+      "image": "https://example.com/images/classic-pedicure.jpg",
+      "category": "manicure_pedicure_services"
+    },
+    {
+      "title": "Deluxe Manicure",
+      "rating": 4.6,
+      "views_count": 7200,
+      "starts_at_price": "₹499",
+      "view_details": "Includes scrub, mask, extended massage",
+      "description": "A pampering treatment that improves skin texture and strengthens nails.",
+      "image": "https://example.com/images/deluxe-manicure.jpg",
+      "category": "manicure_pedicure_services"
+    },
+    {
+      "title": "Deluxe Pedicure",
+      "rating": 4.7,
+      "views_count": 8500,
+      "starts_at_price": "₹599",
+      "view_details": "Includes callus removal, mask, massage",
+      "description": "A luxurious foot treatment that nourishes and soothes tired feet deeply.",
+      "image": "https://example.com/images/deluxe-pedicure.jpg",
+      "category": "manicure_pedicure_services"
+    },
+    {
+      "title": "Gel Manicure",
+      "rating": 4.5,
+      "views_count": 6100,
+      "starts_at_price": "₹699",
+      "view_details": "Includes gel polish, shaping, cuticle care",
+      "description": "Long-lasting manicure with chip-resistant gel polish and glossy finish.",
+      "image": "https://example.com/images/gel-manicure.jpg",
+      "category": "manicure_pedicure_services"
+    },
+    {
+      "title": "Spa Pedicure",
+      "rating": 4.8,
+      "views_count": 9400,
+      "starts_at_price": "₹649",
+      "view_details": "Foot soak, scrub, massage, pack, polish",
+      "description": "Rejuvenating spa-style foot care that detoxifies and hydrates deeply.",
+      "image": "https://example.com/images/spa-pedicure.jpg",
+      "category": "manicure_pedicure_services"
+    },
+    {
+      "title": "Manicure + Pedicure Combo",
+      "rating": 4.9,
+      "views_count": 13450,
+      "starts_at_price": "₹799",
+      "view_details": "Classic manicure and pedicure together",
+      "description": "Full hand and foot care combo package for complete grooming and relaxation.",
+      "image": "https://example.com/images/manicure-pedicure-combo.jpg",
+      "category": "manicure_pedicure_services"
+    },
+    {
+      "title": "Bridal Makeup",
+      "rating": 4.9,
+      "views_count": 13500,
+      "starts_at_price": "₹5000",
+      "view_details": "Complete bridal makeup with hair styling",
+      "description": "A luxurious and customized makeup session for brides, including pre-bridal skincare and hair styling.",
+      "image": "https://example.com/images/bridal-makeup.jpg",
+      "category": "other_salon_services"
+    },
+    {
+      "title": "Party Makeup",
+      "rating": 4.8,
+      "views_count": 10920,
+      "starts_at_price": "₹1500",
+      "view_details": "Makeup for parties and special occasions",
+      "description": "Elegant and trendy makeup for any event, from parties to gatherings, ensuring a flawless look.",
+      "image": "https://example.com/images/party-makeup.jpg",
+      "category": "other_salon_services"
+    },
+    {
+      "title": "Waxing (Full Body)",
+      "rating": 4.6,
+      "views_count": 7850,
+      "starts_at_price": "₹999",
+      "view_details": "Full body waxing for smooth skin",
+      "description": "A thorough waxing service to remove unwanted body hair, leaving your skin soft and smooth.",
+      "image": "https://example.com/images/full-body-waxing.jpg",
+      "category": "other_salon_services"
+    },
+    {
+      "title": "Nail Extension",
+      "rating": 4.7,
+      "views_count": 6000,
+      "starts_at_price": "₹1200",
+      "view_details": "Acrylic or gel nail extensions",
+      "description": "Get long, elegant nails with either acrylic or gel extensions, customized to your style.",
+      "image": "https://example.com/images/nail-extension.jpg",
+      "category": "other_salon_services"
+    },
+    {
+      "title": "Henna Art",
+      "rating": 4.5,
+      "views_count": 4550,
+      "starts_at_price": "₹499",
+      "view_details": "Traditional henna designs for hands and feet",
+      "description": "Beautiful and intricate henna designs, perfect for festivals, weddings, or any special occasion.",
+      "image": "https://example.com/images/henna-art.jpg",
+      "category": "other_salon_services"
+    },
+    {
+      "title": "Lash Extensions",
+      "rating": 4.8,
+      "views_count": 7100,
+      "starts_at_price": "₹1500",
+      "view_details": "Long, voluminous eyelash extensions",
+      "description": "Achieve fuller, longer lashes with semi-permanent extensions that enhance your natural beauty.",
+      "image": "https://example.com/images/lash-extensions.jpg",
+      "category": "other_salon_services"
+    },
+    {
+      "title": "Tattooing (Semi-Permanent)",
+      "rating": 4.6,
+      "views_count": 6200,
+      "starts_at_price": "₹2500",
+      "view_details": "Semi-permanent eyebrow tattooing and more",
+      "description": "Enhance your look with semi-permanent tattoos, including eyebrow tattoos for a fuller, defined appearance.",
+      "image": "https://example.com/images/semi-permanent-tattoo.jpg",
+      "category": "other_salon_services"
+    }
+  ]
