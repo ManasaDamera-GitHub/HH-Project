@@ -3,13 +3,13 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./LandingPage";
 // import Signup, { Login } from "./pages/Login/Signup";
-import { Waxing } from "./pages/WomenSalon/waxing";
 import { Manicure } from "./pages/WomenSalon/Manicure";
 import { HairCare } from "./pages/WomenSalon/HairCare";
 import { Threading } from "./pages/WomenSalon/Threading";
 import { Signup } from "./pages/Login/Signup";
 import Login from "./pages/Login/Login";
 import CleanUp from "./pages/WomenSalon/CleanUp";
+import Waxing from "./pages/WomenSalon/Waxing";
 
 export const App = () => {
   return (

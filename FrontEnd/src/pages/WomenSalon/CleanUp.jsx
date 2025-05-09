@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import services from "../../../../Data/womenData/FullData.json";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const CleanUp = () => {
   const [selectedService, setSelectedService] = useState(null);
@@ -30,9 +31,9 @@ const CleanUp = () => {
               />
               <div className="card-body d-flex flex-column">
                 <h5 className="card-title">{service.title}</h5>
-                <p className="card-text text-muted">{service.description}</p>
-                <div className="mt-auto fw-bold text-primary">
-                  ₹{service.starts_at_price}
+                {/* <p className="card-text text-muted">{service.description}</p> */}
+                <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
+                  🔖 Starting at <strong>₹{service.starts_at_price}</strong>
                 </div>
               </div>
             </div>
@@ -72,9 +73,20 @@ const CleanUp = () => {
                   style={{ maxHeight: "300px", objectFit: "cover" }}
                 />
                 <p>{selectedService.description}</p>
-                <h6 className="text-primary fw-bold">
-                  ₹{selectedService.starts_at_price}
-                </h6>
+
+                <p>
+                  <i className="bi bi-star-fill text-warning"></i>{" "}
+                  {selectedService.rating}({selectedService.views_count}reviews)
+                </p>
+                <strong>
+                  <span className="highlight">
+                    {selectedService.view_details}
+                  </span>
+                </strong>
+                <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
+                  🔖 Starting at{" "}
+                  <strong>₹{selectedService.starts_at_price}</strong>
+                </div>
               </div>
             </div>
           </div>
