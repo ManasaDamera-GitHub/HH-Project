@@ -6,10 +6,10 @@ import LandingPage from "./LandingPage";
 import { Waxing } from "./pages/WomenSalon/waxing";
 import { Manicure } from "./pages/WomenSalon/Manicure";
 import { HairCare } from "./pages/WomenSalon/HairCare";
-import { CleanUp } from "./pages/WomenSalon/CleanUp";
 import { Threading } from "./pages/WomenSalon/Threading";
 import { Signup } from "./pages/Login/Signup";
 import Login from "./pages/Login/Login";
+import CleanUp from "./pages/WomenSalon/CleanUp";
 
 export const App = () => {
   return (
