@@ -77,10 +77,11 @@ const Waxing = () => {
                   {selectedService.rating}({selectedService.views_count}reviews)
                 </p>
                 <strong>
-                  <span className="highlight">
+                  <span className="badge bg-success">
                     {selectedService.view_details}
                   </span>
                 </strong>
+                <br></br>
                 <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
                   🔖 Starting at{" "}
                   <strong>₹{selectedService.starts_at_price}</strong>
