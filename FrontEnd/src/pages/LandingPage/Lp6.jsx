@@ -48,10 +48,10 @@ const content = [
 ];
 
 export const W_Salon = () => {
-  const navigate = useNavigate(); // ✅ initialize
+  const navigate = useNavigate();
 
-  const handleCardClick = (path) => {
-    navigate(path); // ✅ navigate on click
+  const handleSeeAll = () => {
+    navigate("/women-salon/all-services");
   };
 
   return (
@@ -65,7 +65,7 @@ export const W_Salon = () => {
           <div
             key={index}
             className="women-salon-card"
-            onClick={() => handleCardClick(service.path)} // ✅ add click handler
+            onClick={() => handleSeeAll(service.path)}
             style={{ cursor: "pointer" }}
           >
             <img
