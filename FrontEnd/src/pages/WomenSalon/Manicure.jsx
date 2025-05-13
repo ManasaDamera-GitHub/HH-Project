@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import services from "../../../../Data/womenData/FullData.json";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Header from "@/components/Navbar";
 
 const Manicure = () => {
   const [selectedService, setSelectedService] = useState(null);
 
   const manicurePedicureServices = services.filter(
-    (service) => service.category === "manicure_pedicure_services"
+    (service) => service.category === "Manicure Pedicure Services"
   );
 
   const closeModal = () => setSelectedService(null);

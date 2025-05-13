@@ -1,0 +1,20 @@
+.category-btn {
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  color: #594100;
+}
+
+.category-btn:hover {
+  transform: scale(1.05);
+  border-color: #594100; /* Bootstrap primary */
+  background-color: #6c5001;
+}
+
+.category-btn.active {
+  background-color: #594100;
+  color: white;
+  border-color: #594100;
+}

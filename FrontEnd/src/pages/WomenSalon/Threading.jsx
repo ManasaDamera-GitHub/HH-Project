@@ -8,7 +8,7 @@ const Threading = () => {
   const [selectedService, setSelectedService] = useState(null);
 
   const threadingFaceWaxingServices = services.filter(
-    (service) => service.category === "threading_face_waxing_services"
+    (service) => service.category === "Threading & Face Waxing"
   );
 
   const closeModal = () => setSelectedService(null);

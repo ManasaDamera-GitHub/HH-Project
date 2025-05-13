@@ -7,10 +7,7 @@ import Header from "@/components/Navbar";
 const Waxing = () => {
   const [selectedService, setSelectedService] = useState(null);
 
-  const allowedCategories = [
-    "waxing_services",
-    "threading_face_waxing_services",
-  ];
+  const allowedCategories = ["Waxing ", "Threading & Face Waxing"];
   const filteredServices = services.filter((service) =>
     allowedCategories.includes(service.category)
   );

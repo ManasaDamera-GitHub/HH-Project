@@ -50,23 +50,25 @@ const content = [
 export const W_Salon = () => {
   const navigate = useNavigate();
 
-  const handleSeeAll = () => {
-    navigate("/women-salon/all-services");
+  const handleSeeAll = (path = "/women-salon/all-services") => {
+    navigate(path);
   };
 
   return (
     <div className="women-salon-container">
       <div className="women-salon-header">
         <h1 className="women-salon-title">Salon for Women</h1>
-        <button className="women-salon-button">See all</button>
+        <button className="women-salon-button" onClick={() => handleSeeAll()}>
+          See all
+        </button>
       </div>
       <div className="women-salon-grid">
         {content.map((service, index) => (
           <div
             key={index}
             className="women-salon-card"
-            onClick={() => handleSeeAll(service.path)}
             style={{ cursor: "pointer" }}
+            onClick={() => handleSeeAll(service.path)}
           >
             <img
               src={service.img}

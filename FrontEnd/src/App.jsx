@@ -24,7 +24,7 @@ export const App = () => {
           <Route path="/w_salon/manicure" element={<Manicure />} />
           <Route path="/w_salon/haircare" element={<HairCare />} />
           <Route path="/w_salon/cleanup" element={<CleanUp />} />
-          <Route path="/w_salon/threading" element={<Threading />} />
+          <Route path="/salon/threading" element={<Threading />} />
           <Route path="/women-salon/all-services" element={<AllServices />} />
         </Routes>
       </div>

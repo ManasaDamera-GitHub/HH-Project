@@ -8,7 +8,7 @@ const HairCare = () => {
   const [selectedService, setSelectedService] = useState(null);
 
   const hairServices = services.filter(
-    (service) => service.category === "hair_services"
+    (service) => service.category === "Hair Services"
   );
 
   const closeModal = () => setSelectedService(null);
