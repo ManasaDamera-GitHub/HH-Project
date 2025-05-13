@@ -1,0 +1,323 @@
+[
+  {
+    "title": "Post-Natal Massage",
+    "rating": 4.8,
+    "views_count": 10230,
+    "starts_at_price": "1499",
+    "view_details": "A relaxing massage to relieve muscle tension and improve circulation",
+    "description": "A soothing post-natal massage to help reduce stress, ease muscle pain, and promote overall relaxation.",
+    "image": "https://i.pinimg.com/originals/71/01/82/7101821ca67be957caf1c6a314629afd.jpg",
+    "category": "Post Natal Services"
+  },
+  {
+    "title": "Tummy Tightening Treatment",
+    "rating": 4.7,
+    "views_count": 8750,
+    "starts_at_price": "1799",
+    "view_details": "Targeted treatment to tighten the tummy area post-delivery",
+    "description": "A specialized treatment to tone and tighten the abdominal area, restoring muscle elasticity after childbirth.",
+    "image": "https://mdspa.ca/wp-content/uploads/2022/06/mummy-tummy.png",
+    "category": "Post Natal Services"
+  },
+  {
+    "title": "Breastfeeding Support & Consultation",
+    "rating": 4.9,
+    "views_count": 7640,
+    "starts_at_price": "999",
+    "view_details": "Guidance and assistance for new mothers",
+    "description": "Personalized breastfeeding support and consultation to help mothers with lactation issues and positioning.",
+    "image": "https://blog.memorial.health/wp-content/uploads/2020/07/LW-pics-4-1024x1024.png",
+    "category": "Post Natal Services"
+  },
+  {
+    "title": "Post-Natal Yoga",
+    "rating": 4.6,
+    "views_count": 6230,
+    "starts_at_price": "899",
+    "view_details": "Gentle yoga classes designed for post-natal recovery",
+    "description": "Yoga tailored for new mothers to help regain flexibility, strengthen the body, and relieve stress.",
+    "image": "https://www.flexifyme.com/blogs/wp-content/uploads/2023/12/image-1-3.jpg",
+    "category": "Post Natal Services"
+  },
+  {
+    "title": "Post-Natal Skin Rejuvenation Facial",
+    "rating": 4.8,
+    "views_count": 9550,
+    "starts_at_price": "1599",
+    "view_details": "A facial to restore skin radiance after childbirth",
+    "description": "A gentle facial designed to combat post-pregnancy skin changes, helping to restore a youthful glow.",
+    "image": "https://hakimclinic.com/wp-content/uploads/2019/01/postnatal_care-care.jpg",
+    "category": "Post Natal Services"
+  },
+  {
+    "title": "Pelvic Floor Strengthening",
+    "rating": 4.7,
+    "views_count": 8200,
+    "starts_at_price": "1299",
+    "view_details": "Pelvic floor rehabilitation for new mothers",
+    "description": "A specialized treatment to strengthen the pelvic floor muscles, promoting overall health and recovery after childbirth.",
+    "image": "https://www.athletico.com/wp-content/uploads/2020/05/exercises-to-strengthen-pelvic-floor-fb.jpg",
+    "category": "Post Natal Services"
+  },
+  {
+    "title": "Post-Natal Body Scrub",
+    "rating": 4.5,
+    "views_count": 4900,
+    "starts_at_price": "899",
+    "view_details": "Exfoliating scrub for rejuvenating skin post-pregnancy",
+    "description": "A nourishing body scrub that exfoliates and softens the skin, leaving it refreshed and revitalized.",
+    "image": "https://sanupostpartum.com/wp-content/uploads/2024/10/Sanu-Doula-in-scrubs-1.jpg",
+    "category": "Post Natal Services"
+  },
+  {
+    "title": "Aromatherapy Massage",
+    "rating": 4.8,
+    "views_count": 11230,
+    "starts_at_price": "1499",
+    "view_details": "Relaxing massage with essential oils to relieve stress",
+    "description": "A calming massage using essential oils to promote relaxation and reduce stress, helping to restore mental and physical balance.",
+    "image": "https://guide2thailand.com/wp-content/uploads/2020/06/Aroma-Therapy-Massage.jpg",
+    "category": "Stress Relief Services"
+  },
+  {
+    "title": "Hot Stone Massage",
+    "rating": 4.7,
+    "views_count": 9850,
+    "starts_at_price": "1799",
+    "view_details": "Hot stone therapy to release muscle tension",
+    "description": "A therapeutic massage using heated stones to relieve muscle tension, soothe nerves, and reduce stress.",
+    "image": "https://suksomspa.com/wp-content/uploads/2024/07/Hot-stone-massage-benefits-1.jpg",
+    "category": "Stress Relief Services"
+  },
+  {
+    "title": "Mindfulness Meditation",
+    "rating": 4.9,
+    "views_count": 8700,
+    "starts_at_price": "799",
+    "view_details": "Guided meditation sessions for stress relief",
+    "description": "Guided meditation to enhance mindfulness, reduce anxiety, and promote mental clarity and relaxation.",
+    "image": "https://psychemaster.com/wp-content/uploads/2024/02/mindfulness-meditation-ptsd.jpg",
+    "category": "Stress Relief Services"
+  },
+  {
+    "title": "Reflexology",
+    "rating": 4.6,
+    "views_count": 6400,
+    "starts_at_price": "999",
+    "view_details": "Foot reflexology to release stress and tension",
+    "description": "A therapeutic technique that applies pressure to specific points on the feet, aimed at relieving stress and improving overall well-being.",
+    "image": "http://www.ajtherapieshealthcentre.co.uk/wp-content/uploads/2012/08/reflexology-large.jpg",
+    "category": "Stress Relief Services"
+  },
+  {
+    "title": "Scalp Massage",
+    "rating": 4.7,
+    "views_count": 7200,
+    "starts_at_price": "699",
+    "view_details": "Massage targeting the scalp to reduce stress",
+    "description": "A relaxing scalp massage designed to reduce tension, improve circulation, and calm the mind.",
+    "image": "https://images.squarespace-cdn.com/content/v1/5f2864b6ee63644ee0b157d3/2a0a667f-4fe2-4357-9964-1c14e6b29287/professional-head-massage.jpg",
+    "category": "Stress Relief Services"
+  },
+  {
+    "title": "Yoga for Stress Relief",
+    "rating": 4.8,
+    "views_count": 10560,
+    "starts_at_price": "899",
+    "view_details": "Gentle yoga poses to relieve stress and tension",
+    "description": "A soothing yoga session designed to alleviate stress, improve flexibility, and promote relaxation.",
+    "image": "https://www.holisticwellnesspractice.com/wp-content/uploads/2020/10/Yoga-for-College-Stress-scaled.jpg",
+    "category": "Stress Relief Services"
+  },
+  {
+    "title": "Sound Healing Therapy",
+    "rating": 4.9,
+    "views_count": 5630,
+    "starts_at_price": "1599",
+    "view_details": "Therapeutic sound waves for relaxation and stress relief",
+    "description": "A unique therapy using sound frequencies to restore balance in the body, release stress, and promote deep relaxation.",
+    "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2150907210/settings_images/mdj7itypSDOKp7CcZCF5_1104831206_small.jpg",
+    "category": "Stress Relief Services"
+  },
+   {
+    "title": "Detan Body Scrub",
+    "rating": 4.7,
+    "views_count": 8450,
+    "starts_at_price": "899",
+    "view_details": "Full-body exfoliation to remove tan and dead skin",
+    "description": "A refreshing body scrub designed to remove tan, dead skin cells, and impurities while restoring your skin's natural glow.",
+    "image": "https://m.media-amazon.com/images/I/610isHCMCCL._SL1080_.jpg",
+    "category": "Skin Care Scrubs"
+  },
+  {
+    "title": "Coffee Body Scrub",
+    "rating": 4.8,
+    "views_count": 9100,
+    "starts_at_price": "999",
+    "view_details": "Invigorating scrub for smoother, glowing skin",
+    "description": "Infused with pure coffee grounds, this body scrub exfoliates deeply, improves circulation, and leaves skin silky smooth.",
+    "image": "https://www.thaqfny.com/wp-content/uploads/2023/07/coffee-scrub-for-body.jpg",
+    "category": "Skin Care Scrubs"
+  },
+  {
+    "title": "Sea Salt Glow Scrub",
+    "rating": 4.6,
+    "views_count": 7320,
+    "starts_at_price": "1099",
+    "view_details": "Mineral-rich exfoliation for refreshed skin",
+    "description": "A sea salt-based exfoliating treatment to detoxify and polish the skin, making it visibly smoother and radiant.",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2021/02/13-Best-Dead-Sea-Salt-Scrubs-Of-2021-For-Revitalized-Skin-Banner.jpg",
+    "category": "Skin Care Scrubs"
+  },
+  {
+    "title": "Chocolate Body Scrub",
+    "rating": 4.9,
+    "views_count": 9950,
+    "starts_at_price": "1199",
+    "view_details": "Luxurious scrub for nourishing and glowing skin",
+    "description": "Enriched with cocoa extracts, this scrub softens and hydrates your skin while offering a delightful spa-like experience.",
+    "image": "https://img.grouponcdn.com/deal/njVZVaY64CtL38SJbHeG/aH-960x576/v1/c870x524.jpg",
+    "category": "Skin Care Scrubs"
+  },
+  {
+    "title": "Neem & Tulsi Herbal Scrub",
+    "rating": 4.7,
+    "views_count": 6830,
+    "starts_at_price": "799",
+    "view_details": "Ayurvedic exfoliation for acne-prone skin",
+    "description": "A gentle herbal scrub made with neem and tulsi to cleanse, exfoliate, and fight bacteria on acne-prone or sensitive skin.",
+    "image": "https://pureelements.in/wp-content/uploads/2024/04/Neem-body-scrub-02.webp",
+    "category": "Skin Care Scrubs"
+  },
+
+  {
+    "title": "Deep Tissue Massage",
+    "rating": 4.8,
+    "views_count": 10320,
+    "starts_at_price": "1799",
+    "view_details": "Therapeutic massage targeting deeper muscle layers",
+    "description": "A deep tissue massage designed to release chronic muscle tension and relieve pain in targeted areas, improving circulation and flexibility.",
+    "image": "https://static.showit.co/1200/6UWQFp9AQKCp8gzo1Lk0Qw/166556/laurabranding-9.jpg",
+    "category": "Pain Relief Services"
+  },
+  {
+    "title": "Cupping Therapy",
+    "rating": 4.7,
+    "views_count": 9200,
+    "starts_at_price": "1499",
+    "view_details": "Traditional cupping therapy for pain relief",
+    "description": "Cupping therapy uses suction cups to stimulate blood flow and ease muscle pain, stiffness, and inflammation.",
+    "image": "https://themovementschopp.com/wp-content/uploads/2024/05/Cupping-for-Back-Pain-How-Does-It-Work-Benefits-Effectiveness-2.jpg",
+    "category": "Pain Relief Services"
+  },
+  {
+    "title": "Thermal Therapy (Heat Therapy)",
+    "rating": 4.6,
+    "views_count": 7200,
+    "starts_at_price": "899",
+    "view_details": "Heat packs for muscle relaxation and pain relief",
+    "description": "Thermal therapy involves the use of heat packs to soothe and relax tense muscles, alleviate pain, and reduce stiffness.",
+    "image": "https://heatedgadget.com/wp-content/uploads/2021/07/Heat-therapy-types-benefits-side-effects-and-DIY-heated-pads.jpg",
+    "category": "Pain Relief Services"
+  },
+  {
+    "title": "TENS Therapy (Transcutaneous Electrical Nerve Stimulation)",
+    "rating": 4.8,
+    "views_count": 8000,
+    "starts_at_price": "1200",
+    "view_details": "Electrical stimulation for pain relief",
+    "description": "TENS therapy uses low-voltage electrical currents to relieve pain and improve muscle function, providing relief from chronic pain.",
+    "image": "https://cdn.sanity.io/images/0vv8moc6/ajmc/f4af379d48e38d3a0fa9a082da00b726994accf1-4172x2781.jpg?fit=crop&auto=format",
+    "category": "Pain Relief Services"
+  },
+  {
+    "title": "Acupressure Therapy",
+    "rating": 4.7,
+    "views_count": 6500,
+    "starts_at_price": "1099",
+    "view_details": "Pressure points to relieve pain and tension",
+    "description": "Acupressure therapy targets specific pressure points on the body to alleviate pain, reduce stress, and promote healing.",
+    "image": "https://www.neurologyadvisor.com/wp-content/uploads/sites/10/2019/04/Acupuncture_SH_306283403.jpg",
+    "category": "Pain Relief Services"
+  },
+  {
+    "title": "Joint Pain Relief Treatment",
+    "rating": 4.6,
+    "views_count": 5300,
+    "starts_at_price": "1499",
+    "view_details": "Therapy for joint pain relief and mobility improvement",
+    "description": "A targeted treatment to relieve joint pain, reduce inflammation, and restore mobility using therapeutic techniques and muscle manipulation.",
+    "image": "https://bionworx.com/wp-content/uploads/2023/10/Non-surgical-joint-pain-relief-treatment-services.jpg",
+    "category": "Pain Relief Services"
+  },
+  {
+    "title": "Cold Compression Therapy",
+    "rating": 4.5,
+    "views_count": 4900,
+    "starts_at_price": "799",
+    "view_details": "Cold compress for reducing pain and swelling",
+    "description": "Cold compression therapy helps reduce inflammation, swelling, and pain, especially effective after physical exertion or injury.",
+    "image": "https://m.media-amazon.com/images/I/616a8odh8GL._SL1500_.jpg",
+    "category": "Pain Relief Services"
+  },
+  {
+    "title": "Aroma Oil Upgrade",
+    "rating": 4.8,
+    "views_count": 5320,
+    "starts_at_price": "299",
+    "view_details": "Upgrade to premium essential oils for enhanced relaxation",
+    "description": "Enhance your massage experience with high-quality essential oils such as lavender, eucalyptus, or lemongrass for deeper relaxation and skin nourishment.",
+    "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/three-bottles-of-essential-oil-with-frankincense-royalty-free-image-924418326-1558628847.jpg",
+    "category": "Massage Add-Ons"
+  },
+  {
+    "title": "Foot Reflexology Add-on",
+    "rating": 4.7,
+    "views_count": 4860,
+    "starts_at_price": "399",
+    "view_details": "Additional 15 mins of foot pressure therapy",
+    "description": "Targeted foot reflexology session added to your massage to relieve stress, enhance circulation, and restore energy flow.",
+    "image": "https://uniquecliniqueaesthetics.com/wp-content/uploads/2024/01/Foot-Reflexology-Massage.jpg",
+    "category": "Massage Add-Ons"
+  },
+  {
+    "title": "Scalp Massage Add-on",
+    "rating": 4.9,
+    "views_count": 6150,
+    "starts_at_price": "299",
+    "view_details": "10-minute calming scalp massage",
+    "description": "A stress-relieving scalp massage using herbal oil to calm the mind, relieve headaches, and improve sleep quality.",
+    "image": "https://i.ytimg.com/vi/902BOQb8cUY/maxresdefault.jpg",
+    "category": "Massage Add-Ons"
+  },
+  {
+    "title": "Hot Towel Treatment",
+    "rating": 4.6,
+    "views_count": 4720,
+    "starts_at_price": "199",
+    "view_details": "Soothing hot towel application for relaxation",
+    "description": "Enhance your massage with hot towel wraps that help open pores, relax muscles, and provide deep comfort.",
+    "image": "https://img.freepik.com/premium-photo/client-enjoying-hot-towel-treatment_1188475-4074.jpg",
+    "category": "Massage Add-Ons"
+  },
+  {
+    "title": "Head & Neck Relaxation Combo",
+    "rating": 4.8,
+    "views_count": 5890,
+    "starts_at_price": "499",
+    "view_details": "Extra head and neck focus with relaxing strokes",
+    "description": "A 15-minute focused massage for the head and neck to relieve tension from long hours of work or screen time.",
+    "image": "https://i.ytimg.com/vi/3MgQw2I2a8I/maxresdefault.jpg",
+    "category": "Massage Add-Ons"
+  },
+  {
+    "title": "Herbal Compress Therapy",
+    "rating": 4.7,
+    "views_count": 5210,
+    "starts_at_price": "599",
+    "view_details": "Warm herbal pouches for pain and stress relief",
+    "description": "Traditional herbal compress using warm pouches filled with healing herbs to reduce pain, inflammation, and stress.",
+    "image": "http://www.modernthaispa.com/images/main/services/Thai-herbal.jpg",
+    "category": "Massage Add-Ons"
+  }
+]

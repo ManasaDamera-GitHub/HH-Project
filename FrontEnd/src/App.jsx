@@ -11,6 +11,7 @@ import Manicure from "./pages/WomenSalon/Manicure";
 import HairCare from "./pages/WomenSalon/HairCare";
 import Threading from "./pages/WomenSalon/Threading";
 import AllServices from "./pages/WomenSalon/AllServices";
+import AllSpaServices from "./pages/WomenSalon/Spa/AllSpaServices";
 
 export const App = () => {
   return (
@@ -26,6 +27,10 @@ export const App = () => {
           <Route path="/w_salon/cleanup" element={<CleanUp />} />
           <Route path="/salon/threading" element={<Threading />} />
           <Route path="/women-salon/all-services" element={<AllServices />} />
+          <Route
+            path="/women-salon/spa-services"
+            element={<AllSpaServices />}
+          />
         </Routes>
       </div>
     </Router>

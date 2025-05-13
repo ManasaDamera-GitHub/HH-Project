@@ -1,0 +1,302 @@
+[
+  {
+    "title": "Classic Men's Haircut",
+    "rating": 4.8,
+    "views_count": 12450,
+    "starts_at_price": "₹499",
+    "view_details": "Traditional haircut with clean finishing",
+    "description": "A timeless men's haircut tailored to your preferred length and style, with expert finishing for a sharp look.",
+    "image": "https://www.menshairstyletrends.com/wp-content/uploads/2021/01/Medium-length-undercut-for-men-thatkris.jpg",
+    "category": "HairCut"
+  },
+  {
+    "title": "Fade & Taper Cut",
+    "rating": 4.9,
+    "views_count": 13800,
+    "starts_at_price": "₹599",
+    "view_details": "Modern fade or taper styles",
+    "description": "A contemporary haircut featuring skin fade or tapering techniques for a stylish and clean appearance.",
+    "image": "https://i.pinimg.com/originals/09/cf/4f/09cf4f3ec5135da67fb0cdef33a07fd9.jpg",
+    "category": "HairCut"
+  },
+  {
+    "title": "Beard Trim & Shape",
+    "rating": 4.7,
+    "views_count": 9600,
+    "starts_at_price": "₹299",
+    "view_details": "Beard grooming with defined edges",
+    "description": "Professional beard trimming and shaping to suit your face type and style preference.",
+    "image": "https://familyapp.com/wp-content/uploads/2021/07/10-beard-trimming-tips-how-to-groom-your-beard.jpg",
+    "category": "HairCut"
+  },
+  {
+    "title": "Scissor Cut",
+    "rating": 4.6,
+    "views_count": 7800,
+    "starts_at_price": "₹549",
+    "view_details": "Precision cut using scissors",
+    "description": "A refined haircut crafted entirely with scissors for a more natural, tailored finish.",
+    "image": "https://i.ytimg.com/vi/bCT_yUSce-c/maxresdefault.jpg",
+    "category": "HairCut"
+  },
+  {
+    "title": "Buzz Cut",
+    "rating": 4.5,
+    "views_count": 5400,
+    "starts_at_price": "₹399",
+    "view_details": "Simple and neat buzz cut",
+    "description": "A low-maintenance and evenly cropped buzz cut perfect for a clean, minimal look.",
+    "image": "https://www.menshairstyletrends.com/wp-content/uploads/2017/06/ceejayfadez-mid-fade-buzzcut-line-up.jpg",
+    "category": "HairCut"
+  },
+  {
+    "title": "Hair Wash & Style",
+    "rating": 4.7,
+    "views_count": 6900,
+    "starts_at_price": "₹249",
+    "view_details": "Shampoo followed by light styling",
+    "description": "A relaxing hair wash followed by basic styling using premium hair products for a fresh look.",
+    "image": "https://cdn6.dissolve.com/p/D2115_184_530/D2115_184_530_1200.jpg",
+    "category": "HairCut"
+  },
+  {
+    "title": "Undercut Style",
+    "rating": 4.8,
+    "views_count": 8800,
+    "starts_at_price": "₹649",
+    "view_details": "Trendy undercut haircut with style",
+    "description": "A fashionable undercut combined with modern styling for a bold and edgy appearance.",
+    "image": "https://i.pinimg.com/originals/3a/0d/38/3a0d38349a8393ec74d2f7dcf4ddbc5e.jpg",
+    "category": "HairCut"
+  },
+  {
+    "title": "Crew Cut",
+    "rating": 4.6,
+    "views_count": 6100,
+    "starts_at_price": "₹449",
+    "view_details": "Short, military-style crew cut",
+    "description": "A neat and practical haircut with short length on top and tapered sides, ideal for all face types.",
+    "image": "https://baldandbeards.com/wp-content/uploads/crew-cut-with-high-fade.jpg",
+    "category": "HairCut"
+  },
+  {
+    "title": "Senior Stylist Haircut",
+    "rating": 4.9,
+    "views_count": 9900,
+    "starts_at_price": "₹799",
+    "view_details": "Premium haircut by senior stylist",
+    "description": "Get a personalized, stylish haircut from an experienced senior stylist for a polished and refined look.",
+    "image": "https://i.pinimg.com/originals/23/f3/cc/23f3cccbab1e95311ddbf10a8eb1318d.jpg",
+    "category": "HairCut"
+  },
+  {
+    "title": "Kids' Haircut (Boys)",
+    "rating": 4.7,
+    "views_count": 7400,
+    "starts_at_price": "₹399",
+    "view_details": "Fun and friendly haircut for kids",
+    "description": "A child-friendly haircut experience tailored for boys, ensuring comfort and style with expert care.",
+    "image": "https://i.pinimg.com/736x/1e/38/b1/1e38b124cbb6ea44cc6292758d87bb68.jpg",
+    "category": "HairCut"
+  },
+   {
+    "title": "Beard Trim & Shape",
+    "rating": 4.8,
+    "views_count": 11200,
+    "starts_at_price": "₹299",
+    "view_details": "Precision trimming and edge shaping",
+    "description": "Professional beard trim and shaping tailored to your face shape for a clean, defined look.",
+    "image": "https://baldingandbeards.com/wp-content/uploads/2019/04/how-to-trim-and-shape-the-perfect-beard-neckline.jpg",
+    "category": "Beard Styling"
+  },
+  {
+    "title": "Beard Styling with Razor Finish",
+    "rating": 4.7,
+    "views_count": 8900,
+    "starts_at_price": "₹349",
+    "view_details": "Sharp styling with razor-defined lines",
+    "description": "Detailed beard styling with straight razor finish to enhance beard definition and symmetry.",
+    "image": "https://content.latest-hairstyles.com/wp-content/uploads/beard-with-mid-fade.jpg",
+    "category": "Beard Styling"
+  },
+  {
+    "title": "Full Beard Grooming",
+    "rating": 4.9,
+    "views_count": 10400,
+    "starts_at_price": "₹499",
+    "view_details": "Comprehensive beard cleanup and conditioning",
+    "description": "Includes trimming, shaping, and conditioning for a fuller, softer, and more styled beard.",
+    "image": "http://www.anveya.com/cdn/shop/articles/grooming_beard.jpg?v=1626876936",
+    "category": "Beard Styling"
+  },
+  {
+    "title": "Goatee Styling",
+    "rating": 4.6,
+    "views_count": 5400,
+    "starts_at_price": "₹279",
+    "view_details": "Classic or modern goatee shaping",
+    "description": "Goatee beard shaping designed to complement your jawline and facial features.",
+    "image": "https://www.philips.co.uk/c-dam/b2c/male-grooming-experience-center/master/facial-styling/how-to-grow-goatee/how-to-grow-goatee-thumbnail.jpg",
+    "category": "Beard Styling"
+  },
+  {
+    "title": "French Beard Styling",
+    "rating": 4.7,
+    "views_count": 6200,
+    "starts_at_price": "₹299",
+    "view_details": "Defined French beard shaping",
+    "description": "A stylish French beard design with clean edges and contouring for a sleek, modern look.",
+    "image": "https://i.ytimg.com/vi/W8GgfOc2q3g/maxresdefault.jpg",
+    "category": "Beard Styling"
+  },
+  {
+    "title": "Beard Coloring",
+    "rating": 4.5,
+    "views_count": 4300,
+    "starts_at_price": "₹399",
+    "view_details": "Natural or bold beard coloring options",
+    "description": "Add color or cover grays with our safe and natural-looking beard dyeing options.",
+    "image": "https://example.com/images/beard-coloring.jpg",
+    "category": "Beard Styling"
+  },
+  {
+    "title": "Stubble Styling",
+    "rating": 4.8,
+    "views_count": 7300,
+    "starts_at_price": "₹249",
+    "view_details": "Even and neat stubble grooming",
+    "description": "Maintain the perfect stubble look with even trimming and neckline detailing.",
+    "image": "https://example.com/images/stubble-styling.jpg",
+    "category": "Beard Styling"
+  },
+  {
+    "title": "Beard Spa Treatment",
+    "rating": 4.9,
+    "views_count": 8700,
+    "starts_at_price": "₹599",
+    "view_details": "Deep conditioning and beard care",
+    "description": "A rejuvenating spa for your beard, including steam, conditioning, and nourishment for a softer, healthier look.",
+    "image": "https://example.com/images/beard-spa.jpg",
+    "category": "Beard Styling"
+  },
+  {
+    "title": "Beard Fade",
+    "rating": 4.6,
+    "views_count": 6800,
+    "starts_at_price": "₹349",
+    "view_details": "Smooth transition from hair to beard",
+    "description": "A stylish beard fade for a seamless and modern look, blending into your hairstyle.",
+    "image": "https://example.com/images/beard-fade.jpg",
+    "category": "Beard Styling"
+  },
+  {
+    "title": "Mustache Styling",
+    "rating": 4.7,
+    "views_count": 5900,
+    "starts_at_price": "₹199",
+    "view_details": "Trimming and shaping of mustache",
+    "description": "Add character to your face with a well-shaped mustache — from classic to trendy styles.",
+    "image": "https://example.com/images/mustache-styling.jpg",
+    "category": "Beard Styling"
+  },
+  {
+    "title": "Swedish Massage for Men",
+    "rating": 4.8,
+    "views_count": 11300,
+    "starts_at_price": "₹1499",
+    "view_details": "Gentle full-body massage for stress and tension relief",
+    "description": "A relaxing Swedish massage that improves circulation, soothes muscles, and promotes deep stress relief for men.",
+    "image": "https://example.com/images/swedish-massage-men.jpg",
+    "category": "Stress Relief"
+  },
+  {
+    "title": "Aromatherapy Massage for Men",
+    "rating": 4.7,
+    "views_count": 9800,
+    "starts_at_price": "₹1599",
+    "view_details": "Essential oil therapy for deep relaxation",
+    "description": "A calming massage experience using masculine-scented essential oils to reduce mental stress and enhance well-being.",
+    "image": "https://example.com/images/aromatherapy-men.jpg",
+    "category": "Stress Relief"
+  },
+  {
+    "title": "Hot Stone Therapy for Men",
+    "rating": 4.8,
+    "views_count": 8400,
+    "starts_at_price": "₹1799",
+    "view_details": "Heated stone massage to ease tension",
+    "description": "Smooth heated stones placed on key points of the body to melt away stress and relieve deep muscle stiffness.",
+    "image": "https://example.com/images/hot-stone-men.jpg",
+    "category": "Stress Relief"
+  },
+  {
+    "title": "Scalp & Head Massage",
+    "rating": 4.9,
+    "views_count": 9200,
+    "starts_at_price": "₹699",
+    "view_details": "Stress-reducing massage for head and scalp",
+    "description": "A soothing massage to reduce stress, headaches, and promote better sleep with gentle scalp pressure techniques.",
+    "image": "https://example.com/images/scalp-head-men.jpg",
+    "category": "Stress Relief"
+  },
+  {
+    "title": "Back & Shoulder Relaxation",
+    "rating": 4.6,
+    "views_count": 6700,
+    "starts_at_price": "₹999",
+    "view_details": "Targeted massage for back and shoulder stress",
+    "description": "Focused massage to relieve tension in the upper back and shoulders caused by long hours at work or gym.",
+    "image": "https://example.com/images/back-shoulder-men.jpg",
+    "category": "Stress Relief"
+  },
+  {
+    "title": "Foot Reflexology for Men",
+    "rating": 4.7,
+    "views_count": 7400,
+    "starts_at_price": "₹799",
+    "view_details": "Relaxing foot therapy for full-body stress relief",
+    "description": "Pressure applied to specific points on the feet to relieve stress, improve circulation, and boost energy levels.",
+    "image": "https://example.com/images/foot-reflexology-men.jpg",
+    "category": "Stress Relief"
+  },
+  {
+    "title": "Deep Tissue Massage for Men",
+    "rating": 4.9,
+    "views_count": 10100,
+    "starts_at_price": "₹1899",
+    "view_details": "Intense massage for deep muscle stress",
+    "description": "Deep pressure massage to release knots and chronic muscle stress, ideal for active men and gym-goers.",
+    "image": "https://example.com/images/deep-tissue-men.jpg",
+    "category": "Stress Relief"
+  },
+  {
+    "title": "Sound Therapy Session",
+    "rating": 4.8,
+    "views_count": 5600,
+    "starts_at_price": "₹1299",
+    "view_details": "Sound waves for mental relaxation",
+    "description": "Healing sound vibrations to help reduce anxiety, clear mental blocks, and restore inner peace.",
+    "image": "https://example.com/images/sound-therapy-men.jpg",
+    "category": "Stress Relief"
+  },
+  {
+    "title": "Mindfulness Meditation Coaching",
+    "rating": 4.7,
+    "views_count": 6900,
+    "starts_at_price": "₹899",
+    "view_details": "Guided meditation for stress and clarity",
+    "description": "A personalized meditation session that helps calm the mind, focus thoughts, and reduce emotional tension.",
+    "image": "https://example.com/images/mindfulness-meditation-men.jpg",
+    "category": "Stress Relief"
+  },
+  {
+    "title": "Neck & Shoulder Combo Massage",
+    "rating": 4.6,
+    "views_count": 7700,
+    "starts_at_price": "₹899",
+    "view_details": "Tension relief focused on neck and shoulders",
+    "description": "A 20-minute focused massage to release stress held in the neck and shoulders from screen time or poor posture.",
+    "image": "https://example.com/images/neck-shoulder-men.jpg",
+    "category": "Stress Relief"
+  }
+]
