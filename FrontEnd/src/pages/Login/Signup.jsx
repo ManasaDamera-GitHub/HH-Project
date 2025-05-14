@@ -6,7 +6,7 @@ import { RiLockPasswordLine } from "react-icons/ri";
 import { FcGoogle } from "react-icons/fc";
 import { toast, ToastContainer } from "react-toastify";
 import axios from "axios";
-import "../../styles/LoginReg/Login.css"; // Import the CSS file
+import "../../styles/LoginReg/Login.css"; 
 
 export const Signup = () => {
   const [formData, setFormData] = useState({
@@ -63,7 +63,7 @@ export const Signup = () => {
           <div className="signup-brand">
             <img
               className="signup-logo"
-              src="../public/Logo.png"
+              src="/logo.png"
               alt="HearthHand Logo"
             />
             <h5 className="signup-brand-name">HearthHand</h5>

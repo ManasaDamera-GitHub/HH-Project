@@ -1,15 +1,37 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import services from "../../../../Data/womenData/FullData.json";
+// import services from "../../../../Data/womenData/FullData.json";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Navbar";
 
 const CleanUp = () => {
   const [selectedService, setSelectedService] = useState(null);
+  const [services, setServices] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  useEffect(() => {
+    const fetchALL = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const response = await fetch("http://localhost:3000/services");
+        const data = await response.json();
+        // console.log(data);
+        const facialServices = data.filter(
+          (service) => service.category === "Cleanup Services"
+        );
+        setServices(facialServices);
+      } catch (error) {
+        console.log(error, "Data Failed to fetch");
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchALL();
+  }, []);
 
-  const facialServices = services.filter(
-    (service) => service.category === "Cleanup Services"
-  );
+  // if (loading) return <p>Loading Cleanup Services</p>;
+  // if (error) return <p>Error:{error}</p>;
 
   const closeModal = () => setSelectedService(null);
 
@@ -17,8 +39,24 @@ const CleanUp = () => {
     <>
       <Header />
       <div className="container py-5">
+        {loading && (
+          <div className="text-center py-5">
+            <div className="spinner-border text-warning" role="status"></div>
+            <p className="mt-3">Loading services...</p>
+          </div>
+        )}
+        {!loading && error && (
+          <div className="text-center text-danger py-5">
+            <p>{error}</p>
+          </div>
+        )}
+        {!loading && !error && services.length === 0 && (
+          <div className="text-center text-muted py-5">
+            <p>No Cleanup Services found.</p>
+          </div>
+        )}
         <div className="row">
-          {facialServices.map((service) => (
+          {services.map((service) => (
             <div
               key={service.id}
               className="col-12 col-md-6 col-lg-4 mb-4"

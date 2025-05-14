@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import services from "../../../../Data/womenData/FullData.json";
+import React, { useEffect, useState } from "react";
+// import services from "../../../../Data/womenData/FullData.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "../../styles/AllServices.css";
@@ -8,6 +8,21 @@ import Header from "@/components/Navbar";
 const AllServices = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    const fetchALL = async () => {
+      try {
+        const response = await fetch("http://localhost:3000/services");
+        const data = await response.json();
+        // console.log(data);
+        setServices(data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchALL();
+  }, []);
 
   // 🔹 Extract unique categories from data
   const categories = ["All", ...new Set(services.map((s) => s.category))];

@@ -16,4 +16,4 @@ const WomenServiceSchema = new mongoose.Schema({
   category: { type: String },
 });
 
-module.exports = mongoose.model("WomenService", WomenServiceSchema);
+module.exports = mongoose.model("WomenServices", WomenServiceSchema);
