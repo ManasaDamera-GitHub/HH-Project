@@ -1,4 +1,4 @@
-const userModel = require("../Models/UserSchema");
+const userModel = require("../models/UserSchema");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
@@ -14,12 +14,10 @@ exports.SIGNUP = async (req, res) => {
 
     const existingemail = await userModel.findOne({ email });
     if (existingemail) {
-      return res
-        .status(401)
-        .json({
-          message: "user already exists with this email",
-          success: false,
-        });
+      return res.status(401).json({
+        message: "user already exists with this email",
+        success: false,
+      });
     }
 
     const existingUser = await userModel.findOne({ name });

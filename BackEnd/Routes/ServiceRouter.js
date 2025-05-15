@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const WomenService = require("../models/WomenService");
-
+const WomenService = require("../Models/WomenService");
+const WomenSpa = require("../Models/WomenSpa");
 // Correct: function is passed directly to router.get
 router.get("/services", async (req, res) => {
   try {
@@ -12,25 +12,14 @@ router.get("/services", async (req, res) => {
     res.status(500).json({ error: "Failed to fetch services" });
   }
 });
+router.get("/womenSpa", async (req, res) => {
+  try {
+    const data = await WomenSpa.find();
+    res.json(data); // Send the actual data
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Failed to fetch services" });
+  }
+});
 
 module.exports = router;
-
-// const express = require("express");
-// const router = express.Router();
-// const WomenService = require("../models/WomenService");
-
-// // ✅ Get all services
-// router.get("/services", WomenService);
-
-// // ✅ Get services by category (example: /services/category/waxing_services)
-// router.get("/services/category/:name", async (req, res) => {
-//   try {
-//     const category = req.params.name;
-//     const data = await WomenService.find({ category });
-//     res.json(data);
-//   } catch (err) {
-//     res.status(500).json({ error: "Failed to fetch category services" });
-//   }
-// });
-
-// module.exports = router;

@@ -1,14 +1,26 @@
-import React, { useState } from "react";
-import services from "../../../../../Data/womenData/spa/SpaFullData.json";
+import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Navbar";
-// import "../../styles/AllServices.css";
-
+import "../../../styles/AllServices.css";
 
 const AllSpaServices = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    const fetchALLSpa = async () => {
+      try {
+        const response = await fetch("http://localhost:3000/womenSpa");
+        const data = await response.json();
+        setServices(data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchALLSpa();
+  }, []);
 
   const categories = ["All", ...new Set(services.map((s) => s.category))];
 
@@ -21,8 +33,9 @@ const AllSpaServices = () => {
 
   return (
     <>
-    <Header/>
+      <Header />
       <div className="container py-5">
+        {/* Keep original category styling */}
         <div className="mb-4 d-flex flex-wrap gap-2">
           {categories.map((category) => (
             <button
@@ -37,6 +50,7 @@ const AllSpaServices = () => {
           ))}
         </div>
 
+        {/* Service Cards */}
         <div className="row">
           {filteredServices.map((service) => (
             <div
@@ -60,13 +74,14 @@ const AllSpaServices = () => {
                   <p>
                     <strong>₹{service.starts_at_price}</strong>
                   </p>
-                  <span className="badge bg-success">
+                  <span className="text-dark fw-semibold">
                     {service.view_details}
                   </span>
                 </div>
               </div>
             </div>
           ))}
+
           {filteredServices.length === 0 && (
             <div className="col-12">
               <p className="text-muted text-center">
@@ -76,7 +91,7 @@ const AllSpaServices = () => {
           )}
         </div>
 
-        {/* 🔹 Modal */}
+        {/* Responsive Modal */}
         {selectedService && (
           <div
             className="modal d-block"
@@ -101,20 +116,16 @@ const AllSpaServices = () => {
                   <button className="btn-close" onClick={closeModal}></button>
                 </div>
 
-                <div className="modal-body d-flex flex-row-reverse align-items-start gap-4 flex-nowrap">
-                  <div className="flex-shrink-0">
+                <div className="modal-body row">
+                  <div className="col-12 col-md-5 mb-3 mb-md-0 text-center">
                     <img
                       src={selectedService.image}
                       alt={selectedService.title}
                       className="img-fluid rounded"
-                      style={{
-                        width: "280px",
-                        height: "280px",
-                        objectFit: "cover",
-                      }}
+                      style={{ maxHeight: "300px", objectFit: "cover" }}
                     />
                   </div>
-                  <div className="flex-grow-1">
+                  <div className="col-12 col-md-7">
                     <p className="mb-2">{selectedService.description}</p>
                     <p className="mb-2">
                       <i className="bi bi-star-fill text-warning"></i>{" "}
@@ -122,10 +133,8 @@ const AllSpaServices = () => {
                       reviews)
                     </p>
                     <p className="mb-2">
-                      <strong>
-                        <span className="badge bg-success">
-                          {selectedService.view_details}
-                        </span>
+                      <strong className="text-dark">
+                        {selectedService.view_details}
                       </strong>
                     </p>
                     <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">

@@ -29,7 +29,7 @@ function LandingPage() {
         <Repair />
         <SmartLock />
         <M_Salon />
-        <Purifier />
+        {/* <Purifier /> */}
         <HomeRepair />
         <MSB />
       </div>

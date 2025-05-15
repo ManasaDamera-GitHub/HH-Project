@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import { FiSearch, FiShoppingCart, FiUser } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-// import './App.css';
+import "../styles/Header.css"; // Assuming styles are there or moved inline for this update
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedLocation, setSelectedLocation] = useState("Select Location");
-  const [cartItems] = useState(0); // Example with 3 items in cart
+  const [cartItems] = useState(0);
 
   const handleSearch = (e) => {
     e.preventDefault();
-    // Handle search functionality here
     console.log("Searching for:", searchQuery);
   };
 
@@ -24,7 +23,7 @@ const Header = () => {
           </a>
         </div>
 
-        {/* Navigation */}
+        {/* Navigation - Hidden on small screens */}
         <nav className="main-nav">
           <ul>
             <li>
