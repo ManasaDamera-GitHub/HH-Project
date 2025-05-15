@@ -1,15 +1,33 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import services from "../../../../Data/womenData/FullData.json";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Navbar";
 
 const Manicure = () => {
   const [selectedService, setSelectedService] = useState(null);
+  const [services, setServices] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  const manicurePedicureServices = services.filter(
-    (service) => service.category === "Manicure Pedicure Services"
-  );
+  useEffect(() => {
+    const fetchALL = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const response = await fetch("http://localhost:3000/services");
+        const data = await response.json();
+        const manicureServices = data.filter(
+          (service) => service.category === "Manicure Pedicure Services"
+        );
+        setServices(manicureServices);
+      } catch (error) {
+        console.log(error, "Data Failed to fetch");
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchALL();
+  }, []);
 
   const closeModal = () => setSelectedService(null);
 
@@ -17,8 +35,24 @@ const Manicure = () => {
     <>
       <Header />;
       <div className="container py-5">
+        {loading && (
+          <div className="text-center py-5">
+            <div className="spinner-border text-warning" role="status"></div>
+            <p className="mt-3">Loading services...</p>
+          </div>
+        )}
+        {!loading && error && (
+          <div className="text-center text-danger py-5">
+            <p>{error}</p>
+          </div>
+        )}
+        {!loading && !error && services.length === 0 && (
+          <div className="text-center text-muted py-5">
+            <p>No Cleanup Services found.</p>
+          </div>
+        )}
         <div className="row">
-          {manicurePedicureServices.map((service) => (
+          {services.map((service) => (
             <div
               key={service.id}
               className="col-12 col-md-6 col-lg-4 mb-4"

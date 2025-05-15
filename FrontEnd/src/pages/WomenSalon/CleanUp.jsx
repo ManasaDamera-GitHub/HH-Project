@@ -30,9 +30,6 @@ const CleanUp = () => {
     fetchALL();
   }, []);
 
-  // if (loading) return <p>Loading Cleanup Services</p>;
-  // if (error) return <p>Error:{error}</p>;
-
   const closeModal = () => setSelectedService(null);
 
   return (
