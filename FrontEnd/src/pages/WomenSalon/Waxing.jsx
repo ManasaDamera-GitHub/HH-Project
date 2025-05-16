@@ -31,12 +31,6 @@ const Waxing = () => {
     };
     fetchAll();
   }, []);
-
-  // const allowedCategories = [];
-  // const filteredServices = services.filter((service) =>
-  //   allowedCategories.includes(service.category)
-  // );
-
   const closeModal = () => setSelectedService(null);
 
   return (
