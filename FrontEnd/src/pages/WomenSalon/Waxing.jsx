@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import services from "../../../../Data/womenData/FullData.json";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Navbar";
 
@@ -24,18 +23,20 @@ const Waxing = () => {
         );
         setServices(waxingServices);
       } catch (error) {
-        console.log(error, "data failed to fetch");
+        console.error("Failed to fetch data", error);
+        setError("Failed to fetch services");
       } finally {
         setLoading(false);
       }
     };
     fetchAll();
   }, []);
+
   const closeModal = () => setSelectedService(null);
 
   return (
     <>
-      <Header />;
+      <Header />
       <div className="container py-5">
         {loading && (
           <div className="text-center py-5">
@@ -50,9 +51,10 @@ const Waxing = () => {
         )}
         {!loading && !error && services.length === 0 && (
           <div className="text-center text-muted py-5">
-            <p>No Cleanup Services found.</p>
+            <p>No services found.</p>
           </div>
         )}
+
         <div className="row">
           {services.map((service) => (
             <div
@@ -66,7 +68,7 @@ const Waxing = () => {
                   src={service.image}
                   className="card-img-top"
                   alt={service.title}
-                  style={{ height: "280px", width: "100%", objectFit: "cover" }}
+                  style={{ height: "280px", objectFit: "cover" }}
                 />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{service.title}</h5>
@@ -78,66 +80,70 @@ const Waxing = () => {
             </div>
           ))}
         </div>
-        {/* ✅ Modal */}
+
+        {/* ✅ Responsive Modal with Content */}
         {selectedService && (
           <div
             className="modal d-block"
+            tabIndex="-1"
             style={{
               backgroundColor: "rgba(0,0,0,0.6)",
               position: "fixed",
               top: 0,
               left: 0,
-              zIndex: 1050,
               width: "100%",
               height: "100%",
-              overflow: "auto",
+              overflowY: "auto",
+              zIndex: 1050,
             }}
           >
-            <div
-              className="modal-dialog modal-dialog-centered modal-lg"
-              style={{ maxWidth: "700px", margin: "5% auto" }}
-            >
+            <div className="modal-dialog modal-lg modal-dialog-centered">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">{selectedService.title}</h5>
+                  <h5 className="modal-title">
+                    {selectedService.title || "Service"}
+                  </h5>
                   <button className="btn-close" onClick={closeModal}></button>
                 </div>
-
-                {/* ✅ Updated Modal Body with Image on Right and Text on Left */}
-                <div className="modal-body d-flex flex-row-reverse align-items-start gap-4 flex-nowrap">
-                  <div className="flex-shrink-0">
-                    <img
-                      src={selectedService.image}
-                      alt={selectedService.title}
-                      className="img-fluid rounded"
-                      style={{
-                        width: "280px",
-                        height: "280px",
-                        objectFit: "cover",
-                      }}
-                    />
-                  </div>
-                  <div className="flex-grow-1">
-                    <p className="mb-2">{selectedService.description}</p>
-                    <p className="mb-2">
-                      <i className="bi bi-star-fill text-warning"></i>{" "}
-                      {selectedService.rating} ({selectedService.views_count}{" "}
-                      reviews)
-                    </p>
-                    <p className="mb-2">
-                      <strong>
-                        <span className="badge bg-success">
-                          {selectedService.view_details}
-                        </span>
-                      </strong>
-                    </p>
-                    <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
-                      🔖 Starting at{" "}
-                      <strong>₹{selectedService.starts_at_price}</strong>
+                <div className="modal-body">
+                  <div className="row g-4 align-items-center">
+                    <div className="col-md-6">
+                      <img
+                        src={selectedService.image}
+                        alt={selectedService.title}
+                        className="img-fluid rounded shadow"
+                        style={{ objectFit: "cover", maxHeight: "300px" }}
+                      />
+                    </div>
+                    <div className="col-md-6">
+                      <p>{selectedService.description || "No description."}</p>
+                      <p className="text-muted mb-2">
+                        <i className="bi bi-star-fill text-warning"></i>{" "}
+                        {selectedService.rating || "0.0"} (
+                        {selectedService.views_count || "0"} reviews)
+                      </p>
+                      {selectedService.view_details && (
+                        <p>
+                          <span className="badge bg-success">
+                            {selectedService.view_details}
+                          </span>
+                        </p>
+                      )}
+                      <div className="bg-light border p-2 rounded mb-3">
+                        🔖 Starting at{" "}
+                        <strong>₹{selectedService.starts_at_price}</strong>
+                      </div>
                     </div>
                   </div>
                 </div>
-                {/* End Modal Body */}
+                <div className="modal-footer justify-content-between">
+                  {/* <button className="btn btn-secondary" onClick={closeModal}>
+                    Close
+                  </button> */}
+                  <button className="btn btn-primary" onClick={closeModal}>
+                    Add to Cart
+                  </button>
+                </div>
               </div>
             </div>
           </div>

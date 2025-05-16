@@ -20,6 +20,7 @@ import Pedicure from "./pages/MenSalon/Pedicure";
 import HairColor from "./pages/MenSalon/HairColor";
 import Facial from "./pages/MenSalon/Facial";
 import AllMenServices from "./pages/MenSalon/AllMenServices";
+import Cart from "./pages/context/Cart";
 
 export const App = () => {
   return (
@@ -47,6 +48,7 @@ export const App = () => {
           <Route path="/m_salon/haircolor" element={<HairColor />} />
           <Route path="/m_salon/facial" element={<Facial />} />
           <Route path="/men-salon/all-services" element={<AllMenServices />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </div>
     </Router>

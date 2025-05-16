@@ -108,4 +108,206 @@
     justify-content: center;
   }
 }
+.mbs-scroll-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
 
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 16px;
+  padding: 10px 0;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none; /* Firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.scroll-item {
+  flex: 0 0 auto;
+  width: calc(100% / 3 - 12px); /* Default: 3 items per row */
+  scroll-snap-align: start;
+}
+
+/* Responsive widths */
+@media (max-width: 699px) {
+  .scroll-item {
+    width: calc(100% / 2 - 8px); /* 2 items per row */
+  }
+}
+
+@media (max-width: 499px) {
+  .scroll-item {
+    width: 100%; /* 1 item per row */
+  }
+}
+
+/* Scroll Buttons (ALWAYS VISIBLE) */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.scroll-btn.left {
+  left: 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+}
+
+/* Ensure buttons stay visible on all screen sizes */
+@media (max-width: 500px) {
+  .scroll-btn {
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mbs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.mbs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.mbs-scroll-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 16px;
+    padding: 10px 0;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+/* Default: 3 items per row */
+.scroll-item {
+    width: calc(100% / 3 - 12px);
+}
+
+/* 2 items per row below 700px */
+@media (max-width: 699px) {
+    .scroll-item {
+        width: calc(100% / 2 - 8px);
+    }
+}
+
+/* 1 item per row below 450px */
+@media (max-width: 449px) {
+    .scroll-item {
+        width: 100%;
+    }
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+}
+
+/* Scroll Buttons - ALWAYS VISIBLE */
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-btn.left {
+    left: 0;
+}
+
+.scroll-btn.right {
+    right: 0;
+}
+
+/* Adjust button size for smaller screens */
+@media (max-width: 500px) {
+    .scroll-btn {
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+}
+/* Add to your existing CSS */
+.scroll-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.scroll-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
