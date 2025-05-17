@@ -2,12 +2,15 @@ import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Navbar";
+import { useCart } from "../context/CartContext";
+import { toast } from "react-toastify";
 
 const Waxing = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { addToCart, removeFromCart, cartItems } = useCart(); // ✅ fixed missing removeFromCart
 
   useEffect(() => {
     const fetchAll = async () => {
@@ -33,6 +36,18 @@ const Waxing = () => {
   }, []);
 
   const closeModal = () => setSelectedService(null);
+
+  const handleCartToggle = (service) => {
+    const isInCart = cartItems.some((item) => item.title === service.title);
+    if (isInCart) {
+      removeFromCart(service.title);
+      // toast.info("Removed from cart", { toastId: "cart-toast" });
+    } else {
+      addToCart(service);
+      // toast.success("Added to cart", { toastId: "cart-toast" });
+    }
+    closeModal();
+  };
 
   return (
     <>
@@ -81,7 +96,7 @@ const Waxing = () => {
           ))}
         </div>
 
-        {/* ✅ Responsive Modal with Content */}
+        {/* ✅ Modal */}
         {selectedService && (
           <div
             className="modal d-block"
@@ -100,9 +115,7 @@ const Waxing = () => {
             <div className="modal-dialog modal-lg modal-dialog-centered">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">
-                    {selectedService.title || "Service"}
-                  </h5>
+                  <h5 className="modal-title">{selectedService.title}</h5>
                   <button className="btn-close" onClick={closeModal}></button>
                 </div>
                 <div className="modal-body">
@@ -133,16 +146,21 @@ const Waxing = () => {
                         🔖 Starting at{" "}
                         <strong>₹{selectedService.starts_at_price}</strong>
                       </div>
+
+                      <div className="modal-footer justify-content-between">
+                        <button
+                          className="btn btn-primary"
+                          onClick={() => handleCartToggle(selectedService)}
+                        >
+                          {cartItems.some(
+                            (item) => item.title === selectedService.title
+                          )
+                            ? "Remove from Cart"
+                            : "Add to Cart"}
+                        </button>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="modal-footer justify-content-between">
-                  {/* <button className="btn btn-secondary" onClick={closeModal}>
-                    Close
-                  </button> */}
-                  <button className="btn btn-primary" onClick={closeModal}>
-                    Add to Cart
-                  </button>
                 </div>
               </div>
             </div>

@@ -3,11 +3,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "../../styles/AllServices.css";
 import Header from "@/components/Navbar";
+import { useCart } from "../../pages/context/CartContext";
 
 const AllServices = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [services, setServices] = useState([]);
+  const { addToCart } = useCart();
 
   useEffect(() => {
     const fetchALL = async () => {
@@ -28,13 +30,10 @@ const AllServices = () => {
       ? services
       : services.filter((s) => s.category === selectedCategory);
 
-  const closeModal = () => setSelectedService(null);
-
   return (
     <>
       <Header />
       <div className="container py-5">
-        {/* Category Filter Buttons (Preserve styling) */}
         <div className="mb-4 d-flex flex-wrap gap-2">
           {categories.map((category) => (
             <button
@@ -49,7 +48,6 @@ const AllServices = () => {
           ))}
         </div>
 
-        {/* Filtered Service Cards */}
         <div className="row">
           {filteredServices.map((service) => (
             <div
@@ -63,7 +61,7 @@ const AllServices = () => {
                   src={service.image}
                   alt={service.title}
                   className="card-img-top"
-                  style={{ height: "280px", width: "100%", objectFit: "cover" }}
+                  style={{ height: "280px", objectFit: "cover" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">{service.title}</h5>
@@ -90,7 +88,6 @@ const AllServices = () => {
           )}
         </div>
 
-        {/* Responsive Modal */}
         {selectedService && (
           <div
             className="modal d-block"
@@ -102,44 +99,49 @@ const AllServices = () => {
               zIndex: 1050,
               width: "100%",
               height: "100%",
-              overflow: "auto",
             }}
           >
-            <div
-              className="modal-dialog modal-dialog-centered modal-lg"
-              style={{ maxWidth: "700px", margin: "5% auto" }}
-            >
+            <div className="modal-dialog modal-dialog-centered modal-lg">
               <div className="modal-content">
                 <div className="modal-header">
                   <h5 className="modal-title">{selectedService.title}</h5>
-                  <button className="btn-close" onClick={closeModal}></button>
+                  <button
+                    className="btn-close"
+                    onClick={() => setSelectedService(null)}
+                  ></button>
                 </div>
-
                 <div className="modal-body row">
-                  <div className="col-12 col-md-5 mb-3 mb-md-0 text-center">
+                  <div className="col-md-5 text-center mb-3">
                     <img
                       src={selectedService.image}
-                      alt={selectedService.title}
                       className="img-fluid rounded"
+                      alt={selectedService.title}
                       style={{ maxHeight: "300px", objectFit: "cover" }}
                     />
                   </div>
-                  <div className="col-12 col-md-7">
-                    <p className="mb-2">{selectedService.description}</p>
-                    <p className="mb-2">
+                  <div className="col-md-7">
+                    <p>{selectedService.description}</p>
+                    <p>
                       <i className="bi bi-star-fill text-warning"></i>{" "}
                       {selectedService.rating} ({selectedService.views_count}{" "}
                       reviews)
                     </p>
-                    <p className="mb-2">
-                      <strong className="text-dark">
-                        {selectedService.view_details}
-                      </strong>
+                    <p className="fw-semibold">
+                      {selectedService.view_details}
                     </p>
-                    <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
-                      🔖 Starting at{" "}
+                    <div className="bg-warning bg-opacity-25 px-3 py-2 rounded">
+                      Starting at{" "}
                       <strong>₹{selectedService.starts_at_price}</strong>
                     </div>
+                    <button
+                      className="btn btn-primary mt-3"
+                      onClick={() => {
+                        addToCart(selectedService);
+                        setSelectedService(null);
+                      }}
+                    >
+                      <i className="bi bi-cart-plus me-2" /> Add to Cart
+                    </button>
                   </div>
                 </div>
               </div>

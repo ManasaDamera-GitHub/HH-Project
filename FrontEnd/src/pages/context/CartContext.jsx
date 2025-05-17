@@ -1,47 +1,50 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const CartContext = createContext();
 
-export const useCart = () => useContext(CartContext);
-
 export const CartProvider = ({ children }) => {
-  const [cart, setCart] = useState(() => {
+  const [cartItems, setCartItems] = useState(() => {
     const stored = localStorage.getItem("cart");
     return stored ? JSON.parse(stored) : [];
   });
 
   useEffect(() => {
-    localStorage.setItem("cart", JSON.stringify(cart));
-  }, [cart]);
+    localStorage.setItem("cart", JSON.stringify(cartItems));
+  }, [cartItems]);
 
-  const addToCart = (item) => {
-    const exists = cart.find(
-      (i) => i.title.toLowerCase() === item.title.toLowerCase()
-    );
-    if (exists) {
-      toast.info("Item already in cart!");
-      return;
+  const addToCart = (service) => {
+    const exists = cartItems.find((item) => item.title === service.title);
+    if (!exists) {
+      setCartItems([...cartItems, { ...service, quantity: 1 }]);
+      toast.success(`${service.title} added to cart`);
+    } else {
+      toast.info(`${service.title} is already in cart`);
     }
-    setCart([...cart, item]);
-    toast.success("Added to cart!");
   };
 
-  const removeFromCart = (id) => {
-    setCart(cart.filter((item) => item.id !== id));
-    toast.info("Removed from cart");
+  const removeFromCart = (title) => {
+    const removedItem = cartItems.find((item) => item.title === title);
+    setCartItems(cartItems.filter((item) => item.title !== title));
+    toast.warn(`${removedItem?.title} removed from cart`);
   };
 
-  const clearCart = () => {
-    setCart([]);
-    toast.info("Cart cleared");
+  const updateQuantity = (id, quantity) => {
+    setCartItems((prev) =>
+      prev.map((item) =>
+        item.id === id ? { ...item, quantity: Math.max(1, quantity) } : item
+      )
+    );
   };
 
   return (
     <CartContext.Provider
-      value={{ cart, addToCart, removeFromCart, clearCart }}
+      value={{ cartItems, addToCart, removeFromCart, updateQuantity }}
     >
       {children}
     </CartContext.Provider>
   );
 };
+
+export const useCart = () => useContext(CartContext);

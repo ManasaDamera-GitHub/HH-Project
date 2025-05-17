@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { CartProvider } from "./pages/context/CartContext";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import LandingPage from "./LandingPage";
-// import Signup, { Login } from "./pages/Login/Signup";
-// import { Threading } from "./pages/WomenSalon/Threading";
 import { Signup } from "./pages/Login/Signup";
 import Login from "./pages/Login/Login";
-// import CleanUp from "./pages/WomenSalon/CleanUp";
 import Waxing from "./pages/WomenSalon/Waxing";
 import Manicure from "./pages/WomenSalon/Manicure";
 import HairCare from "./pages/WomenSalon/HairCare";
@@ -21,11 +21,13 @@ import HairColor from "./pages/MenSalon/HairColor";
 import Facial from "./pages/MenSalon/Facial";
 import AllMenServices from "./pages/MenSalon/AllMenServices";
 import Cart from "./pages/context/Cart";
+import "./App.css";
 
 export const App = () => {
   return (
-    <Router>
-      <div>
+    <CartProvider>
+      <ToastContainer position="bottom-right" autoClose={3000} style={{ padding: 0 }}/>
+      <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
@@ -50,7 +52,7 @@ export const App = () => {
           <Route path="/men-salon/all-services" element={<AllMenServices />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </CartProvider>
   );
 };

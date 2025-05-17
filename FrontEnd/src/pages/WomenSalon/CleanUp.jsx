@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import services from "../../../../Data/womenData/FullData.json";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Navbar";
+import { useCart } from "../context/CartContext";
+import { toast } from "react-toastify";
 
 const CleanUp = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { addToCart, removeFromCart, cartItems } = useCart();
+
   useEffect(() => {
     const fetchALL = async () => {
       try {
@@ -16,13 +19,13 @@ const CleanUp = () => {
         setError(null);
         const response = await fetch("http://localhost:3000/services");
         const data = await response.json();
-        // console.log(data);
         const facialServices = data.filter(
           (service) => service.category === "Cleanup Services"
         );
         setServices(facialServices);
       } catch (error) {
-        console.log(error, "Data Failed to fetch");
+        console.error("Data fetch failed", error);
+        setError("Failed to fetch services");
       } finally {
         setLoading(false);
       }
@@ -31,6 +34,18 @@ const CleanUp = () => {
   }, []);
 
   const closeModal = () => setSelectedService(null);
+
+  const handleCartToggle = (service) => {
+    const isInCart = cartItems.some((item) => item.title === service.title);
+    if (isInCart) {
+      removeFromCart(service.title);
+      // toast.info("Removed from cart", { toastId: "cart-toast" });
+    } else {
+      addToCart(service);
+      // toast.success("Added to cart", { toastId: "cart-toast" });
+    }
+    closeModal();
+  };
 
   return (
     <>
@@ -52,6 +67,7 @@ const CleanUp = () => {
             <p>No Cleanup Services found.</p>
           </div>
         )}
+
         <div className="row">
           {services.map((service) => (
             <div
@@ -65,11 +81,10 @@ const CleanUp = () => {
                   src={service.image}
                   className="card-img-top"
                   alt={service.title}
-                  style={{ height: "280px", width: "100%", objectFit: "cover" }}
+                  style={{ height: "280px", objectFit: "cover" }}
                 />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{service.title}</h5>
-                  {/* <p className="card-text text-muted">{service.description}</p> */}
                   <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
                     🔖 Starting at <strong>₹{service.starts_at_price}</strong>
                   </div>
@@ -79,7 +94,6 @@ const CleanUp = () => {
           ))}
         </div>
 
-        {/* ✅ Modal */}
         {selectedService && (
           <div
             className="modal d-block"
@@ -96,35 +110,63 @@ const CleanUp = () => {
           >
             <div
               className="modal-dialog modal-dialog-centered modal-lg"
-              style={{ maxWidth: "600px", margin: "5% auto" }}
+              style={{ maxWidth: "700px", margin: "5% auto" }}
             >
               <div className="modal-content">
                 <div className="modal-header">
                   <h5 className="modal-title">{selectedService.title}</h5>
                   <button className="btn-close" onClick={closeModal}></button>
                 </div>
-                <div className="modal-body text-center">
-                  <img
-                    src={selectedService.image}
-                    alt={selectedService.title}
-                    className="img-fluid rounded mb-3"
-                    style={{ maxHeight: "300px", objectFit: "cover" }}
-                  />
-                  <p>{selectedService.description}</p>
 
-                  <p>
-                    <i className="bi bi-star-fill text-warning"></i>{" "}
-                    {selectedService.rating}({selectedService.views_count}
-                    reviews)
-                  </p>
-                  <strong>
-                    <span className="highlight">
-                      {selectedService.view_details}
-                    </span>
-                  </strong>
-                  <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
-                    🔖 Starting at{" "}
-                    <strong>₹{selectedService.starts_at_price}</strong>
+                {/* Two-column layout inside modal-body */}
+                <div className="modal-body">
+                  <div className="row">
+                    {/* Left - Image */}
+                    <div className="col-md-5 text-center">
+                      <img
+                        src={selectedService.image}
+                        alt={selectedService.title}
+                        className="img-fluid rounded"
+                        style={{ maxHeight: "300px", objectFit: "cover" }}
+                      />
+                    </div>
+
+                    {/* Right - Text Info */}
+                    <div className="col-md-7">
+                      <p className="mb-2">
+                        {selectedService.description || "No description."}
+                      </p>
+
+                      <p className="mb-2">
+                        <i className="bi bi-star-fill text-warning"></i>{" "}
+                        {selectedService.rating || "0.0"} (
+                        {selectedService.views_count || "0"} reviews)
+                      </p>
+
+                      {selectedService.view_details && (
+                        <p>
+                          <span className="badge bg-success">
+                            {selectedService.view_details}
+                          </span>
+                        </p>
+                      )}
+                      <div className="my-3 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
+                        🔖 Starting at{" "}
+                        <strong>₹{selectedService.starts_at_price}</strong>
+                      </div>
+                      <div className="modal-footer justify-content-between">
+                        <button
+                          className="btn btn-primary"
+                          onClick={() => handleCartToggle(selectedService)}
+                        >
+                          {cartItems.some(
+                            (item) => item.title === selectedService.title
+                          )
+                            ? "Remove from Cart"
+                            : "Add to Cart"}
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -2,12 +2,15 @@ import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Navbar";
+import { useCart } from "../context/CartContext";
+import { toast } from "react-toastify";
 
 const HairCare = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { cartItems, addToCart, removeFromCart } = useCart();
 
   useEffect(() => {
     const fetchALL = async () => {
@@ -16,13 +19,13 @@ const HairCare = () => {
         setError(null);
         const response = await fetch("http://localhost:3000/services");
         const data = await response.json();
-        // console.log(data);
         const hairServices = data.filter(
           (service) => service.category === "Hair Services"
         );
         setServices(hairServices);
       } catch (error) {
-        console.log(error, "Data Failed to fetch");
+        console.error("Data Failed to fetch", error);
+        setError("Failed to fetch services");
       } finally {
         setLoading(false);
       }
@@ -32,9 +35,21 @@ const HairCare = () => {
 
   const closeModal = () => setSelectedService(null);
 
+  const handleCartToggle = (service) => {
+    const isInCart = cartItems.some((item) => item.title === service.title);
+    if (isInCart) {
+      removeFromCart(service.title);
+      // toast.info("Removed from cart");
+    } else {
+      addToCart(service);
+      // toast.success("Added to cart");
+    }
+    closeModal();
+  };
+
   return (
     <>
-      <Header />;
+      <Header />
       <div className="container py-5">
         {loading && (
           <div className="text-center py-5">
@@ -49,7 +64,7 @@ const HairCare = () => {
         )}
         {!loading && !error && services.length === 0 && (
           <div className="text-center text-muted py-5">
-            <p>No Cleanup Services found.</p>
+            <p>No Hair Care services found.</p>
           </div>
         )}
         <div className="row">
@@ -77,7 +92,8 @@ const HairCare = () => {
             </div>
           ))}
         </div>
-        {/* ✅ Responsive Modal with Content */}
+
+        {/* ✅ Responsive Modal */}
         {selectedService && (
           <div
             className="modal d-block"
@@ -96,9 +112,7 @@ const HairCare = () => {
             <div className="modal-dialog modal-lg modal-dialog-centered">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">
-                    {selectedService.title || "Service"}
-                  </h5>
+                  <h5 className="modal-title">{selectedService.title}</h5>
                   <button className="btn-close" onClick={closeModal}></button>
                 </div>
                 <div className="modal-body">
@@ -129,16 +143,19 @@ const HairCare = () => {
                         🔖 Starting at{" "}
                         <strong>₹{selectedService.starts_at_price}</strong>
                       </div>
+                      <div className="modal-footer justify-content-between"></div>
+                      <button
+                        className="btn btn-primary"
+                        onClick={() => handleCartToggle(selectedService)}
+                      >
+                        {cartItems.some(
+                          (item) => item.title === selectedService.title
+                        )
+                          ? "Remove from Cart"
+                          : "Add to Cart"}
+                      </button>
                     </div>
                   </div>
-                </div>
-                <div className="modal-footer justify-content-between">
-                  {/* <button className="btn btn-secondary" onClick={closeModal}>
-                    Close
-                  </button> */}
-                  <button className="btn btn-primary" onClick={closeModal}>
-                    Add to Cart
-                  </button>
                 </div>
               </div>
             </div>
