@@ -2,12 +2,16 @@ import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Navbar";
+import { useCart } from "../../context/CartContext";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "../../../styles/AllServices.css";
 
 const AllSpaServices = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [services, setServices] = useState([]);
+  const { addToCart, removeFromCart, cartItems } = useCart();
 
   useEffect(() => {
     const fetchALLSpa = async () => {
@@ -31,11 +35,26 @@ const AllSpaServices = () => {
 
   const closeModal = () => setSelectedService(null);
 
+  const handleCartToggle = (service) => {
+    const isInCart = cartItems.some((item) => item.title === service.title);
+    toast.dismiss(); // Clear any existing toasts
+
+    if (isInCart) {
+      removeFromCart(service.title);
+      // toast.info("Removed from cart");
+    } else {
+      addToCart(service);
+      // toast.success("Added to cart");
+    }
+
+    closeModal();
+  };
+
   return (
     <>
       <Header />
       <div className="container py-5">
-        {/* Keep original category styling */}
+        {/* Categories */}
         <div className="mb-4 d-flex flex-wrap gap-2">
           {categories.map((category) => (
             <button
@@ -91,7 +110,7 @@ const AllSpaServices = () => {
           )}
         </div>
 
-        {/* Responsive Modal */}
+        {/* Modal */}
         {selectedService && (
           <div
             className="modal d-block"
@@ -117,7 +136,7 @@ const AllSpaServices = () => {
                 </div>
 
                 <div className="modal-body row">
-                  <div className="col-12 col-md-5 mb-3 mb-md-0 text-center">
+                  <div className="col-12 col-md-5 text-center mb-3 mb-md-0">
                     <img
                       src={selectedService.image}
                       alt={selectedService.title}
@@ -140,6 +159,18 @@ const AllSpaServices = () => {
                     <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
                       🔖 Starting at{" "}
                       <strong>₹{selectedService.starts_at_price}</strong>
+                    </div>
+                    <div className="modal-footer justify-content-start px-0 pt-4">
+                      <button
+                        className="btn btn-primary"
+                        onClick={() => handleCartToggle(selectedService)}
+                      >
+                        {cartItems.some(
+                          (item) => item.title === selectedService.title
+                        )
+                          ? "Remove from Cart"
+                          : "Add to Cart"}
+                      </button>
                     </div>
                   </div>
                 </div>

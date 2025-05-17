@@ -1,0 +1,401 @@
+[
+  {
+    "title": "AC General Service",
+    "rating": 4.7,
+    "views_count": 320,
+    "starts_at_price": "499",
+    "description": "Complete AC cleaning including filter and coil.",
+    "image": "https://webtk.sfastservices.com/blogimg/split-ac-service%20Sfastservices.jpg",
+    "category": "AC"
+  },
+  {
+    "title": "AC Gas Top-Up",
+    "rating": 4.5,
+    "views_count": 215,
+    "starts_at_price": "799",
+    "description": "Recharge AC gas for better cooling.",
+    "image": "https://acservice299.com/wp-content/uploads/2024/02/Ac-Gas-Filling.jpg",
+    "category": "AC"
+  },
+  {
+    "title": "AC Deep Cleaning",
+    "rating": 4.8,
+    "views_count": 190,
+    "starts_at_price": "999",
+    "description": "Deep clean AC components for optimal performance.",
+    "image": "https://www.clapyfy.com/wp-content/uploads/2022/09/IMG_20221227_160227_800_x_500_pixel-1.jpg",
+    "category": "AC"
+  },
+  {
+    "title": "AC Installation",
+    "rating": 4.6,
+    "views_count": 300,
+    "starts_at_price": "1200",
+    "description": "Install window or split AC securely.",
+    "image": "https://mydecorative.com/wp-content/uploads/2022/03/ac-installation.jpg",
+    "category": "AC"
+  },
+  {
+    "title": "AC Uninstallation",
+    "rating": 4.4,
+    "views_count": 160,
+    "starts_at_price": "499",
+    "description": "Safe removal of AC unit.",
+    "image": "https://servicetigers.com/wp-content/uploads/2024/01/9.jpg",
+    "category": "AC"
+  },
+
+  {
+    "title": "AC Cooling Issue Inspection",
+    "rating": 4.5,
+    "views_count": 140,
+    "starts_at_price": "299",
+    "description": "Check and report causes of poor cooling.",
+    "image": "https://miro.medium.com/v2/resize:fit:1358/1*MXrcndt5LBw_4cTkTYACXQ.jpeg",
+    "category": "AC"
+  },
+  {
+    "title": "Washing Machine Drum Cleaning",
+    "rating": 4.6,
+    "views_count": 180,
+    "starts_at_price": "399",
+    "description": "Remove odor and scale from drum.",
+    "image": "https://i.ytimg.com/vi/Kqxk_u41CEI/maxresdefault.jpg",
+    "category": "Washing Machine"
+  },
+  {
+    "title": "Washing Machine Installation",
+    "rating": 4.4,
+    "views_count": 150,
+    "starts_at_price": "499",
+    "description": "Install front or top load machine.",
+    "image": "https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-install-a-washing-machine-step-1.jpg",
+    "category": "Washing Machine"
+  },
+  {
+    "title": "Washing Machine Repair",
+    "rating": 4.5,
+    "views_count": 220,
+    "starts_at_price": "349",
+    "description": "Fix common washing machine issues.",
+    "image": "https://www.smartappliance.co.za/wp-content/uploads/image_carousel_thumbs/washing-machine-technician--pupey3939yf6c0a16jq1bplc67juoyg8ao0k5bzkby.jpg",
+    "category": "Washing Machine"
+  },
+  {
+    "title": "Water Inlet Valve Replacement",
+    "rating": 4.3,
+    "views_count": 100,
+    "starts_at_price": "399",
+    "description": "Replace faulty water inlet valves.",
+    "image": "https://wallpaperaccess.com/full/7150852.jpg",
+    "category": "Washing Machine"
+  },
+  {
+    "title": "Washer Drainage Issue Fix",
+    "rating": 4.2,
+    "views_count": 130,
+    "starts_at_price": "299",
+    "description": "Fix slow or blocked drainage in washer.",
+    "image": "https://tooldigest.com/wp-content/uploads/2021/04/man-connecting-drain-hose-to-washing-machine-768x667.jpg",
+    "category": "Washing Machine"
+  },
+  {
+    "title": "Washing Machine Motor Replacement",
+    "rating": 4.6,
+    "views_count": 115,
+    "starts_at_price": "999",
+    "description": "Replace faulty or noisy motor.",
+    "image": "https://res.cloudinary.com/liaison-inc/image/upload/c_fill,f_auto,q_auto/services/homeguide/backgrounds/washing-machine-repair-or-maintenance.jpg",
+    "category": "Washing Machine"
+  },
+  {
+    "title": "Control Panel Repair",
+    "rating": 4.4,
+    "views_count": 105,
+    "starts_at_price": "499",
+    "description": "Fix broken buttons or display on control panel.",
+    "image": "https://ueeshop.ly200-cdn.com/u_file/UPAK/UPAK937/2212/photo/e378f44fd9.jpg",
+    "category": "Washing Machine"
+  },
+  {
+    "title": "Washing Machine Noise Issue Fix",
+    "rating": 4.5,
+    "views_count": 95,
+    "starts_at_price": "299",
+    "description": "Inspect and fix excessive machine noise.",
+    "image": "https://weekendbuilds.com/wp-content/uploads/Washing-machine-making-loud-noise.jpg",
+    "category": "Washing Machine"
+  }
+  ,
+  {
+    "title": "TV Wall Mounting",
+    "rating": 4.7,
+    "views_count": 280,
+    "starts_at_price": "499",
+    "description": "Secure wall mounting of LED/LCD TVs.",
+    "image": "https://cdn.mos.cms.futurecdn.net/zR7eVCa3x7HS2iki7j2uf3.jpg",
+    "category": "TV"
+  },
+  {
+    "title": "TV Screen Replacement",
+    "rating": 4.5,
+    "views_count": 190,
+    "starts_at_price": "1499",
+    "description": "Replace cracked or non-working screens.",
+    "image": "https://www.findmyfixes.com/wp-content/uploads/2023/06/TV_Screen_Repair_Cost_1341046488.jpg",
+    "category": "TV"
+  },
+  {
+    "title": "TV No Power Issue",
+    "rating": 4.4,
+    "views_count": 130,
+    "starts_at_price": "399",
+    "description": "Diagnose and fix TV not powering on.",
+    "image": "https://png.pngtree.com/thumb_back/fh260/background/20230306/pngtree-professional-repair-engineer-repairing-broken-tv-photo-image_1830698.jpg",
+    "category": "TV"
+  },
+  {
+    "title": "TV Remote Sensor Repair",
+    "rating": 4.3,
+    "views_count": 85,
+    "starts_at_price": "299",
+    "description": "Fix issues with remote signal reception.",
+    "image": "https://cdn.mos.cms.futurecdn.net/chdRXnwnNQTmg9Ax4EvmBb-1200-80.jpg",
+    "category": "TV"
+  },
+  {
+    "title": "TV Sound Not Working",
+    "rating": 4.2,
+    "views_count": 110,
+    "starts_at_price": "349",
+    "description": "Diagnose and fix sound output issues.",
+    "image": "https://images.ctfassets.net/16nm6vz43ids/5A6mzJUl6ar6H0W8K6WJyr/2fd542648789b6067f794ca595f60f34/Fix_TV_no_sound.jpg",
+    "category": "TV"
+  },
+  {
+    "title": "TV Board Repair",
+    "rating": 4.6,
+    "views_count": 200,
+    "starts_at_price": "699",
+    "description": "Repair or replace TV motherboard.",
+    "image": "https://www.checkatrade.com/blog/wp-content/uploads/2020/08/Featured-tv-screen-repair-cost.jpg",
+    "category": "TV"
+  },
+  {
+    "title": "TV Port Repair (HDMI/USB)",
+    "rating": 4.3,
+    "views_count": 90,
+    "starts_at_price": "349",
+    "description": "Repair damaged HDMI or USB ports.",
+    "image": "https://cdn.mos.cms.futurecdn.net/M6wpigPg8B3SFCraY5WwNT.jpg",
+    "category": "TV"
+  },
+  {
+    "title": "Laptop Screen Replacement",
+    "rating": 4.8,
+    "views_count": 310,
+    "starts_at_price": "1299",
+    "description": "Fix broken or flickering laptop displays.",
+    "image": "https://content.instructables.com/ORIG/FB0/35IM/JH0TNHTG/FB035IMJH0TNHTG.jpg?frame=1",
+    "category": "Laptop"
+  },
+  {
+    "title": "Laptop Battery Replacement",
+    "rating": 4.6,
+    "views_count": 220,
+    "starts_at_price": "899",
+    "description": "Replace old or swollen laptop batteries.",
+    "image": "https://www.budgetpcupgraderepair.com/wp-content/uploads/2023/04/laptop-hp-bk03xl-rechargable-battery-1.webp",
+    "category": "Laptop"
+  },
+  {
+    "title": "Laptop Not Powering On",
+    "rating": 4.4,
+    "views_count": 150,
+    "starts_at_price": "499",
+    "description": "Diagnose and repair boot issues.",
+    "image": "https://i.ytimg.com/vi/CGc_o9FFoss/maxresdefault.jpg",
+    "category": "Laptop"
+  },
+  {
+    "title": "Laptop Keyboard Replacement",
+    "rating": 4.5,
+    "views_count": 175,
+    "starts_at_price": "699",
+    "description": "Replace non-working or damaged keyboards.",
+    "image": "https://i1.wp.com/keyboardkings.com/wp-content/uploads/2020/02/How-to-Replace-a-Laptop-Keyboard.jpg",
+    "category": "Laptop"
+  },
+  {
+    "title": "Laptop Overheating Fix",
+    "rating": 4.3,
+    "views_count": 160,
+    "starts_at_price": "499",
+    "description": "Clean fans and apply thermal paste.",
+    "image": "https://www.mobiblip.com/wp-content/uploads/2024/05/How-to-Fix-and-Prevent-Laptop-Overheating.jpg",
+    "category": "Laptop"
+  },
+  {
+    "title": "Laptop Hinge Repair",
+    "rating": 4.2,
+    "views_count": 125,
+    "starts_at_price": "549",
+    "description": "Fix loose or broken screen hinges.",
+    "image": "http://innovativecomputersolutions.in/wp-content/uploads/2018/03/laptop-body-repair.jpg",
+    "category": "Laptop"
+  },
+  {
+    "title": "Laptop RAM Upgrade",
+    "rating": 4.6,
+    "views_count": 190,
+    "starts_at_price": "599",
+    "description": "Upgrade RAM for better performance.",
+    "image": "https://rog.asus.com/media/1631665973696.jpg",
+    "category": "Laptop"
+  },
+  {
+    "title": "Laptop Formatting & OS Installation",
+    "rating": 4.7,
+    "views_count": 210,
+    "starts_at_price": "499",
+    "description": "Fresh OS install and system formatting.",
+    "image": "http://www.pixelstalk.net/wp-content/uploads/2016/05/Hd-Laptop-wallpapers.jpg",
+    "category": "Laptop"
+  }
+,
+  {
+    "title": "Air Cooler General Service",
+    "rating": 4.5,
+    "views_count": 150,
+    "starts_at_price": "299",
+    "description": "Complete internal and external cleaning of air cooler.",
+    "image": "https://homechunk.com/wp-content/uploads/2021/06/Types-of-Air-Coolers-Offered-by-Crompton-in-India.jpg",
+    "category": "Air Cooler"
+  },
+  {
+    "title": "Air Cooler Water Pump Replacement",
+    "rating": 4.3,
+    "views_count": 90,
+    "starts_at_price": "399",
+    "description": "Replace faulty or non-working water pump.",
+    "image": "https://i.ytimg.com/vi/S_XfiMvQkc4/maxresdefault.jpg",
+    "category": "Air Cooler"
+  },
+  {
+    "title": "Air Cooler Motor Repair",
+    "rating": 4.4,
+    "views_count": 110,
+    "starts_at_price": "499",
+    "description": "Repair or replace damaged motor.",
+    "image": "https://i.ytimg.com/vi/wRDFPM7h4Hg/maxresdefault.jpg",
+    "category": "Air Cooler"
+  },
+  {
+    "title": "Air Cooler Cooling Pad Replacement",
+    "rating": 4.6,
+    "views_count": 125,
+    "starts_at_price": "349",
+    "description": "Replace worn out or broken cooling pads.",
+    "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/238ed6e9-fb6e-4fda-994f-1d13bebab746.__CR0,0,970,600_PT0_SX970_V1___.png",
+    "category": "Air Cooler"
+  },
+  {
+    "title": "Air Cooler Not Cooling Issue",
+    "rating": 4.2,
+    "views_count": 80,
+    "starts_at_price": "299",
+    "description": "Fix no cooling or low air flow problems.",
+    "image": "https://i.ytimg.com/vi/kHFcla37Cc8/maxresdefault.jpg",
+    "category": "Air Cooler"
+  },
+  {
+    "title": "Air Cooler Installation",
+    "rating": 4.3,
+    "views_count": 70,
+    "starts_at_price": "399",
+    "description": "Wall or window installation of cooler.",
+    "image": "https://www.familyhandyman.com/wp-content/uploads/2021/06/evaporative-cooler-717nUql0tJL._AC_SL1125_.jpg?w=1200",
+    "category": "Air Cooler"
+  },
+  {
+    "title": "Air Cooler Wiring Check",
+    "rating": 4.1,
+    "views_count": 60,
+    "starts_at_price": "249",
+    "description": "Check and fix internal wiring and connections.",
+    "image": "https://fundamental.in/wp-content/uploads/2021/04/ice_cube_27_2.jpg",
+    "category": "Air Cooler"
+  },
+  {
+    "title": "Geyser Installation",
+    "rating": 4.8,
+    "views_count": 210,
+    "starts_at_price": "599",
+    "description": "Wall-mounted geyser installation with inlet/outlet setup.",
+    "image": "https://i.ytimg.com/vi/rrXnzZKgkqI/maxresdefault.jpg",
+    "category": "Geyser"
+  },
+  {
+    "title": "Geyser Heating Issue Fix",
+    "rating": 4.5,
+    "views_count": 150,
+    "starts_at_price": "349",
+    "description": "Repair geysers that do not heat or heat slowly.",
+    "image": "https://www.daberistic.com/uploads/3/9/8/1/3981899/geyser_orig.jpg",
+    "category": "Geyser"
+  },
+  {
+    "title": "Geyser Thermostat Replacement",
+    "rating": 4.4,
+    "views_count": 120,
+    "starts_at_price": "499",
+    "description": "Replace faulty thermostat to restore temperature control.",
+    "image": "https://i.ytimg.com/vi/BVo-MJiWw-g/maxresdefault.jpg",
+    "category": "Geyser"
+  },
+  {
+    "title": "Geyser Element Replacement",
+    "rating": 4.6,
+    "views_count": 130,
+    "starts_at_price": "599",
+    "description": "Replace burnt or broken heating element.",
+    "image": "https://i.ytimg.com/vi/P5TXdnRb2oo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&amp;rs=AOn4CLDazj1pgyKokaroA9KY-aorZf3b2w",
+    "category": "Geyser"
+  },
+  {
+    "title": "Geyser Leakage Fix",
+    "rating": 4.2,
+    "views_count": 95,
+    "starts_at_price": "349",
+    "description": "Fix water leakage from geyser tank or pipe.",
+    "image": "https://abelectrical.co.za/wp-content/uploads/2020/10/geyser-repair-min-980x654.jpg",
+    "category": "Geyser"
+  },
+  {
+    "title": "Geyser Noise Issue",
+    "rating": 4.0,
+    "views_count": 70,
+    "starts_at_price": "299",
+    "description": "Diagnose and eliminate abnormal geyser sounds.",
+    "image": "https://omsaimaintenance.com/images/services/Geyser-Repair-1.jpg",
+    "category": "Geyser"
+  },
+  {
+    "title": "Geyser Service (Descaling & Cleaning)",
+    "rating": 4.7,
+    "views_count": 180,
+    "starts_at_price": "399",
+    "description": "Remove limescale and clean internal parts.",
+    "image": "https://i.pinimg.com/236x/29/60/71/296071beaa4548250845275a602fd7bf.jpg",
+    "category": "Geyser"
+  },
+  {
+    "title": "Geyser Power Issue",
+    "rating": 4.1,
+    "views_count": 85,
+    "starts_at_price": "299",
+    "description": "Fix geysers not powering on or tripping.",
+    "image": "https://www.electrical4u.net/wp-content/uploads/2020/09/Geyser-power-consumption.png",
+    "category": "Geyser"
+  }
+]
