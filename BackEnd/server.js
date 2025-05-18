@@ -5,6 +5,7 @@ const port = 3000 || 5000;
 const UserRoutes = require("./Routes/AuthRouter");
 const ServiceRoutes = require("./Routes/ServiceRouter");
 const MenServiceRoutes = require("./Routes/MenServiceRouter");
+const ACServiceRoutes = require("./Routes/ACServiceRouter");
 // const connectDB = require("./Config/db");
 // const dotenv = require("dotenv");
 // dotenv.config();
@@ -23,6 +24,7 @@ mongoose
 app.use("/", UserRoutes);
 app.use("/", ServiceRoutes);
 app.use("/", MenServiceRoutes);
+app.use("/", ACServiceRoutes);
 
 app.listen(port, () => {
   // connectDB();

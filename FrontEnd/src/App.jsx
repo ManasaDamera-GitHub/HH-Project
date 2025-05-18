@@ -22,11 +22,16 @@ import Facial from "./pages/MenSalon/Facial";
 import AllMenServices from "./pages/MenSalon/AllMenServices";
 import Cart from "./pages/context/Cart";
 import "./App.css";
+import ACAppliances from "./pages/Ac/AC&Appliance";
 
 export const App = () => {
   return (
     <CartProvider>
-      <ToastContainer position="bottom-right" autoClose={3000} style={{ padding: 0 }}/>
+      <ToastContainer
+        position="bottom-right"
+        autoClose={3000}
+        style={{ padding: 0 }}
+      />
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -51,6 +56,7 @@ export const App = () => {
           <Route path="/m_salon/facial" element={<Facial />} />
           <Route path="/men-salon/all-services" element={<AllMenServices />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/ac" element={<ACAppliances />} />
         </Routes>
       </Router>
     </CartProvider>

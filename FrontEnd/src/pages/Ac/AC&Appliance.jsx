@@ -7,17 +7,16 @@ import { useCart } from "../../pages/context/CartContext";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const AllMenServices = () => {
+const ACAppliances = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [services, setServices] = useState([]);
-
-  const { cartItems, addToCart, removeFromCart } = useCart();
+  const { addToCart, removeFromCart, cartItems } = useCart();
 
   useEffect(() => {
     const fetchALL = async () => {
       try {
-        const response = await fetch("http://localhost:3000/menservices");
+        const response = await fetch("http://localhost:3000/acservices");
         const data = await response.json();
         setServices(data);
       } catch (error) {
@@ -33,26 +32,25 @@ const AllMenServices = () => {
       ? services
       : services.filter((s) => s.category === selectedCategory);
 
-  const isInCart = (title) => cartItems.some((item) => item.title === title);
-
   const handleCartAction = (service) => {
-    if (isInCart(service.title)) {
+    const isInCart = cartItems.some((item) => item.title === service.title);
+    if (isInCart) {
       removeFromCart(service.title);
-      // toast.info("Removed from cart");
+      //   toast.info("Removed from cart");
     } else {
       addToCart(service);
-      // toast.success("Added to cart");
+      //   toast.success("Added to cart");
     }
     setSelectedService(null);
   };
 
-  const closeModal = () => setSelectedService(null);
+  const isInCart = (title) => cartItems.some((item) => item.title === title);
 
   return (
     <>
       <Header />
       <div className="container py-5">
-        {/* Category Filter Buttons */}
+        {/* Categories */}
         <div className="mb-4 d-flex flex-wrap gap-2">
           {categories.map((category) => (
             <button
@@ -67,7 +65,7 @@ const AllMenServices = () => {
           ))}
         </div>
 
-        {/* Filtered Service Cards */}
+        {/* Service Cards */}
         <div className="row">
           {filteredServices.map((service) => (
             <div
@@ -81,7 +79,7 @@ const AllMenServices = () => {
                   src={service.image}
                   alt={service.title}
                   className="card-img-top"
-                  style={{ height: "280px", width: "100%", objectFit: "cover" }}
+                  style={{ height: "280px", objectFit: "cover" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">{service.title}</h5>
@@ -120,63 +118,55 @@ const AllMenServices = () => {
               zIndex: 1050,
               width: "100%",
               height: "100%",
-              overflow: "auto",
             }}
           >
-            <div
-              className="modal-dialog modal-dialog-centered modal-lg"
-              style={{ maxWidth: "700px", margin: "5% auto" }}
-            >
+            <div className="modal-dialog modal-dialog-centered modal-lg">
               <div className="modal-content">
                 <div className="modal-header">
                   <h5 className="modal-title">{selectedService.title}</h5>
-                  <button className="btn-close" onClick={closeModal}></button>
+                  <button
+                    className="btn-close"
+                    onClick={() => setSelectedService(null)}
+                  ></button>
                 </div>
-
                 <div className="modal-body row">
-                  <div className="col-12 col-md-5 mb-3 mb-md-0 text-center">
+                  <div className="col-md-5 text-center mb-3">
                     <img
                       src={selectedService.image}
-                      alt={selectedService.title}
                       className="img-fluid rounded"
+                      alt={selectedService.title}
                       style={{ maxHeight: "300px", objectFit: "cover" }}
                     />
                   </div>
-                  <div className="col-12 col-md-7">
-                    <p className="mb-2">{selectedService.description}</p>
-                    <p className="mb-2">
+                  <div className="col-md-7">
+                    <p>{selectedService.description}</p>
+                    <p>
                       <i className="bi bi-star-fill text-warning"></i>{" "}
                       {selectedService.rating} ({selectedService.views_count}{" "}
                       reviews)
                     </p>
-                    <p className="mb-2 fw-semibold">
+                    <p className="fw-semibold">
                       {selectedService.view_details}
                     </p>
-                    <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
-                      🔖 Starting at{" "}
+                    <div className="bg-warning bg-opacity-25 px-3 py-2 rounded">
+                      Starting at{" "}
                       <strong>₹{selectedService.starts_at_price}</strong>
                     </div>
-                    <div>
-                      <button
-                        className={`btn mt-3 ${
+                    <button
+                      className="btn btn-primary mt-3"
+                      onClick={() => handleCartAction(selectedService)}
+                    >
+                      <i
+                        className={`bi me-2 ${
                           isInCart(selectedService.title)
-                            ? "btn-danger"
-                            : "btn-primary"
+                            ? "bi-cart-dash"
+                            : "bi-cart-plus"
                         }`}
-                        onClick={() => handleCartAction(selectedService)}
-                      >
-                        <i
-                          className={`bi me-2 ${
-                            isInCart(selectedService.title)
-                              ? "bi-cart-dash"
-                              : "bi-cart-plus"
-                          }`}
-                        />
-                        {isInCart(selectedService.title)
-                          ? "Remove from Cart"
-                          : "Add to Cart"}
-                      </button>
-                    </div>
+                      />
+                      {isInCart(selectedService.title)
+                        ? "Remove from Cart"
+                        : "Add to Cart"}
+                    </button>
                   </div>
                 </div>
               </div>
@@ -188,4 +178,4 @@ const AllMenServices = () => {
   );
 };
 
-export default AllMenServices;
+export default ACAppliances;

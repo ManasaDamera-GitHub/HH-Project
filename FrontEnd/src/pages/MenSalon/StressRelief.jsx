@@ -2,12 +2,17 @@ import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Navbar";
+import { useCart } from "../../pages/context/CartContext";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const StressRelief = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  const { cartItems, addToCart, removeFromCart } = useCart();
 
   useEffect(() => {
     const fetchAll = async () => {
@@ -16,7 +21,6 @@ const StressRelief = () => {
         setError(null);
         const response = await fetch("http://localhost:3000/menservices");
         const data = await response.json();
-        console.log(data);
         const StressReliefServices = data.filter(
           (service) => service.category === "Stress Relief"
         );
@@ -32,6 +36,19 @@ const StressRelief = () => {
   }, []);
 
   const closeModal = () => setSelectedService(null);
+
+  const isInCart = (title) => cartItems.some((item) => item.title === title);
+
+  const handleCartAction = (service) => {
+    if (isInCart(service.title)) {
+      removeFromCart(service.title);
+      // toast.info("Removed from cart");
+    } else {
+      addToCart(service);
+      // toast.success("Added to cart");
+    }
+    setSelectedService(null);
+  };
 
   return (
     <>
@@ -131,6 +148,27 @@ const StressRelief = () => {
                     <div className="mt-2 px-3 py-2 rounded bg-warning bg-opacity-25 d-inline-block">
                       🔖 Starting at{" "}
                       <strong>₹{selectedService.starts_at_price}</strong>
+                    </div>
+                    <div>
+                      <button
+                        className={`btn mt-3 ${
+                          isInCart(selectedService.title)
+                            ? "btn-danger"
+                            : "btn-primary"
+                        }`}
+                        onClick={() => handleCartAction(selectedService)}
+                      >
+                        <i
+                          className={`bi me-2 ${
+                            isInCart(selectedService.title)
+                              ? "bi-cart-dash"
+                              : "bi-cart-plus"
+                          }`}
+                        />
+                        {isInCart(selectedService.title)
+                          ? "Remove from Cart"
+                          : "Add to Cart"}
+                      </button>
                     </div>
                   </div>
                 </div>

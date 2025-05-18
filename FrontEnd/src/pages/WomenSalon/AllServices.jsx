@@ -4,12 +4,14 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "../../styles/AllServices.css";
 import Header from "@/components/Navbar";
 import { useCart } from "../../pages/context/CartContext";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const AllServices = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [services, setServices] = useState([]);
-  const { addToCart } = useCart();
+  const { addToCart, removeFromCart, cartItems } = useCart();
 
   useEffect(() => {
     const fetchALL = async () => {
@@ -30,10 +32,25 @@ const AllServices = () => {
       ? services
       : services.filter((s) => s.category === selectedCategory);
 
+  const handleCartAction = (service) => {
+    const isInCart = cartItems.some((item) => item.title === service.title);
+    if (isInCart) {
+      removeFromCart(service.title);
+      // toast.info("Removed from cart");
+    } else {
+      addToCart(service);
+      // toast.success("Added to cart");
+    }
+    setSelectedService(null);
+  };
+
+  const isInCart = (title) => cartItems.some((item) => item.title === title);
+
   return (
     <>
       <Header />
       <div className="container py-5">
+        {/* Categories */}
         <div className="mb-4 d-flex flex-wrap gap-2">
           {categories.map((category) => (
             <button
@@ -48,6 +65,7 @@ const AllServices = () => {
           ))}
         </div>
 
+        {/* Service Cards */}
         <div className="row">
           {filteredServices.map((service) => (
             <div
@@ -88,6 +106,7 @@ const AllServices = () => {
           )}
         </div>
 
+        {/* Modal */}
         {selectedService && (
           <div
             className="modal d-block"
@@ -135,12 +154,18 @@ const AllServices = () => {
                     </div>
                     <button
                       className="btn btn-primary mt-3"
-                      onClick={() => {
-                        addToCart(selectedService);
-                        setSelectedService(null);
-                      }}
+                      onClick={() => handleCartAction(selectedService)}
                     >
-                      <i className="bi bi-cart-plus me-2" /> Add to Cart
+                      <i
+                        className={`bi me-2 ${
+                          isInCart(selectedService.title)
+                            ? "bi-cart-dash"
+                            : "bi-cart-plus"
+                        }`}
+                      />
+                      {isInCart(selectedService.title)
+                        ? "Remove from Cart"
+                        : "Add to Cart"}
                     </button>
                   </div>
                 </div>
