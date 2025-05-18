@@ -36,10 +36,10 @@ const ACAppliances = () => {
     const isInCart = cartItems.some((item) => item.title === service.title);
     if (isInCart) {
       removeFromCart(service.title);
-      //   toast.info("Removed from cart");
+      // toast.info("Removed from cart");
     } else {
       addToCart(service);
-      //   toast.success("Added to cart");
+      // toast.success("Added to cart");
     }
     setSelectedService(null);
   };
@@ -118,6 +118,7 @@ const ACAppliances = () => {
               zIndex: 1050,
               width: "100%",
               height: "100%",
+              overflowY: "auto",
             }}
           >
             <div className="modal-dialog modal-dialog-centered modal-lg">
@@ -129,31 +130,26 @@ const ACAppliances = () => {
                     onClick={() => setSelectedService(null)}
                   ></button>
                 </div>
-                <div className="modal-body row">
-                  <div className="col-md-5 text-center mb-3">
+
+                <div className="modal-body d-flex flex-wrap  ">
+                  {/* Left side: Image + Price + Button */}
+                  <div className="d-flex flex-column align-items-center col-md-5 mb-3 ">
                     <img
                       src={selectedService.image}
-                      className="img-fluid rounded"
+                      className="img-fluid rounded mb-3"
                       alt={selectedService.title}
-                      style={{ maxHeight: "300px", objectFit: "cover" }}
+                      style={{
+                        maxHeight: "300px",
+                        objectFit: "cover",
+                        width: "100%",
+                      }}
                     />
-                  </div>
-                  <div className="col-md-7">
-                    <p>{selectedService.description}</p>
-                    <p>
-                      <i className="bi bi-star-fill text-warning"></i>{" "}
-                      {selectedService.rating} ({selectedService.views_count}{" "}
-                      reviews)
-                    </p>
-                    <p className="fw-semibold">
-                      {selectedService.view_details}
-                    </p>
-                    <div className="bg-warning bg-opacity-25 px-3 py-2 rounded">
+                    <div className="bg-warning bg-opacity-25 px-3 py-2 rounded w-100 text-center mb-2 ">
                       Starting at{" "}
                       <strong>₹{selectedService.starts_at_price}</strong>
                     </div>
                     <button
-                      className="btn btn-primary mt-3"
+                      className="btn btn-primary w-100"
                       onClick={() => handleCartAction(selectedService)}
                     >
                       <i
@@ -167,6 +163,32 @@ const ACAppliances = () => {
                         ? "Remove from Cart"
                         : "Add to Cart"}
                     </button>
+                  </div>
+
+                  {/* Right side: Text details */}
+
+                  <div className="col-md-7 ml-5">
+                    <p>{selectedService.description}</p>
+                    <p>
+                      <b>
+                        <i className="bi bi-star-fill text-warning"></i>{" "}
+                        {selectedService.rating} ({selectedService.views_count}{" "}
+                        reviews)
+                      </b>
+                    </p>
+                    <p className="fw-semibold">
+                      {selectedService.view_details}
+                    </p>
+
+                    {/* Our Process Section */}
+                    <div>
+                      <h5 className="fw-semibold">Our Process</h5>
+                      <ul className="ps-3">
+                        {selectedService.process.map((step, index) => (
+                          <li key={index}>{step}</li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
