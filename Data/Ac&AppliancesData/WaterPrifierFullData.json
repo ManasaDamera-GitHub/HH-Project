@@ -1,0 +1,152 @@
+[
+  {
+    "title": "RO Water Purifier Installation",
+    "rating": 4.7,
+    "views_count": 250,
+    "starts_at_price": "499",
+    "description": "Expert installation of Reverse Osmosis (RO) water purifiers with plumbing support.",
+    "image": "https://example.com/images/ro-installation.jpg",
+    "category": "Installation",
+    "process": [
+      "Inspection of installation area and water source",
+      "Mounting and connecting the RO unit to plumbing",
+      "Power connection and leak test",
+      "Final demonstration and setup verification"
+    ]
+  },
+  {
+    "title": "RO Purifier General Service",
+    "rating": 4.6,
+    "views_count": 320,
+    "starts_at_price": "349",
+    "description": "Routine maintenance including cleaning, pressure check, and functionality test.",
+    "image": "https://example.com/images/ro-general-service.jpg",
+    "category": "Maintenance",
+    "process": [
+      "Initial system inspection and pre-service check",
+      "Cleaning of filters and outer body",
+      "Check water flow and pressure",
+      "Post-service test run"
+    ]
+  },
+  {
+    "title": "Filter Cartridge Replacement",
+    "rating": 4.8,
+    "views_count": 410,
+    "starts_at_price": "599",
+    "description": "Replacement of pre-filter, sediment, and carbon cartridges for all purifier models.",
+    "image": "https://example.com/images/filter-replacement.jpg",
+    "category": "Repair",
+    "process": [
+      "Examine used filter cartridges",
+      "Remove and replace with new cartridges",
+      "Flush the system for proper flow",
+      "Performance test post replacement"
+    ]
+  },
+  {
+    "title": "UV Water Purifier Repair",
+    "rating": 4.5,
+    "views_count": 180,
+    "starts_at_price": "299",
+    "description": "Repair services for UV purifiers, including bulb replacement and leak fixes.",
+    "image": "https://example.com/images/uv-repair.jpg",
+    "category": "Repair",
+    "process": [
+      "Inspect the UV bulb and electrical board",
+      "Replace faulty parts or wires",
+      "Seal any leakage points",
+      "Test UV purification functionality"
+    ]
+  },
+  {
+    "title": "Annual Maintenance Contract (AMC)",
+    "rating": 4.9,
+    "views_count": 540,
+    "starts_at_price": "1499",
+    "description": "Yearly service contract with 3 free visits and priority support.",
+    "image": "https://example.com/images/amc.jpg",
+    "category": "Subscription",
+    "process": [
+      "Initial purifier health assessment",
+      "Quarterly checkups and filter replacements",
+      "Emergency support visits",
+      "Annual report and renewal suggestions"
+    ]
+  },
+  {
+    "title": "Water Purifier Uninstallation",
+    "rating": 4.3,
+    "views_count": 145,
+    "starts_at_price": "199",
+    "description": "Safe and careful removal of water purifiers for relocation or replacement.",
+    "image": "https://example.com/images/uninstall.jpg",
+    "category": "Uninstallation",
+    "process": [
+      "Power and water supply disconnection",
+      "Careful detachment of unit from wall or base",
+      "Drainage and packing of purifier",
+      "Area cleaning post-removal"
+    ]
+  },
+  {
+    "title": "Water Quality Test",
+    "rating": 4.4,
+    "views_count": 210,
+    "starts_at_price": "149",
+    "description": "Testing of water TDS and quality levels to ensure purifier performance.",
+    "image": "https://example.com/images/water-test.jpg",
+    "category": "Inspection",
+    "process": [
+      "Sample collection and TDS testing",
+      "Check filter clogging or failure",
+      "Provide water health report",
+      "Suggest service if needed"
+    ]
+  },
+  {
+    "title": "RO Membrane Replacement",
+    "rating": 4.6,
+    "views_count": 275,
+    "starts_at_price": "899",
+    "description": "High-quality membrane replacement to restore purification efficiency.",
+    "image": "https://example.com/images/membrane-replacement.jpg",
+    "category": "Repair",
+    "process": [
+      "Diagnose water output drop",
+      "Remove and replace RO membrane",
+      "Flush and test TDS levels",
+      "Verify membrane seal and leaks"
+    ]
+  },
+  {
+    "title": "Leakage Repair Service",
+    "rating": 4.2,
+    "views_count": 165,
+    "starts_at_price": "299",
+    "description": "Fix pipe and filter leaks in all types of water purifiers.",
+    "image": "https://example.com/images/leakage-repair.jpg",
+    "category": "Repair",
+    "process": [
+      "Identify leak source",
+      "Replace cracked pipes or connectors",
+      "Tighten and seal joints",
+      "Pressure test after repair"
+    ]
+  },
+  {
+    "title": "Water Purifier Relocation",
+    "rating": 4.5,
+    "views_count": 200,
+    "starts_at_price": "599",
+    "description": "Full-service purifier shifting with disassembly, transport, and reinstallation.",
+    "image": "https://example.com/images/relocation.jpg",
+    "category": "Relocation",
+    "process": [
+      "Uninstall from existing setup",
+      "Pack and transport safely",
+      "Install at new location",
+      "Reconnect plumbing and test"
+    ]
+  }
+]

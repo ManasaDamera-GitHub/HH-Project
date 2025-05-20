@@ -1,0 +1,1430 @@
+[{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2219"
+  },
+  "title": "Full Body Waxing (Rica)",
+  "rating": 4.8,
+  "views_count": 15230,
+  "starts_at_price": "899",
+  "view_details": "Includes arms, legs, underarms, stomach, back",
+  "description": "Get smooth and soft skin with Rica wax for the full body. Ideal for all skin types, especially sensitive skin.",
+  "image": "https://media.istockphoto.com/id/859532642/photo/hispanic-young-woman-getting-ready-for-depilation-wax.jpg?s=612x612&w=0&k=20&c=Bt-clVg92vFy0UJ5iGYqN0AzFpvc0O-shh0AAapN-nI=",
+  "category": "Waxing "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a221a"
+  },
+  "title": "Half Legs Waxing (Honey)",
+  "rating": 4.6,
+  "views_count": 8740,
+  "starts_at_price": "249",
+  "view_details": "Covers from knee to ankle",
+  "description": "Affordable and quick leg waxing using natural honey wax for a clean finish.",
+  "image": "https://media.istockphoto.com/id/591420746/photo/beautician-waxing-womans-leg-at-salon.jpg?s=612x612&w=0&k=20&c=K09Csa66YtdHBtQPzb-hd_w87xKjFtSu-bt1GItAg90=",
+  "category": "Waxing "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a221b"
+  },
+  "title": "Underarms Waxing (Rica)",
+  "rating": 4.9,
+  "views_count": 11320,
+  "starts_at_price": "149",
+  "view_details": "Gentle wax application for underarms",
+  "description": "Removes hair effectively with minimal pain and prevents ingrown hair.",
+  "image": "https://media.istockphoto.com/id/928192438/photo/ive-found-my-new-favourite-deodorant.jpg?s=612x612&w=0&k=20&c=Eqbs9ajTB6svh0DzGKHNAhJFmzpIxBitasJwTlitWbE=",
+  "category": "Waxing "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a221c"
+  },
+  "title": "Full Arms Waxing (Honey)",
+  "rating": 4.7,
+  "views_count": 9600,
+  "starts_at_price": "299",
+  "view_details": "Shoulder to fingertips",
+  "description": "Classic honey wax for soft and hair-free arms. Great for normal skin types.",
+  "image": "https://www.aestheticsurgerycenter.com/wp-content/uploads/2023/10/arm-lift-recovery-00-1-scaled.jpg",
+  "category": "Waxing "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a221d"
+  },
+  "title": "Bikini Line Waxing (Rica)",
+  "rating": 4.5,
+  "views_count": 6350,
+  "starts_at_price": "499",
+  "view_details": "Covers bikini line only, not Brazilian",
+  "description": "Delicate area waxing using Rica wax to ensure gentle care and hygiene.",
+  "image": "https://media.istockphoto.com/id/2198828080/photo/part-of-a-semi-naked-female-body.jpg?s=612x612&w=0&k=20&c=3gWNg7C3UgXKYAKjMLjB-zRbXnHwOz0JSYtBN6BGrMQ=",
+  "category": "Waxing "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a221e"
+  },
+  "title": "Face Waxing (Rica)",
+  "rating": 4.6,
+  "views_count": 5210,
+  "starts_at_price": "349",
+  "view_details": "Forehead, upper lips, cheeks, chin",
+  "description": "Suitable for facial skin, removes fine hair and gives a smooth texture using Rica wax.",
+  "image": "https://www.artemedica.com/wp-content/uploads/2014/05/Facial-Waxing-e1420480171351.jpg",
+  "category": "Waxing "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a221f"
+  },
+  "title": "Full Legs + Arms Combo (Rica)",
+  "rating": 4.8,
+  "views_count": 12800,
+  "starts_at_price": "699",
+  "view_details": "Full arms and full legs waxing combo",
+  "description": "Time-saving combo with Rica wax to get smooth, hair-free limbs at once.",
+  "image": "https://simplyclinics.co.uk/wp-content/uploads/2021/04/therapist-waxing-womans-back-at-spa-center.jpg",
+  "category": "Waxing "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2220"
+  },
+  "title": "Classic Cleanup",
+  "rating": 4.6,
+  "views_count": 7380,
+  "starts_at_price": "499",
+  "view_details": "Basic cleanup with scrubbing, steaming, and pack",
+  "description": "Removes dirt and blackheads for a fresh look. Ideal for quick maintenance between facials.",
+  "image": "https://media.istockphoto.com/id/1344963248/photo/studio-shot-of-an-attractive-young-woman-posing-against-a-grey-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=kQSgmSeGGT0yns_IfarePeN8h-PEBR2XkrQj8_ne1kA=",
+  "category": "Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2221"
+  },
+  "title": "De-Tan Facial",
+  "rating": 4.7,
+  "views_count": 8920,
+  "starts_at_price": "799",
+  "view_details": "Tan removal treatment with brightening ingredients",
+  "description": "Lightens sun tan, evens out skin tone and restores natural glow with fruit-based products.",
+  "image": "https://media.istockphoto.com/id/1440458000/photo/young-girl-with-hands-near-skin-face.jpg?b=1&s=612x612&w=0&k=20&c=b5lxiZ0hLZuwAdEdBzkOSAOLTrvGDoHZ1n5NV0PClsk=",
+  "category": "Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2222"
+  },
+  "title": "Gold Facial",
+  "rating": 4.8,
+  "views_count": 10550,
+  "starts_at_price": "999",
+  "view_details": "Gold-infused facial for glow and rejuvenation",
+  "description": "Enriched with 24K gold extracts, this facial enhances skin radiance and reduces fine lines.",
+  "image": "https://media.istockphoto.com/id/1783773683/photo/skincare-beauty-photo-of-woman-with-clean-healthy-skin-touching-her-face.jpg?s=612x612&w=0&k=20&c=a3WXq4iO-OIzd4WopLP3S10WriYPOWZuqBZkOeepHUc=",
+  "category": "Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2223"
+  },
+  "title": "Pearl Facial",
+  "rating": 4.6,
+  "views_count": 8210,
+  "starts_at_price": "949",
+  "view_details": "Brightening treatment with pearl extracts",
+  "description": "Improves complexion and reduces pigmentation for a luminous and even-toned skin.",
+  "image": "https://media.istockphoto.com/id/1391905869/photo/portrait-of-beauty-caucasian-woman-with-fair-perfect-healthy-glow-skin-facial-isolated-on.jpg?s=612x612&w=0&k=20&c=qjxjZwiT6Pbi54cgLVvhQV2cMxeZTpmZYCtL0Q9FQkc=",
+  "category": "Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2224"
+  },
+  "title": "Fruit Facial",
+  "rating": 4.5,
+  "views_count": 6780,
+  "starts_at_price": "699",
+  "view_details": "Natural fruit-based facial for sensitive skin",
+  "description": "Gentle and nourishing facial that revitalizes skin with the power of natural fruit extracts.",
+  "image": "https://media.istockphoto.com/id/1137092300/photo/woman-receiving-facial-treatment-at-beauty-salon-exfoliation.jpg?s=612x612&w=0&k=20&c=ylLsWxM_hGSg2NZgoRAX70Em581Sgo8lFKsGCu--LAU=",
+  "category": "Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2225"
+  },
+  "title": "Anti-Aging Facial",
+  "rating": 4.7,
+  "views_count": 7640,
+  "starts_at_price": "1199",
+  "view_details": "Advanced facial targeting wrinkles and sagging skin",
+  "description": "Stimulates collagen production and firms skin for a youthful and lifted appearance.",
+  "image": "https://www.aestheticsurgerycenter.com/wp-content/uploads/2023/10/arm-lift-recovery-00-1-scaled.jpg",
+  "category": "Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2226"
+  },
+  "title": "Skin Whitening Facial",
+  "rating": 4.6,
+  "views_count": 8540,
+  "starts_at_price": "1099",
+  "view_details": "Brightening and depigmentation treatment",
+  "description": "Reduces blemishes and pigmentation while improving skin clarity and radiance.",
+  "image": "https://media.istockphoto.com/id/451301073/photo/this-is-going-to-be-a-deep-cleanse.jpg?s=612x612&w=0&k=20&c=BuzK5nzpubSt_inu8nfsgwNrbj6sRvIG_2Gq2pJVhvA=",
+  "category": "Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2227"
+  },
+  "title": "Ayurvedic Glow Facial",
+  "rating": 4.8,
+  "views_count": 7430,
+  "starts_at_price": "999",
+  "view_details": "Uses herbal oils and Ubtan for a radiant glow",
+  "description": "A rejuvenating facial that revives dull skin using natural Ayurvedic herbs like turmeric and sandalwood.",
+  "image": "https://media.istockphoto.com/id/1323450792/photo/beauty-woman-on-background.jpg?s=612x612&w=0&k=20&c=YDw57DWyj1uZYfmiPqjF_np4qCHGdV9cHD3bfxd9azw=",
+  "category": "Ayurvedic Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2228"
+  },
+  "title": "Neem & Tulsi Purifying Facial",
+  "rating": 4.7,
+  "views_count": 6820,
+  "starts_at_price": "899",
+  "view_details": "Ideal for acne-prone and oily skin",
+  "description": "Detoxifies skin and prevents breakouts with the anti-bacterial power of neem and tulsi extracts.",
+  "image": "https://media.istockphoto.com/id/977758618/photo/beautiful-relaxed-woman-having-green-clay-face-mask.jpg?s=612x612&w=0&k=20&c=lb3xp6RXB_7LvzVJbgl04gJj7rC6c5EyUDtoogvYVUU=",
+  "category": "Ayurvedic Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2229"
+  },
+  "title": "Kumkumadi Radiance Facial",
+  "rating": 4.9,
+  "views_count": 9110,
+  "starts_at_price": "1299",
+  "view_details": "Includes kumkumadi tailam for brightening",
+  "description": "Premium Ayurvedic facial with saffron-infused oil that enhances glow, reduces pigmentation, and rejuvenates tired skin.",
+  "image": "https://media.istockphoto.com/id/1567181917/photo/hair-care-beauty-and-portrait-of-woman-with-long-straight-hairstyle-and-luxury-salon.jpg?s=612x612&w=0&k=20&c=IxjFBIGp596-FWvqSxHTEQHFUwMLvHGvOxhKLdJJUXU=",
+  "category": "Ayurvedic Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a222a"
+  },
+  "title": "Sandalwood Cooling Facial",
+  "rating": 4.6,
+  "views_count": 5620,
+  "starts_at_price": "849",
+  "view_details": "Soothing treatment for sensitive and irritated skin",
+  "description": "Calms inflammation and redness using pure sandalwood paste and herbal tonics.",
+  "image": "https://media.istockphoto.com/id/959796338/photo/applying-clay-mask.jpg?s=612x612&w=0&k=20&c=4OBjKmqcx4oWAKz1dkv8B3rpL9lk7IWRliZclhZVpEY=",
+  "category": "Ayurvedic Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a222b"
+  },
+  "title": "Multani Mitti Detox Facial",
+  "rating": 4.5,
+  "views_count": 5100,
+  "starts_at_price": "799",
+  "view_details": "Deep cleansing with Fuller’s Earth and rosewater",
+  "description": "Removes impurities, tightens pores, and leaves skin soft and matte. Best for oily and combination skin.",
+  "image": "https://media.istockphoto.com/id/1092159872/photo/beautiful-happy-woman-in-the-spa-making-face-mask-treatment-selective-focus.jpg?s=612x612&w=0&k=20&c=xw448Q69egEVUe1mTZYDkWrw9HML7trAta_iFIk2QEs=",
+  "category": "Ayurvedic Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a222c"
+  },
+  "title": "Basic Cleanup",
+  "rating": 4.6,
+  "views_count": 6840,
+  "starts_at_price": "399",
+  "view_details": "Includes cleansing, scrubbing, steaming, and pack",
+  "description": "Removes surface impurities and dead skin, giving your face a clean and fresh look.",
+  "image": "https://media.istockphoto.com/id/464768622/photo/cleaning-face-with-cotton-pads.jpg?s=612x612&w=0&k=20&c=gNkFaDp91eFfyh91ZL6P2yW59KzfSck7K0pV2GyscoI=",
+  "category": "Cleanup Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a222d"
+  },
+  "title": "De-Tan Cleanup",
+  "rating": 4.7,
+  "views_count": 7520,
+  "starts_at_price": "499",
+  "view_details": "With de-tanning scrub and face pack",
+  "description": "Helps lighten sun tan and improves skin tone using fruit-based de-tanning products.",
+  "image": "https://media.istockphoto.com/id/1290733089/photo/portrait-of-a-young-woman-with-a-beautiful-smile-stock-photo.jpg?s=612x612&w=0&k=20&c=74lUafXhFI5ok63xsM3sMLOBIDjmvFFmjhWjg6SGgow=",
+  "category": "Cleanup Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a222e"
+  },
+  "title": "Fruit Cleanup",
+  "rating": 4.5,
+  "views_count": 6120,
+  "starts_at_price": "449",
+  "view_details": "Mild fruit-based treatment for glow",
+  "description": "Gentle treatment suitable for sensitive skin, nourishes with natural fruit enzymes for a radiant finish.",
+  "image": "https://media.istockphoto.com/id/187575431/photo/pretty-woman-holding-an-avocado-over-her-clay-facial-mask.jpg?s=612x612&w=0&k=20&c=D2EbMuQvhaIiLJhn7scykhL6MzLYbd1LV6rteBRMNhI=",
+  "category": "Cleanup Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a222f"
+  },
+  "title": "Herbal Cleanup",
+  "rating": 4.6,
+  "views_count": 5780,
+  "starts_at_price": "479",
+  "view_details": "Uses herbal products and steam therapy",
+  "description": "A soothing cleanup using herbal formulations that calm the skin and improve clarity.",
+  "image": "https://media.istockphoto.com/id/1954931332/photo/professional-skincare-treatment.jpg?s=612x612&w=0&k=20&c=5i9Xpn_Yc4uOTmEgIvoiP1vqCq9BlbMX8yMMVjjqFpc=",
+  "category": "Cleanup Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2230"
+  },
+  "title": "Anti-Pollution Cleanup",
+  "rating": 4.8,
+  "views_count": 7030,
+  "starts_at_price": "549",
+  "view_details": "Charcoal-based deep cleansing",
+  "description": "Removes blackheads, pollutants, and toxins from the skin, leaving it fresh and detoxed.",
+  "image": "https://media.istockphoto.com/id/2169302069/photo/beautiful-happy-young-woman-removing-facial-mask-from-her-face-skin-care-and-treatment-spa.jpg?s=612x612&w=0&k=20&c=QdKsAaYi1gkvglqLPos0uyUsrjfvmIhoPAcnbUloi_8=",
+  "category": "Cleanup Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2231"
+  },
+  "title": "Haircut & Styling",
+  "rating": 4.7,
+  "views_count": 12530,
+  "starts_at_price": "499",
+  "view_details": "Includes cut, style, and blow dry",
+  "description": "Get a stylish and trendy haircut along with a blow dry to add volume and shine to your hair.",
+  "image": "https://media.istockphoto.com/id/1462016186/photo/womans-back-beauty-salon-image.jpg?s=612x612&w=0&k=20&c=xB0sXqc0sP39S7uW6yD90nGxAG1Hv23lsdjtaJeWVYw=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2232"
+  },
+  "title": "Hair Spa",
+  "rating": 4.8,
+  "views_count": 10450,
+  "starts_at_price": "799",
+  "view_details": "Deep conditioning and hair nourishment",
+  "description": "Revitalize your hair with a luxurious hair spa treatment that hydrates and strengthens dry, damaged hair.",
+  "image": "https://media.istockphoto.com/id/1509172946/photo/young-vietnamese-girl-is-washing-hair-in-spa.jpg?s=612x612&w=0&k=20&c=B4ILXxXOzYXNtPPITMdrj8JdjC16Qf-D7-yPhOdQV3A=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2233"
+  },
+  "title": "Keratin Treatment",
+  "rating": 4.9,
+  "views_count": 9340,
+  "starts_at_price": "1999",
+  "view_details": "Frizz control and smoothening",
+  "description": "A hair treatment that makes your hair smooth, shiny, and frizz-free for long-lasting results.",
+  "image": "https://media.istockphoto.com/id/1196374239/photo/hairdresser-applies-a-hair-mask-to-the-woman-in-the-beauty-salon-botox-and-keratin-hair.jpg?s=2048x2048&w=is&k=20&c=2pmGcitlAsOguURCYzA3jDf5vnhHBN2nWA6V_2XrhcM=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2234"
+  },
+  "title": "Root Touch Up",
+  "rating": 4.6,
+  "views_count": 7650,
+  "starts_at_price": "799",
+  "view_details": "Cover grey hair with hair color",
+  "description": "A quick and efficient service to cover greys and restore your natural hair color.",
+  "image": "https://media.istockphoto.com/id/2157995154/photo/mesotherapy-for-scalp-hair-in-cosmetology-clinic-mesotherapy-injection-process-to-improve.jpg?s=612x612&w=0&k=20&c=7lRt2pzDt3hLrqx_A-0riiOjbpnW3A62eSeaIOmoDzs=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2235"
+  },
+  "title": "Hair Color",
+  "rating": 4.7,
+  "views_count": 10500,
+  "starts_at_price": "1299",
+  "view_details": "Full color treatment for hair",
+  "description": "Transform your hair with a vibrant and long-lasting hair color that suits your personality.",
+  "image": "https://media.istockphoto.com/id/452040465/photo/foil-highlights.jpg?s=612x612&w=0&k=20&c=xrMAvy7VFUMvADoOa7U8Jbv612DTvs-2Y7spGFVTMVA=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2236"
+  },
+  "title": "Blow Dry",
+  "rating": 4.5,
+  "views_count": 8320,
+  "starts_at_price": "399",
+  "view_details": "Quick blow dry for styling",
+  "description": "Perfect for a special event or daily styling, this service gives your hair the volume and shine it needs.",
+  "image": "https://media.istockphoto.com/id/1299844933/photo/woman-drying-hair.jpg?s=612x612&w=0&k=20&c=LPDn-X2NqgBavSUO4Xizl5Tv5PgeeL-I08RUzbJ6TPQ=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2237"
+  },
+  "title": "Hair Straightening",
+  "rating": 4.8,
+  "views_count": 9400,
+  "starts_at_price": "1499",
+  "view_details": "Permanent hair straightening treatment",
+  "description": "Say goodbye to frizzy hair with a long-lasting hair straightening treatment.",
+  "image": "https://media.istockphoto.com/id/851008048/photo/woman-at-the-hair-salon-getting-her-hair-styled.jpg?s=612x612&w=0&k=20&c=6cvglMeYxWMvueCkASbQfJ4zoVBu7obniB7rkdwyLj8=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2238"
+  },
+  "title": "Haircut - Women's Trendy",
+  "rating": 4.7,
+  "views_count": 980,
+  "starts_at_price": 499,
+  "view_details": "Styling, trimming, blow dry",
+  "description": "Get a stylish new look with precision cutting, personalized to suit your face shape and hair type.",
+  "image": "https://media.istockphoto.com/id/920578612/photo/portrait-of-beautiful-bride-in-wedding-dress.jpg?s=612x612&w=0&k=20&c=DIGrYJo-p22iu43RjcFqGli1CHM4lJJ2xAHjxf8fZ40=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2239"
+  },
+  "title": "Layered Haircut",
+  "rating": 4.6,
+  "views_count": 690,
+  "starts_at_price": 549,
+  "view_details": "Face-framing layers with blow dry",
+  "description": "Add volume and movement to your hair with a stylish layered cut tailored to your face shape.",
+  "image": "https://media.istockphoto.com/id/1678703867/photo/beautiful-young-woman-getting-her-hair-cut.jpg?s=612x612&w=0&k=20&c=vHdN2g7pIrLuw3MLaQQZgd8vESkZhBwkxDaiql16Wlw=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a223a"
+  },
+  "title": "Cysteine Hair Treatment",
+  "rating": 4.8,
+  "views_count": 1045,
+  "starts_at_price": 2799,
+  "view_details": "Smooth, soft, chemical-free shine",
+  "description": "A protein-rich treatment that naturally smooths and nourishes your hair without harsh chemicals.",
+  "image": "https://media.istockphoto.com/id/1299311764/photo/hair-stylist-applying-keratin-on-her-clients-hair.jpg?s=612x612&w=0&k=20&c=fek4jzXxlxlmfGCYOs9LW4enf8xI2Kkl3lPv1a6PWTE=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a223b"
+  },
+  "title": "Hair Botox Therapy",
+  "rating": 4.7,
+  "views_count": 810,
+  "starts_at_price": 2299,
+  "view_details": "Frizz repair, shine restoration",
+  "description": "Revive dull, frizzy hair with a deep-penetrating Hair Botox treatment that restores shine and softness.",
+  "image": "https://media.istockphoto.com/id/1475623995/photo/cosmetologist-does-injections-therapy-against-hair-loss-and-anti-dandruff-of-a-beautiful.jpg?s=612x612&w=0&k=20&c=eDgg6nMHYImHTP0GFgF8qdYyZ9AB2sFNYhz9u5SbtNA=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a223c"
+  },
+  "title": "Hair Wash & Blow Dry",
+  "rating": 4.5,
+  "views_count": 560,
+  "starts_at_price": 299,
+  "view_details": "Gentle shampoo, conditioner, styling",
+  "description": "Quick hair refresh with a professional wash and salon-style blow dry that lasts for days.",
+  "image": "https://media.istockphoto.com/id/516981844/photo/hairdresser-washing-hair.jpg?s=612x612&w=0&k=20&c=U4DecDt3Vplgu7BVXMCeSC0cprGexeePIFMR2iZtxjo=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a223d"
+  },
+  "title": "Olaplex Repair Session",
+  "rating": 4.8,
+  "views_count": 920,
+  "starts_at_price": 1599,
+  "view_details": "Bond repair, damage control",
+  "description": "Strengthen your hair at the molecular level with a salon-grade Olaplex repair session.",
+  "image": "https://media.istockphoto.com/id/1446899473/photo/male-hairdresser-applying-drug-to-womans-hair.jpg?s=612x612&w=0&k=20&c=9bmKkwTfb9h5NWKLMLUNU7dZ9XMx1vGLmvyUmed9s_U=",
+  "category": "Hair Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a223e"
+  },
+  "title": "Korean Glass Skin Facial",
+  "rating": 4.9,
+  "views_count": 10250,
+  "starts_at_price": "1499",
+  "view_details": "Hydrating and glow-boosting treatment for radiant skin",
+  "description": "A luxurious 9-step Korean facial that deeply hydrates, evens skin tone, and gives a luminous glass-skin finish.",
+  "image": "https://media.istockphoto.com/id/1444792339/photo/young-asian-woman-in-white-bathrobe-and-towel-holding-half-of-coconut-and-making-homemade.jpg?s=612x612&w=0&k=20&c=YQi9h8XKVKXRUxIYtejt6tKEV10Zm-kP3a-kgfXup-E=",
+  "category": "Korean Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a223f"
+  },
+  "title": "Korean Anti-Aging Facial",
+  "rating": 4.8,
+  "views_count": 8760,
+  "starts_at_price": "1599",
+  "view_details": "Firming treatment with collagen boost and massage",
+  "description": "An advanced facial using Korean products that targets fine lines, boosts collagen, and tightens the skin naturally.",
+  "image": "https://media.istockphoto.com/id/1368514694/photo/portrait-beautiful-young-asian-women-in-bathrobe-with-holding-cucumber-slice-for-facial-face.jpg?s=612x612&w=0&k=20&c=rivcGf3Lb8k7rfBOC34lQkqTDGmFGLTjASLl0APaYgw=",
+  "category": "Korean Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2240"
+  },
+  "title": "Korean Acne Clearing Facial",
+  "rating": 4.7,
+  "views_count": 9450,
+  "starts_at_price": "1399",
+  "view_details": "Deep pore cleansing and oil-control facial",
+  "description": "A targeted Korean treatment to reduce acne, calm inflammation, and cleanse clogged pores with gentle exfoliation.",
+  "image": "https://media.istockphoto.com/id/1444794436/photo/portrait-of-beautiful-young-asian-woman-in-towel-and-bathrobe-removing-green-cosmetic-mask.jpg?s=612x612&w=0&k=20&c=t3PbJGKgF9r1rW48_2MaooanHFcWJylYCQ5AI8yKzmE=",
+  "category": "Korean Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2241"
+  },
+  "title": "Korean Brightening Facial",
+  "rating": 4.6,
+  "views_count": 7980,
+  "starts_at_price": "1299",
+  "view_details": "Vitamin C and niacinamide-based facial",
+  "description": "Brightens dull skin and improves skin clarity using high-end Korean serums and massage techniques.",
+  "image": "https://media.istockphoto.com/id/1317947940/photo/beautiful-woman.jpg?s=612x612&w=0&k=20&c=BAlmIKO8g-y7_rZiGZ9gnBqvCrn6AMlKWh7NxECJKSw=",
+  "category": "Korean Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2242"
+  },
+  "title": "Korean Hydration Boost Facial",
+  "rating": 4.8,
+  "views_count": 8675,
+  "starts_at_price": "1399",
+  "view_details": "Hyaluronic acid-rich facial for dry skin",
+  "description": "Deep moisturizing Korean facial ideal for dry and flaky skin—leaves skin plump, dewy, and refreshed.",
+  "image": "https://media.istockphoto.com/id/2190025770/photo/beautiful-young-woman-sweating-at-the-spa.jpg?s=612x612&w=0&k=20&c=JCOIGMON-YdL4vPTNvyULyibq9K0v7B1rnxBkiK7Xgk=",
+  "category": "Korean Facial "
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2243"
+  },
+  "title": "Classic Manicure",
+  "rating": 4.7,
+  "views_count": 9800,
+  "starts_at_price": "299",
+  "view_details": "Cut, file, soak, cuticle care, massage, polish",
+  "description": "A refreshing hand care session to maintain nail health and soften your hands.",
+  "image": "https://media.istockphoto.com/id/1334253013/photo/close-up-manicured-womans-hands-on-pink-background.jpg?s=612x612&w=0&k=20&c=JuFZMI6Hd7iS_ZfU124XegjIFlI_ODHwpGVvNztAW4g=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2244"
+  },
+  "title": "Classic Pedicure",
+  "rating": 4.8,
+  "views_count": 11200,
+  "starts_at_price": "399",
+  "view_details": "Soaking, scrubbing, nail shaping, cuticle care, polish",
+  "description": "Relaxing foot care to rejuvenate tired feet with cleansing and nail grooming.",
+  "image": "https://media.istockphoto.com/id/1481822066/photo/female-legs-with-pedicure-on-pink-and-blue-background-copy-space.jpg?s=612x612&w=0&k=20&c=_Rn5TjNnrH0ugEQTNnLYpqG-AcQ8QakdJ4UhSqoth3I=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2245"
+  },
+  "title": "Deluxe Manicure",
+  "rating": 4.6,
+  "views_count": 7200,
+  "starts_at_price": "499",
+  "view_details": "Includes scrub, mask, extended massage",
+  "description": "A pampering treatment that improves skin texture and strengthens nails.",
+  "image": "https://media.istockphoto.com/id/532870279/photo/manicure-with-hearts.jpg?s=612x612&w=0&k=20&c=cT0V4mzdhXDjmuWEdVkYg-sOaxmxlNcrkogC0e8w4-Q=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2246"
+  },
+  "title": "Deluxe Pedicure",
+  "rating": 4.7,
+  "views_count": 8500,
+  "starts_at_price": "599",
+  "view_details": "Includes callus removal, mask, massage",
+  "description": "A luxurious foot treatment that nourishes and soothes tired feet deeply.",
+  "image": "https://media.istockphoto.com/id/176233829/photo/relaxing-pedicure.jpg?s=612x612&w=0&k=20&c=KrsEYM3aB0VyMLTT9P6bXr-C2zXA4oVozIDzKD4cSAg=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2247"
+  },
+  "title": "Gel Manicure",
+  "rating": 4.5,
+  "views_count": 6100,
+  "starts_at_price": "699",
+  "view_details": "Includes gel polish, shaping, cuticle care",
+  "description": "Long-lasting manicure with chip-resistant gel polish and glossy finish.",
+  "image": "https://media.istockphoto.com/id/1357869215/photo/woman-getting-nails-done.jpg?s=612x612&w=0&k=20&c=nROKKXhVxEtRZU8PRGaa8--dumDl6dQRQ8z6Y7Fl55A=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2248"
+  },
+  "title": "Spa Pedicure",
+  "rating": 4.8,
+  "views_count": 9400,
+  "starts_at_price": "649",
+  "view_details": "Foot soak, scrub, massage, pack, polish",
+  "description": "Rejuvenating spa-style foot care that detoxifies and hydrates deeply.",
+  "image": "https://media.istockphoto.com/id/153855437/photo/relaxing-pedicure.jpg?s=612x612&w=0&k=20&c=iZYUBIy-2degF0ehm-LH25P-2K7zs7Pj05r1kVq-mxs=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2249"
+  },
+  "title": "Manicure + Pedicure Combo",
+  "rating": 4.9,
+  "views_count": 13450,
+  "starts_at_price": "799",
+  "view_details": "Classic manicure and pedicure together",
+  "description": "Full hand and foot care combo package for complete grooming and relaxation.",
+  "image": "https://media.istockphoto.com/id/849312062/photo/hands.jpg?s=612x612&w=0&k=20&c=CX0nusNa6TmFM0--D2ZfciXgvqxYEmF_aWNhK2hORqA=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a224a"
+  },
+  "title": "Organic Manicure",
+  "rating": 4.6,
+  "views_count": 760,
+  "starts_at_price": 349,
+  "view_details": "Herbal scrub, natural polish",
+  "description": "A chemical-free manicure using organic products, ideal for sensitive skin and eco-conscious clients.",
+  "image": "https://media.istockphoto.com/id/2203608932/photo/closeup-of-woman-hands-opening-green-dropper-bottle-aginst-green-plant-drop-falling-from.jpg?s=612x612&w=0&k=20&c=r3bEqeYC1K_XRi4Y4fpoMzTtcMFFxW8QP0JEB6vdoEU=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a224b"
+  },
+  "title": "Ice Therapy Pedicure",
+  "rating": 4.7,
+  "views_count": 890,
+  "starts_at_price": 699,
+  "view_details": "Cooling gel massage, ice wrap",
+  "description": "A cooling pedicure that helps soothe tired feet and reduce inflammation with ice wraps and cooling massage gels.",
+  "image": "https://media.istockphoto.com/id/1158568453/photo/female-hand-with-thermal-glitter-nail-design-holding-ice.jpg?s=612x612&w=0&k=20&c=L8oOpbEG1Lf0ZqLkZWJvorNFeWmI20XtZeUYhsOxXdQ=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a224c"
+  },
+  "title": "Deluxe Manicure",
+  "rating": 4.8,
+  "views_count": 1050,
+  "starts_at_price": 449,
+  "view_details": "Extended massage, mask, polish",
+  "description": "A rejuvenating manicure that includes exfoliation, mask treatment, hand massage, and flawless polish.",
+  "image": "https://media.istockphoto.com/id/504785430/photo/pretty-girl-with-unusual-hairstyle-bright-makeup-red-lips-and.jpg?s=612x612&w=0&k=20&c=8u9VfePmFtsw2saKKuc0hyk-0Tf2C2WA3gfNmJVyVnI=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a224d"
+  },
+  "title": "Chocolate Pedicure",
+  "rating": 4.9,
+  "views_count": 970,
+  "starts_at_price": 749,
+  "view_details": "Chocolate soak, mask, scrub",
+  "description": "Pamper your feet with a decadent chocolate treatment that softens and revitalizes with antioxidants.",
+  "image": "https://media.istockphoto.com/id/486422371/photo/relax.jpg?s=612x612&w=0&k=20&c=u3g49gM7dPV_QEIjdFs5VqB_UaJHUrrMDtfEyksNqc4=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a224e"
+  },
+  "title": "Express Manicure",
+  "rating": 4.4,
+  "views_count": 430,
+  "starts_at_price": 199,
+  "view_details": "Quick file, shape, polish",
+  "description": "Perfect for a busy schedule — this quick manicure includes nail shaping and a swift polish application.",
+  "image": "https://media.istockphoto.com/id/2184380235/photo/women-having-manicure-at-beauty-spa.jpg?s=612x612&w=0&k=20&c=6dRJLIYISI7FnaFC9qQpURR1NAYWqkUIpZuvC6LnzjY=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a224f"
+  },
+  "title": "Crystal Pedicure",
+  "rating": 4.7,
+  "views_count": 680,
+  "starts_at_price": 599,
+  "view_details": "Crystal stone massage, soak",
+  "description": "A luxurious pedicure featuring warm crystal stone therapy to relax pressure points and improve circulation.",
+  "image": "https://media.istockphoto.com/id/483230241/photo/fish-spa.jpg?s=612x612&w=0&k=20&c=ka45KOlKjD6S7gi8Wqj8NDpz_8EmL4Rf6IZoc4w1Tyw=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2250"
+  },
+  "title": "Matte Finish Manicure",
+  "rating": 4.5,
+  "views_count": 520,
+  "starts_at_price": 429,
+  "view_details": "Matte color range, top coat",
+  "description": "A modern manicure using matte-finish nail paints for a bold, trendy, and non-glossy look.",
+  "image": "https://media.istockphoto.com/id/1310294375/photo/a-charming-chocolate-gel-polish-with-a-fluid-abstract-design-womens-hands-with-camouflage.jpg?s=612x612&w=0&k=20&c=pmRwRxWEmk5_fTVp_taUqdTegwZf_USFlYGhQLevEf8=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2251"
+  },
+  "title": "Nail Art Add-On",
+  "rating": 4.9,
+  "views_count": 1200,
+  "starts_at_price": 199,
+  "view_details": "Custom nail designs",
+  "description": "Add flair to your manicure or pedicure with detailed custom nail art, ranging from minimal to glam.",
+  "image": "https://media.istockphoto.com/id/930740258/photo/manicure-drawing-a-pattern.jpg?s=612x612&w=0&k=20&c=AO4NcqM21n1Dnvy0fqISyojdWUHuctkCxeliS0obONM=",
+  "category": "Manicure Pedicure Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2252"
+  },
+  "title": "Eyebrow Threading",
+  "rating": 4.7,
+  "views_count": 860,
+  "starts_at_price": 99,
+  "view_details": "Precision shaping, clean finish",
+  "description": "Get your eyebrows expertly shaped using the traditional threading technique for a neat and defined look.",
+  "image": "https://media.istockphoto.com/id/1083288172/photo/eyebrow-threading-epilation-procedure-for-brow-shape-correction.jpg?s=612x612&w=0&k=20&c=F1aryFCFKbIZj4dbxH1bGd3gy6EDUjnq4XfWDn04OU0=",
+  "category": "Threading & Face Waxing"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2253"
+  },
+  "title": "Upper Lip Threading",
+  "rating": 4.6,
+  "views_count": 740,
+  "starts_at_price": 59,
+  "view_details": "Gentle hair removal, smooth skin",
+  "description": "Remove fine hair from your upper lip area with minimal discomfort using a fast and precise threading method.",
+  "image": "https://media.istockphoto.com/id/666600192/photo/hands-threading-beautiful-womans-upper-lip.jpg?s=612x612&w=0&k=20&c=DieN0cbVsAHLzPvIZu_JYjwZLcngM3TF4sRi2EVuFNU=",
+  "category": "Threading & Face Waxing"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2254"
+  },
+  "title": "Full Face Threading",
+  "rating": 4.8,
+  "views_count": 1125,
+  "starts_at_price": 249,
+  "view_details": "Cheeks, forehead, lip, and brows",
+  "description": "Complete facial hair removal using thread to leave your skin looking clean, soft, and hair-free.",
+  "image": "https://media.istockphoto.com/id/1060643400/photo/beautiful-young-woman-with-healthy-clean-skin-waxing-epilation-threading-hair-removal-cream.jpg?s=612x612&w=0&k=20&c=CdBjtGFBiQQYqrZ8jQOkO6NPaS9jbDDdcY_Wmhy3zuo=",
+  "category": "Threading & Face Waxing"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2255"
+  },
+  "title": "Chin Waxing",
+  "rating": 4.5,
+  "views_count": 630,
+  "starts_at_price": 79,
+  "view_details": "Quick, long-lasting smoothness",
+  "description": "Remove chin hair with a gentle wax treatment for longer-lasting results and reduced regrowth.",
+  "image": "https://media.istockphoto.com/id/1968028382/photo/elos-epilation-hair-removal-procedure-on-a-womans-body-beautician-doing-laser-rejuvenation-in.jpg?s=612x612&w=0&k=20&c=5DlbmpPB5PZ52MhCyf1oNX8mWB7TDJe1m0uz6ab8lZw=",
+  "category": "Threading & Face Waxing"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2256"
+  },
+  "title": "Forehead Waxing",
+  "rating": 4.6,
+  "views_count": 510,
+  "starts_at_price": 89,
+  "view_details": "Clear forehead, smooth finish",
+  "description": "Smooth and clean forehead area with our gentle waxing technique, ideal for removing fine baby hairs.",
+  "image": "https://media.istockphoto.com/id/1075627672/photo/doctor-waxing-womans-forehead.jpg?s=612x612&w=0&k=20&c=5KAo8rI5FyJXUJZ5GpCOjP35_fSCkOzjJIErAed7qQ4=",
+  "category": "Threading & Face Waxing"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2257"
+  },
+  "title": "Full Face Waxing",
+  "rating": 4.9,
+  "views_count": 980,
+  "starts_at_price": 299,
+  "view_details": "Comprehensive facial waxing",
+  "description": "Experience complete facial smoothness with full face waxing — from the cheeks to upper lip and chin.",
+  "image": "https://media.istockphoto.com/id/1379893285/photo/master-waxing-eyebrow-of-relaxed-client-in-beauty-studio.jpg?s=612x612&w=0&k=20&c=cfyOGLGC4_AUIDx-NqeRvtGwjhKCHzaYLoyOwpYAwi0=",
+  "category": "Threading & Face Waxing"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2258"
+  },
+  "title": "Eyebrow & Upper Lip Combo",
+  "rating": 4.8,
+  "views_count": 1080,
+  "starts_at_price": 149,
+  "view_details": "Dual service combo deal",
+  "description": "Save time and money with this combo package, perfect for maintaining clean brows and upper lip.",
+  "image": "https://media.istockphoto.com/id/952772504/photo/beautician-doing-permanent-eyebrows-makeup-tattoo-on-woman-face.jpg?s=612x612&w=0&k=20&c=vwYLinl1KoO0r-IpSnCPPo-zLf78FXguNGSYaK7JYvk=",
+  "category": "Threading & Face Waxing"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2259"
+  },
+  "title": "Bridal Makeup - HD Finish",
+  "rating": 4.8,
+  "views_count": 320,
+  "starts_at_price": 6999,
+  "view_details": "Most Booked",
+  "description": "Get a long-lasting, camera-ready HD bridal makeup look that enhances your features beautifully.",
+  "image": "https://shaadiwish.com/blog/wp-content/uploads/2020/04/hd-bridal-makeup-1.jpg",
+  "category": "Bridal"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a225a"
+  },
+  "title": "Bridal Mehendi Design",
+  "rating": 4.7,
+  "views_count": 280,
+  "starts_at_price": 1999,
+  "view_details": "Traditional Pick",
+  "description": "Elegant and intricate bridal mehendi designs covering hands and feet for your special day.",
+  "image": "https://media.weddingz.in/images/d4d1c5c3e15d298ad37c0ab79cfc0bb4/Henna-for-all-5.jpg",
+  "category": "Bridal"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a225b"
+  },
+  "title": "Pre-Bridal Skin Cleanup",
+  "rating": 4.6,
+  "views_count": 210,
+  "starts_at_price": 899,
+  "view_details": "Recommended",
+  "description": "Deep skin cleansing treatment to give your face a fresh and glowing appearance before the wedding.",
+  "image": "https://www.bodycraft.co.in/wp-content/uploads/makeup-process-wedding-day-scaled.jpg",
+  "category": "Bridal"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a225c"
+  },
+  "title": "Bridal Hair Styling Package",
+  "rating": 4.5,
+  "views_count": 180,
+  "starts_at_price": 1499,
+  "view_details": "Top Rated",
+  "description": "Choose from classic buns, curls, or braids designed to last all day and complement your look.",
+  "image": "http://k4fashion.com/wp-content/uploads/2019/07/Red-Rose-floral-bun.jpg",
+  "category": "Bridal"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a225d"
+  },
+  "title": "Full Body Waxing - Bridal Prep",
+  "rating": 4.4,
+  "views_count": 150,
+  "starts_at_price": 1299,
+  "view_details": "Essential",
+  "description": "Smooth and hair-free skin with full body waxing tailored for brides-to-be.",
+  "image": "https://images.fresha.com/lead-images/placeholders/eyebrows-and-lashes-177.jpg",
+  "category": "Bridal"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a225e"
+  },
+  "title": "Bridal Manicure & Pedicure",
+  "rating": 4.7,
+  "views_count": 165,
+  "starts_at_price": 1099,
+  "view_details": "Luxury Combo",
+  "description": "Nourishing and beautifying hand and foot care treatments for glowing wedding-ready nails.",
+  "image": "https://wallpapers.com/images/hd/pedicure-pictures-2qukz2q6yiw1nc82.jpg",
+  "category": "Bridal"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a225f"
+  },
+  "title": "Bridal Facial - Glow Boost",
+  "rating": 4.9,
+  "views_count": 240,
+  "starts_at_price": 1799,
+  "view_details": "Glow Booster",
+  "description": "A premium facial treatment that hydrates and brightens your skin for a radiant bridal glow.",
+  "image": "https://images.pexels.com/photos/3212164/pexels-photo-3212164.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "category": "Bridal"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2260"
+  },
+  "title": "Bridal Makeup",
+  "rating": 4.9,
+  "views_count": 13500,
+  "starts_at_price": "5000",
+  "view_details": "Complete bridal makeup with hair styling",
+  "description": "A luxurious and customized makeup session for brides, including pre-bridal skincare and hair styling.",
+  "image": "https://media.istockphoto.com/id/854067134/photo/morning-make-up-in-the-room-for-a-beautiful-bride.jpg?s=612x612&w=0&k=20&c=LQFctEkptMgKjlLpLqmZWxVMilciiiDbUmrD6O5l8Wo=",
+  "category": "Other Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2261"
+  },
+  "title": "Party Makeup",
+  "rating": 4.8,
+  "views_count": 10920,
+  "starts_at_price": "1500",
+  "view_details": "Makeup for parties and special occasions",
+  "description": "Elegant and trendy makeup for any event, from parties to gatherings, ensuring a flawless look.",
+  "image": "https://media.istockphoto.com/id/1138127177/photo/beautiful-young-afro-american-woman-with-luxury-makeup-posing-in-gold-dress-in-interior.jpg?s=612x612&w=0&k=20&c=t0qGhi4C1AjKjIoHTj1nahRGtx5_dPRA1W5ae0TT6sE=",
+  "category": "Other Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2262"
+  },
+  "title": "Waxing (Full Body)",
+  "rating": 4.6,
+  "views_count": 7850,
+  "starts_at_price": "999",
+  "view_details": "Full body waxing for smooth skin",
+  "description": "A thorough waxing service to remove unwanted body hair, leaving your skin soft and smooth.",
+  "image": "https://media.istockphoto.com/id/1299912028/photo/body-leg-beauty-woman-natural-skin-care-green-treatment-slim-model-applying-depilation-cream.jpg?s=612x612&w=0&k=20&c=o7lFPHROXLxKQe7GUVYlwvCjr00OvKqdN-rB4Bo0iMs=",
+  "category": "Other Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2263"
+  },
+  "title": "Nail Extension",
+  "rating": 4.7,
+  "views_count": 6000,
+  "starts_at_price": "1200",
+  "view_details": "Acrylic or gel nail extensions",
+  "description": "Get long, elegant nails with either acrylic or gel extensions, customized to your style.",
+  "image": "https://media.istockphoto.com/id/531488839/photo/gel-nail-extensions.jpg?s=612x612&w=0&k=20&c=EwPKLzSVTA_U31qRZHNlupmbCWpCL4GTbF2-mzH5OdQ=",
+  "category": "Other Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2264"
+  },
+  "title": "Henna Art",
+  "rating": 4.5,
+  "views_count": 4550,
+  "starts_at_price": "499",
+  "view_details": "Traditional henna designs for hands and feet",
+  "description": "Beautiful and intricate henna designs, perfect for festivals, weddings, or any special occasion.",
+  "image": "https://media.istockphoto.com/id/535025923/photo/female-hands-with-mehndi-decoration-in-heart-shape.jpg?s=612x612&w=0&k=20&c=iPAG8R1C9-OZ4bLOm_YQJkjlH2wwu9lONKQsC23Zeik=",
+  "category": "Other Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2265"
+  },
+  "title": "Lash Extensions",
+  "rating": 4.8,
+  "views_count": 7100,
+  "starts_at_price": "1500",
+  "view_details": "Long, voluminous eyelash extensions",
+  "description": "Achieve fuller, longer lashes with semi-permanent extensions that enhance your natural beauty.",
+  "image": "https://media.istockphoto.com/id/845708412/photo/eyelash-extension-procedure-woman-eye-with-long-eyelashes-lashes-close-up-macro-selective-focus.jpg?s=612x612&w=0&k=20&c=GRDESfELhTdQCItPCrs_sDbWs9sxxmilFhmJnK0FoIA=",
+  "category": "Other Services"
+},
+{
+  "_id": {
+    "$oid": "68246d22cba2a713362a2266"
+  },
+  "title": "Tattooing (Semi-Permanent)",
+  "rating": 4.6,
+  "views_count": 6200,
+  "starts_at_price": "2500",
+  "view_details": "Semi-permanent eyebrow tattooing and more",
+  "description": "Enhance your look with semi-permanent tattoos, including eyebrow tattoos for a fuller, defined appearance.",
+  "image": "https://media.istockphoto.com/id/1488451144/photo/tattoo-artist-hands-in-a-white-gloves-holding-a-machine-while-creating-a-tattoo.jpg?s=612x612&w=0&k=20&c=RhDmXC7aopPPkDfXU2Dwr7AS8fXuCPz_ZxgOZOujVQg=",
+  "category": "Other Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6d6"
+  },
+  "title": "Post-Natal Massage",
+  "rating": 4.8,
+  "views_count": 10230,
+  "starts_at_price": "1499",
+  "view_details": "A relaxing massage to relieve muscle tension and improve circulation",
+  "description": "A soothing post-natal massage to help reduce stress, ease muscle pain, and promote overall relaxation.",
+  "image": "https://i.pinimg.com/originals/71/01/82/7101821ca67be957caf1c6a314629afd.jpg",
+  "category": "Post Natal Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6d7"
+  },
+  "title": "Tummy Tightening Treatment",
+  "rating": 4.7,
+  "views_count": 8750,
+  "starts_at_price": "1799",
+  "view_details": "Targeted treatment to tighten the tummy area post-delivery",
+  "description": "A specialized treatment to tone and tighten the abdominal area, restoring muscle elasticity after childbirth.",
+  "image": "https://mdspa.ca/wp-content/uploads/2022/06/mummy-tummy.png",
+  "category": "Post Natal Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6d8"
+  },
+  "title": "Breastfeeding Support & Consultation",
+  "rating": 4.9,
+  "views_count": 7640,
+  "starts_at_price": "999",
+  "view_details": "Guidance and assistance for new mothers",
+  "description": "Personalized breastfeeding support and consultation to help mothers with lactation issues and positioning.",
+  "image": "https://blog.memorial.health/wp-content/uploads/2020/07/LW-pics-4-1024x1024.png",
+  "category": "Post Natal Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6d9"
+  },
+  "title": "Post-Natal Yoga",
+  "rating": 4.6,
+  "views_count": 6230,
+  "starts_at_price": "899",
+  "view_details": "Gentle yoga classes designed for post-natal recovery",
+  "description": "Yoga tailored for new mothers to help regain flexibility, strengthen the body, and relieve stress.",
+  "image": "https://www.flexifyme.com/blogs/wp-content/uploads/2023/12/image-1-3.jpg",
+  "category": "Post Natal Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6da"
+  },
+  "title": "Post-Natal Skin Rejuvenation Facial",
+  "rating": 4.8,
+  "views_count": 9550,
+  "starts_at_price": "1599",
+  "view_details": "A facial to restore skin radiance after childbirth",
+  "description": "A gentle facial designed to combat post-pregnancy skin changes, helping to restore a youthful glow.",
+  "image": "https://hakimclinic.com/wp-content/uploads/2019/01/postnatal_care-care.jpg",
+  "category": "Post Natal Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6db"
+  },
+  "title": "Pelvic Floor Strengthening",
+  "rating": 4.7,
+  "views_count": 8200,
+  "starts_at_price": "1299",
+  "view_details": "Pelvic floor rehabilitation for new mothers",
+  "description": "A specialized treatment to strengthen the pelvic floor muscles, promoting overall health and recovery after childbirth.",
+  "image": "https://www.athletico.com/wp-content/uploads/2020/05/exercises-to-strengthen-pelvic-floor-fb.jpg",
+  "category": "Post Natal Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6dc"
+  },
+  "title": "Post-Natal Body Scrub",
+  "rating": 4.5,
+  "views_count": 4900,
+  "starts_at_price": "899",
+  "view_details": "Exfoliating scrub for rejuvenating skin post-pregnancy",
+  "description": "A nourishing body scrub that exfoliates and softens the skin, leaving it refreshed and revitalized.",
+  "image": "https://sanupostpartum.com/wp-content/uploads/2024/10/Sanu-Doula-in-scrubs-1.jpg",
+  "category": "Post Natal Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6dd"
+  },
+  "title": "Aromatherapy Massage",
+  "rating": 4.8,
+  "views_count": 11230,
+  "starts_at_price": "1499",
+  "view_details": "Relaxing massage with essential oils to relieve stress",
+  "description": "A calming massage using essential oils to promote relaxation and reduce stress, helping to restore mental and physical balance.",
+  "image": "https://guide2thailand.com/wp-content/uploads/2020/06/Aroma-Therapy-Massage.jpg",
+  "category": "Stress Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6de"
+  },
+  "title": "Hot Stone Massage",
+  "rating": 4.7,
+  "views_count": 9850,
+  "starts_at_price": "1799",
+  "view_details": "Hot stone therapy to release muscle tension",
+  "description": "A therapeutic massage using heated stones to relieve muscle tension, soothe nerves, and reduce stress.",
+  "image": "https://suksomspa.com/wp-content/uploads/2024/07/Hot-stone-massage-benefits-1.jpg",
+  "category": "Stress Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6df"
+  },
+  "title": "Mindfulness Meditation",
+  "rating": 4.9,
+  "views_count": 8700,
+  "starts_at_price": "799",
+  "view_details": "Guided meditation sessions for stress relief",
+  "description": "Guided meditation to enhance mindfulness, reduce anxiety, and promote mental clarity and relaxation.",
+  "image": "https://psychemaster.com/wp-content/uploads/2024/02/mindfulness-meditation-ptsd.jpg",
+  "category": "Stress Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6e0"
+  },
+  "title": "Reflexology",
+  "rating": 4.6,
+  "views_count": 6400,
+  "starts_at_price": "999",
+  "view_details": "Foot reflexology to release stress and tension",
+  "description": "A therapeutic technique that applies pressure to specific points on the feet, aimed at relieving stress and improving overall well-being.",
+  "image": "http://www.ajtherapieshealthcentre.co.uk/wp-content/uploads/2012/08/reflexology-large.jpg",
+  "category": "Stress Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6e1"
+  },
+  "title": "Scalp Massage",
+  "rating": 4.7,
+  "views_count": 7200,
+  "starts_at_price": "699",
+  "view_details": "Massage targeting the scalp to reduce stress",
+  "description": "A relaxing scalp massage designed to reduce tension, improve circulation, and calm the mind.",
+  "image": "https://images.squarespace-cdn.com/content/v1/5f2864b6ee63644ee0b157d3/2a0a667f-4fe2-4357-9964-1c14e6b29287/professional-head-massage.jpg",
+  "category": "Stress Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6e2"
+  },
+  "title": "Yoga for Stress Relief",
+  "rating": 4.8,
+  "views_count": 10560,
+  "starts_at_price": "899",
+  "view_details": "Gentle yoga poses to relieve stress and tension",
+  "description": "A soothing yoga session designed to alleviate stress, improve flexibility, and promote relaxation.",
+  "image": "https://www.holisticwellnesspractice.com/wp-content/uploads/2020/10/Yoga-for-College-Stress-scaled.jpg",
+  "category": "Stress Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6e3"
+  },
+  "title": "Sound Healing Therapy",
+  "rating": 4.9,
+  "views_count": 5630,
+  "starts_at_price": "1599",
+  "view_details": "Therapeutic sound waves for relaxation and stress relief",
+  "description": "A unique therapy using sound frequencies to restore balance in the body, release stress, and promote deep relaxation.",
+  "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2150907210/settings_images/mdj7itypSDOKp7CcZCF5_1104831206_small.jpg",
+  "category": "Stress Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6e4"
+  },
+  "title": "Detan Body Scrub",
+  "rating": 4.7,
+  "views_count": 8450,
+  "starts_at_price": "899",
+  "view_details": "Full-body exfoliation to remove tan and dead skin",
+  "description": "A refreshing body scrub designed to remove tan, dead skin cells, and impurities while restoring your skin's natural glow.",
+  "image": "https://m.media-amazon.com/images/I/610isHCMCCL._SL1080_.jpg",
+  "category": "Skin Care Scrubs"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6e5"
+  },
+  "title": "Coffee Body Scrub",
+  "rating": 4.8,
+  "views_count": 9100,
+  "starts_at_price": "999",
+  "view_details": "Invigorating scrub for smoother, glowing skin",
+  "description": "Infused with pure coffee grounds, this body scrub exfoliates deeply, improves circulation, and leaves skin silky smooth.",
+  "image": "https://www.thaqfny.com/wp-content/uploads/2023/07/coffee-scrub-for-body.jpg",
+  "category": "Skin Care Scrubs"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6e6"
+  },
+  "title": "Sea Salt Glow Scrub",
+  "rating": 4.6,
+  "views_count": 7320,
+  "starts_at_price": "1099",
+  "view_details": "Mineral-rich exfoliation for refreshed skin",
+  "description": "A sea salt-based exfoliating treatment to detoxify and polish the skin, making it visibly smoother and radiant.",
+  "image": "https://www.stylecraze.com/wp-content/uploads/2021/02/13-Best-Dead-Sea-Salt-Scrubs-Of-2021-For-Revitalized-Skin-Banner.jpg",
+  "category": "Skin Care Scrubs"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6e7"
+  },
+  "title": "Chocolate Body Scrub",
+  "rating": 4.9,
+  "views_count": 9950,
+  "starts_at_price": "1199",
+  "view_details": "Luxurious scrub for nourishing and glowing skin",
+  "description": "Enriched with cocoa extracts, this scrub softens and hydrates your skin while offering a delightful spa-like experience.",
+  "image": "https://img.grouponcdn.com/deal/njVZVaY64CtL38SJbHeG/aH-960x576/v1/c870x524.jpg",
+  "category": "Skin Care Scrubs"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6e8"
+  },
+  "title": "Neem & Tulsi Herbal Scrub",
+  "rating": 4.7,
+  "views_count": 6830,
+  "starts_at_price": "799",
+  "view_details": "Ayurvedic exfoliation for acne-prone skin",
+  "description": "A gentle herbal scrub made with neem and tulsi to cleanse, exfoliate, and fight bacteria on acne-prone or sensitive skin.",
+  "image": "https://pureelements.in/wp-content/uploads/2024/04/Neem-body-scrub-02.webp",
+  "category": "Skin Care Scrubs"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6e9"
+  },
+  "title": "Deep Tissue Massage",
+  "rating": 4.8,
+  "views_count": 10320,
+  "starts_at_price": "1799",
+  "view_details": "Therapeutic massage targeting deeper muscle layers",
+  "description": "A deep tissue massage designed to release chronic muscle tension and relieve pain in targeted areas, improving circulation and flexibility.",
+  "image": "https://static.showit.co/1200/6UWQFp9AQKCp8gzo1Lk0Qw/166556/laurabranding-9.jpg",
+  "category": "Pain Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6ea"
+  },
+  "title": "Cupping Therapy",
+  "rating": 4.7,
+  "views_count": 9200,
+  "starts_at_price": "1499",
+  "view_details": "Traditional cupping therapy for pain relief",
+  "description": "Cupping therapy uses suction cups to stimulate blood flow and ease muscle pain, stiffness, and inflammation.",
+  "image": "https://themovementschopp.com/wp-content/uploads/2024/05/Cupping-for-Back-Pain-How-Does-It-Work-Benefits-Effectiveness-2.jpg",
+  "category": "Pain Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6eb"
+  },
+  "title": "Thermal Therapy (Heat Therapy)",
+  "rating": 4.6,
+  "views_count": 7200,
+  "starts_at_price": "899",
+  "view_details": "Heat packs for muscle relaxation and pain relief",
+  "description": "Thermal therapy involves the use of heat packs to soothe and relax tense muscles, alleviate pain, and reduce stiffness.",
+  "image": "https://heatedgadget.com/wp-content/uploads/2021/07/Heat-therapy-types-benefits-side-effects-and-DIY-heated-pads.jpg",
+  "category": "Pain Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6ec"
+  },
+  "title": "TENS Therapy (Transcutaneous Electrical Nerve Stimulation)",
+  "rating": 4.8,
+  "views_count": 8000,
+  "starts_at_price": "1200",
+  "view_details": "Electrical stimulation for pain relief",
+  "description": "TENS therapy uses low-voltage electrical currents to relieve pain and improve muscle function, providing relief from chronic pain.",
+  "image": "https://cdn.sanity.io/images/0vv8moc6/ajmc/f4af379d48e38d3a0fa9a082da00b726994accf1-4172x2781.jpg?fit=crop&auto=format",
+  "category": "Pain Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6ed"
+  },
+  "title": "Acupressure Therapy",
+  "rating": 4.7,
+  "views_count": 6500,
+  "starts_at_price": "1099",
+  "view_details": "Pressure points to relieve pain and tension",
+  "description": "Acupressure therapy targets specific pressure points on the body to alleviate pain, reduce stress, and promote healing.",
+  "image": "https://www.neurologyadvisor.com/wp-content/uploads/sites/10/2019/04/Acupuncture_SH_306283403.jpg",
+  "category": "Pain Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6ee"
+  },
+  "title": "Joint Pain Relief Treatment",
+  "rating": 4.6,
+  "views_count": 5300,
+  "starts_at_price": "1499",
+  "view_details": "Therapy for joint pain relief and mobility improvement",
+  "description": "A targeted treatment to relieve joint pain, reduce inflammation, and restore mobility using therapeutic techniques and muscle manipulation.",
+  "image": "https://bionworx.com/wp-content/uploads/2023/10/Non-surgical-joint-pain-relief-treatment-services.jpg",
+  "category": "Pain Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6ef"
+  },
+  "title": "Cold Compression Therapy",
+  "rating": 4.5,
+  "views_count": 4900,
+  "starts_at_price": "799",
+  "view_details": "Cold compress for reducing pain and swelling",
+  "description": "Cold compression therapy helps reduce inflammation, swelling, and pain, especially effective after physical exertion or injury.",
+  "image": "https://m.media-amazon.com/images/I/616a8odh8GL._SL1500_.jpg",
+  "category": "Pain Relief Services"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6f0"
+  },
+  "title": "Aroma Oil Upgrade",
+  "rating": 4.8,
+  "views_count": 5320,
+  "starts_at_price": "299",
+  "view_details": "Upgrade to premium essential oils for enhanced relaxation",
+  "description": "Enhance your massage experience with high-quality essential oils such as lavender, eucalyptus, or lemongrass for deeper relaxation and skin nourishment.",
+  "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/three-bottles-of-essential-oil-with-frankincense-royalty-free-image-924418326-1558628847.jpg",
+  "category": "Massage Add-Ons"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6f1"
+  },
+  "title": "Foot Reflexology Add-on",
+  "rating": 4.7,
+  "views_count": 4860,
+  "starts_at_price": "399",
+  "view_details": "Additional 15 mins of foot pressure therapy",
+  "description": "Targeted foot reflexology session added to your massage to relieve stress, enhance circulation, and restore energy flow.",
+  "image": "https://uniquecliniqueaesthetics.com/wp-content/uploads/2024/01/Foot-Reflexology-Massage.jpg",
+  "category": "Massage Add-Ons"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6f2"
+  },
+  "title": "Scalp Massage Add-on",
+  "rating": 4.9,
+  "views_count": 6150,
+  "starts_at_price": "299",
+  "view_details": "10-minute calming scalp massage",
+  "description": "A stress-relieving scalp massage using herbal oil to calm the mind, relieve headaches, and improve sleep quality.",
+  "image": "https://i.ytimg.com/vi/902BOQb8cUY/maxresdefault.jpg",
+  "category": "Massage Add-Ons"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6f3"
+  },
+  "title": "Hot Towel Treatment",
+  "rating": 4.6,
+  "views_count": 4720,
+  "starts_at_price": "199",
+  "view_details": "Soothing hot towel application for relaxation",
+  "description": "Enhance your massage with hot towel wraps that help open pores, relax muscles, and provide deep comfort.",
+  "image": "https://img.freepik.com/premium-photo/client-enjoying-hot-towel-treatment_1188475-4074.jpg",
+  "category": "Massage Add-Ons"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6f4"
+  },
+  "title": "Head & Neck Relaxation Combo",
+  "rating": 4.8,
+  "views_count": 5890,
+  "starts_at_price": "499",
+  "view_details": "Extra head and neck focus with relaxing strokes",
+  "description": "A 15-minute focused massage for the head and neck to relieve tension from long hours of work or screen time.",
+  "image": "https://i.ytimg.com/vi/3MgQw2I2a8I/maxresdefault.jpg",
+  "category": "Massage Add-Ons"
+},
+{
+  "_id": {
+    "$oid": "6826f42c5faa8e14d37ae6f5"
+  },
+  "title": "Herbal Compress Therapy",
+  "rating": 4.7,
+  "views_count": 5210,
+  "starts_at_price": "599",
+  "view_details": "Warm herbal pouches for pain and stress relief",
+  "description": "Traditional herbal compress using warm pouches filled with healing herbs to reduce pain, inflammation, and stress.",
+  "image": "http://www.modernthaispa.com/images/main/services/Thai-herbal.jpg",
+  "category": "Massage Add-Ons"
+}]

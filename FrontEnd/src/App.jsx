@@ -23,6 +23,7 @@ import AllMenServices from "./pages/MenSalon/AllMenServices";
 import Cart from "./pages/context/Cart";
 import "./App.css";
 import ACAppliances from "./pages/Ac/AC&Appliance";
+import AllWallPanel from "./pages/WallPanel/FullWallPanel";
 
 export const App = () => {
   return (
@@ -57,6 +58,7 @@ export const App = () => {
           <Route path="/men-salon/all-services" element={<AllMenServices />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/ac" element={<ACAppliances />} />
+          <Route path="/wall-panels" element={<AllWallPanel />} />
         </Routes>
       </Router>
     </CartProvider>
