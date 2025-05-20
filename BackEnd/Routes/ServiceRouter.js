@@ -4,11 +4,13 @@ const WomenService = require("../Models/WomenService");
 const WomenSpa = require("../Models/WomenSpa");
 // Correct: function is passed directly to router.get
 router.get("/services", async (req, res) => {
+  console.log("GET /services called");
   try {
     const data = await WomenService.find();
+    console.log(data);
     res.json(data); // Send the actual data
   } catch (err) {
-    console.error(err);
+    console.error(err, "this");
     res.status(500).json({ error: "Failed to fetch services" });
   }
 });
