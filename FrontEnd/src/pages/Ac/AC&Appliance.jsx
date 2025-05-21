@@ -121,19 +121,21 @@ const ACAppliances = () => {
               overflowY: "auto",
             }}
           >
+            {console.log("Selected service:", selectedService)}
             <div className="modal-dialog modal-dialog-centered modal-lg">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">{selectedService.title}</h5>
+                  <h5 className="modal-title modal-title-text">
+                    {selectedService.title}
+                  </h5>
                   <button
                     className="btn-close"
                     onClick={() => setSelectedService(null)}
                   ></button>
                 </div>
 
-                <div className="modal-body d-flex flex-wrap  ">
-                  {/* Left side: Image + Price + Button */}
-                  <div className="d-flex flex-column align-items-center col-md-5 mb-3 ">
+                <div className="modal-body d-flex flex-wrap">
+                  <div className="d-flex flex-column align-items-center col-md-5 mb-3">
                     <img
                       src={selectedService.image}
                       className="img-fluid rounded mb-3"
@@ -144,12 +146,12 @@ const ACAppliances = () => {
                         width: "100%",
                       }}
                     />
-                    <div className="bg-warning bg-opacity-25 px-3 py-2 rounded w-100 text-center mb-2 ">
+                    <div className="bg-warning bg-opacity-25 px-3 py-2 rounded w-100 text-center mb-2 modal-price-text">
                       Starting at{" "}
                       <strong>₹{selectedService.starts_at_price}</strong>
                     </div>
                     <button
-                      className="btn btn-primary w-100"
+                      className="btn btn-primary w-100 modal-button-text"
                       onClick={() => handleCartAction(selectedService)}
                     >
                       <i
@@ -165,29 +167,40 @@ const ACAppliances = () => {
                     </button>
                   </div>
 
-                  {/* Right side: Text details */}
-
-                  <div className="col-md-7 ml-5">
-                    <p>{selectedService.description}</p>
-                    <p>
+                  <div className="col-md-7 ps-md-4">
+                    <p className="modal-description-text">
+                      {selectedService.description}
+                    </p>
+                    <p className="modal-rating-text">
                       <b>
                         <i className="bi bi-star-fill text-warning"></i>{" "}
                         {selectedService.rating} ({selectedService.views_count}{" "}
                         reviews)
                       </b>
                     </p>
-                    <p className="fw-semibold">
-                      {selectedService.view_details}
+                    <p className="modal-details-text fw-semibold">
+                      {selectedService.view_details || "View Details"}
                     </p>
 
-                    {/* Our Process Section */}
                     <div>
-                      <h5 className="fw-semibold">Our Process</h5>
-                      <ul className="ps-3">
-                        {selectedService.process.map((step, index) => (
-                          <li key={index}>{step}</li>
-                        ))}
-                      </ul>
+                      <h5 className="modal-process-title fw-semibold">
+                        Our Process
+                      </h5>
+                      {selectedService.process &&
+                      Array.isArray(selectedService.process) &&
+                      selectedService.process.length > 0 ? (
+                        <ul className="ps-3 modal-process-list">
+                          {selectedService.process.map((step, index) => (
+                            <li key={index} className="modal-process-item">
+                              {step}
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p className="modal-no-process-text text-muted">
+                          Process information not available.
+                        </p>
+                      )}
                     </div>
                   </div>
                 </div>

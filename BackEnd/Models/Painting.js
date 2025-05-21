@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const WallServiceSchema = new mongoose.Schema({
+const PaintingSchema = new mongoose.Schema({
   title: { type: String, required: true },
   rating: { type: Number },
   views_count: { type: Number },
@@ -10,8 +10,4 @@ const WallServiceSchema = new mongoose.Schema({
   category: { type: String },
 });
 
-module.exports = mongoose.model(
-  "WallServices",
-  WallServiceSchema,
-  "wallPanels"
-);
+module.exports = mongoose.model("Painting", PaintingSchema, "painting");

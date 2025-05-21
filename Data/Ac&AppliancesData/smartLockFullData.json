@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Smart Door Lock Installation",
+    "rating": 4.6,
+    "views_count": 345,
+    "starts_at_price": "2499",
+    "description": "Install a smart door lock with remote access and PIN authentication.",
+    "image": "https://www.ojismart.com/wp-content/uploads/2024/07/Oji-installation-service.jpg",
+    "category": "Home Security",
+    "view_details": "Secure your home with a tamper-proof smart lock that supports app and keypad access. Ideal for main doors.",
+    "process": [
+      "Remove existing mechanical lock",
+      "Fit smart lock base and align mechanism",
+      "Connect and calibrate digital components",
+      "Test app and fingerprint/PIN access"
+    ]
+  },
+  {
+    "title": "Smart Lock with Video Doorbell",
+    "rating": 4.8,
+    "views_count": 410,
+    "starts_at_price": "4999",
+    "description": "A combined smart lock and video doorbell system for added security and convenience.",
+    "image": "https://m.media-amazon.com/images/I/41mgsYDLpJL._SL500_.jpg",
+    "category": "Home Security",
+    "view_details": "Monitor and control your door remotely with a smart lock and video doorbell combo. Ideal for apartments and gated homes.",
+    "process": [
+      "Mount and align smart lock with door",
+      "Install video doorbell at eye level",
+      "Connect WiFi and pair with mobile app",
+      "Test live video and remote unlocking"
+    ]
+  },
+  {
+    "title": "Smart Lock Maintenance & Battery Replacement",
+    "rating": 4.3,
+    "views_count": 178,
+    "starts_at_price": "499",
+    "description": "Routine check-up and battery replacement for your installed smart lock system.",
+    "image": "https://www.ilockey.com/wp-content/uploads/2023/09/How-to-Change-Battery-for-Smart-Door-Lock-03.jpg",
+    "category": "Maintenance",
+    "view_details": "Keep your smart lock performing reliably with routine servicing, app sync checks, and battery replacements.",
+    "process": [
+      "Check lock for physical wear and tear",
+      "Replace or recharge internal batteries",
+      "Update firmware and reconnect app",
+      "Perform safety and unlocking tests"
+    ]
+  },
+  {
+  "title": "Smart Lock Home Demo & Consultation",
+  "rating": 4.5,
+  "views_count": 205,
+  "starts_at_price": "299",
+  "description": "Book a home visit for a live demo of various smart locks and personalized security consultation.",
+  "image": "https://www.hindustantimes.com/ht-img/img/2024/01/24/1600x900/smart_door_lock_1706086441433_1706086456668.jpg",
+  "category": "Home Demo",
+  "view_details": "A professional visits your home to showcase smart lock options, explain features, and suggest the best fit based on your door type and usage.",
+  "process": [
+    "Schedule appointment at your convenience",
+    "Technician arrives with sample smart locks",
+    "Demonstration of key features and mobile app",
+    "Security assessment and lock recommendation"
+  ]
+}
+]

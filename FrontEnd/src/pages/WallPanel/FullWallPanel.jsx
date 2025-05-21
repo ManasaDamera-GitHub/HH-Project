@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "../../styles/AllServices.css";
 import Header from "@/components/Navbar";
 import { useCart } from "../../pages/context/CartContext";
-import { toast } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const AllWallPanel = () => {
@@ -17,10 +17,15 @@ const AllWallPanel = () => {
     const fetchALL = async () => {
       try {
         const response = await fetch("http://localhost:3000/wallpanels");
+        if (!response.ok) {
+          throw new Error("Failed to fetch services");
+        }
         const data = await response.json();
+        console.log("Fetched services:", data); // Debug API response
         setServices(data);
       } catch (error) {
-        console.log(error);
+        console.error("Fetch error:", error);
+        toast.error("Failed to load services. Please try again later.");
       }
     };
     fetchALL();
@@ -36,8 +41,10 @@ const AllWallPanel = () => {
     const isInCart = cartItems.some((item) => item.title === service.title);
     if (isInCart) {
       removeFromCart(service.title);
+      // toast.success(`${service.title} removed from cart`);
     } else {
       addToCart(service);
+      // toast.success(`${service.title} added to cart`);
     }
     setSelectedService(null);
   };
@@ -47,8 +54,8 @@ const AllWallPanel = () => {
   return (
     <>
       <Header />
-      <div className="container py-5">
-        {/* Categories */}
+      <div className="container pt-0 pb-5">
+        <ToastContainer position="bottom-right" style={{padding:0}}/>
         <div className="mb-4 d-flex flex-wrap gap-2">
           {categories.map((category) => (
             <button
@@ -63,11 +70,10 @@ const AllWallPanel = () => {
           ))}
         </div>
 
-        {/* Service Cards */}
         <div className="row">
           {filteredServices.map((service) => (
             <div
-              key={service.id}
+              key={service.id || service.title} // Use title as fallback if id is missing
               className="col-12 col-md-6 col-lg-4 mb-4"
               onClick={() => setSelectedService(service)}
               style={{ cursor: "pointer" }}
@@ -87,9 +93,9 @@ const AllWallPanel = () => {
                   <p>
                     <strong>₹{service.starts_at_price}</strong>
                   </p>
-                  <span className="text-dark fw-semibold">
-                    {service.view_details}
-                  </span>
+                  {/* <span className="text-dark fw-semibold">
+                    {service.view_details || "View Details"}
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -104,7 +110,6 @@ const AllWallPanel = () => {
           )}
         </div>
 
-        {/* Modal */}
         {selectedService && (
           <div
             className="modal d-block"
@@ -119,10 +124,13 @@ const AllWallPanel = () => {
               overflowY: "auto",
             }}
           >
+            {console.log("Selected service:", selectedService)}
             <div className="modal-dialog modal-dialog-centered modal-lg">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">{selectedService.title}</h5>
+                  <h5 className="modal-title modal-title-text">
+                    {selectedService.title}
+                  </h5>
                   <button
                     className="btn-close"
                     onClick={() => setSelectedService(null)}
@@ -130,7 +138,6 @@ const AllWallPanel = () => {
                 </div>
 
                 <div className="modal-body d-flex flex-wrap">
-                  {/* Left side: Image + Price + Button */}
                   <div className="d-flex flex-column align-items-center col-md-5 mb-3">
                     <img
                       src={selectedService.image}
@@ -142,12 +149,12 @@ const AllWallPanel = () => {
                         width: "100%",
                       }}
                     />
-                    <div className="bg-warning bg-opacity-25 px-3 py-2 rounded w-100 text-center mb-2">
+                    <div className="bg-warning bg-opacity-25 px-3 py-2 rounded w-100 text-center mb-2 modal-price-text">
                       Starting at{" "}
                       <strong>₹{selectedService.starts_at_price}</strong>
                     </div>
                     <button
-                      className="btn btn-primary w-100"
+                      className="btn-add  w-100 modal-button-text"
                       onClick={() => handleCartAction(selectedService)}
                     >
                       <i
@@ -163,28 +170,40 @@ const AllWallPanel = () => {
                     </button>
                   </div>
 
-                  {/* Right side: Text details */}
                   <div className="col-md-7 ps-md-4">
-                    <p>{selectedService.description}</p>
-                    <p>
+                    <p className="modal-description-text">
+                      {selectedService.description}
+                    </p>
+                    <p className="modal-rating-text">
                       <b>
                         <i className="bi bi-star-fill text-warning"></i>{" "}
                         {selectedService.rating} ({selectedService.views_count}{" "}
                         reviews)
                       </b>
                     </p>
-                    <p className="fw-semibold">
-                      {selectedService.view_details}
+                    <p className="modal-details-text fw-semibold">
+                      {selectedService.view_details || "View Details"}
                     </p>
 
-                    {/* Our Process Section */}
                     <div>
-                      <h5 className="fw-semibold">Our Process</h5>
-                      <ul className="ps-3">
-                        {selectedService.process?.map((step, index) => (
-                          <li key={index}>{step}</li>
-                        ))}
-                      </ul>
+                      <h5 className="modal-process-title fw-semibold">
+                        Our Process
+                      </h5>
+                      {selectedService.process &&
+                      Array.isArray(selectedService.process) &&
+                      selectedService.process.length > 0 ? (
+                        <ul className="ps-3 modal-process-list">
+                          {selectedService.process.map((step, index) => (
+                            <li key={index} className="modal-process-item">
+                              {step}
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p className="modal-no-process-text text-muted">
+                          Process information not available.
+                        </p>
+                      )}
                     </div>
                   </div>
                 </div>

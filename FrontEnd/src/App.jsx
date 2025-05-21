@@ -24,6 +24,8 @@ import Cart from "./pages/context/Cart";
 import "./App.css";
 import ACAppliances from "./pages/Ac/AC&Appliance";
 import AllWallPanel from "./pages/WallPanel/FullWallPanel";
+import SmartLockServices from "./pages/SmartLock/SmartLock";
+import AllCleaningPestControl from "./pages/Cleaning&Pest/AllCleaningPestControl";
 
 export const App = () => {
   return (
@@ -59,6 +61,8 @@ export const App = () => {
           <Route path="/cart" element={<Cart />} />
           <Route path="/ac" element={<ACAppliances />} />
           <Route path="/wall-panels" element={<AllWallPanel />} />
+          <Route path="/smart-locks" element={<SmartLockServices />} />
+          <Route path="/cleaning-pest-control" element={<AllCleaningPestControl />} />
         </Routes>
       </Router>
     </CartProvider>

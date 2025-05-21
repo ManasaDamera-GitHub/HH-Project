@@ -1,0 +1,206 @@
+[
+  {
+    "title": "1BHK Full Home Painting",
+    "rating": 4.6,
+    "views_count": 180,
+    "starts_at_price": "7499",
+    "description": "Affordable painting service for 1BHK homes with expert supervision and quality finish.",
+    "image": "https://i.pinimg.com/736x/17/ea/0c/17ea0c585af0be9fe2f0f7ba13dff46c.jpg",
+    "category": "Full Home",
+    "process": [
+      "Site inspection and surface assessment",
+      "Covering and masking of furniture & floors",
+      "Putty application and sanding",
+      "Primer coating",
+      "Top coat paint application (2 coats)",
+      "Final touch-up and cleanup"
+    ]
+  },
+  {
+    "title": "2BHK Interior Painting Package",
+    "rating": 4.8,
+    "views_count": 240,
+    "starts_at_price": "11499",
+    "description": "Premium wall painting solution for 2BHK homes using high-quality paints and skilled painters.",
+    "image": "https://armadillopainting.com/wp-content/uploads/2019/02/brentloe-interior-house-painting.jpg",
+    "category": "Full Home",
+    "process": [
+      "Color consultation and material selection",
+      "Furniture and floor protection",
+      "Crack filling and wall preparation",
+      "Application of primer and two paint coats",
+      "Drying and finishing",
+      "Site handover after cleanup"
+    ]
+  },
+  {
+    "title": "3BHK Fresh Painting Service",
+    "rating": 4.7,
+    "views_count": 195,
+    "starts_at_price": "15999",
+    "description": "End-to-end painting service for 3BHK homes, ideal for new or recently renovated spaces.",
+    "image": "https://fillopainting.com/wp-content/uploads/2020/03/Fillo-Painting_Change-Your-House-with-the-Power-of-Paint_IMAGE1.jpeg",
+    "category": "Full Home",
+    "process": [
+      "Wall moisture check and surface repair",
+      "Complete covering of valuables",
+      "Putty, primer, and sanding preparation",
+      "2-coat paint application",
+      "Supervised execution and inspection",
+      "Final cleanup and feedback collection"
+    ]
+  },
+  {
+    "title": "Luxury 4BHK Painting Makeover",
+    "rating": 4.9,
+    "views_count": 165,
+    "starts_at_price": "22999",
+    "description": "Premium painting for large 4BHK homes with designer finishes and expert color consultation.",
+    "image": "https://www.mediumspot.com/wp-content/uploads/2020/06/House-Painter11-880x528.jpg",
+    "category": "Full Home",
+    "process": [
+      "Detailed on-site inspection and planning",
+      "Protection of surfaces and floor areas",
+      "Crack filling, sanding, and wall levelling",
+      "Primer + 2-coat luxury paint application",
+      "Highlight wall finishes (if opted)",
+      "Post-job cleanup and customer walkthrough"
+    ]
+  },
+  {
+    "title": "Rental Home Repaint - 2BHK",
+    "rating": 4.5,
+    "views_count": 210,
+    "starts_at_price": "9999",
+    "description": "Fast and budget-friendly repainting service for rental 2BHK homes.",
+    "image": "https://www.paintzen.com/wp-content/uploads/2019/12/interior-paint-contractors-painting-paintzen.jpg",
+    "category": "Full Home",
+    "process": [
+      "Basic surface scraping and patch repairs",
+      "Single coat primer (if needed)",
+      "Single or double coat repaint",
+      "Edge cleaning and touch-up",
+      "Removal of coverings and site cleaning"
+    ]
+  },
+  {
+    "title": "Eco-Friendly Painting for 3BHK",
+    "rating": 4.6,
+    "views_count": 132,
+    "starts_at_price": "17999",
+    "description": "Painting service using non-toxic, eco-friendly paints for better air quality.",
+    "image": "https://thepaintpeople.com/wp-content/uploads/2017/05/wallpainter.jpg",
+    "category": "Full Home",
+    "process": [
+      "Inspection for safe paint application",
+      "Masking of furniture and electric points",
+      "Eco-friendly putty and primer usage",
+      "Zero-VOC paint application (2 coats)",
+      "Odor-free drying and final finish",
+      "Post-service cleaning and safety check"
+    ]
+  },
+  {
+    "title": "Geometric Accent Wall Design",
+    "rating": 4.8,
+    "views_count": 220,
+    "starts_at_price": "3499",
+    "description": "Modern geometric pattern painting to enhance your living or bedroom space with bold designs.",
+    "image": "https://i.pinimg.com/originals/d3/92/28/d392282e6a790eedeec99ab38967a995.jpg",
+    "category": "Design",
+    "process": [
+      "Wall measurement and pattern selection",
+      "Masking and layout drawing",
+      "Base color application",
+      "Pattern paint layering",
+      "Drying and tape removal",
+      "Finishing touch and cleaning"
+    ]
+  },
+  {
+    "title": "3D Wall Art Painting",
+    "rating": 4.9,
+    "views_count": 185,
+    "starts_at_price": "4999",
+    "description": "Immersive 3D wall painting that adds depth and drama to your interiors.",
+    "image": "https://menterarchitects.com/wp-content/uploads/2018/10/beach-view-3d-wall-art-moonwallstickers-inside-3d-wall-art.jpg",
+    "category": "Design",
+    "process": [
+      "Surface prep and sketch layout",
+      "Base coat painting",
+      "3D effect shading and detailing",
+      "Texture enhancement (optional)",
+      "Final varnish layer",
+      "Cleanup and presentation"
+    ]
+  },
+  {
+    "title": "Metallic Finish Wall Design",
+    "rating": 4.7,
+    "views_count": 210,
+    "starts_at_price": "3999",
+    "description": "Give your walls a luxury sheen with metallic paint finishes, perfect for feature walls.",
+    "image": "https://www.nobroker.in/blog/wp-content/uploads/2024/09/living-room-metallic-finish-wall-putty-texture-design-1200x675.webp",
+    "category": "Design",
+    "process": [
+      "Surface smoothening and priming",
+      "Application of base coat",
+      "Metallic color coat with roller or brush",
+      "Buffing and polishing (if required)",
+      "Detailing edges and corners",
+      "Final inspection"
+    ]
+  },
+  {
+    "title": "Ombre Wall Painting",
+    "rating": 4.6,
+    "views_count": 170,
+    "starts_at_price": "2999",
+    "description": "Stylish gradient color blending from light to dark tones for a calming look.",
+    "image": "https://i.pinimg.com/originals/7f/2f/7e/7f2f7ea63c3f13829004fc53a086926c.jpg",
+    "category": "Design",
+    "process": [
+      "Select gradient color scheme",
+      "Apply base coat",
+      "Blend mid-tone with sponges or brush",
+      "Top tone application and blending",
+      "Smooth transitions with rollers",
+      "Final color seal"
+    ]
+  },
+  {
+    "title": "Floral Pattern Wall Art",
+    "rating": 4.8,
+    "views_count": 194,
+    "starts_at_price": "3799",
+    "description": "Elegant hand-painted or stencil floral patterns for living rooms or bedrooms.",
+    "image": "https://www.wall-art.de/out/pictures/generated/product/1/1080_1080_80/livingwalls-walls-by-patel-fototapete-dd127833-ambiente.jpg",
+    "category": "Design",
+    "process": [
+      "Choose floral pattern and placement",
+      "Wall cleaning and base color coating",
+      "Stencil or hand-paint design transfer",
+      "Layer color fills and shading",
+      "Edge refining and finishing",
+      "Drying and cleanup"
+    ]
+  },
+  {
+    "title": "Abstract Expression Wall Design",
+    "rating": 4.5,
+    "views_count": 160,
+    "starts_at_price": "3199",
+    "description": "Bold abstract designs for artistic and unique interior statements.",
+    "image": "https://i.etsystatic.com/27256949/r/il/423bff/3450304411/il_fullxfull.3450304411_79zw.jpg",
+    "category": "Design",
+    "process": [
+      "Design concept discussion",
+      "Base paint application",
+      "Color splash or brushstroke design",
+      "Layer building for depth",
+      "Final detailing and fixatives",
+      "Cleanup and handover"
+    ]
+  }
+
+]

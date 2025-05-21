@@ -1,10 +1,11 @@
 [
-  {
+   {
     "title": "Wooden Slat Wall Panel",
     "rating": 4.7,
     "views_count": 310,
     "starts_at_price": "1399",
     "description": "Stylish wooden slat panels to give your living room a warm and modern feel.",
+    "view_details": "These natural wood slat panels create visual interest while maintaining a clean, contemporary look. The vertical or horizontal arrangement options allow for customization to match your space's proportions. Perfect for creating a feature wall behind sofas or media units.",
     "image": "https://i.pinimg.com/originals/85/93/02/8593022a49ec7c747b9fcb0a6fa01c11.jpg",
     "category": "Living Room",
     "process": [
@@ -20,6 +21,7 @@
     "views_count": 420,
     "starts_at_price": "1699",
     "description": "Eye-catching 3D geometric wall panels for modern living room spaces.",
+    "view_details": "These sculptural panels add depth and dimension to any contemporary interior. The geometric patterns create striking shadow play when illuminated. Available in various neutral tones to complement modern color schemes while serving as an artistic focal point.",
     "image": "https://cdn.shopify.com/s/files/1/1772/0301/products/01_952a0200-ec7a-4dba-9c32-6a766b641522.jpg?v=1575939957",
     "category": "Living Room",
     "process": [
@@ -35,6 +37,7 @@
     "views_count": 270,
     "starts_at_price": "1899",
     "description": "Stone-textured panels for a rustic yet classy living room feature wall.",
+    "view_details": "Bring the organic beauty of natural stone indoors without the weight or expense. These realistic panels mimic various stone finishes from rugged slate to smooth limestone. Ideal for creating a fireplace surround or accent wall that adds timeless character to your living space.",
     "image": "https://img.archiexpo.com/images_ae/photo-g/148965-9297141.jpg",
     "category": "Living Room",
     "process": [
@@ -50,6 +53,7 @@
     "views_count": 250,
     "starts_at_price": "1299",
     "description": "Durable WPC panels for elegant, long-lasting wall designs.",
+    "view_details": "Wood-Plastic Composite panels offer the beauty of wood with enhanced moisture resistance, making them perfect for humid climates. These low-maintenance panels resist warping and fading while providing rich woodgrain textures. Available in multiple stain colors to match your decor.",
     "image": "https://image.made-in-china.com/2f0j00iRhfwGtKZjcN/Interior-Decoration-Soundproof-Wood-Plastic-Composited-WPC-Acoustic-Wall-Panel-Board-Cladding.jpg",
     "category": "Living Room",
     "process": [
@@ -65,6 +69,7 @@
     "views_count": 360,
     "starts_at_price": "1799",
     "description": "Sound-absorbing fabric wall panels to enhance comfort and reduce echo.",
+    "view_details": "These professional-grade acoustic panels significantly improve room acoustics while adding soft texture to your walls. Available in numerous fabric colors and patterns to coordinate with your interior design. Ideal for home theaters, music rooms, or open-concept living spaces needing sound control.",
     "image": "https://i.pinimg.com/736x/24/c9/41/24c9417d62eeeea97b1983e2287ec510.jpg",
     "category": "Living Room",
     "process": [
@@ -80,6 +85,7 @@
     "views_count": 190,
     "starts_at_price": "1499",
     "description": "Glossy marble-look PVC panels ideal for luxurious living rooms.",
+    "view_details": "Achieve the opulence of real marble at a fraction of the cost with these lightweight, easy-to-install panels. The high-gloss finish reflects light beautifully, while the realistic veining patterns create a sense of luxury. Perfect for creating a sophisticated backdrop in formal living areas.",
     "image": "https://www.ofwpc.com/upload/middle/1_ProductsWPCwallpanel12_1684715533.jpg",
     "category": "Living Room",
     "process": [
@@ -95,6 +101,7 @@
     "views_count": 400,
     "starts_at_price": "2499",
     "description": "Stylish wall paneling with integrated LED strips for ambient lighting.",
+    "view_details": "Transform your living space with these illuminated wall panels that create stunning visual effects. Choose from various lighting colors and brightness levels to set the perfect mood. The energy-efficient LED strips are concealed within the panel design for a seamless, modern look that enhances any contemporary interior.",
     "image": "https://media.designcafe.com/wp-content/uploads/2022/04/10102618/an-entertainment-unit-with-an-led-backlit-wall-panel-and-a-low-lying-cabinet-for-1bhk-flat-interior-design.jpg",
     "category": "Living Room",
     "process": [
@@ -110,6 +117,7 @@
     "views_count": 220,
     "starts_at_price": "1599",
     "description": "Industrial-style concrete texture panels for a chic modern touch.",
+    "view_details": "Capture the urban loft aesthetic with these realistic concrete-look panels that are much lighter and easier to install than actual concrete. The matte finish and subtle texture variations create authentic industrial character. Works particularly well in minimalist or Scandinavian-inspired interiors.",
     "image": "https://www.wallhub.com.sg/wp-content/uploads/2019/05/Wallhub-Project-Reference-Kastpanel-213.png",
     "category": "Living Room",
     "process": [
@@ -125,6 +133,7 @@
     "views_count": 210,
     "starts_at_price": "1199",
     "description": "Elegant 3D gypsum panels for minimalist and modern living spaces.",
+    "view_details": "These lightweight gypsum panels create sophisticated dimensional patterns that add architectural interest to plain walls. The white finish allows for easy painting to match your color scheme. The geometric designs range from subtle textures to dramatic relief patterns for customizable impact.",
     "image": "https://c4ddownload.com/wp-content/uploads/Gypsum-Wall-Decoration-3D-Model-2.jpg",
     "category": "Living Room",
     "process": [
@@ -140,6 +149,7 @@
     "views_count": 180,
     "starts_at_price": "999",
     "description": "Printed vinyl panels with textures or artwork for a creative vibe.",
+    "view_details": "Completely transform your space with these customizable printed panels featuring anything from nature scenes to abstract patterns. The high-resolution printing captures incredible detail, while the durable vinyl material is easy to clean. Perfect for renters or those wanting temporary dramatic changes.",
     "image": "https://image.made-in-china.com/2f0j00LZRbPaNhnBoe/Veneer-Design-Silica-Mineral-Board-Wall-Panel-3D-Printed-Wall-Panel-for-Hotel-for-Office.jpg",
     "category": "Living Room",
     "process": [
@@ -155,6 +165,7 @@
     "views_count": 340,
     "starts_at_price": "1599",
     "description": "Floating wooden panel design with hidden wiring for a sleek look.",
+    "view_details": "This streamlined TV wall solution conceals all cables while providing a warm wooden backdrop for your entertainment center. The floating design creates visual lightness, making it ideal for small spaces. Available in various wood finishes to complement your existing furniture and flooring.",
     "image": "https://i.pinimg.com/736x/3d/87/8d/3d878d45f8fb23c8963e94ace3faa505.jpg",
     "category": "TV Wall",
     "process": [
@@ -170,6 +181,7 @@
     "views_count": 410,
     "starts_at_price": "1899",
     "description": "TV unit with decorative side shelves for storage and decor.",
+    "view_details": "This multifunctional wall unit combines practical media storage with display space for books and decor items. The asymmetrical shelf arrangement creates visual interest while providing flexible storage solutions. The clean-lined design works with both modern and transitional decor styles.",
     "image": "https://m.media-amazon.com/images/I/81ejQdlZnxL._SL1500_.jpg",
     "category": "TV Wall",
     "process": [
@@ -185,6 +197,7 @@
     "views_count": 450,
     "starts_at_price": "2199",
     "description": "Modern TV panel with ambient backlighting for a theater-like feel.",
+    "view_details": "Enhance your viewing experience with this illuminated TV wall that reduces eye strain while creating a cinematic atmosphere. The LED backlighting can be customized to match on-screen colors or set to static hues. The slim profile maintains a clean, uncluttered look in your living space.",
     "image": "https://images.livspace-cdn.com/plain/https://d3gq2merok8n5r.cloudfront.net/1urls-1677054134-GnYku/modern-style-tv-unit-design-with-backlit-panel-and-white-console-1677058691-WXESW.jpg",
     "category": "TV Wall",
     "process": [
@@ -200,6 +213,7 @@
     "views_count": 290,
     "starts_at_price": "1699",
     "description": "3D textured panels for a designer look behind your television.",
+    "view_details": "Elevate your TV wall from ordinary to extraordinary with these dimensional panels that create depth and interest behind your screen. The texture helps minimize glare while adding sophisticated style. Available in various patterns from subtle linen weaves to bold geometric designs.",
     "image": "https://roohome.com/wp-content/uploads/2016/07/Archivizer.jpg",
     "category": "TV Wall",
     "process": [
@@ -215,6 +229,7 @@
     "views_count": 310,
     "starts_at_price": "2499",
     "description": "Custom gypsum false wall with lighting and niches for TV and decor.",
+    "view_details": "Create a built-in look with this customizable false wall system that conceals wiring while providing display niches and integrated lighting. The gypsum construction allows for curved or angled designs to suit unique spaces. Perfect for creating a high-end media wall with a seamless, architectural appearance.",
     "image": "https://i.pinimg.com/originals/8b/ee/d4/8beed4963945261c232320f492da1da6.jpg",
     "category": "TV Wall",
     "process": [
@@ -230,6 +245,7 @@
     "views_count": 370,
     "starts_at_price": "2899",
     "description": "Luxurious marble laminate panels behind TV for a premium look.",
+    "view_details": "Bring timeless elegance to your entertainment area with these realistic marble panels that create a high-end focal point. The durable laminate surface resists scratches and fingerprints while maintaining its luxurious appearance. The neutral marble tones provide a perfect backdrop that won't compete with your screen.",
     "image": "https://images.livspace-cdn.com/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/ond-2022-1664872805-f0ijv/tv-1664873091-1L8tV/sc-5-1-1666873200-qJs6o.jpg",
     "category": "TV Wall",
     "process": [
@@ -245,6 +261,7 @@
     "views_count": 325,
     "starts_at_price": "2099",
     "description": "Multi-functional TV wall panel with closed cabinets and drawers.",
+    "view_details": "Maximize your space with this clever storage solution that keeps media components and clutter out of sight while maintaining a clean aesthetic. The combination of closed cabinets and open shelves offers flexible storage options. The neutral finish blends seamlessly with most decor styles from modern to traditional.",
     "image": "https://www.ikea.com/gb/en/images/products/besta-tv-storage-combination-glass-doors-lappviken-sindvik-white-clear-glass__0729541_pe737048_s5.jpg?f=xxxl",
     "category": "TV Wall",
     "process": [
@@ -260,6 +277,7 @@
     "views_count": 260,
     "starts_at_price": "1799",
     "description": "Reclaimed wood design for a rustic and warm living room centerpiece.",
+    "view_details": "Add organic warmth and texture to your media wall with these authentic reclaimed wood panels. Each piece showcases unique weathering, knots, and grain patterns for one-of-a-kind character. The natural wood tones create a cozy, inviting atmosphere perfect for cabin-inspired or farmhouse-style interiors.",
     "image": "https://cdn.shopify.com/s/files/1/0587/2828/4323/files/modern-rustic-living-room-with-black-wood-panel-accent-wall-and-floating-shelves.jpg?v=1650810951",
     "category": "TV Wall",
     "process": [
@@ -275,6 +293,7 @@
     "views_count": 230,
     "starts_at_price": "2399",
     "description": "TV panel setup with integrated slots for surround sound speakers.",
+    "view_details": "This innovative wall system seamlessly incorporates your audio components for a clean, uncluttered look. The acoustically transparent panels maintain sound quality while concealing speakers. Perfect for home theater enthusiasts who want professional-grade audio without visible equipment.",
     "image": "https://i.ytimg.com/vi/IQyRZ7ynlMs/maxresdefault.jpg",
     "category": "TV Wall",
     "process": [
@@ -290,6 +309,7 @@
     "views_count": 210,
     "starts_at_price": "1899",
     "description": "Modern vertical lighting along panel edges for ambient glow.",
+    "view_details": "Make your TV wall a dramatic focal point with these vertically illuminated panels that frame your entertainment area. The LED strips provide adjustable color temperatures from warm white to cool daylight. The lighting can be synced with your viewing or set to accent modes for different times of day.",
     "image": "https://img.staticmb.com/mbcontent/images/uploads/2023/5/TV-Panel-Design-for-Expansive-Bedrooms.jpg",
     "category": "TV Wall",
     "process": [
@@ -305,6 +325,7 @@
     "views_count": 380,
     "starts_at_price": "1799",
     "description": "Stylish vertical wooden fluted panels that add texture and warmth to your bedroom.",
+    "view_details": "These elegant fluted panels bring subtle rhythm and sophistication to bedroom walls. The vertical lines create a sense of height, making them perfect for smaller spaces. The natural wood finish adds organic warmth, while the clean lines maintain a contemporary aesthetic that works with various design styles.",
     "image": "https://andorwillow.com/cdn/shop/articles/vertical_wood_slat_accent_wall_in_minimalist_bedroom_2.webp?v=1686352001",
     "category": "Bedroom",
     "process": [
@@ -320,6 +341,7 @@
     "views_count": 420,
     "starts_at_price": "1999",
     "description": "Soft velvet fabric panels that bring comfort and luxury to bedroom walls.",
+    "view_details": "Create a sumptuous, hotel-like retreat with these plush velvet wall panels that add both visual and tactile luxury. The rich fabric absorbs sound for a quieter sleeping environment. Available in an array of jewel tones and neutrals to create your perfect sanctuary. Ideal for creating a dramatic headboard wall.",
     "image": "https://i.etsystatic.com/49742616/r/il/02a7c7/5684750524/il_794xN.5684750524_6ew8.jpg",
     "category": "Bedroom",
     "process": [
@@ -335,6 +357,7 @@
     "views_count": 310,
     "starts_at_price": "1499",
     "description": "Lightweight and decorative 3D PVC panels perfect for a modern bedroom backdrop.",
+    "view_details": "These innovative panels add architectural interest to plain bedroom walls without heavy construction. The waterproof PVC material makes them ideal for humid climates. The three-dimensional patterns range from subtle waves to dramatic geometric designs, allowing you to customize the visual impact.",
     "image": "https://cf.shopee.ph/file/8cb3b242c63a41558c667619a7aba15e",
     "category": "Bedroom",
     "process": [
@@ -350,6 +373,7 @@
     "views_count": 260,
     "starts_at_price": "999",
     "description": "Trendy brick-effect wallpaper for a cozy and rustic bedroom touch.",
+    "view_details": "Achieve the urban loft look without structural changes using these realistic brick-patterned wallpaper panels. The textured finish mimics actual brickwork, complete with color variations and mortar lines. Perfect for creating an accent wall behind the bed or adding character to small bedrooms.",
     "image": "https://cdn.shopify.com/s/files/1/0522/0764/8921/products/image_0ce0e715-f6be-49ac-b343-5d1c93af8717_grande.jpg?v=1677606498",
     "category": "Bedroom",
     "process": [
@@ -365,6 +389,7 @@
     "views_count": 300,
     "starts_at_price": "1599",
     "description": "Classic wood paneling with wainscoting design for elegant bedroom walls.",
+    "view_details": "Bring traditional elegance to your bedroom with these timeless wainscoting panels. The raised panel design adds architectural character while protecting walls from furniture scuffs. Can be painted in crisp whites for a cottage feel or stained in rich tones for a more formal look.",
     "image": "https://i.pinimg.com/originals/6c/88/6d/6c886de84faddd0f472bdf53339f01b6.jpg",
     "category": "Bedroom",
     "process": [
@@ -380,6 +405,7 @@
     "views_count": 390,
     "starts_at_price": "2499",
     "description": "False ceiling drop with integrated gypsum wall extension for a seamless look.",
+    "view_details": "Create a cohesive, architectural statement with this ceiling-to-wall gypsum system that defines the sleeping area. The integrated design allows for concealed lighting and a streamlined appearance. Perfect for modern bedrooms where clean lines and subtle sophistication are desired.",
     "image": "https://1.bp.blogspot.com/-jXrb4bqwTno/Wi3rko6NUrI/AAAAAAAAO5E/DMkh4tNPEIwCahzoH05M7cDtJt6fcqzVQCLcBGAs/s1600/gypsum-board-ceiling-design-catalogue-for-suspended-ceiling-designs.jpg",
     "category": "Bedroom",
     "process": [
@@ -395,6 +421,7 @@
     "views_count": 240,
     "starts_at_price": "1399",
     "description": "Industrial style concrete wall panel for a minimal bedroom design.",
+    "view_details": "These concrete-look panels bring urban edge to bedroom spaces without the coldness of actual concrete. The subtle texture variations and matte finish create authentic industrial character. Works particularly well in minimalist, loft-style, or masculine bedroom designs.",
     "image": "https://i.pinimg.com/736x/29/ee/ef/29eeefcb5a7af4cb8e5b79ee0bb2b6d9.jpg",
     "category": "Bedroom",
     "process": [
@@ -410,6 +437,7 @@
     "views_count": 460,
     "starts_at_price": "2899",
     "description": "Upholstered panel behind bed with integrated warm LED backlighting.",
+    "view_details": "Transform your bedroom into a luxurious retreat with this illuminated headboard wall that provides both style and function. The soft LED glow creates ambient lighting perfect for nighttime reading or setting a relaxing mood. The upholstered surface adds comfort and sound absorption.",
     "image": "https://www.adorecharlotte.co.uk/wp-content/uploads/2024/11/Backlit-Headboard-Lighting-Wall-Lighting-Ideas-for-Small-Bedrooms-1-768x1152.jpg",
     "category": "Bedroom",
     "process": [
@@ -425,6 +453,7 @@
     "views_count": 330,
     "starts_at_price": "1899",
     "description": "Noise-reducing fabric panels for quiet and relaxing sleep environments.",
+    "view_details": "These professional-grade acoustic panels significantly improve bedroom acoustics while adding soft texture to your walls. The sound-absorbing materials help create a peaceful sleeping environment by reducing echo and outside noise. Available in numerous fabric colors to coordinate with your decor.",
     "image": "https://i.pinimg.com/originals/f0/5b/db/f05bdb6d3bf19ca5bb8dcff0253caad5.jpg",
     "category": "Bedroom",
     "process": [
@@ -440,6 +469,7 @@
     "views_count": 210,
     "starts_at_price": "899",
     "description": "Bold wallpaper prints to create a focal point in the bedroom.",
+    "view_details": "Make a dramatic style statement with these large-scale wallpaper panels featuring everything from tropical botanicals to abstract geometries. The high-quality printing captures vibrant colors and intricate details. Perfect for renters or those wanting to experiment with bold patterns without permanent commitment.",
     "image": "http://cdn.decoist.com/wp-content/uploads/2015/03/Fabulous-bedroom-has-a-cheerful-breezy-ambiance.jpg",
     "category": "Bedroom",
     "process": [
@@ -455,6 +485,7 @@
     "views_count": 270,
     "starts_at_price": "1599",
     "description": "Natural stone cladding adds elegance and durability to hallway walls.",
+    "view_details": "Make a striking first impression with these authentic-looking stone panels that withstand high traffic while adding timeless character. The textured surface hides scuffs and fingerprints common in entryways. Available in various stone types from rugged fieldstone to sophisticated ashlar patterns.",
     "image": "https://img.freepik.com/premium-photo/stone-cladding-wall-spacious-hallway-with-staircase-luxury-minimalist-home-interior_719688-4163.jpg",
     "category": "Other Areas",
     "process": [
@@ -470,6 +501,7 @@
     "views_count": 320,
     "starts_at_price": "1499",
     "description": "Elegant wood wainscoting panels for classic dining room ambiance.",
+    "view_details": "Elevate your dining space with these traditional wainscoting panels that add architectural interest while protecting walls from chair backs. The raised panel design creates formal elegance perfect for entertaining. Can be painted in crisp whites for a fresh look or stained in rich woods for traditional warmth.",
     "image": "http://st.hzcdn.com/simgs/6481f79b00b3e803_4-6249/traditional-dining-room.jpg",
     "category": "Other Areas",
     "process": [
@@ -485,6 +517,7 @@
     "views_count": 220,
     "starts_at_price": "1899",
     "description": "Large mirrored panels to visually expand entryway space.",
+    "view_details": "Make small entryways appear larger and brighter with these full-length mirrored panels. The reflective surfaces bounce light throughout the space while providing a last-minute appearance check before heading out. The sleek, frameless design maintains a modern aesthetic in any foyer.",
     "image": "http://cdn.decoist.com/wp-content/uploads/2015/03/Elegant-entryway-with-a-pleated-mirror-wall.jpg",
     "category": "Other Areas",
     "process": [
@@ -500,6 +533,7 @@
     "views_count": 280,
     "starts_at_price": "1799",
     "description": "Vertical wooden slat panels that add warmth and improve acoustics.",
+    "view_details": "Create a focused work environment with these wood slat panels that reduce echo while adding natural warmth to home offices. The vertical lines promote a sense of order and concentration. The natural wood tones provide a calming backdrop that enhances productivity without visual distraction.",
     "image": "https://i.pinimg.com/originals/c4/89/ba/c489ba017d3c630540ee1dc9e774c165.jpg",
     "category": "Other Areas",
     "process": [
@@ -515,6 +549,7 @@
     "views_count": 250,
     "starts_at_price": "1299",
     "description": "Arrange art frames and decor on wall-mounted floating shelves.",
+    "view_details": "Showcase your collections with this flexible display system that combines the elegance of a gallery wall with the functionality of shelves. The floating design creates visual lightness, while the adjustable arrangement allows for easy updates. Perfect for displaying books, art, and personal mementos in home offices or hallways.",
     "image": "https://i.pinimg.com/originals/c4/76/7e/c4767ee3295014d5ce6235ada215226b.jpg",
     "category": "Other Areas",
     "process": [
@@ -530,6 +565,7 @@
     "views_count": 230,
     "starts_at_price": "1999",
     "description": "Colorful ceramic tile panels that add vibrance to staircase walls.",
+    "view_details": "Turn your staircase into a work of art with these decorative tile panels that withstand heavy traffic while adding personality. The durable glazed surfaces are easy to clean and maintain. Choose from various patterns ranging from traditional encaustic looks to modern geometric designs.",
     "image": "https://3.bp.blogspot.com/-FqCRL5CIH8c/Wzc5QgyXa1I/AAAAAAAADPM/0ZLZC-8r9gIzbaxFm7vfEF1_ZkG53F2NACLcBGAs/s1600/Castle-staircase-staircase-traditional-with-steel-stair-railing-wall-candle-sconces-curved-staircase-8.jpg",
     "category": "Other Areas",
     "process": [
@@ -545,6 +581,7 @@
     "views_count": 290,
     "starts_at_price": "1699",
     "description": "Exposed brick veneer creates a cozy reading corner ambiance.",
+    "view_details": "Create a charming book nook with these realistic brick veneer panels that add rustic character without structural weight. The warm brick tones and textured surface create an inviting atmosphere perfect for curling up with a good book. The thin profile makes it ideal for creating accent walls in small spaces.",
     "image": "https://thumbs.dreamstime.com/b/cozy-reading-nook-rough-textured-brick-wall-creating-intimate-atmosphere-325447447.jpg",
     "category": "Other Areas",
     "process": [
@@ -554,6 +591,7 @@
       "Seal surface for durability"
     ]
   },
+  [
   {
     "title": "Fabric Panel Wall for Home Office",
     "rating": 4.4,
@@ -567,7 +605,8 @@
       "Wrap frames with acoustic fabric",
       "Mount panels on wall securely",
       "Inspect for alignment and fit"
-    ]
+    ],
+    "view_details": "Ideal for sound absorption and visual appeal in home workspaces."
   },
   {
     "title": "Metal Mesh Wall Art for Loft",
@@ -582,7 +621,8 @@
       "Install mounting frame",
       "Fix mesh panels to frame",
       "Apply rust-proof coating"
-    ]
+    ],
+    "view_details": "Perfect for creating an industrial-themed decor in modern lofts."
   },
   {
     "title": "Chalkboard Wall Panel in Kids Room",
@@ -597,8 +637,11 @@
       "Apply multiple coats of chalkboard paint",
       "Allow drying between coats",
       "Clean and season chalkboard before use"
-    ]
+    ],
+    "view_details": "Fun and functional wall panel for creative kids’ activities."
   }
+]
+
 
 
 ]

@@ -18,3 +18,132 @@
   color: white;
   border-color: #594100;
 }
+/* Modal Title */
+.modal-title-text {
+  font-size: 1.75rem; /* Slightly larger for emphasis */
+  font-weight: 700; /* Bold for hierarchy */
+  color: #2c3e50; /* Dark color for contrast */
+  line-height: 1.2;
+  margin-bottom: 0; /* Remove default margin for tighter spacing */
+}
+.btn-add {
+  background-color: #594100; /* Dark golden-brown from your input */
+  border-color: #594100; /* Match border to background */
+  color: #ffffff; /* White text for contrast */
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.btn-add:hover {
+  background-color: #7a5c00; /* Lighter shade for hover */
+  border-color: #7a5c00;
+  color: #ffffff;
+  transform: scale(1.05); /* Subtle scale effect on hover */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Price Text */
+.modal-price-text {
+  font-size: 1.1rem; /* Slightly smaller than title */
+  font-weight: 500; /* Medium weight for balance */
+  color: #34495e; /* Slightly lighter dark shade */
+  letter-spacing: 0.5px; /* Subtle spacing for clarity */
+}
+
+/* Cart Button Text */
+.modal-button-text {
+  font-size: 1rem; /* Standard button size */
+  font-weight: 600; /* Bold for action emphasis */
+  text-transform: uppercase; /* Uppercase for button prominence */
+  letter-spacing: 1px; /* Spacing for readability */
+}
+
+/* Description Text */
+.modal-description-text {
+  font-size: 1rem; /* Standard size for body text */
+  font-weight: 400; /* Regular weight for easy reading */
+  color: #4a5568; /* Softer dark gray for contrast */
+  line-height: 1.6; /* Increased line height for readability */
+  margin-bottom: 1rem; /* Space below description */
+}
+
+/* Rating Text */
+.modal-rating-text {
+  font-size: 0.95rem; /* Slightly smaller for secondary info */
+  font-weight: 600; /* Bold to highlight rating */
+  color: #2d3748; /* Dark color for emphasis */
+  margin-bottom: 0.75rem; /* Space below rating */
+}
+
+/* View Details Text */
+.modal-details-text {
+  font-size: 0.95rem; /* Same as rating for consistency */
+  font-weight: 600; /* Bold for emphasis */
+  color: #594100; /* Blue to match Bootstrap primary */
+  /* text-decoration: underline; Underline to indicate interactivity */
+  cursor: pointer; /* Pointer cursor for clickable feel */
+  margin-bottom: 1.25rem; /* Space before process section */
+}
+
+/* Process Title */
+.modal-process-title {
+  font-size: 1.25rem; /* Slightly smaller than modal title */
+  font-weight: 700; /* Bold for section heading */
+  color: #2c3e50; /* Dark color for contrast */
+  margin-bottom: 0.75rem; /* Space before list */
+}
+
+/* Process List */
+.modal-process-list {
+  list-style-type: disc; /* Use disc bullets for clarity */
+  padding-left: 1.5rem; /* Standard indent for list */
+  margin-bottom: 0; /* Remove default margin */
+}
+
+/* Process List Items */
+.modal-process-item {
+  font-size: 0.95rem; /* Slightly smaller for list items */
+  font-weight: 400; /* Regular weight for readability */
+  color: #4a5568; /* Softer dark gray for body text */
+  line-height: 1.5; /* Comfortable line height */
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* No Process Text */
+.modal-no-process-text {
+  font-size: 0.95rem; /* Same as process items */
+  font-weight: 400; /* Regular weight */
+  color: #6b7280; /* Muted gray to match text-muted */
+  font-style: italic; /* Italic to differentiate from normal text */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .modal-title-text {
+    font-size: 1.5rem; /* Smaller title on mobile */
+  }
+
+  .modal-price-text {
+    font-size: 1rem; /* Slightly smaller on mobile */
+  }
+
+  .modal-description-text {
+    font-size: 0.9rem; /* Smaller for mobile readability */
+  }
+
+  .modal-rating-text,
+  .modal-details-text,
+  .modal-process-item,
+  .modal-no-process-text {
+    font-size: 0.85rem; /* Smaller for mobile */
+  }
+
+  .modal-process-title {
+    font-size: 1.1rem; /* Smaller heading on mobile */
+  }
+}

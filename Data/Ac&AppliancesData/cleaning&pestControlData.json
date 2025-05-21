@@ -5,7 +5,7 @@
     "views_count": 120,
     "starts_at_price": "499",
     "description": "Intensive cleaning of 1 bathroom in a 1 BHK setup including tiles, floor, and fittings.",
-    "image": "/images/bathroom_cleaning_1bhk.jpg",
+    "image": "https://c0.wallpaperflare.com/preview/283/339/827/adult-bathroom-bowl-chambermaid.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -14,25 +14,17 @@
     "views_count": 150,
     "starts_at_price": "799",
     "description": "Thorough cleaning of bathrooms in a 2 BHK flat including descaling and disinfection.",
-    "image": "/images/bathroom_cleaning_2bhk.jpg",
+    "image": "https://cf.ltkcdn.net/cleaning/images/orig/270026-1600x1066-how-often-should-you-clean-your-bathroom.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
-  {
-    "title": "Bathroom Deep Cleaning (3 BHK)",
-    "rating": 4.8,
-    "views_count": 180,
-    "starts_at_price": "999",
-    "description": "Deep sanitization of bathrooms in a 3 BHK house with complete wall and floor scrubbing.",
-    "image": "/images/bathroom_cleaning_3bhk.jpg",
-    "category": "Bathroom & Kitchen Cleaning"
-  },
+  
   {
     "title": "Kitchen Cleaning (1 BHK)",
     "rating": 4.5,
     "views_count": 110,
     "starts_at_price": "499",
     "description": "Degreasing of stove, chimney outer, tiles, and sink for 1 BHK kitchen.",
-    "image": "/images/kitchen_cleaning_1bhk.jpg",
+    "image": "https://promkraftinterior.com/wp-content/uploads/2021/11/kitchen-cleaning.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -41,7 +33,7 @@
     "views_count": 130,
     "starts_at_price": "749",
     "description": "Thorough kitchen cleaning including cupboards exterior and appliance surfaces.",
-    "image": "/images/kitchen_cleaning_2bhk.jpg",
+    "image": "https://crewcare.co.nz/admin_assets/blog/crewcare-cleaning-kitchen.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -50,7 +42,7 @@
     "views_count": 160,
     "starts_at_price": "899",
     "description": "Deep cleaning of chimney exterior, sink, gas burner, and tiles in 3 BHK.",
-    "image": "/images/kitchen_cleaning_3bhk.jpg",
+    "image": "https://www.mycleanhomeguide.co.uk/wp-content/uploads/2016/11/Kitchen-cleaning.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -59,7 +51,7 @@
     "views_count": 210,
     "starts_at_price": "899",
     "description": "Affordable combo of bathroom and kitchen cleaning for 1 BHK.",
-    "image": "/images/combo_cleaning_1bhk.jpg",
+    "image": "https://www.rd.com/wp-content/uploads/2022/02/GettyImages-1216606844.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -68,7 +60,7 @@
     "views_count": 230,
     "starts_at_price": "1199",
     "description": "Combined deep cleaning of bathroom and kitchen for 2 BHK homes.",
-    "image": "/images/combo_cleaning_2bhk.jpg",
+    "image": "https://www.wassupmate.com/wp-content/uploads/2021/04/Bathroom-Cleaning1.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -77,7 +69,7 @@
     "views_count": 260,
     "starts_at_price": "1499",
     "description": "Full service combo for 3 BHK with eco-friendly sanitization.",
-    "image": "/images/combo_cleaning_3bhk.jpg",
+    "image": "https://blog.sweepsouth.com/wp-content/uploads/2023/07/Mastering-Your-Space_-A-Comprehensive-Guide-to-Kitchen-Cleaning.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -86,7 +78,7 @@
     "views_count": 90,
     "starts_at_price": "299",
     "description": "Targeted toilet bowl and fittings cleaning using descalers.",
-    "image": "/images/toilet_descale.jpg",
+    "image": "https://i.ytimg.com/vi/2JsEO6t-q0k/maxresdefault.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -95,7 +87,7 @@
     "views_count": 75,
     "starts_at_price": "199",
     "description": "Restore shine and hygiene for stainless steel taps and sinks.",
-    "image": "/images/sink_tap_polishing.jpg",
+    "image": "https://i2-prod.mirror.co.uk/incoming/article30793755.ece/ALTERNATES/n615/0_Womans-hands-in-rubber-gloves-polishing-kitchen-sink.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -104,7 +96,7 @@
     "views_count": 85,
     "starts_at_price": "349",
     "description": "Wipe down and remove grease from outer chimney body.",
-    "image": "/images/chimney_exterior.jpg",
+    "image": "https://iqfix.in/wp-content/uploads/2023/09/chimney-install-1024x576.webp",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -113,7 +105,7 @@
     "views_count": 105,
     "starts_at_price": "299",
     "description": "Special treatment for oily kitchen walls and tiles.",
-    "image": "/images/kitchen_tile_degrease.jpg",
+    "image": "https://www.smirac.com/wp-content/uploads/2023/09/Surface-Assessment_Kitchen.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -122,7 +114,7 @@
     "views_count": 60,
     "starts_at_price": "199",
     "description": "Remove dust and oil buildup from exhaust fans.",
-    "image": "/images/bathroom_fan_cleaning.jpg",
+    "image": "https://www.selecthomewarranty.com/blog/wp-content/uploads/2021/04/exhaust-fan-shw-1200x803.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -131,7 +123,7 @@
     "views_count": 125,
     "starts_at_price": "349",
     "description": "Removes limescale and mineral deposits from tiles and taps.",
-    "image": "/images/hardwater_stain_removal.jpg",
+    "image": "https://img.freepik.com/premium-photo/woman-remove-hard-water-stains-deposits-bathroom_328191-25423.jpg",
     "category": "Bathroom & Kitchen Cleaning"
   },
   {
@@ -140,7 +132,7 @@
     "views_count": 140,
     "starts_at_price": "349",
     "description": "Quick cleaning of floor, tiles, and toilet seat for 1 bathroom.",
-    "image": "/images/bathroom_basic_1bhk.jpg",
+    "image": "https://i.ytimg.com/vi/hVTk6JQNAnA/maxresdefault.jpg",
     "category": "Bathroom Cleaning"
   },
   {
@@ -149,7 +141,7 @@
     "views_count": 160,
     "starts_at_price": "499",
     "description": "Cleans tiles, floors, and WC in 2 bathrooms.",
-    "image": "/images/bathroom_basic_2bhk.jpg",
+    "image": "https://www.redfin.com/blog/wp-content/uploads/2023/03/21647501-9f58-4ef6-9002-b37ee0b8a7fd.jpg",
     "category": "Bathroom Cleaning"
   },
   {
@@ -158,16 +150,7 @@
     "views_count": 180,
     "starts_at_price": "699",
     "description": "General cleaning of 3 bathrooms including mirror and fixtures.",
-    "image": "/images/bathroom_basic_3bhk.jpg",
-    "category": "Bathroom Cleaning"
-  },
-  {
-    "title": "Deep Bathroom Sanitization (1 BHK)",
-    "rating": 4.8,
-    "views_count": 200,
-    "starts_at_price": "499",
-    "description": "Intensive cleaning and disinfection of 1 bathroom.",
-    "image": "/images/bathroom_deep_1bhk.jpg",
+    "image": "https://uploads-ssl.webflow.com/60eece3229f951ea48ce43b4/6135faf750bc6f00b82d0914_shutterstock_1537141520-min.jpeg",
     "category": "Bathroom Cleaning"
   },
   {
@@ -176,7 +159,7 @@
     "views_count": 220,
     "starts_at_price": "699",
     "description": "Sanitizes 2 bathrooms with chemical treatment and scrubbing.",
-    "image": "/images/bathroom_deep_2bhk.jpg",
+    "image": "https://valetmaids.com/wp-content/uploads/2019/08/06_How-to-Clean-Bathroom_WipeDownBathRingsiStock-509673530.jpg",
     "category": "Bathroom Cleaning"
   },
   {
@@ -185,7 +168,7 @@
     "views_count": 250,
     "starts_at_price": "899",
     "description": "Cleans and disinfects 3 bathrooms with anti-limescale treatment.",
-    "image": "/images/bathroom_deep_3bhk.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/6/XV/HU/SD/130885415/washroom-deep-cleaning-1-500x500.png",
     "category": "Bathroom Cleaning"
   },
   {
@@ -194,7 +177,7 @@
     "views_count": 130,
     "starts_at_price": "299",
     "description": "Removes hard water stains, descaling toilet bowl and fittings.",
-    "image": "/images/bathroom_toilet_descale.jpg",
+    "image": "https://www.installeronline.co.uk/wp-content/uploads/2023/04/Roca_IN-WASH%C2%AE-INSIGNIA_3-scaled.jpg",
     "category": "Bathroom Cleaning"
   },
   {
@@ -203,17 +186,8 @@
     "views_count": 90,
     "starts_at_price": "199",
     "description": "Removes dust and grease from bathroom exhaust fan.",
-    "image": "/images/bathroom_fan_cleaning.jpg",
+    "image": "https://www.selecthomewarranty.com/blog/wp-content/uploads/2021/04/exhaust-fan-shw-1200x803.jpg",
     "category": "Bathroom Cleaning"
-  },
-  {
-    "title": "Basic Kitchen Cleaning (1 BHK)",
-    "rating": 4.4,
-    "views_count": 135,
-    "starts_at_price": "399",
-    "description": "Wipe down counters, exterior of appliances, and sink.",
-    "image": "/images/kitchen_basic_1bhk.jpg",
-    "category": "Kitchen Cleaning"
   },
   {
     "title": "Basic Kitchen Cleaning (2 BHK)",
@@ -221,7 +195,7 @@
     "views_count": 155,
     "starts_at_price": "599",
     "description": "Surface cleaning of 2 BHK kitchen with tiles and appliances.",
-    "image": "/images/kitchen_basic_2bhk.jpg",
+    "image": "https://www.smirac.com/wp-content/uploads/2023/09/Preparation.jpg",
     "category": "Kitchen Cleaning"
   },
   {
@@ -230,7 +204,7 @@
     "views_count": 180,
     "starts_at_price": "499",
     "description": "Degrease walls, stove, and cabinets using kitchen-safe agents.",
-    "image": "/images/kitchen_deep_1bhk.jpg",
+    "image": "https://cdn.homedit.com/wp-content/uploads/cleaning/kitchen/How-to-Degrease-Kitchen-Cabinets-1024x709.jpg",
     "category": "Kitchen Cleaning"
   },
   {
@@ -239,7 +213,7 @@
     "views_count": 200,
     "starts_at_price": "699",
     "description": "Removes grease from stove, chimney exterior, tiles, and floor.",
-    "image": "/images/kitchen_deep_2bhk.jpg",
+    "image": "https://www.smirac.com/wp-content/uploads/2023/09/Steps-for-Kitchen-Degreasing_Kitchen.jpg",
     "category": "Kitchen Cleaning"
   },
   {
@@ -248,7 +222,7 @@
     "views_count": 220,
     "starts_at_price": "899",
     "description": "Full deep clean of 3 BHK kitchen including hard stain removal.",
-    "image": "/images/kitchen_deep_3bhk.jpg",
+    "image": "https://www.thedailymeal.com/img/gallery/degreasing-is-absolutely-key-when-it-comes-to-cleaning-up-the-kitchen/intro-1693594110.jpg",
     "category": "Kitchen Cleaning"
   },
   {
@@ -257,7 +231,7 @@
     "views_count": 85,
     "starts_at_price": "249",
     "description": "Cleans sink, tap, and removes calcium/mineral buildup.",
-    "image": "/images/kitchen_sink_descale.jpg",
+    "image": "https://cdn.shopify.com/s/files/1/0610/2869/6309/files/333779608_217490600790307_4303067989096236659_n_480x480.jpg?v=1677496887",
     "category": "Kitchen Cleaning"
   },
   {
@@ -266,27 +240,17 @@
     "views_count": 100,
     "starts_at_price": "299",
     "description": "Wipe and degrease chimney outer body (not internal service).",
-    "image": "/images/kitchen_chimney.jpg",
+    "image": "https://images.slurrp.com/prodarticles/5t0bblvvco.webp",
     "category": "Kitchen Cleaning"
   },
-  {
-    "title": "Cockroach Control - 1 BHK",
-    "rating": 4.6,
-    "views_count": 120,
-    "starts_at_price": "499",
-    "description": "Effective gel and spray treatment for cockroach control in 1 BHK.",
-    "image": "/images/pest_cockroach_1bhk.jpg",
-    "category": "Cockroach Control",
-    "visits_required": "Single visit is usually sufficient.",
-    "view_details": "Includes gel baiting in cabinets and spray in drains and corners."
-  },
+  
   {
     "title": "Cockroach Control - 2 BHK",
     "rating": 4.7,
     "views_count": 135,
     "starts_at_price": "699",
     "description": "Odorless treatment using herbal and chemical options.",
-    "image": "/images/pest_cockroach_2bhk.jpg",
+    "image": "https://bestpestcontrolbd.com/wp-content/uploads/2016/07/cockroach-control-1.png",
     "category": "Cockroach Control",
     "visits_required": "1-2 visits based on infestation level.",
     "view_details": "Spray and gel treatment in kitchen, bathrooms, and under sinks."
@@ -297,7 +261,7 @@
     "views_count": 160,
     "starts_at_price": "899",
     "description": "Comprehensive cockroach treatment for kitchen, bathroom, and drains.",
-    "image": "/images/pest_cockroach_3bhk.jpg",
+    "image": "https://hartzpestcontrol.com/wp-content/uploads/2021/12/cockroach-pest-control.jpg",
     "category": "Cockroach Control",
     "visits_required": "2 visits may be required for full elimination.",
     "view_details": "Thorough gel and residual spray in all high-risk zones."
@@ -308,7 +272,7 @@
     "views_count": 100,
     "starts_at_price": "399",
     "description": "Eco-friendly spray treatment to eliminate ants at source.",
-    "image": "/images/pest_ant_1bhk.jpg",
+    "image": "https://jacksonsmc.com/wp-content/uploads/2024/02/Indoor-Ant-Treatment.webp",
     "category": "Ant Control",
     "visits_required": "Usually done in a single visit.",
     "view_details": "Targeted spray around corners, windows, and entry points."
@@ -319,7 +283,7 @@
     "views_count": 120,
     "starts_at_price": "599",
     "description": "Prevents ant entry points and nests, safe for pets and kids.",
-    "image": "/images/pest_ant_2bhk.jpg",
+    "image": "https://pestcontrolsingapore.com.sg/wp-content/uploads/2024/05/Pest-Control-Technician-Perfoming-Ant-Control-Treatment.webp",
     "category": "Ant Control",
     "visits_required": "One-time service is generally enough.",
     "view_details": "Spray with baiting gel for longer protection."
@@ -330,21 +294,10 @@
     "views_count": 145,
     "starts_at_price": "749",
     "description": "Professional pest control for ant infestation in large homes.",
-    "image": "/images/pest_ant_3bhk.jpg",
+    "image": "https://buckarooservices.com/wp-content/uploads/2022/06/Ant-DIY-baseboards.png",
     "category": "Ant Control",
     "visits_required": "May require a follow-up visit.",
     "view_details": "Surface spray and crack sealing included in treatment."
-  },
-  {
-    "title": "General Pest Control - 1 BHK",
-    "rating": 4.5,
-    "views_count": 110,
-    "starts_at_price": "699",
-    "description": "Covers cockroaches, ants, and general pests using safe chemicals.",
-    "image": "/images/pest_general_1bhk.jpg",
-    "category": "General Pest Control",
-    "visits_required": "1 visit with optional follow-up after 15 days.",
-    "view_details": "Full-home spray and gel baiting in kitchen and bathroom."
   },
   {
     "title": "General Pest Control - 2 BHK",
@@ -352,7 +305,7 @@
     "views_count": 130,
     "starts_at_price": "899",
     "description": "Complete pest control solution for 2 BHK homes.",
-    "image": "/images/pest_general_2bhk.jpg",
+    "image": "https://pestcontrol.basf.us/content/dam/cxm/agriculture/pest-control/us/en/1920x576/Pest_LandingPg_GenPest-PMP-backpack-sprayer_1920x576.jpg",
     "category": "General Pest Control",
     "visits_required": "Includes 2 visits: initial and follow-up.",
     "view_details": "Covers cockroaches, ants, and spiders using odorless solutions."
@@ -363,7 +316,7 @@
     "views_count": 155,
     "starts_at_price": "1099",
     "description": "Comprehensive pest control including cockroaches, ants, and spiders.",
-    "image": "/images/pest_general_3bhk.jpg",
+    "image": "https://domainpest.com/wp-content/uploads/2022/06/general-pest-control-professional-solutions-1.jpg",
     "category": "General Pest Control",
     "visits_required": "Two visits recommended for effective results.",
     "view_details": "All-room treatment with eco-friendly spray and gel combination."
@@ -374,7 +327,7 @@
     "views_count": 170,
     "starts_at_price": "799",
     "description": "Specialized treatment for kitchen infestation - dual action.",
-    "image": "/images/pest_kitchen_combo.jpg",
+    "image": "https://thumbs.dreamstime.com/b/pest-control-specialist-exterminating-cockroaches-precision-detailed-disinfection-service-kitchen-concept-targeted-312919054.jpg",
     "category": "General Pest Control",
     "visits_required": "One-time service with high efficacy.",
     "view_details": "Focused kitchen treatment with bait and residual spraying."
@@ -385,29 +338,19 @@
     "views_count": 95,
     "starts_at_price": "1499",
     "description": "Anti-termite drilling and chemical treatment for 1 BHK.",
-    "image": "/images/pest_termite_1bhk.jpg",
+    "image": "https://www.serviceonwheel.com/uploads/service/422621671883691.jpg",
     "category": "Termite Control",
     "visits_required": "2 visits: treatment and follow-up after 15 days.",
     "view_details": "Drilling holes near walls and applying termiticide; sealing after treatment."
   },
-  {
-    "title": "Termite Control - 2 BHK",
-    "rating": 4.8,
-    "views_count": 120,
-    "starts_at_price": "1999",
-    "description": "Complete protection from termites in furniture and walls.",
-    "image": "/images/pest_termite_2bhk.jpg",
-    "category": "Termite Control",
-    "visits_required": "2 visits with inspection and chemical treatment.",
-    "view_details": "Inspection + drilling & chemical injection to stop infestation at source."
-  },
+  
   {
     "title": "Termite Control - 3 BHK",
     "rating": 4.9,
     "views_count": 150,
     "starts_at_price": "2499",
     "description": "Deep drilling and surface spray for long-term termite protection.",
-    "image": "/images/pest_termite_3bhk.jpg",
+    "image": "https://pestaustralia.com.au/wp-content/uploads/2021/10/stock-image-4-scaled-1.jpg",
     "category": "Termite Control",
     "visits_required": "Requires 2-3 visits depending on severity.",
     "view_details": "Complete room-by-room treatment using WHO-approved termiticides."
@@ -418,7 +361,7 @@
     "views_count": 75,
     "starts_at_price": "2999",
     "description": "Protect your large home from hidden termite colonies.",
-    "image": "/images/pest_termite_4bhk.jpg",
+    "image": "http://zeropestph.com/wp-content/uploads/2021/09/General-Pest-Control-5.jpg",
     "category": "Termite Control",
     "visits_required": "3 visits including monitoring.",
     "view_details": "Wall and furniture treatment with safe chemicals and follow-up check."
@@ -429,7 +372,7 @@
     "views_count": 135,
     "starts_at_price": "4999",
     "description": "Full-service termite protection for villas.",
-    "image": "/images/pest_termite_villa.jpg",
+    "image": "https://g2c4c3q6.delivery.rocketcdn.me/wp-content/uploads/2023/12/illustration-pest-control-maintenance-in-villa-1024x576.webp",
     "category": "Termite Control",
     "visits_required": "3-4 visits including inspection, treatment and final check.",
     "view_details": "Drill-spray-seal process across all rooms and woodwork."
@@ -440,7 +383,7 @@
     "views_count": 88,
     "starts_at_price": "999",
     "description": "Safe spray treatment for wooden cabinets, beds, and wardrobes.",
-    "image": "/images/pest_termite_furniture.jpg",
+    "image": "https://www.duroply.in/blog/wp-content/uploads/2021/07/Are-these-termites-eating-a-part-of-the-huge-investment-that-youve-done-in-furniture-and-interior.jpg",
     "category": "Termite Control",
     "visits_required": "Single visit, effective for 6 months.",
     "view_details": "Direct application of termiticide on wood surface and joints."
@@ -451,7 +394,7 @@
     "views_count": 110,
     "starts_at_price": "299",
     "description": "Detailed termite inspection before treatment.",
-    "image": "/images/pest_termite_inspection.jpg",
+    "image": "https://tdn.safepropest.com/wp-content/uploads/2022/07/Termite-Inspection.webp",
     "category": "Termite Control",
     "visits_required": "One inspection visit.",
     "view_details": "Visual inspection and quote generation based on infestation."
@@ -462,7 +405,7 @@
     "views_count": 90,
     "starts_at_price": "799",
     "description": "Targeted termite removal in kitchen woodwork and cabinets.",
-    "image": "/images/pest_termite_kitchen.jpg",
+    "image": "https://thumbs.dreamstime.com/b/professional-contractor-doing-pest-control-kitchen-professional-contractor-doing-pest-control-kitchen-139675252.jpg",
     "category": "Termite Control",
     "visits_required": "Single session, repeat after 6 months if needed.",
     "view_details": "Drill and spray behind cabinets and under sinks."
@@ -473,7 +416,7 @@
     "views_count": 78,
     "starts_at_price": "699",
     "description": "Moisture-proof termite spray for bathroom wooden doors and panels.",
-    "image": "/images/pest_termite_bathroom.jpg",
+    "image": "https://www.smithereen.com/wp-content/uploads/2019/09/residential-termite-damage.jpg",
     "category": "Termite Control",
     "visits_required": "1-2 visits as per condition.",
     "view_details": "Spot treatment on affected areas followed by sealing."
@@ -495,7 +438,7 @@
     "views_count": 100,
     "starts_at_price": "1299",
     "description": "Dual chemical spray to eliminate bed bugs in 1 BHK.",
-    "image": "/images/pest_bedbugs_1bhk.jpg",
+    "image": "https://www.hyderabadpestcontrol.com/assets/img/service/bed-bugs-control-image.png",
     "category": "Bed Bugs Control",
     "visits_required": "2 visits required, spaced 14 days apart.",
     "view_details": "Complete spraying of mattresses, beds, walls, and cracks."
@@ -506,7 +449,7 @@
     "views_count": 125,
     "starts_at_price": "1699",
     "description": "Safe, odorless treatment for bed bugs in 2 bedrooms.",
-    "image": "/images/pest_bedbugs_2bhk.jpg",
+    "image": "https://decoratoradvice.com/wp-content/uploads/2024/08/image2-46-1536x865.jpg",
     "category": "Bed Bugs Control",
     "visits_required": "2 compulsory visits.",
     "view_details": "Residual + knockdown spray across sleeping and resting areas."
@@ -517,7 +460,7 @@
     "views_count": 145,
     "starts_at_price": "1999",
     "description": "Advanced bed bug elimination for larger homes.",
-    "image": "/images/pest_bedbugs_3bhk.jpg",
+    "image": "https://decoratoradvice.com/wp-content/uploads/2024/08/image2-46-1536x865.jpg",
     "category": "Bed Bugs Control",
     "visits_required": "3 visits may be required based on severity.",
     "view_details": "Multiple-stage treatment with mattress-safe formula."
@@ -528,7 +471,7 @@
     "views_count": 130,
     "starts_at_price": "2399",
     "description": "Intensive spraying and steam treatment for bed bug removal.",
-    "image": "/images/pest_bedbugs_4bhk.jpg",
+    "image": "https://go.dodobooker.com/wp-content/uploads/2024/04/14.jpg",
     "category": "Bed Bugs Control",
     "visits_required": "Minimum 2 visits + one check-up.",
     "view_details": "Spraying + heating + mattress encapsulation where needed."
@@ -550,7 +493,7 @@
     "views_count": 80,
     "starts_at_price": "599",
     "description": "Eradicate bugs from sofas and cushioned chairs.",
-    "image": "/images/pest_bedbugs_sofa.jpg",
+    "image": "https://i.ytimg.com/vi/PwJOkLufYlI/maxresdefault.jpg",
     "category": "Bed Bugs Control",
     "visits_required": "Usually 2 visits needed.",
     "view_details": "Sofa dismantling and deep-surface spraying."
@@ -561,7 +504,7 @@
     "views_count": 160,
     "starts_at_price": "2499",
     "description": "Home-wide protection from recurring bed bugs.",
-    "image": "/images/pest_bedbugs_package.jpg",
+    "image": "https://www.hesspass.com/wp-content/uploads/2023/10/17847-bed-bugs.jpg",
     "category": "Bed Bugs Control",
     "visits_required": "3 planned visits over 1 month.",
     "view_details": "Whole-house treatment with follow-up guarantee."
@@ -572,7 +515,7 @@
     "views_count": 65,
     "starts_at_price": "299",
     "description": "Second round treatment to complete the process.",
-    "image": "/images/pest_bedbugs_followup.jpg",
+    "image": "https://www.snexplores.org/wp-content/uploads/2019/11/860-bedbugsidebar1-header.jpg",
     "category": "Bed Bugs Control",
     "visits_required": "One revisit after primary treatment.",
     "view_details": "Touch-up spraying in high-risk areas."
@@ -583,7 +526,7 @@
     "views_count": 70,
     "starts_at_price": "199",
     "description": "Identify bed bug hotspots before treatment.",
-    "image": "/images/pest_bedbugs_inspection.jpg",
+    "image": "https://desmoinespestservice.com/wp-content/uploads/2023/06/Hatch_ProStaff_6_2023-611-1024x683.jpg",
     "category": "Bed Bugs Control",
     "visits_required": "Single inspection visit.",
     "view_details": "Visual check and quote preparation based on infestation."
@@ -594,7 +537,7 @@
     "views_count": 60,
     "starts_at_price": "699",
     "description": "Discreet treatment for guest bedrooms and halls.",
-    "image": "/images/pest_bedbugs_guest.jpg",
+    "image": "https://cdn.rentokil.com/content/global/images/desktop/main_bed-bug-treatment.jpg",
     "category": "Bed Bugs Control",
     "visits_required": "2 visits to ensure zero recurrence.",
     "view_details": "Cushions, sofa, and bed corners treated with long-lasting spray."
@@ -605,7 +548,7 @@
     "views_count": 140,
     "starts_at_price": "1899",
     "description": "Complete cleaning of a 1 BHK including bedroom, kitchen, bathroom, and hall.",
-    "image": "/images/home_cleaning_1bhk.jpg",
+    "image": "https://www.playchicinteriors.com/wp-content/uploads/2021/03/shutterstock_677952907-905x613.jpg",
     "category": "Full Home Cleaning",
     "visits_required": "1 visit; approx. 3-4 hours required.",
     "view_details": "Includes deep cleaning of floors, furniture dusting, bathroom scrubbing, and kitchen surface degreasing."
@@ -616,7 +559,7 @@
     "views_count": 200,
     "starts_at_price": "2399",
     "description": "Comprehensive home cleaning for 2 bedrooms, 1 hall, 1 kitchen, and 2 bathrooms.",
-    "image": "/images/home_cleaning_2bhk.jpg",
+    "image": "https://jensonbrothers.com/photo/k/16906/1000/full-house-cleaning.jpg",
     "category": "Full Home Cleaning",
     "visits_required": "1 visit; takes up to 5 hours.",
     "view_details": "Dusting, scrubbing, vacuuming of floors, furniture, windows, and sanitizing kitchen & bathroom."
@@ -627,7 +570,7 @@
     "views_count": 180,
     "starts_at_price": "2899",
     "description": "All-in-one service for 3 BHK homes, covering every surface and corner.",
-    "image": "/images/home_cleaning_3bhk.jpg",
+    "image": "https://images.theconversation.com/files/546920/original/file-20230907-2978-dxxzlp.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=926&fit=clip",
     "category": "Full Home Cleaning",
     "visits_required": "1 visit; may take 6-7 hours.",
     "view_details": "Ceiling fan cleaning, cobweb removal, floor scrubbing, bathroom descaling, and kitchen degreasing."
@@ -638,7 +581,7 @@
     "views_count": 120,
     "starts_at_price": "3499",
     "description": "Top-to-bottom cleaning of 4 bedroom homes including hall, kitchen, and washrooms.",
-    "image": "/images/home_cleaning_4bhk.jpg",
+    "image": "https://img.freepik.com/premium-photo/woman-cleaning-floor-with-mop-living-room-home-with-smile-happy-asian-cleaner-doing-housework-job-clean-lounge-hotel-room-house-while-smiling-alone-spring-cleaning_590464-85963.jpg",
     "category": "Full Home Cleaning",
     "visits_required": "1 full-day visit; 2 cleaners recommended.",
     "view_details": "High-touch surface sanitization, floor cleaning, and window tracks cleaning included."
@@ -649,7 +592,7 @@
     "views_count": 170,
     "starts_at_price": "4999",
     "description": "Full deep cleaning for independent villas up to 2500 sq.ft.",
-    "image": "/images/home_cleaning_villa.jpg",
+    "image": "https://pinkcleanindia.com/wp-content/uploads/2023/10/close-up-person-making-home-comfortable-1-1.jpg",
     "category": "Full Home Cleaning",
     "visits_required": "1-2 visits depending on area.",
     "view_details": "Deep cleaning with professional machines and biodegradable products for large homes."
@@ -660,7 +603,7 @@
     "views_count": 90,
     "starts_at_price": "1599",
     "description": "Thorough cleaning of your house after a party or gathering.",
-    "image": "/images/home_cleaning_afterparty.jpg",
+    "image": "https://egcd8sabhrg.exactdn.com/wp-content/uploads/2023/01/after-party-chaos-messy-in-livving-room-at-home-2021-09-04-11-59-08-utc.jpg?strip=all&lossy=1&ssl=1",
     "category": "Full Home Cleaning",
     "visits_required": "1 visit; usually 2-3 hours.",
     "view_details": "Garbage removal, floor mopping, table/floor stain cleaning, and air freshening."
@@ -671,7 +614,7 @@
     "views_count": 115,
     "starts_at_price": "2799",
     "description": "Home sanitization service combined with deep cleaning.",
-    "image": "/images/home_cleaning_sanitization.jpg",
+    "image": "https://unitedwaterrestoration.com/blog/wp-content/uploads/2021/01/Blog-Photos-2.png",
     "category": "Full Home Cleaning",
     "visits_required": "1 visit with 2 experts.",
     "view_details": "Surface disinfection with WHO-approved chemicals after regular cleaning."
@@ -682,7 +625,7 @@
     "views_count": 98,
     "starts_at_price": "2999",
     "description": "Move-in ready cleaning for rented or new homes.",
-    "image": "/images/home_cleaning_movein.jpg",
+    "image": "https://domesticcleaners.co.uk/wp-content/uploads/2021/02/end-of-tenancy-cleaning1-1024x683.jpg",
     "category": "Full Home Cleaning",
     "visits_required": "1 extensive visit; up to 6 hours.",
     "view_details": "Intensive cleaning of walls, floors, fixtures, kitchen chimney, cupboards, and washrooms."
@@ -693,7 +636,7 @@
     "views_count": 70,
     "starts_at_price": "1299",
     "description": "Perfect cleaning solution for studio or single-room apartments.",
-    "image": "/images/home_cleaning_studio.jpg",
+    "image": "https://s3media.angieslist.com/s3fs-public/house-cleaners-cleaning.jpeg",
     "category": "Full Home Cleaning",
     "visits_required": "1 quick visit (2 hours max).",
     "view_details": "Spot cleaning, sweeping, dusting, window panel wipe-down, and mini bathroom cleaning."
@@ -704,7 +647,7 @@
     "views_count": 185,
     "starts_at_price": "3599",
     "description": "Luxury deep cleaning for a sparkling 3 BHK home with premium tools.",
-    "image": "/images/home_cleaning_premium.jpg",
+    "image": "http://mountaineermaids.com/wp-content/uploads/2024/02/house-cleaning-services-3-scaled.jpg",
     "category": "Full Home Cleaning",
     "visits_required": "1 detailed visit with 2-3 team members.",
     "view_details": "Steam cleaning, glass polish, floor buffing, and microfiber dusting included."
@@ -715,7 +658,7 @@
     "views_count": 120,
     "starts_at_price": "599",
     "description": "Dry vacuum and shampoo wash for a 3-seater fabric sofa.",
-    "image": "/images/sofa_cleaning_3seater.jpg",
+    "image": "https://www.fairprice.com.sg/wp-content/uploads/2021/05/How-to-clean-a-fabric-sofa-970x526.png",
     "category": "Sofa & Carpet Cleaning",
     "visits_required": "1 visit; approx. 30-45 minutes.",
     "view_details": "Includes vacuuming, shampooing, scrubbing, and moisture removal with foam-based cleaning."
@@ -726,7 +669,7 @@
     "views_count": 135,
     "starts_at_price": "1099",
     "description": "Safe cleaning for premium leather 5-seater sofas.",
-    "image": "/images/leather_sofa_cleaning.jpg",
+    "image": "https://i.ytimg.com/vi/_hQjRPwolrk/maxresdefault.jpg",
     "category": "Sofa & Carpet Cleaning",
     "visits_required": "1 visit with leather-safe products.",
     "view_details": "Wipe with neutral cleaner, apply conditioner, and polish for shine and longevity."
@@ -737,7 +680,7 @@
     "views_count": 98,
     "starts_at_price": "1399",
     "description": "Thorough cleaning for L-shaped sectional sofas.",
-    "image": "/images/lshape_sofa.jpg",
+    "image": "https://m.media-amazon.com/images/I/818ukAwnrKL.jpg",
     "category": "Sofa & Carpet Cleaning",
     "visits_required": "1 visit; 1-1.5 hours.",
     "view_details": "Vacuum, pre-spray, mechanical scrubbing, and quick drying via wet vacuum."
@@ -748,7 +691,7 @@
     "views_count": 50,
     "starts_at_price": "299",
     "description": "Cleans and refreshes single armchairs or recliners.",
-    "image": "/images/armchair_cleaning.jpg",
+    "image": "https://www.evergreencarpetcare.com/wp-content/uploads/2022/12/professional-upholstery-cleaning-blog-image.jpg",
     "category": "Sofa & Carpet Cleaning",
     "visits_required": "1 visit; 20-30 minutes.",
     "view_details": "Spot stain removal, gentle shampooing, and deodorizing treatment."
@@ -759,7 +702,7 @@
     "views_count": 110,
     "starts_at_price": "499",
     "description": "Removes dust, stains, and odors from small carpets.",
-    "image": "/images/carpet_cleaning_small.jpg",
+    "image": "https://citycleaning.sg/wp-content/uploads/2019/12/carpet-shampooing.jpg",
     "category": "Sofa & Carpet Cleaning",
     "visits_required": "1 visit; 30-40 minutes.",
     "view_details": "Dry vacuum + shampoo wash with special stain treatment."
@@ -770,7 +713,7 @@
     "views_count": 125,
     "starts_at_price": "799",
     "description": "Ideal for large living room carpets with foot traffic.",
-    "image": "/images/carpet_cleaning_large.jpg",
+    "image": "http://carpetcleaningtauranga.nz/wp-content/uploads/2023/07/carpet-deep-cleaning.jpeg",
     "category": "Sofa & Carpet Cleaning",
     "visits_required": "1 visit; 1 hour approx.",
     "view_details": "Hot water extraction, foam agitation, and suction drying."
@@ -781,7 +724,7 @@
     "views_count": 88,
     "starts_at_price": "399",
     "description": "Sanitizes and refreshes single-size mattresses.",
-    "image": "/images/mattress_cleaning_single.jpg",
+    "image": "https://comexnational.ae/wp-content/uploads/2023/09/tzTatZ-x-large.png",
     "category": "Sofa & Carpet Cleaning",
     "visits_required": "1 visit; 30-40 minutes.",
     "view_details": "Vacuuming, shampooing, and anti-allergen treatment included."
@@ -792,7 +735,7 @@
     "views_count": 102,
     "starts_at_price": "699",
     "description": "Deep cleaning for double/queen-size mattresses.",
-    "image": "/images/mattress_cleaning_double.jpg",
+    "image": "https://www.wincofoam.com/wp-content/uploads/2022/10/Mattress-Cleaning.jpeg",
     "category": "Sofa & Carpet Cleaning",
     "visits_required": "1 visit; 45 minutes.",
     "view_details": "Foam treatment, odor removal, and quick dry process."
@@ -803,7 +746,7 @@
     "views_count": 75,
     "starts_at_price": "899",
     "description": "Gentle wash for delicate or antique rugs.",
-    "image": "/images/rug_cleaning.jpg",
+    "image": "https://nextdaycleaning.com/wp-content/uploads/2020/02/What-Is-the-Best-Method-of-Cleaning-Carpets.jpg",
     "category": "Sofa & Carpet Cleaning",
     "visits_required": "1 visit; special care needed.",
     "view_details": "Low moisture method with pH-neutral solution and hand brushing."
@@ -814,7 +757,7 @@
     "views_count": 60,
     "starts_at_price": "499",
     "description": "Clean and stain-free dining chairs (set of 4).",
-    "image": "/images/dining_chairs_cleaning.jpg",
+    "image": "https://i0.wp.com/parish-supply.com/wp-content/uploads/2022/08/1419000-06-large.jpg?fit=650%2C434&ssl=1",
     "category": "Sofa & Carpet Cleaning",
     "visits_required": "1 visit; under 1 hour.",
     "view_details": "Vacuum + shampoo + moisture extraction for seat and backrest."

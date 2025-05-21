@@ -16,10 +16,14 @@ function DoorStep() {
       path: "/men-salon/all-services",
     },
     { img: "Lp2/ac.jpeg", text: "AC& Appliance Repair", path: "/ac" },
-    { img: "Lp2/locks.jpeg", text: "Smart locks", path: "/locks" },
+    { img: "Lp2/locks.jpeg", text: "Smart locks", path: "/smart-locks" },
     { img: "Lp2/filter.jpeg", text: "Water Purifier", path: "/filter" },
     { img: "Lp2/elect.png", text: "Electrician", path: "/electrician" },
-    { img: "Lp2/clean.jpeg", text: "Cleaning", path: "/cleaning" },
+    {
+      img: "Lp2/clean.jpeg",
+      text: "Cleaning & Pest Control",
+      path: "/cleaning-pest-control",
+    },
     { img: "Lp2/wall.jpeg", text: "Wall Panels", path: "/wall-panels" },
     { img: "Lp2/paint.jpeg", text: "painting", path: "/painting" },
   ];

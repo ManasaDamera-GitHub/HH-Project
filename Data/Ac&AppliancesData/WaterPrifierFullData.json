@@ -5,7 +5,7 @@
     "views_count": 250,
     "starts_at_price": "499",
     "description": "Expert installation of Reverse Osmosis (RO) water purifiers with plumbing support.",
-    "image": "https://example.com/images/ro-installation.jpg",
+    "image": "https://www.pngkey.com/png/full/367-3676936_we-have-been-providing-water-purifier-water-ro.png",
     "category": "Installation",
     "process": [
       "Inspection of installation area and water source",
@@ -14,28 +14,14 @@
       "Final demonstration and setup verification"
     ]
   },
-  {
-    "title": "RO Purifier General Service",
-    "rating": 4.6,
-    "views_count": 320,
-    "starts_at_price": "349",
-    "description": "Routine maintenance including cleaning, pressure check, and functionality test.",
-    "image": "https://example.com/images/ro-general-service.jpg",
-    "category": "Maintenance",
-    "process": [
-      "Initial system inspection and pre-service check",
-      "Cleaning of filters and outer body",
-      "Check water flow and pressure",
-      "Post-service test run"
-    ]
-  },
+
   {
     "title": "Filter Cartridge Replacement",
     "rating": 4.8,
     "views_count": 410,
     "starts_at_price": "599",
     "description": "Replacement of pre-filter, sediment, and carbon cartridges for all purifier models.",
-    "image": "https://example.com/images/filter-replacement.jpg",
+    "image": "https://www.awesomewaterfilters.com.au/wp-content/uploads/2021/08/Types-of-Water-Filter-Cartridges.jpg",
     "category": "Repair",
     "process": [
       "Examine used filter cartridges",
@@ -50,7 +36,7 @@
     "views_count": 180,
     "starts_at_price": "299",
     "description": "Repair services for UV purifiers, including bulb replacement and leak fixes.",
-    "image": "https://example.com/images/uv-repair.jpg",
+    "image": "https://www.aquabluemaxx.com/wp-content/uploads/2023/05/water-purifier-repair-2.jpg",
     "category": "Repair",
     "process": [
       "Inspect the UV bulb and electrical board",
@@ -60,27 +46,12 @@
     ]
   },
   {
-    "title": "Annual Maintenance Contract (AMC)",
-    "rating": 4.9,
-    "views_count": 540,
-    "starts_at_price": "1499",
-    "description": "Yearly service contract with 3 free visits and priority support.",
-    "image": "https://example.com/images/amc.jpg",
-    "category": "Subscription",
-    "process": [
-      "Initial purifier health assessment",
-      "Quarterly checkups and filter replacements",
-      "Emergency support visits",
-      "Annual report and renewal suggestions"
-    ]
-  },
-  {
     "title": "Water Purifier Uninstallation",
     "rating": 4.3,
     "views_count": 145,
     "starts_at_price": "199",
     "description": "Safe and careful removal of water purifiers for relocation or replacement.",
-    "image": "https://example.com/images/uninstall.jpg",
+    "image": "https://maxpure.co.in/assets/image/service-2.jpg",
     "category": "Uninstallation",
     "process": [
       "Power and water supply disconnection",
@@ -95,7 +66,7 @@
     "views_count": 210,
     "starts_at_price": "149",
     "description": "Testing of water TDS and quality levels to ensure purifier performance.",
-    "image": "https://example.com/images/water-test.jpg",
+    "image": "https://www.secondwindwater.com/wp-content/uploads/2018/08/testing-water-2170x1085.jpg",
     "category": "Inspection",
     "process": [
       "Sample collection and TDS testing",
@@ -105,27 +76,12 @@
     ]
   },
   {
-    "title": "RO Membrane Replacement",
-    "rating": 4.6,
-    "views_count": 275,
-    "starts_at_price": "899",
-    "description": "High-quality membrane replacement to restore purification efficiency.",
-    "image": "https://example.com/images/membrane-replacement.jpg",
-    "category": "Repair",
-    "process": [
-      "Diagnose water output drop",
-      "Remove and replace RO membrane",
-      "Flush and test TDS levels",
-      "Verify membrane seal and leaks"
-    ]
-  },
-  {
     "title": "Leakage Repair Service",
     "rating": 4.2,
     "views_count": 165,
     "starts_at_price": "299",
     "description": "Fix pipe and filter leaks in all types of water purifiers.",
-    "image": "https://example.com/images/leakage-repair.jpg",
+    "image": "https://tokiso.in/wp-content/uploads/2022/07/Ro-2.jpg",
     "category": "Repair",
     "process": [
       "Identify leak source",
@@ -140,13 +96,126 @@
     "views_count": 200,
     "starts_at_price": "599",
     "description": "Full-service purifier shifting with disassembly, transport, and reinstallation.",
-    "image": "https://example.com/images/relocation.jpg",
+    "image": "https://www.pngall.com/wp-content/uploads/13/Water-Purifier-PNG-File.png",
     "category": "Relocation",
     "process": [
       "Uninstall from existing setup",
       "Pack and transport safely",
       "Install at new location",
       "Reconnect plumbing and test"
+    ]
+  },
+  {
+    "title": "Native by UC Urban Company M1 Water Purifier",
+    "rating": 3.7,
+    "views_count": 3,
+    "starts_at_price": "14499",
+    "description": "Features a 10-stage purification process, including copper and alkaline filters, ensuring comprehensive water purification.",
+    "image": "https://static.toiimg.com/thumb/resizemode-4,msid-108517430,width-250/108517430.jpg",
+    "category": "Selling",
+    "features": [
+      "10-stage purification",
+      "Copper + Alkaline filters",
+      "Smart alerts for maintenance"
+    ]
+  },
+  {
+    "title": "Eureka Forbes Aquaguard Geneus RO+UV Water Purifier",
+    "rating": 4.0,
+    "views_count": 36,
+    "starts_at_price": "22326",
+    "description": "Offers intelligent sensors to select the appropriate purification technology based on water quality.",
+    "image": "https://waterpurifierguide.in/wp-content/uploads/2019/03/Eureka-Forbes-Aquaguard-Enhance-7-Litre-ROUVTDS-Water-Purifier.jpg",
+    "category": "Selling",
+    "features": [
+      "Smart purification sensors",
+      "RO + UV filtration",
+      "Mineral guard technology"
+    ]
+  },
+  {
+    "title": "Livpure GLO PRO++ Water Purifier",
+    "rating": null,
+    "views_count": null,
+    "starts_at_price": "7999",
+    "description": "A budget-friendly option with RO, UV, and UF purification, along with a taste enhancer.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2023/7/330461830/NK/SQ/VC/139013037/livpure-ro-water-purifier-500x500.jpg",
+    "category": "Selling",
+    "features": [
+      "RO + UV + UF purification",
+      "Taste enhancer",
+      "7-liter storage tank"
+    ]
+  },
+  {
+    "title": "Kent Supreme RO Water Purifier",
+    "rating": null,
+    "views_count": null,
+    "starts_at_price": "13999",
+    "description": "Equipped with multiple purification stages and a TDS controller to retain essential minerals.",
+    "image": "https://www.kent.co.in/images/ro/kent-supreme-plus-mobile.png",
+    "category": "Selling",
+    "features": [
+      "RO + UF + UV + TDS control",
+      "Zero water wastage",
+      "Wall-mountable design"
+    ]
+  },
+  {
+    "title": "LG Water Purifier WW184EPB",
+    "rating": 4.4,
+    "views_count": 14,
+    "starts_at_price": "28500",
+    "description": "Premium purifier with stainless steel tank and advanced multi-stage filtration.",
+    "image": "https://www.lg.com/content/dam/channel/wcms/in/images/water-purifiers/ww184epb_cbkqeil_eail_in_c/gallery/WW184EPB-Water-purifiers-Left-Side-View-DZ-07.jpg",
+    "category": "Selling",
+    "features": [
+      "Stainless steel storage",
+      "Multi-stage RO purification",
+      "Mineral booster"
+    ]
+  },
+  
+  {
+    "title": "Pureit Ultima Mineral Water Purifier",
+    "rating": null,
+    "views_count": null,
+    "starts_at_price": "21888",
+    "description": "Advanced RO + UV purifier with digital display and mineral addition.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/2/IN/LC/PF/20996733/pureit-ultima-mineral-ro-plus-uv-water-purifier.jpg",
+    "category": "Selling",
+    "features": [
+      "RO + UV purification",
+      "Digital purity indicator",
+      "Mineral cartridge"
+    ]
+  },
+  {
+    "title": "Livpure Allura Premia Water Purifier",
+    "rating": null,
+    "views_count": null,
+    "starts_at_price": "17490",
+    "description": "Elegant and compact purifier with 7-stage filtration and taste enhancer.",
+    "image": "https://static.toiimg.com/thumb/resizemode-4,msid-108517397,imgsize-200,width-600/108517397.jpg",
+    "category": "Selling",
+    "features": [
+      "7-stage purification",
+      "Advanced taste enhancer",
+      "Sleek wall-mounted design"
+    ]
+  },
+  {
+    "title": "Kent Grand RO Water Purifier",
+    "rating": 5.0,
+    "views_count": 1,
+    "starts_at_price": "11999",
+    "description": "Trusted Kent model with double purification and TDS controller for healthy water.",
+    "image": "https://www.kent.co.in/images/ro/kent-supreme-plus-mobile.png",
+    "category": "Selling",
+    "features": [
+      "Double purification (RO + UV/UF)",
+      "TDS controller",
+      "Water level indicator"
     ]
   }
 ]

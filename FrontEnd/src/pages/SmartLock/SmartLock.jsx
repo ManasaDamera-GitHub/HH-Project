@@ -7,7 +7,7 @@ import { useCart } from "../../pages/context/CartContext";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const AllCleaningPestControl = () => {
+const SmartLockServices = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [services, setServices] = useState([]);
@@ -16,9 +16,7 @@ const AllCleaningPestControl = () => {
   useEffect(() => {
     const fetchALL = async () => {
       try {
-        const response = await fetch(
-          "http://localhost:3000/cleaningPestControl"
-        );
+        const response = await fetch("http://localhost:3000/smartlocks");
         if (!response.ok) {
           throw new Error("Failed to fetch services");
         }
@@ -218,4 +216,4 @@ const AllCleaningPestControl = () => {
   );
 };
 
-export default AllCleaningPestControl;
+export default SmartLockServices;
