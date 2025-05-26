@@ -28,6 +28,7 @@ import SmartLockServices from "./pages/SmartLock/SmartLock";
 import AllCleaningPestControl from "./pages/Cleaning&Pest/AllCleaningPestControl";
 import PaintingServices from "./pages/Painting/Painting";
 import WaterPurifierServices from "./pages/WaterPurifier/WaterPurifier";
+import ElectricianServices from "./pages/Electrician/Electrician";
 
 export const App = () => {
   return (
@@ -70,6 +71,7 @@ export const App = () => {
           />
           <Route path="/painting" element={<PaintingServices />} />
           <Route path="/waterPurifier" element={<WaterPurifierServices />} />
+          <Route path="/electrician" element={<ElectricianServices />} />
         </Routes>
       </Router>
     </CartProvider>

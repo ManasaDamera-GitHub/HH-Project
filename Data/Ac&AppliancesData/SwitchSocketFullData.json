@@ -1,0 +1,339 @@
+[
+  {
+    "title": "Switch Board Installation",
+    "rating": 4.6,
+    "views_count": 140,
+    "starts_at_price": "199",
+    "description": "Install new switch boards with modular switches for home or office.",
+    "image": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1664521662699-cadead.png",
+    "category": "Switch and Socket",
+    "process": [
+      "Assess the electrical wiring layout",
+      "Mark and fix the switch board position",
+      "Wire connection to switches and sockets",
+      "Secure mounting and alignment",
+      "Final testing of all points"
+    ]
+  },
+  {
+    "title": "Socket Replacement",
+    "rating": 4.7,
+    "views_count": 120,
+    "starts_at_price": "149",
+    "description": "Replace faulty or broken power sockets with new, safe units.",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.Hd_TQRD2ySKaJBr6MfpI0AHaE1&pid=Api&P=0&h=180",
+    "category": "Switch and Socket",
+    "process": [
+      "Power switch-off and safety check",
+      "Remove the damaged socket",
+      "Inspect and reconnect wiring",
+      "Install and align new socket",
+      "Test for functionality and grounding"
+    ]
+  },
+  {
+    "title": "Multi-Plug Socket Fitting",
+    "rating": 4.5,
+    "views_count": 95,
+    "starts_at_price": "179",
+    "description": "Install multi-plug extension sockets to enhance connectivity safely.",
+    "image": "https://assets.legrand.com/pim/PHOTOS-WEB/LEGRAND/69/LG-698501-WEB-R.jpg",
+    "category": "Switch and Socket",
+    "process": [
+      "Assess required power points",
+      "Install extension board or flush unit",
+      "Secure wiring and connections",
+      "Test for overload safety",
+      "Final customer verification"
+    ]
+  },
+  {
+    "title": "Childproof Socket Cover Installation",
+    "rating": 4.8,
+    "views_count": 80,
+    "starts_at_price": "99",
+    "description": "Install safety covers on sockets to protect children from electrical hazards.",
+    "image": "https://i5.walmartimages.com/seo/SHZHYIQIMR-Flame-Retardant-2-Hole-Electrical-Socket-Cover-Childproof-Outlet-Protective-Cover-Easy-To-Install-Set-of-6-12-20pcs_79bb4f8d-0c50-42ca-a2c9-ed2e54f5a922.e024c4ddb4d71b7da5e08d7d75ed1069.jpeg",
+    "category": "Switch and Socket",
+    "process": [
+      "Identify all accessible sockets",
+      "Clean and prepare socket area",
+      "Install tamper-resistant covers",
+      "Check secure fit",
+      "Demonstrate to the customer"
+    ]
+  },
+  {
+    "title": "Ceiling Fan Installation",
+    "rating": 4.7,
+    "views_count": 185,
+    "starts_at_price": "249",
+    "description": "Professional ceiling fan installation with secure mounting and proper wiring.",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.RIm1LVW1bTz71m56TrgRBwHaDV&pid=Api&P=0&h=180",
+    "category": "Fan Services",
+    "process": [
+      "Check ceiling strength and wiring",
+      "Fix fan mounting bracket securely",
+      "Connect wiring with proper insulation",
+      "Assemble fan blades and motor unit",
+      "Test fan speed and wobble for safety"
+    ]
+  },
+  {
+    "title": "Wall Fan Installation",
+    "rating": 4.6,
+    "views_count": 132,
+    "starts_at_price": "199",
+    "description": "Secure and efficient wall fan installation with proper alignment and connections.",
+    "image": "https://mobileimages.lowes.com/productimages/9234084e-f971-433f-85e4-01d6f239731c/40345693.jpg?size=pdhism",
+    "category": "Fan Services",
+    "process": [
+      "Mark and drill mounting holes",
+      "Install wall bracket and fan unit",
+      "Connect fan to power socket",
+      "Align fan direction and test rotation",
+      "Ensure secure fit and safety"
+    ]
+  },
+  {
+    "title": "Fan Regulator Installation/Replacement",
+    "rating": 4.5,
+    "views_count": 98,
+    "starts_at_price": "149",
+    "description": "Install or replace fan speed regulators with seamless electrical integration.",
+    "image": "https://avrrom.com/wp-content/uploads/2022/11/5-STEP-FAN-REGULATOR-HIGH-SPEED-1.png",
+    "category": "Fan Services",
+    "process": [
+      "Turn off power and access switchboard",
+      "Remove old regulator (if applicable)",
+      "Install and wire the new regulator",
+      "Fix into switchboard and secure",
+      "Restore power and test speed control"
+    ]
+  },
+  {
+    "title": "Ceiling Fan Repair",
+    "rating": 4.4,
+    "views_count": 156,
+    "starts_at_price": "299",
+    "description": "Fix wobbling, noise, or motor issues in ceiling fans with expert diagnostics.",
+    "image": "https://m.media-amazon.com/images/I/61P8KRY94uL.jpg",
+    "category": "Fan Services",
+    "process": [
+      "Diagnose issue (noise, slow speed, wobble)",
+      "Check motor, blades, and capacitor",
+      "Replace faulty components",
+      "Lubricate moving parts if needed",
+      "Test fan operation and balance"
+    ]
+  },
+  {
+    "title": "LED Tube Light Installation",
+    "rating": 4.6,
+    "views_count": 210,
+    "starts_at_price": "149",
+    "description": "Installation of LED tube lights with proper wiring and mounting for homes and offices.",
+    "image": "https://3.bp.blogspot.com/-LgJWIapUmnM/WrNELvGd0_I/AAAAAAAAAmc/yjEDpw0y28g72ZTqS2d4u8wfThhtnsIsQCLcBGAs/s1600/LED%2Btube%2Blights.jpg",
+    "category": "Light",
+    "process": [
+      "Inspect the existing fixture or wiring point",
+      "Fix mounting brackets for the LED tube",
+      "Connect power wires with insulation",
+      "Secure the tube light in place",
+      "Switch on and test brightness"
+    ]
+  },
+  {
+    "title": "Ceiling Light Repair",
+    "rating": 4.4,
+    "views_count": 180,
+    "starts_at_price": "199",
+    "description": "Fix issues in ceiling lights including flickering, loose wires, or damaged fittings.",
+    "image": "https://www.dhresource.com/0x0s/f2-albu-g5-M01-56-A3-rBVaI1hTiw2AOIzzAAlvFw1WFWw839.jpg/new-acrylic-modern-led-ceiling-lights-for.jpg",
+    "category": "Light",
+    "process": [
+      "Switch off main power supply",
+      "Disassemble the light fitting",
+      "Check wiring and terminal blocks",
+      "Replace or repair damaged parts",
+      "Reassemble and test lighting"
+    ]
+  },
+  {
+    "title": "Chandelier Installation",
+    "rating": 4.8,
+    "views_count": 145,
+    "starts_at_price": "599",
+    "description": "Elegant chandelier installation with ceiling support and secure wiring.",
+    "image": "https://www.lightingstyles.co.uk/pics/100/opal-glass-18-light-modern-chandelier.jpg",
+    "category": "Light",
+    "process": [
+      "Assess weight and mount point on ceiling",
+      "Install ceiling hook or bracket",
+      "Connect internal wiring and fasten base",
+      "Hang chandelier securely",
+      "Test power and light distribution"
+    ]
+  },
+  {
+    "title": "Decorative Light Setup",
+    "rating": 4.5,
+    "views_count": 172,
+    "starts_at_price": "299",
+    "description": "Installation of decorative wall and ceiling lights including dimmers or smart switches.",
+    "image": "https://homebuzz.in/wp-content/uploads/2019/09/Amazing-Decorative-Lights-for-Your-Home-hbf.png",
+    "category": "Light",
+    "process": [
+      "Choose placement as per room design",
+      "Install mounting brackets or holders",
+      "Connect decorative light fittings",
+      "Install dimmer or smart controller (if applicable)",
+      "Turn on and test aesthetics and brightness"
+    ]
+  },
+  {
+    "title": "Smart Light Setup",
+    "rating": 4.7,
+    "views_count": 210,
+    "starts_at_price": "499",
+    "description": "Installation and configuration of smart bulbs or smart LED panels controlled via app or voice assistant.",
+    "image": "https://aisav.com/wp-content/uploads/2023/11/AdobeStock_576414664-scaled.jpeg",
+    "category": "Light",
+    "process": [
+      "Unbox and inspect smart lights",
+      "Install bulbs/panels in suitable sockets",
+      "Connect to Wi-Fi or Bluetooth",
+      "Configure using mobile app or Alexa/Google Assistant",
+      "Demonstrate smart features"
+    ]
+  },
+  {
+    "title": "Outdoor Garden Light Installation",
+    "rating": 4.6,
+    "views_count": 175,
+    "starts_at_price": "349",
+    "description": "Weatherproof lighting installation for gardens, patios, and outdoor pathways.",
+    "image": "https://i5.walmartimages.com/asr/9b62045e-cddc-4744-a8d7-d5c8ea87cc6b.ef093b9cfaa135254d08937618058a04.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff",
+    "category": "Light",
+    "process": [
+      "Assess outdoor power source and layout",
+      "Install lights with weatherproof wiring",
+      "Secure lights along pathway/garden",
+      "Seal joints and connections",
+      "Test durability and illumination range"
+    ]
+  },
+  {
+    "title": "Emergency Light Installation",
+    "rating": 4.5,
+    "views_count": 132,
+    "starts_at_price": "299",
+    "description": "Install rechargeable emergency lights for backup during power failures.",
+    "image": "https://www.mercury-group.com/wp-content/uploads/2021/08/AdobeStock_118181194-scaled.jpeg",
+    "category": "Light",
+    "process": [
+      "Choose suitable wall or ceiling mount location",
+      "Drill and fix mounting brackets",
+      "Connect to main power for charging",
+      "Test automatic power cutover",
+      "Demonstrate emergency mode activation"
+    ]
+  },
+  {
+    "title": "Smart Ambient Ceiling Panel Installation",
+    "rating": 4.8,
+    "views_count": 198,
+    "starts_at_price": "899",
+    "description": "Modern RGB ambient smart ceiling panel setup with app/remote control.",
+    "image": "https://www.loxone.com/enus/wp-content/uploads/sites/13/2016/10/PH_Lighting-Party-Scene.jpg",
+    "category": "Light",
+    "process": [
+      "Mount the smart ceiling panel in place of existing fixture",
+      "Wire to compatible switch or controller",
+      "Connect panel to app via Wi-Fi/Bluetooth",
+      "Configure RGB settings and automation",
+      "Test multiple modes and brightness"
+    ]
+  },
+  {
+    "title": "Smart Light Setup",
+    "rating": 4.7,
+    "views_count": 210,
+    "starts_at_price": "499",
+    "description": "Installation and configuration of smart bulbs or smart LED panels controlled via app or voice assistant.",
+    "image": "https://thegadgetflow.com/wp-content/uploads/2017/06/INNO-LUMI-Smart-Lighting-System-05.jpg",
+    "category": "Light",
+    "process": [
+      "Unbox and inspect smart lights",
+      "Install bulbs/panels in suitable sockets",
+      "Connect to Wi-Fi or Bluetooth",
+      "Configure using mobile app or Alexa/Google Assistant",
+      "Demonstrate smart features"
+    ]
+  },
+ 
+  {
+    "title": "MCB Panel Installation",
+    "rating": 4.8,
+    "views_count": 190,
+    "starts_at_price": "1499",
+    "description": "Professional installation of MCB distribution boards for safe circuit management in homes.",
+    "image": "https://5.imimg.com/data5/XA/TW/MY-32500630/mcb-box.jpg",
+    "category": "MCB Panel",
+    "process": [
+      "Inspect home load requirement",
+      "Install distribution box at safe location",
+      "Connect incoming and outgoing circuits",
+      "Fit MCBs and label each connection",
+      "Power test and overload protection check"
+    ]
+  },
+  {
+    "title": "MCB Replacement & Upgrade",
+    "rating": 4.6,
+    "views_count": 145,
+    "starts_at_price": "899",
+    "description": "Upgrade or replace old MCBs with new branded models for improved safety and load handling.",
+    "image": "https://konceptmodular.com/wp-content/uploads/2021/08/Mob-images.jpg",
+    "category": "MCB Panel",
+    "process": [
+      "Evaluate current MCB panel and faults",
+      "Safely disconnect and remove faulty units",
+      "Install new MCBs as per load requirement",
+      "Check trip settings and functionality",
+      "Provide maintenance tips and do's/don'ts"
+    ]
+  },
+  {
+    "title": "Inverter Wiring and Setup",
+    "rating": 4.7,
+    "views_count": 225,
+    "starts_at_price": "1199",
+    "description": "Wiring service for inverter connections, ensuring load balancing and safe operation.",
+    "image": "https://www.pngall.com/wp-content/uploads/7/Inverter-PNG-High-Quality-Image.png",
+    "category": "Inverter",
+    "process": [
+      "Inspect inverter and battery placement",
+      "Isolate essential load from main supply",
+      "Connect wiring from inverter to switchboard",
+      "Test inverter backup and charging",
+      "Educate customer on safe usage"
+    ]
+  },
+  {
+    "title": "Industrial Wiring Service",
+    "rating": 4.9,
+    "views_count": 310,
+    "starts_at_price": "4999",
+    "description": "Heavy-duty wiring setup for commercial and industrial units by certified technicians.",
+    "image": "https://mega.com.sg/wp-content/uploads/2020/12/electrical-wiring-scaled.jpg",
+    "category": "Industrial Wiring",
+    "process": [
+      "Site inspection and load analysis",
+      "Design wiring layout with safety plan",
+      "Install armored cables and panels",
+      "Connect industrial sockets and machines",
+      "Test phase load balance and insulation"
+    ]
+  }
+]
