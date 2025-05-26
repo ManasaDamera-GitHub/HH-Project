@@ -69,7 +69,7 @@
 
 .img {
   width: 100% !important;
-  height: 100% !important;
+  height: 500px !important;
   object-fit: fill !important;
   border-radius: 12px;
 }
@@ -134,6 +134,27 @@
   width: calc(100% / 3 - 12px); /* Default: 3 items per row */
   scroll-snap-align: start;
 }
+
+.card-title {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.875rem; /* 14px */
+
+  /* Responsive font sizes */
+  @media (min-width: 640px) {
+    font-size: 1rem; /* 16px */
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.125rem; /* 18px */
+  }
+}
+.no-underline{
+  text-decoration: none;
+}
+
 
 /* Responsive widths */
 @media (max-width: 699px) {
