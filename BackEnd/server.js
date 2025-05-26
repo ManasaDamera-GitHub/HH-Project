@@ -11,6 +11,8 @@ const ACServiceRoutes = require("./Routes/ACServiceRouter");
 const WallPanelRoutes = require("./Routes/WallPanelRouter");
 const SmartLockRoutes = require("./Routes/SmartLockRouter");
 const CleaningPestRoutes = require("./Routes/CleaningPestServicesRouter");
+const PaintingRoutes = require("./Routes/PaintingRouter");
+const WaterPurifierRoutes = require("./Routes/WaterPurifierRouter");
 // const connectDB = require("./Config/db");
 // const dotenv = require("dotenv");
 // dotenv.config();
@@ -36,6 +38,8 @@ app.use("/", ACServiceRoutes);
 app.use("/", WallPanelRoutes);
 app.use("/", SmartLockRoutes);
 app.use("/", CleaningPestRoutes);
+app.use("/", PaintingRoutes);
+app.use("/", WaterPurifierRoutes);
 
 app.listen(port, () => {
   // connectDB();

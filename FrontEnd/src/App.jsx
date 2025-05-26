@@ -26,6 +26,8 @@ import ACAppliances from "./pages/Ac/AC&Appliance";
 import AllWallPanel from "./pages/WallPanel/FullWallPanel";
 import SmartLockServices from "./pages/SmartLock/SmartLock";
 import AllCleaningPestControl from "./pages/Cleaning&Pest/AllCleaningPestControl";
+import PaintingServices from "./pages/Painting/Painting";
+import WaterPurifierServices from "./pages/WaterPurifier/WaterPurifier";
 
 export const App = () => {
   return (
@@ -62,7 +64,12 @@ export const App = () => {
           <Route path="/ac" element={<ACAppliances />} />
           <Route path="/wall-panels" element={<AllWallPanel />} />
           <Route path="/smart-locks" element={<SmartLockServices />} />
-          <Route path="/cleaning-pest-control" element={<AllCleaningPestControl />} />
+          <Route
+            path="/cleaning-pest-control"
+            element={<AllCleaningPestControl />}
+          />
+          <Route path="/painting" element={<PaintingServices />} />
+          <Route path="/waterPurifier" element={<WaterPurifierServices />} />
         </Routes>
       </Router>
     </CartProvider>
