@@ -1,12 +1,8 @@
 import * as React from "react";
-import { Card, CardContent } from "../../components/ui/card";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+import "../../styles/MBS.css";
+import { Link, useNavigate } from "react-router-dom";
+import { useRef, useState, useEffect } from "react";
+// import { useState } from "react";
 
 const appliances = [
   { img: "/repair/cooler.png", alt: "Air Cooler" },
@@ -17,46 +13,104 @@ const appliances = [
 ];
 
 export default function Repair() {
+  const scrollRef = useRef(null);
+  const navigate = useNavigate();
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [isAtStart, setIsAtStart] = useState(true);
+  const [isAtEnd, setIsAtEnd] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+      checkScrollPosition();
+    };
+
+    const checkScrollPosition = () => {
+      if (scrollRef.current) {
+        const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+        setIsAtStart(scrollLeft === 0);
+        setIsAtEnd(scrollLeft + clientWidth >= scrollWidth - 1); // -1 to account for rounding
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    scrollRef.current?.addEventListener("scroll", checkScrollPosition);
+
+    // Initial check
+    checkScrollPosition();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      scrollRef.current?.removeEventListener("scroll", checkScrollPosition);
+    };
+  }, []);
+
+  const scroll = (direction) => {
+    const { current } = scrollRef;
+    if (current) {
+      const scrollAmount =
+        windowWidth < 450
+          ? current.firstChild?.clientWidth || 250
+          : windowWidth < 700
+          ? (current.firstChild?.clientWidth || 150) * 2
+          : 300;
+
+      current.scrollBy({
+        left: direction === "left" ? -scrollAmount : scrollAmount,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
-    <div className="max-w-[1200px] mx-auto relative">
-      <div className="flex justify-between items-center p-4">
-        <h2 className="text-xl font-semibold">Appliances repair & service</h2>
-        <button className="border-2 border-black rounded-lg px-4 py-2 font-medium">
-          See all
-        </button>
+    <div className="mbs-container">
+      <div className="mbs-header">
+        <h2 className="text-xl font-semibold">Appliance repair & service</h2>
+        <button className="see-all-btn">See all</button>
       </div>
 
-      <Carousel
-        opts={{ align: "center", loop: false }}
-        className="w-full py-6 relative"
-      >
-        <CarouselContent className="gap-4 px-4">
-          {appliances.map(({ img, alt }, index) => (
-            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
-              <Card className="w-full aspect-square overflow-hidden border-none shadow-none transition-transform hover:scale-[1.02] cursor-pointer">
-                <CardContent className="p-0 h-full">
+      <div className="mbs-scroll-wrapper">
+        <button
+          onClick={() => scroll("left")}
+          className={`scroll-btn left ${isAtStart ? "disabled" : ""}`}
+          disabled={isAtStart}
+        >
+          ◀
+        </button>
+        <div ref={scrollRef} className="scroll-container">
+          {appliances.map(({ img, title, path }, index) => {
+            const content = (
+              <div className="card">
+                <div className="card-content">
                   <img
                     src={img}
-                    alt={alt}
-                    className="w-full h-full object-cover"
+                    alt={title}
+                    className="img"
+                    style={{ width: "auto", height: "auto" }}
                   />
-                </CardContent>
-              </Card>
-              <p
-                style={{
-                  textAlign: "center",
-                  fontSize: "16px",
-                  fontWeight: "500",
-                }}
+                </div>
+              </div>
+            );
+
+            return (
+              <div
+                key={index}
+                className="scroll-item"
+                style={{ cursor: path ? "pointer" : "default" }}
               >
-                {alt}
-              </p>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-        <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 bg-white rounded-full w-10 h-10 shadow-md hover:bg-gray-100" />
-        <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 bg-white rounded-full w-10 h-10 shadow-md hover:bg-gray-100" />
-      </Carousel>
+                {path ? <Link to={path}>{content}</Link> : content}
+              </div>
+            );
+          })}
+        </div>
+        <button
+          onClick={() => scroll("right")}
+          className={`scroll-btn right ${isAtEnd ? "disabled" : ""}`}
+          disabled={isAtEnd}
+        >
+          ▶
+        </button>
+      </div>
     </div>
   );
 }

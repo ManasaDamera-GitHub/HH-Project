@@ -1,9 +1,15 @@
 import React from "react";
 import "../../styles/FifthPart.css"; // Import the CSS file
+import { useNavigate } from "react-router-dom";
 
 export const SmartLock = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/smart-locks");
+  };
   return (
-    <div className="lock-part-container">
+    <div className="lock-part-container" onClick={handleClick}>
       <div className="content-wrapper lock-wrapper">
         <img src="./New/locks.png" alt="lock image" className="lock-image" />
         <div className="text-content">
@@ -12,6 +18,7 @@ export const SmartLock = () => {
           <button
             className="know-more-btn"
             style={{ backgroundColor: "#DBDBDB", color: "black" }}
+            onClick={handleClick}
           >
             Know more
           </button>
