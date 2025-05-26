@@ -102,3 +102,22 @@
   .know-more-btn:hover {
     background-color: #333;
   }
+  @media (max-width: 500px) {
+  .content-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .wall-image {
+    width: 100%;
+    max-width: 90vw;
+  }
+
+  .text-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-content p {
+    font-size: 1rem;
+  }
+}
