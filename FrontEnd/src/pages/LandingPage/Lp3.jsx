@@ -8,10 +8,10 @@ const appliances = [
   { img: "/Lp3/img7.png", title: "HairCut", path: "/m_salon/haircut" },
   { img: "/Lp3/img8.png", title: "Painting", path: "/painting" },
   { img: "/Lp3/img9.png", title: "Dryer repair", path: "/washingmachine" },
-  { img: "/Lp3/img1.jpeg", title: "AC", path: "/ac" },
-  { img: "/Lp3/img2.jpeg", title: "Water Purifier", path: "/waterpurifier" },
-  { img: "/Lp3/img3.jpeg", title: "bathroom", path: "/bathroomservices" },
-  { img: "/Lp3/img4.png", title: "" },
+  // { img: "/Lp3/img1.jpeg", title: "Wall Panels", path: "/wall-panels" },
+  // { img: "/Lp3/img2.jpeg", title: "AC", path: "/ac" },
+  // { img: "/Lp3/img3.jpeg", title: "bathroom", path: "/bathroomservices" },
+  // { img: "/Lp3/img4.png", title: "" },
 ];
 
 export default function MBS() {
