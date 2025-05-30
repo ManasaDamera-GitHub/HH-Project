@@ -1,0 +1,247 @@
+ [{
+    "title": "Leaky Tap Repair",
+    "rating": 4.5,
+    "views_count": 120,
+    "starts_at_price": "149",
+    "description": "Fixing water leakage from kitchen or bathroom taps with proper sealing.",
+    "image": "https://zeve.au/bigblue/uploads/2023/02/water-leaking-from-mixer-tap.jpg",
+    "category": "Tap Repair",
+    "process": [
+      "Inspection of the leaking tap",
+      "Disassembly of the tap",
+      "Replacement of faulty washers or seals",
+      "Reassembly and leak test"
+    ]
+  },
+  {
+    "title": "Tap Handle Replacement",
+    "rating": 4.2,
+    "views_count": 90,
+    "starts_at_price": "129",
+    "description": "Replacing broken or jammed tap handles with durable parts.",
+    "image": "https://png.pngtree.com/background/20230617/original/pngtree-white-background-3d-illustration-of-a-water-tap-with-streaming-water-picture-image_3696806.jpg",
+    "category": "Tap Repair",
+    "process": [
+      "Assessment of handle damage",
+      "Unscrewing and removing old handle",
+      "Installing new compatible handle",
+      "Functionality check"
+    ]
+  },
+  {
+    "title": "Low Water Pressure Fix",
+    "rating": 4.6,
+    "views_count": 140,
+    "starts_at_price": "199",
+    "description": "Restoring proper water flow by cleaning or repairing tap internals.",
+    "image": "https://dpw4tdh0of7va.cloudfront.net/wp-content/uploads/2022/02/low-water-pressure.jpg",
+    "category": "Tap Repair",
+    "process": [
+      "Diagnosis of water flow issue",
+      "Cleaning tap aerator or filter",
+      "Checking for internal blockages",
+      "Final pressure testing"
+    ]
+  },
+  {
+    "title": "Tap Nozzle Cleaning",
+    "rating": 4.3,
+    "views_count": 75,
+    "starts_at_price": "99",
+    "description": "Removing scale or dirt from tap nozzles for smooth water flow.",
+    "image": "https://www.greenly.co.in/wp-content/uploads/2020/02/Tap-Spray-nozzle-attachment-to-save-water-8x.jpg",
+    "category": "Tap Repair",
+    "process": [
+      "Removal of tap nozzle",
+      "Soaking in descaling solution",
+      "Scrubbing and rinsing",
+      "Reinstallation"
+    ]
+  },
+  {
+  "title": "Wall Tap Installation",
+  "rating": 4.6,
+  "views_count": 102,
+  "starts_at_price": "249",
+  "description": "Professional installation of wall-mounted taps in bathrooms, kitchens, or outdoor areas with perfect alignment and sealing.",
+  "image": "https://img5.homary.com/cdn-cgi/image/quality=80,format=webp/mall/2021/04/06/ee240e7c94b9444c8d96d3dfa8896c9c.jpg",
+  "category": "Tap Repair",
+  "process": [
+    "Assessment of installation area and water outlet",
+    "Marking and drilling for tap fitting",
+    "Installation of wall tap with proper sealant",
+    "Tightening connections and testing for leaks"
+  ]
+},
+  {
+    "title": "Cartridge Tap Repair",
+    "rating": 4.5,
+    "views_count": 110,
+    "starts_at_price": "219",
+    "description": "Fixing cartridge mixer taps with temperature or flow issues.",
+    "image": "https://zeve.au/bigblue/uploads/2022/11/cartridge-tap.jpg",
+    "category": "Tap Repair",
+    "process": [
+      "Identification of tap model",
+      "Removing faulty cartridge",
+      "Fitting new compatible cartridge",
+      "Flow and heat testing"
+    ]
+  },
+  {
+    "title": "Tap Alignment Fix",
+    "rating": 4.1,
+    "views_count": 70,
+    "starts_at_price": "109",
+    "description": "Realigning loose or misaligned taps for proper installation.",
+    "image": "https://whyy.org/wp-content/uploads/2020/03/shutterstock_130619210-SSfauct-sink-water-tap-water.jpg",
+    "category": "Tap Repair",
+    "process": [
+      "Checking tap positioning",
+      "Loosening and correcting the angle",
+      "Tightening fittings",
+      "Flow test"
+    ]
+  },
+  {
+    "title": "Tap Thread Damage Repair",
+    "rating": 4.3,
+    "views_count": 82,
+    "starts_at_price": "149",
+    "description": "Repairing or replacing worn-out tap threads to avoid leaks.",
+    "image": "https://img.freepik.com/premium-photo/open-water-tap-with-outdoor-park-backdrop-save-water-concept_1069144-121.jpg",
+    "category": "Tap Repair",
+    "process": [
+      "Assessing thread wear",
+      "Using thread sealant or plumber's tape",
+      "Replacing tap if needed",
+      "Leak check"
+    ]
+  },
+  {
+    "title": "Kitchen Sink Tap Repair",
+    "rating": 4.6,
+    "views_count": 130,
+    "starts_at_price": "169",
+    "description": "Fixing leaks or faults in kitchen sink taps quickly and efficiently.",
+    "image": "https://londondesigncollective.com/wp-content/uploads/2017/10/contemporary-kitchen-remodel2.jpg",
+    "category": "Tap Repair",
+    "process": [
+      "Inspecting kitchen tap connections",
+      "Fixing or replacing broken parts",
+      "Seal check and flow test"
+    ]
+  },
+  {
+    "title": "New Tap Installation",
+    "rating": 4.7,
+    "views_count": 150,
+    "starts_at_price": "249",
+    "description": "Professional installation of new taps in any area of your home.",
+    "image": "https://www.bigbathroomshop.co.uk/info/blog/wp-content/uploads/2018/04/modern-chrome-basin-tap-with-water-pouring-from-spout-1030x894.jpg",
+    "category": "Tap Repair",
+    "process": [
+      "Removal of old tap",
+      "Fitting new tap",
+      "Tightening and sealing",
+      "Pressure test and final check"
+    ]
+  },
+
+
+  
+  {
+    "title": "Bathroom Tap Installation",
+    "rating": 4.5,
+    "views_count": 110,
+    "starts_at_price": "229",
+    "description": "Installation of modern bathroom taps with secure fittings and proper alignment.",
+    "image": "https://i.pinimg.com/736x/f7/33/1f/f7331f8ccf2f16e357ce4e1e0f684c1e.jpg",
+    "category": "Tap Installation",
+    "process": [
+      "Area inspection and tap model confirmation",
+      "Marking installation points",
+      "Fitting and tightening the tap",
+      "Sealing and leak test"
+    ]
+  },
+  {
+    "title": "Kitchen Sink Tap Installation",
+    "rating": 4.6,
+    "views_count": 145,
+    "starts_at_price": "249",
+    "description": "Installing stylish and durable taps for kitchen sinks with efficient flow control.",
+    "image": "https://i.pinimg.com/736x/3e/2a/9f/3e2a9f68ea28c378c7c4dc4cb53b3b7c.jpg",
+    "category": "Tap Installation",
+    "process": [
+      "Assessment of sink area and pipeline",
+      "Positioning of new tap",
+      "Sealing and connection with inlet pipes",
+      "Testing for proper pressure and leakage"
+    ]
+  },
+  {
+    "title": "Garden Tap Installation",
+    "rating": 4.3,
+    "views_count": 85,
+    "starts_at_price": "189",
+    "description": "Outdoor tap setup for watering gardens or cleaning areas with secure fittings.",
+    "image": "https://i.pinimg.com/736x/e6/0f/27/e60f27a1eaa0e9267c2194bafbd7383c.jpg",
+    "category": "Tap Installation",
+    "process": [
+      "Inspection of outdoor plumbing line",
+      "Drilling and mounting tap bracket",
+      "Fixing tap and sealing joints",
+      "Testing water flow and durability"
+    ]
+  },
+  {
+    "title": "Washing Machine Tap Installation",
+    "rating": 4.4,
+    "views_count": 97,
+    "starts_at_price": "199",
+    "description": "Installing taps dedicated to washing machines for efficient water supply.",
+    "image": "https://i.pinimg.com/736x/01/e5/21/01e521324e8169ba25bc0277d6461b27.jpg",
+    "category": "Tap Installation",
+    "process": [
+      "Inspection of water supply line",
+      "Mounting and connecting inlet tap",
+      "Testing with washing machine hose",
+      "Leak check and pressure validation"
+    ]
+  },
+  {
+    "title": "Wall Tap Installation",
+    "rating": 4.6,
+    "views_count": 102,
+    "starts_at_price": "249",
+    "description": "Professional installation of wall-mounted taps with perfect alignment and sealing.",
+    "image": "https://img5.homary.com/cdn-cgi/image/quality=80,format=webp/mall/2021/04/06/ee240e7c94b9444c8d96d3dfa8896c9c.jpg",
+    "category": "Tap Installation",
+    "process": [
+      "Assessment of installation area and water outlet",
+      "Marking and drilling for tap fitting",
+      "Installation of wall tap with proper sealant",
+      "Tightening connections and testing for leaks"
+    ]
+  },
+  {
+    "title": "Wash Basin Tap Installation",
+    "rating": 4.5,
+    "views_count": 118,
+    "starts_at_price": "219",
+    "description": "Installation of wash basin taps in bathrooms or utility areas with clean finish.",
+    "image": "https://i.pinimg.com/736x/ce/f1/6c/cef16cb44b9e355f536a37f8b99d837e.jpg",
+    "category": "Tap Installation",
+    "process": [
+      "Examine wash basin compatibility",
+      "Install and tighten tap over basin hole",
+      "Connect to inlet pipeline",
+      "Test pressure and ensure no leakage"
+    ]
+  }
+
+
+
+
+]
