@@ -331,5 +331,481 @@
       "Replace worn sliding channels if needed",
       "Test for smooth operation and durability"
     ]
+  },
+
+
+  
+  {
+    "title": "Living Room Ceiling Fan Installation",
+    "rating": 4.7,
+    "views_count": 138,
+    "starts_at_price": "349",
+    "description": "Expert ceiling fan installation service for living rooms with proper wiring and balance check.",
+    "image": "http://warisanlighting.com/wp-content/uploads/parser/ceiling-fan-for-living-room-4.jpg",
+    "category": "Fan Installation",
+    "process": [
+      "Turn off power and remove old fixture (if any)",
+      "Mount fan bracket and downrod",
+      "Connect wiring securely",
+      "Fix fan body and blades",
+      "Balance blades and test operation"
+    ]
+  },
+  {
+    "title": "Bedroom Ceiling Fan Installation",
+    "rating": 4.6,
+    "views_count": 125,
+    "starts_at_price": "329",
+    "description": "Install energy-efficient ceiling fans in bedrooms with silent motor and safety checks.",
+    "image": "https://m.media-amazon.com/images/I/619MfOMz2zL.jpg",
+    "category": "Fan Installation",
+    "process": [
+      "Inspect ceiling junction box",
+      "Install mounting hardware and fan unit",
+      "Connect motor and capacitor",
+      "Install blades and canopy",
+      "Power on and speed test"
+    ]
+  },
+  {
+    "title": "Bathroom Exhaust Fan Installation",
+    "rating": 4.4,
+    "views_count": 89,
+    "starts_at_price": "299",
+    "description": "Installation of exhaust fans in bathrooms to improve ventilation and moisture control.",
+    "image": "https://modmetaldesigns.com/wp-content/uploads/2023/02/Fan-Grill-1809-2-scaled.jpg",
+    "category": "Fan Installation",
+    "process": [
+      "Measure wall/ceiling cutout for fan",
+      "Install exhaust fan frame and motor",
+      "Connect electrical wiring",
+      "Seal gaps for moisture protection",
+      "Test suction and noise level"
+    ]
+  },
+  {
+    "title": "Kitchen Chimney Exhaust Fan Installation",
+    "rating": 4.5,
+    "views_count": 102,
+    "starts_at_price": "399",
+    "description": "Professional installation of kitchen exhaust fans or chimney vents for odor-free cooking.",
+    "image": "https://static.wixstatic.com/media/8b2506_9301bb3685764c709f83efed189abb4a~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85,usm_0.66_1.00_0.01/8b2506_9301bb3685764c709f83efed189abb4a~mv2.jpg",
+    "category": "Fan Installation",
+    "process": [
+      "Assess chimney duct space",
+      "Install fan motor and guard",
+      "Connect to power source",
+      "Fix exhaust outlet with ducting",
+      "Run airflow and noise test"
+    ]
+  },
+  {
+    "title": "Outdoor Wall-Mounted Fan Installation",
+    "rating": 4.3,
+    "views_count": 76,
+    "starts_at_price": "349",
+    "description": "Wall-mounted fan installation for balconies or patios with weather-resistant fixtures.",
+    "image": "https://i.pinimg.com/originals/19/71/9d/19719d489d6a33024fddd0d49db0abbe.png",
+    "category": "Fan Installation",
+    "process": [
+      "Choose safe mounting spot on wall",
+      "Fix heavy-duty brackets",
+      "Install fan unit and adjust tilt",
+      "Connect power and test controls",
+      "Check vibration and oscillation"
+    ]
+  },
+  {
+    "title": "Smart Ceiling Fan Installation",
+    "rating": 4.8,
+    "views_count": 147,
+    "starts_at_price": "499",
+    "description": "Install modern smart ceiling fans with remote or app control features and sleek design.",
+    "image": "https://topceilingfans.net/wp-content/uploads/2024/12/smart_ceiling_fans_2025.jpg",
+    "category": "Fan Installation",
+    "process": [
+      "Install mounting plate and downrod",
+      "Secure smart fan unit",
+      "Pair with remote/app via Bluetooth or Wi-Fi",
+      "Connect wiring and complete setup",
+      "Test voice/app controls and rotation"
+    ]
+  },
+  
+  {
+    "title": "Wooden Door Installation",
+    "rating": 4.6,
+    "views_count": 132,
+    "starts_at_price": "749",
+    "description": "Installation of solid wooden doors with precise fitting, hinges, and locking mechanism.",
+    "image": "https://cdn.homedit.com/wp-content/uploads/2022/08/Solid-Wood-Doors.jpg",
+    "category": "Door Installation",
+    "process": [
+      "Measurement of door frame",
+      "Fixing hinges and aligning door",
+      "Drilling lock and handle",
+      "Testing open-close and sealing"
+    ]
+  },
+  {
+    "title": "Sliding Glass Door Repair",
+    "rating": 4.4,
+    "views_count": 97,
+    "starts_at_price": "549",
+    "description": "Repair of jammed or misaligned sliding doors with track cleaning and roller adjustments.",
+    "image": "https://b2358398.smushcdn.com/2358398/wp-content/uploads/2023/01/Vista2-1425x950-1.jpg?lossy=1&strip=1&webp=1",
+    "category": "Door Repair",
+    "process": [
+      "Inspect sliding track and rollers",
+      "Clean debris and lubricate rails",
+      "Replace damaged rollers if required",
+      "Realign door and check smooth sliding"
+    ]
+  },
+  {
+    "title": "Bathroom Door Replacement",
+    "rating": 4.5,
+    "views_count": 110,
+    "starts_at_price": "699",
+    "description": "Replace old bathroom doors with waterproof materials and anti-rust hardware.",
+    "image": "https://www.doorsplus.com.au/wp-content/uploads/2022/12/Doors-Plus-Aluminium-Door-in-Bathroom-scaled.jpg",
+    "category": "Door Installation",
+    "process": [
+      "Remove old door and fittings",
+      "Install water-resistant bathroom door",
+      "Fix handle and latch",
+      "Seal edges to prevent water seepage"
+    ]
+  },
+  {
+    "title": "Main Door Lock Repair",
+    "rating": 4.3,
+    "views_count": 85,
+    "starts_at_price": "249",
+    "description": "Fixing jammed or broken main door locks including latch and deadbolt alignment.",
+    "image": "https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,q_auto,w_720/6336dacf165cb7001e44a520.jpg",
+    "category": "Door Repair",
+    "process": [
+      "Diagnose lock or latch issue",
+      "Tighten or replace lock components",
+      "Align strike plate and door latch",
+      "Test smooth key turning"
+    ]
+  },
+  {
+    "title": "PVC Door Installation",
+    "rating": 4.2,
+    "views_count": 78,
+    "starts_at_price": "599",
+    "description": "Installation of lightweight PVC doors ideal for bathrooms and balconies.",
+    "image": "https://www.brealeywindowsanddoors.ie/wp-content/uploads/2017/05/Black-pvc-door-with-the-sidelights-in-White-2.jpg",
+    "category": "Door Installation",
+    "process": [
+      "Mount door frame securely",
+      "Install PVC shutter and hinges",
+      "Fix handle and magnetic latch",
+      "Test for alignment and movement"
+    ]
+  },
+  {
+    "title": "Wooden Door Hinge Repair",
+    "rating": 4.1,
+    "views_count": 66,
+    "starts_at_price": "199",
+    "description": "Fix noisy or loose door hinges to restore smooth door operation.",
+    "image": "https://watersonusa.com/wp-content/uploads/wooden-door-hinges-1-e1739428765447.jpg",
+    "category": "Door Repair",
+    "process": [
+      "Unscrew and inspect old hinges",
+      "Reinforce hinge side frame (if needed)",
+      "Replace or oil hinges",
+      "Align and tighten door screws"
+    ]
+  },
+  {
+    "title": "Glass Door Installation",
+    "rating": 4.5,
+    "views_count": 104,
+    "starts_at_price": "899",
+    "description": "Install clear or frosted glass doors with safety locks and hydraulic closers.",
+    "image": "https://www.glassworksdubai.com/wp-content/uploads/2023/02/Aluminium-Frame-Glass-Door-2.jpg?v=1675982055",
+    "category": "Door Installation",
+    "process": [
+      "Install door hinges or sliding track",
+      "Fix glass panel securely",
+      "Attach handle and stopper",
+      "Check closing speed and lock fit"
+    ]
+  },
+  {
+    "title": "Door Closer Installation",
+    "rating": 4.2,
+    "views_count": 71,
+    "starts_at_price": "279",
+    "description": "Install or replace door closers for smooth and automatic closing action.",
+    "image": "https://luxusdigitallock.com/wp-content/uploads/2023/05/Luxus-Door-Closer-scaled.jpg",
+    "category": "Door Installation",
+    "process": [
+      "Mark and drill mounting points",
+      "Fix door closer and arm bracket",
+      "Adjust spring tension and speed",
+      "Test for auto-close accuracy"
+    ]
+  },
+  {
+    "title": "King Size Bed Assembly",
+    "rating": 4.7,
+    "views_count": 142,
+    "starts_at_price": "799",
+    "description": "Professional assembly of king-size beds with sturdy fitting and alignment.",
+    "image": "https://i5.walmartimages.com/asr/04a9f7b6-505a-44fc-8c61-04a19734b33c.7b1eb35f1ab98249289a99938f307c8d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "category": "Bed Assembly",
+    "process": [
+      "Unbox and verify all bed parts",
+      "Assemble bed frame and support legs",
+      "Install headboard and footboard",
+      "Tighten screws and test for stability"
+    ]
+  },
+  {
+    "title": "Queen Size Bed Assembly",
+    "rating": 4.6,
+    "views_count": 118,
+    "starts_at_price": "749",
+    "description": "Quick and accurate setup of queen-size beds with proper frame alignment.",
+    "image": "https://images.woodenstreet.de/image/cache/data/bed-with-storage/drewno-upholstered-bed-with-storage/hydraulic-storage/Graphite-grey/3-810x702.jpg",
+    "category": "Bed Assembly",
+    "process": [
+      "Lay out and check all parts",
+      "Fix bed rails to the headboard",
+      "Secure slats or baseboard",
+      "Final tightening and testing"
+    ]
+  },
+  {
+    "title": "Hydraulic Storage Bed Assembly",
+    "rating": 4.8,
+    "views_count": 160,
+    "starts_at_price": "999",
+    "description": "Complex assembly of hydraulic beds with storage access testing and hydraulic lift alignment.",
+    "image": "https://images.woodenstreet.de/image/data/bed-with-storage/drewno-upholstered-bed-with-storage/hydraulic-storage/Chestnut-brown/2.jpg",
+    "category": "Bed Assembly",
+    "process": [
+      "Assemble base and hydraulic lift system",
+      "Install side boards and headboard",
+      "Align top frame and mattress panel",
+      "Test lifting mechanism and lock"
+    ]
+  },
+  {
+    "title": "Box Storage Bed Assembly",
+    "rating": 4.5,
+    "views_count": 103,
+    "starts_at_price": "849",
+    "description": "Assembly of box storage beds with fixed base and access panels.",
+    "image": "https://down-sg.img.susercontent.com/file/sg-11134201-22100-gt8z3b4193ivd7",
+    "category": "Bed Assembly",
+    "process": [
+      "Assemble outer bed frame",
+      "Install internal storage boxes",
+      "Fix headboard and base slats",
+      "Secure joints and verify access"
+    ]
+  },
+  {
+    "title": "Bunk Bed Assembly",
+    "rating": 4.4,
+    "views_count": 89,
+    "starts_at_price": "899",
+    "description": "Safe and secure bunk bed assembly with ladder attachment and top bunk railing check.",
+    "image": "https://images.furnituredealer.net/img/products/coaster/color/bunks_460184-b0.jpg",
+    "category": "Bed Assembly",
+    "process": [
+      "Assemble bottom bunk frame",
+      "Fix vertical supports and top bunk",
+      "Install guard rails and ladder",
+      "Check stability and weight support"
+    ]
+  },
+  {
+    "title": "Kids Bed Assembly",
+    "rating": 4.3,
+    "views_count": 77,
+    "starts_at_price": "699",
+    "description": "Assemble themed or standard children's beds with safety bolt checks and smooth edges.",
+    "image": "https://images.woodenstreet.de/image/data/bunk-beds/cheshire-bunk-bed-revised/honey/updated/1.jpg",
+    "category": "Bed Assembly",
+    "process": [
+      "Assemble base and side panels",
+      "Attach headboard and themed features",
+      "Secure all screws and parts tightly",
+      "Ensure all corners are child-safe"
+    ]
+  },
+  {
+    "title": "Final Apartment Inspection & Handover",
+    "rating": 4.6,
+    "views_count": 95,
+    "starts_at_price": "449",
+    "description": "Perform final condition assessment, meter checks, and readiness for next occupancy.",
+    "image": "https://png.pngtree.com/background/20230411/original/pngtree-simple-and-elegant-layout-of-off-white-living-room-picture-image_2387804.jpg",
+    "category": "Termination Control",
+    "process": [
+      "Inspect walls, plumbing, and power points",
+      "Take meter readings and photo evidence",
+      "Note damage or issues (if any)",
+      "Submit final report to owner"
+    ]
+  },
+  {
+    "title": "Moving & Packing House Items",
+    "rating": 4.8,
+    "views_count": 168,
+    "starts_at_price": "1499",
+    "description": "Packing and safe transport of all household items during move-out from the apartment.",
+    "image": "https://dynomoving.com/wp-content/uploads/2023/06/Essential-Packing-Tips-for-Moving.webp",
+    "category": "Termination Control",
+    "process": [
+      "Pack all items securely with materials",
+      "Disassemble large furniture for transport",
+      "Load and move to desired location",
+      "Unpack & basic reassembly (optional)"
+    ]
+  },
+  {
+    "title": "Full House Deep Cleaning Before Exit",
+    "rating": 4.7,
+    "views_count": 155,
+    "starts_at_price": "999",
+    "description": "Intensive cleaning of every corner before handing over your apartment.",
+    "image": "https://wallpapers.com/images/hd/housekeeper-carrying-cleaning-tools-2be7p8p66oyoo68t.jpg",
+    "category": "Termination Control",
+    "process": [
+      "Deep cleaning of kitchen, bathrooms, floors",
+      "Dusting and wiping of fans, windows, switches",
+      "Sanitization of wash areas and cabinets",
+      "Final condition review before exit"
+    ]
+  },
+  {
+    "title": "Complete Apartment Termination Package",
+    "rating": 4.9,
+    "views_count": 210,
+    "starts_at_price": "2999",
+    "description": "One-stop solution to disconnect all utilities, clean the house, pack, and hand over keys.",
+    "image": "https://images.ctfassets.net/5cjznp8u1b6h/2DKKpWRDGSx15ClwJvXxcX/4ea1bdf7d4e49213c7cb04d1bc518191/Stocksy_txpa8a7acfa71H300_Medium_3263185__1_.jpg",
+    "category": "Termination Control",
+    "process": [
+      "Electricity, water, gas disconnection",
+      "Packing and moving all items",
+      "Complete house cleaning",
+      "Final inspection and handover"
+    ]
+  },
+  {
+    "title": "New Rental Home Inspection",
+    "rating": 4.5,
+    "views_count": 120,
+    "starts_at_price": "699",
+    "description": "Professional inspection of your new rental home for plumbing, electricity, and safety before moving in.",
+    "image": "https://png.pngtree.com/background/20230613/original/pngtree-looking-closely-at-the-house-through-a-magnifying-lens-picture-image_3425199.jpg",
+    "category": "Relocation Prep",
+    "process": [
+      "Check electrical points and sockets",
+      "Inspect plumbing and water flow",
+      "Check doors, windows, and locks",
+      "Create checklist and report issues"
+    ]
+  },
+  {
+    "title": "Pre-Move-In Home Cleaning",
+    "rating": 4.6,
+    "views_count": 138,
+    "starts_at_price": "1099",
+    "description": "Deep cleaning of your new rental house before moving in to ensure hygiene and freshness.",
+    "image": "https://www.springcleaning.com.sg/wp-content/uploads/2019/10/pre-move-cleaning-service.jpg",
+    "category": "Relocation Prep",
+    "process": [
+      "Sweep and mop all floors",
+      "Sanitize bathrooms and kitchen",
+      "Dust shelves, fans, lights, and grills",
+      "Deodorize and air freshening"
+    ]
+  },
+  {
+    "title": "Furniture Placement & Setup",
+    "rating": 4.7,
+    "views_count": 125,
+    "starts_at_price": "899",
+    "description": "Placing sofas, beds, tables, and wardrobes in appropriate rooms and positions after move-in.",
+    "image": "https://architectureideas.info/wp-content/uploads/2019/04/furniture-placement-1.jpg",
+    "category": "Post-Move Arrangement",
+    "process": [
+      "Unpack and inspect furniture",
+      "Place each item as per layout",
+      "Adjust spacing and alignment",
+      "Minor assembly or fixing if needed"
+    ]
+  },
+  {
+    "title": "Kitchen Setup & Utensil Arrangement",
+    "rating": 4.8,
+    "views_count": 138,
+    "starts_at_price": "699",
+    "description": "Organizing kitchen shelves, appliances, utensils, and containers efficiently.",
+    "image": "https://st.hzcdn.com/simgs/25f1edee0a4a7a5e_4-6421/craftsman-kitchen.jpg",
+    "category": "Post-Move Arrangement",
+    "process": [
+      "Arrange cooking utensils by category",
+      "Organize pantry and dry storage",
+      "Setup appliances like microwave and mixer",
+      "Clean and sanitize shelves"
+    ]
+  },
+  {
+    "title": "Clothing & Wardrobe Arrangement",
+    "rating": 4.6,
+    "views_count": 117,
+    "starts_at_price": "599",
+    "description": "Folding, hanging, and organizing clothes, shoes, and accessories into wardrobes and closets.",
+    "image": "http://www.closetamerica.com/wp-content/uploads/2022/11/IMG_6930-scaled.jpg",
+    "category": "Post-Move Arrangement",
+    "process": [
+      "Unpack and sort clothes by category",
+      "Hang formals, fold casuals",
+      "Arrange shoes in racks",
+      "Organize accessories and seasonal wear"
+    ]
+  },
+  {
+    "title": "Electronics Setup & Cable Management",
+    "rating": 4.5,
+    "views_count": 96,
+    "starts_at_price": "499",
+    "description": "Setup of TV, WiFi routers, charging stations, and home appliances with proper cable management.",
+    "image": "https://i.pinimg.com/originals/c2/58/cd/c258cd6213212ec7b898696083055453.jpg",
+    "category": "Post-Move Arrangement",
+    "process": [
+      "Place devices in suitable spots",
+      "Connect and test functionality",
+      "Hide or clip excess cables",
+      "Label important connections"
+    ]
+  },
+  {
+    "title": "Full House Item Arrangement Service",
+    "rating": 4.9,
+    "views_count": 160,
+    "starts_at_price": "1799",
+    "description": "End-to-end setup and arrangement of all household items room-wise after shifting.",
+    "image": "https://homesenator.com/wp-content/uploads/2022/05/neutral-living-room-white-fireplace-594af4cd.jpg",
+    "category": "Post-Move Arrangement",
+    "process": [
+      "Unpack all household items",
+      "Distribute items to their rooms",
+      "Arrange shelves, wardrobes, kitchen",
+      "Final walkthrough for confirmation"
+    ]
   }
+
 ]

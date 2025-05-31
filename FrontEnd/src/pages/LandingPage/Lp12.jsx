@@ -66,7 +66,7 @@ import "../../styles/MBS.css"; // You can keep styles same as MBS or adjust
 const appliances = [
   { img: "/HomeRepair/tap.png", title: "Tap Repair", path: "/tap-repair" },
   { img: "/HomeRepair/pullOut.png", title: "Pull Out Installation", path: "/pullout-installation" },
-  { img: "/HomeRepair/lock.png", title: "Lock Repair", path: "/lock-repair" },
+  { img: "/HomeRepair/lock.png", title: "Lock Repair", path: "/smart-locks" },
   { img: "/HomeRepair/electrician.png", title: "Electrician Services", path: "/electrician" },
   { img: "/HomeRepair/door.png", title: "Door Repair", path: "/door-repair" },
   { img: "/HomeRepair/fan.png", title: "Fan Installation", path: "/fan-installation" },
