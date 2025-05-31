@@ -29,6 +29,9 @@ import AllCleaningPestControl from "./pages/Cleaning&Pest/AllCleaningPestControl
 import PaintingServices from "./pages/Painting/Painting";
 import WaterPurifierServices from "./pages/WaterPurifier/WaterPurifier";
 import ElectricianServices from "./pages/Electrician/Electrician";
+import Tap from "./pages/Home Repair/Tap";
+import Tap_Installation from "./pages/Home Repair/TapInstall";
+import PullOut_installation from "./pages/Home Repair/PullOut";
 
 export const App = () => {
   return (
@@ -72,6 +75,12 @@ export const App = () => {
           <Route path="/painting" element={<PaintingServices />} />
           <Route path="/waterPurifier" element={<WaterPurifierServices />} />
           <Route path="/electrician" element={<ElectricianServices />} />
+          <Route path="/tap-repair" element={<Tap />} />
+          <Route path="/tap-installation" element={<Tap_Installation />} />
+          <Route
+            path="/pullout-installation"
+            element={<PullOut_installation />}
+          />
         </Routes>
       </Router>
     </CartProvider>

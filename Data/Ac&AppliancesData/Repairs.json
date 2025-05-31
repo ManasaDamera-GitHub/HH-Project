@@ -156,7 +156,7 @@
     "views_count": 110,
     "starts_at_price": "229",
     "description": "Installation of modern bathroom taps with secure fittings and proper alignment.",
-    "image": "https://i.pinimg.com/736x/f7/33/1f/f7331f8ccf2f16e357ce4e1e0f684c1e.jpg",
+    "image": "https://s3-eu-west-1.amazonaws.com/images.linnlive.com/52535eb3571888f0ccb16e8184134f68/5b066997-e289-4798-9770-fb7a73ed12ab.jpg",
     "category": "Tap Installation",
     "process": [
       "Area inspection and tap model confirmation",
@@ -171,7 +171,7 @@
     "views_count": 145,
     "starts_at_price": "249",
     "description": "Installing stylish and durable taps for kitchen sinks with efficient flow control.",
-    "image": "https://i.pinimg.com/736x/3e/2a/9f/3e2a9f68ea28c378c7c4dc4cb53b3b7c.jpg",
+    "image": "https://www.tapsuk.com/images/lsc-kensington-1-5-bowl-brushed-copper-stainless-steel-undermount-kitchen-sink-p43734-213832_image.jpg",
     "category": "Tap Installation",
     "process": [
       "Assessment of sink area and pipeline",
@@ -186,7 +186,7 @@
     "views_count": 85,
     "starts_at_price": "189",
     "description": "Outdoor tap setup for watering gardens or cleaning areas with secure fittings.",
-    "image": "https://i.pinimg.com/736x/e6/0f/27/e60f27a1eaa0e9267c2194bafbd7383c.jpg",
+    "image": "https://cdn.ecommercedns.uk/files/7/228247/7/8397467/waterline-w10-hb-l-garden-wall-tap.jpg",
     "category": "Tap Installation",
     "process": [
       "Inspection of outdoor plumbing line",
@@ -201,7 +201,7 @@
     "views_count": 97,
     "starts_at_price": "199",
     "description": "Installing taps dedicated to washing machines for efficient water supply.",
-    "image": "https://i.pinimg.com/736x/01/e5/21/01e521324e8169ba25bc0277d6461b27.jpg",
+    "image": "https://m.media-amazon.com/images/I/61t5JZVkMWL._SL1200_.jpg",
     "category": "Tap Installation",
     "process": [
       "Inspection of water supply line",
@@ -231,7 +231,7 @@
     "views_count": 118,
     "starts_at_price": "219",
     "description": "Installation of wash basin taps in bathrooms or utility areas with clean finish.",
-    "image": "https://i.pinimg.com/736x/ce/f1/6c/cef16cb44b9e355f536a37f8b99d837e.jpg",
+    "image": "https://assets-large.qssupplies.co.uk/L-2022-11-15--12-6-34-101.jpg",
     "category": "Tap Installation",
     "process": [
       "Examine wash basin compatibility",
@@ -239,9 +239,97 @@
       "Connect to inlet pipeline",
       "Test pressure and ensure no leakage"
     ]
+  },
+  
+  {
+    "title": "Kitchen Pull-Out Drawer Installation",
+    "rating": 4.7,
+    "views_count": 142,
+    "starts_at_price": "599",
+    "description": "Install modular pull-out drawers in kitchens for organized and accessible storage of utensils and groceries.",
+    "image": "https://m.media-amazon.com/images/I/71as9RVlDvL._AC_SX679_.jpg",
+    "category": "Pull-Out Installation",
+    "process": [
+      "Inspect cabinet dimensions and materials",
+      "Mark mounting points and drill holes",
+      "Install drawer runners and tracks",
+      "Attach drawer box and align perfectly",
+      "Smooth open-close testing"
+    ]
+  },
+  {
+    "title": "Bedroom Wardrobe Pull-Out Tray Repair",
+    "rating": 4.4,
+    "views_count": 87,
+    "starts_at_price": "249",
+    "description": "Fix jammed or misaligned pull-out trays inside wardrobes for smooth functionality.",
+    "image": "https://www.ikea.com/us/en/images/products/komplement-pull-out-tray-with-divider-white-light-gray__0797541_pe766914_s5.jpg?f=xxxl",
+    "category": "Pull-Out Repair",
+    "process": [
+      "Inspect tray rails and brackets",
+      "Tighten or replace faulty tracks",
+      "Lubricate rollers or sliders",
+      "Test alignment and load capacity"
+    ]
+  },
+  {
+    "title": "Pantry Pull-Out Unit Installation",
+    "rating": 4.6,
+    "views_count": 113,
+    "starts_at_price": "799",
+    "description": "Install tall pantry pull-out racks for storing groceries and bottles with ease.",
+    "image": "https://buildingandinteriors.com/wp-content/uploads/2025/01/hardwyn-pantry-pull-outs-1000x1000.webp",
+    "category": "Pull-Out Installation",
+    "process": [
+      "Measure cabinet height and depth",
+      "Fix internal pull-out frame with guides",
+      "Attach storage racks and adjust levels",
+      "Ensure smooth full-extension movement"
+    ]
+  },
+  {
+    "title": "Bathroom Vanity Pull-Out Storage Repair",
+    "rating": 4.3,
+    "views_count": 74,
+    "starts_at_price": "199",
+    "description": "Repair of pull-out storage units under bathroom sinks, addressing water damage and alignment.",
+    "image": "https://im-3.eefa.co/rv-486-30vsbsc-bm-1-in-s3.jpg",
+    "category": "Pull-Out Repair",
+    "process": [
+      "Check drawer base and runner condition",
+      "Replace water-damaged panels or sliders",
+      "Realign drawer fronts with vanity surface",
+      "Test movement and sealing"
+    ]
+  },
+  {
+    "title": "Under-Stairs Pull-Out Drawer Installation",
+    "rating": 4.5,
+    "views_count": 99,
+    "starts_at_price": "949",
+    "description": "Creative installation of pull-out drawers under staircases for maximizing hidden storage.",
+    "image": "https://powerinteriors.co.uk/wp-content/uploads/2020/09/image00003.jpeg",
+    "category": "Pull-Out Installation",
+    "process": [
+      "Design measurement and panel cutout",
+      "Frame fixing under stair support",
+      "Install sliding mechanism and drawer box",
+      "Align front face with wall seamlessly"
+    ]
+  },
+  {
+    "title": "TV Unit Pull-Out Shelf Repair",
+    "rating": 4.2,
+    "views_count": 61,
+    "starts_at_price": "189",
+    "description": "Repair of pull-out shelves in TV units or consoles for remote, books, or electronics.",
+    "image": "https://www.decorpot.com/images/blogimage2119630805tv-unit-design-with-shelf.jpg",
+    "category": "Pull-Out Repair",
+    "process": [
+      "Inspect runner hardware and board strength",
+      "Tighten mounting screws and brackets",
+      "Replace worn sliding channels if needed",
+      "Test for smooth operation and durability"
+    ]
   }
-
-
-
-
 ]

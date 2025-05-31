@@ -14,6 +14,8 @@ const CleaningPestRoutes = require("./Routes/CleaningPestServicesRouter");
 const PaintingRoutes = require("./Routes/PaintingRouter");
 const WaterPurifierRoutes = require("./Routes/WaterPurifierRouter");
 const ElectricianRoutes = require("./Routes/ElectricianRouter");
+const RepairServiceRoutes = require("./Routes/RepairRouter");
+
 // const connectDB = require("./Config/db");
 // const dotenv = require("dotenv");
 // dotenv.config();
@@ -42,6 +44,7 @@ app.use("/", CleaningPestRoutes);
 app.use("/", PaintingRoutes);
 app.use("/", WaterPurifierRoutes);
 app.use("/", ElectricianRoutes);
+app.use("/", RepairServiceRoutes);
 
 app.listen(port, () => {
   // connectDB();
