@@ -24,6 +24,7 @@ function LandingPage() {
         <ThirdPart />
         <FourthPart />
         <FifthPart />
+        <MSB />
         <W_Salon />
         <SpaPage />
         <Repair />
@@ -31,7 +32,6 @@ function LandingPage() {
         <M_Salon />
         {/* <Purifier /> */}
         <HomeRepair />
-        <MSB />
       </div>
     </>
   );

@@ -32,6 +32,10 @@ import ElectricianServices from "./pages/Electrician/Electrician";
 import Tap from "./pages/Home Repair/Tap";
 import Tap_Installation from "./pages/Home Repair/TapInstall";
 import PullOut_installation from "./pages/Home Repair/PullOut";
+import Door_Installation from "./pages/Home Repair/Door";
+import Fan_Installation from "./pages/Home Repair/Fan";
+import Bed_Installation from "./pages/Home Repair/Bed";
+import Apartment_Terminate_control from "./pages/Home Repair/ApartmentTerminate";
 
 export const App = () => {
   return (
@@ -80,6 +84,13 @@ export const App = () => {
           <Route
             path="/pullout-installation"
             element={<PullOut_installation />}
+          />
+          <Route path="/door-repair" element={<Door_Installation />} />
+          <Route path="/fan-installation" element={<Fan_Installation />} />
+          <Route path="/bed-assembly" element={<Bed_Installation />} />
+          <Route
+            path="/terminate-control"
+            element={<Apartment_Terminate_control />}
           />
         </Routes>
       </Router>
