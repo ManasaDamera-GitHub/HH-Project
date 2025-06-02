@@ -5,11 +5,11 @@ import { useRef, useState, useEffect } from "react";
 // import { useState } from "react";
 
 const appliances = [
-  { img: "/repair/cooler.png", alt: "Air Cooler" },
-  { img: "/repair/AC.png", alt: "Air Conditioner" },
-  { img: "/repair/purifier.png", alt: "Air Purifier" },
-  { img: "/repair/Washing.png", alt: "Washing Machine" },
-  { img: "/repair/tv.png", alt: "Television" },
+  { img: "/repair/cooler.png", alt: "Air Cooler", path: "/ac" },
+  { img: "/repair/AC.png", alt: "Air Conditioner", path: "/ac" },
+  { img: "/repair/purifier.png", alt: "Air Purifier", path: "/ac" },
+  { img: "/repair/Washing.png", alt: "Washing Machine", path: "/ac" },
+  { img: "/repair/tv.png", alt: "Television", path: "/ac" },
 ];
 
 export default function Repair() {
